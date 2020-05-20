@@ -4,6 +4,7 @@ import Panel from "./Panel";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";
 import Caption from "./Caption";
+import Link from "./Link";
 
 const ResultParagraph = styled(Paragraph)`
   font-size: 1.2rem;
@@ -80,7 +81,13 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
           </ResultParagraph>
         </>
       )}
-      <Caption>Next card in {Math.round(timeLeft / 1000)} seconds.</Caption>
+      <Caption>
+        Next card in {Math.round(timeLeft / 1000)} seconds (
+        <Link as="button" type="button" onClick={() => onNext()}>
+          skip
+        </Link>
+        ).
+      </Caption>
     </Panel>
   );
 }
