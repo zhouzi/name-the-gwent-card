@@ -11,6 +11,7 @@ import Paragraph from "./Paragraph";
 import Link from "./Link";
 import QuestionPanel from "./QuestionPanel";
 import ResultPanel from "./ResultPanel";
+import CardImage from "./CardImage";
 
 const Container = styled.section`
   max-width: 60rem;
@@ -36,17 +37,6 @@ const Footer = styled(Caption).attrs({ as: "footer" })`
   padding: 1rem 2rem;
 `;
 
-const CardImage = styled.img`
-  border-radius: 2px;
-  transform: rotateY(-5deg);
-  background-color: #000;
-  box-shadow: 0 10px 40px #000;
-`;
-
-const BIG_PREVIEW_IMG_SIZE = {
-  width: 376,
-  height: 540,
-};
 const TIME_PER_QUESTION = 30000;
 const fuse = new Fuse(cards, {
   keys: ["localizedName"],
@@ -56,13 +46,17 @@ const fuse = new Fuse(cards, {
 });
 
 interface State {
+  zoom: number;
   answer: Card;
   userAnswer: Card | null;
   endsAt: Date | null;
 }
 
 function App() {
-  const [{ answer, userAnswer, endsAt }, setState] = React.useState<State>({
+  const [{ zoom, answer, userAnswer, endsAt }, setState] = React.useState<
+    State
+  >({
+    zoom: 1,
     answer: randomItem(cards),
     userAnswer: null,
     endsAt: new Date(Date.now() + TIME_PER_QUESTION),
@@ -98,12 +92,7 @@ function App() {
     <Layout>
       <Container>
         <ContainerLeftColumn>
-          <CardImage
-            src={`https://playgwent.com${answer.previewImg.big}`}
-            alt=""
-            width={BIG_PREVIEW_IMG_SIZE.width}
-            height={BIG_PREVIEW_IMG_SIZE.height}
-          />
+          <CardImage card={answer} zoom={endsAt == null ? 1 : zoom} />
         </ContainerLeftColumn>
         <ContainerRightColumn>
           {endsAt == null ? (
@@ -112,6 +101,13 @@ function App() {
               userAnswer={userAnswer}
               onNext={() => {
                 setState({
+                  zoom: Math.min(
+                    5,
+                    Math.max(
+                      1,
+                      userAnswer?.id === answer.id ? zoom + 0.5 : zoom - 0.5
+                    )
+                  ),
                   answer: randomItem(cards),
                   userAnswer: null,
                   endsAt: new Date(Date.now() + TIME_PER_QUESTION),
