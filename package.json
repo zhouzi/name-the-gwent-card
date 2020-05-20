@@ -10,6 +10,7 @@
     "@types/node": "^12.12.40",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "fuse.js": "^6.0.0",
     "modern-normalize": "^0.6.0",
     "particles.js": "^2.0.0",
     "random-item": "^3.0.0",
