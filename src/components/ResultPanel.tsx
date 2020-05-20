@@ -2,12 +2,11 @@ import * as React from "react";
 import styled from "styled-components";
 import Panel from "./Panel";
 import Heading from "./Heading";
+import Paragraph from "./Paragraph";
 import Caption from "./Caption";
 
-const Paragraph = styled.p`
+const ResultParagraph = styled(Paragraph)`
   font-size: 1.2rem;
-  padding: 1rem 0;
-  margin: 0;
 `;
 const Correct = styled.span`
   color: #21bf6f;
@@ -60,25 +59,25 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
       {userAnswer == null ? (
         <>
           <Heading>Time out!</Heading>
-          <Paragraph>
+          <ResultParagraph>
             This card is named <Correct>{answer.localizedName}</Correct>.
-          </Paragraph>
+          </ResultParagraph>
         </>
       ) : userAnswer.id !== answer.id ? (
         <>
           <Heading>Nope.</Heading>
-          <Paragraph>
+          <ResultParagraph>
             This card is not named{" "}
             <Incorrect>{userAnswer.localizedName}</Incorrect>, but{" "}
             <Correct>{answer.localizedName}</Correct>.
-          </Paragraph>
+          </ResultParagraph>
         </>
       ) : (
         <>
           <Heading>Congrats!</Heading>
-          <Paragraph>
+          <ResultParagraph>
             This card is named <Correct>{answer.localizedName}</Correct>.
-          </Paragraph>
+          </ResultParagraph>
         </>
       )}
       <Caption>Next card in {Math.round(timeLeft / 1000)} seconds.</Caption>

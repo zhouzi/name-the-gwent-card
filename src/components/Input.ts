@@ -6,7 +6,8 @@ export default styled.input`
   font-size: 1.2rem;
   background: transparent;
   border: 0;
-  padding: 1rem 0;
+  padding: 0;
+  margin: 0;
   width: 100%;
   outline: none;
 

@@ -6,5 +6,5 @@ export default styled.h1`
   font-family: Bitter, serif;
   line-height: 1.2;
   font-weight: 700;
-  margin: 0 0 2rem 0;
+  margin: 0 0 1rem 0;
 `;

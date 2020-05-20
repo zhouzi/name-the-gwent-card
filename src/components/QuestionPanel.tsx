@@ -2,6 +2,7 @@ import * as React from "react";
 import Panel from "./Panel";
 import Heading from "./Heading";
 import Input from "./Input";
+import Paragraph from "./Paragraph";
 import Lifebar from "./Lifebar";
 
 interface Props {
@@ -25,14 +26,16 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
         <Heading as="label" htmlFor="answer">
           What's the name of this card?
         </Heading>
-        <Input
-          id="answer"
-          type="text"
-          placeholder="Submit your answer..."
-          onChange={(event) => setInput(event.currentTarget.value)}
-          value={input}
-          autoFocus
-        />
+        <Paragraph>
+          <Input
+            id="answer"
+            type="text"
+            placeholder="Submit your answer..."
+            onChange={(event) => setInput(event.currentTarget.value)}
+            value={input}
+            autoFocus
+          />
+        </Paragraph>
         <Lifebar startedAt={startedAt} endsAt={endsAt} />
       </form>
     </Panel>
