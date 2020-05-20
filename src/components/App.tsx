@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Fuse from "fuse.js";
 import randomItem from "random-item";
 import cards from "../cards.json";
-import useCountdown from "../useCountdown";
 import Layout from "./Layout";
 import Caption from "./Caption";
 import List from "./List";
@@ -53,36 +52,67 @@ const fuse = new Fuse(cards, {
   keys: ["localizedName"],
 });
 
+interface State {
+  answer: Card;
+  userAnswer: Card | null;
+  endsAt: Date | null;
+}
+
 function App() {
-  const [card, setCard] = React.useState(randomItem(cards));
-  const [userAnswer, setUserAnswer] = React.useState<{
-    id: number;
-    localizedName: string;
-  } | null>(null);
-  const { isStopped, timeLeft, stop, restart } = useCountdown(
-    TIME_PER_QUESTION
-  );
+  const [{ answer, userAnswer, endsAt }, setState] = React.useState<State>({
+    answer: randomItem(cards),
+    userAnswer: null,
+    endsAt: new Date(Date.now() + TIME_PER_QUESTION),
+  });
+
+  React.useEffect(() => {
+    let timeoutId: number | null = null;
+
+    (function update() {
+      if (endsAt == null) {
+        return;
+      }
+
+      if (endsAt.getTime() > Date.now()) {
+        timeoutId = window.setTimeout(update, 1000);
+        return;
+      }
+
+      setState((currentState) => ({
+        ...currentState,
+        endsAt: null,
+      }));
+    })();
+
+    return () => {
+      if (timeoutId) {
+        window.clearTimeout(timeoutId);
+      }
+    };
+  }, [endsAt, setState]);
 
   return (
     <Layout>
       <Container>
         <ContainerLeftColumn>
           <CardImage
-            src={`https://playgwent.com${card.previewImg.big}`}
+            src={`https://playgwent.com${answer.previewImg.big}`}
             alt=""
             width={BIG_PREVIEW_IMG_SIZE.width}
             height={BIG_PREVIEW_IMG_SIZE.height}
           />
         </ContainerLeftColumn>
         <ContainerRightColumn>
-          {isStopped ? (
+          {endsAt == null ? (
             <ResultPanel
-              answer={card}
+              answer={answer}
               userAnswer={userAnswer}
               onNext={() => {
-                setCard(randomItem(cards));
-                setUserAnswer(null);
-                restart();
+                setState({
+                  answer: randomItem(cards),
+                  userAnswer: null,
+                  endsAt: new Date(Date.now() + TIME_PER_QUESTION),
+                });
               }}
             />
           ) : (
@@ -90,11 +120,15 @@ function App() {
               onSubmit={(input: string) => {
                 const results = fuse.search(input);
                 if (results.length > 0) {
-                  setUserAnswer(results[0].item);
-                  stop();
+                  setState((currentState) => ({
+                    ...currentState,
+                    userAnswer: results[0].item,
+                    endsAt: null,
+                  }));
                 }
               }}
-              remaining={timeLeft / TIME_PER_QUESTION}
+              startedAt={new Date(endsAt.getTime() - TIME_PER_QUESTION)}
+              endsAt={endsAt}
             />
           )}
           <Footer>

@@ -6,10 +6,11 @@ import Lifebar from "./Lifebar";
 
 interface Props {
   onSubmit: (input: string) => void;
-  remaining: number;
+  startedAt: Date;
+  endsAt: Date;
 }
 
-export default function QuestionPanel({ onSubmit, remaining }: Props) {
+export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
   const [input, setInput] = React.useState("");
 
   return (
@@ -32,7 +33,7 @@ export default function QuestionPanel({ onSubmit, remaining }: Props) {
           value={input}
           autoFocus
         />
-        <Lifebar remaining={remaining} />
+        <Lifebar startedAt={startedAt} endsAt={endsAt} />
       </form>
     </Panel>
   );
