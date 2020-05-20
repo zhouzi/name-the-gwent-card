@@ -50,6 +50,9 @@ const BIG_PREVIEW_IMG_SIZE = {
 const TIME_PER_QUESTION = 30000;
 const fuse = new Fuse(cards, {
   keys: ["localizedName"],
+  includeScore: true,
+  minMatchCharLength: 3,
+  shouldSort: true,
 });
 
 interface State {
@@ -118,11 +121,17 @@ function App() {
           ) : (
             <QuestionPanel
               onSubmit={(input: string) => {
-                const results = fuse.search(input);
-                if (results.length > 0) {
+                const matches = fuse.search(input);
+                const bestMatch = matches[0];
+
+                if (
+                  bestMatch &&
+                  bestMatch.score != null &&
+                  bestMatch.score <= 0.3
+                ) {
                   setState((currentState) => ({
                     ...currentState,
-                    userAnswer: results[0].item,
+                    userAnswer: bestMatch.item,
                     endsAt: null,
                   }));
                 }
