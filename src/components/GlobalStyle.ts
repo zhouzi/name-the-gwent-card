@@ -18,7 +18,7 @@ export default createGlobalStyle`
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 400;
-    color: #d9d8cb;
+    color: #dcdbcc;
     background-color: #121315;
     background-image: url(${backgroundImage});
     background-repeat: repeat-y;

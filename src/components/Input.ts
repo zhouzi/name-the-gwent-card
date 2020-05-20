@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
 export default styled.input`
-  font: inherit;
   color: inherit;
-  font-size: 1.2rem;
+  font: inherit;
   background: transparent;
-  border: 0;
   padding: 0;
   margin: 0;
-  width: 100%;
-  outline: none;
+  border: none;
+
+  border: 1px solid transparent;
+  background-color: #15100e;
+  padding: 1rem 2rem 1rem 1rem;
 
   ::placeholder {
     color: #989789;

@@ -2,6 +2,7 @@ import * as React from "react";
 import Panel from "./Panel";
 import Heading from "./Heading";
 import Input from "./Input";
+import Button from "./Button";
 import Paragraph from "./Paragraph";
 import Lifebar from "./Lifebar";
 
@@ -35,6 +36,7 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
             value={input}
             autoFocus
           />
+          <Button type="submit">Send</Button>
         </Paragraph>
         <Lifebar startedAt={startedAt} endsAt={endsAt} />
       </form>
