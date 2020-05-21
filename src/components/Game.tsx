@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Fuse from "fuse.js";
 import randomItem from "random-item";
 import cards from "../cards.json";
+import GAMEPLAY from "../GAMEPLAY";
 import QuestionPanel from "./QuestionPanel";
 import ResultPanel from "./ResultPanel";
 import CardImage from "./CardImage";
@@ -32,7 +33,6 @@ const FooterContainer = styled.div`
   padding: 0 2rem;
 `;
 
-const TIME_PER_QUESTION = 30000;
 const fuse = new Fuse(cards, {
   keys: ["localizedName"],
   includeScore: true,
@@ -54,7 +54,7 @@ export default function Game() {
     zoom: 1,
     answer: randomItem(cards),
     userAnswer: null,
-    endsAt: new Date(Date.now() + TIME_PER_QUESTION),
+    endsAt: new Date(Date.now() + GAMEPLAY.TIME_PER_CARD),
   });
 
   React.useEffect(() => {
@@ -96,15 +96,17 @@ export default function Game() {
             onNext={() => {
               setState({
                 zoom: Math.min(
-                  5,
+                  GAMEPLAY.MAX_ZOOM,
                   Math.max(
-                    1,
-                    userAnswer?.id === answer.id ? zoom + 0.5 : zoom - 0.5
+                    GAMEPLAY.MIN_ZOOM,
+                    userAnswer?.id === answer.id
+                      ? zoom + GAMEPLAY.ZOOM_ON_WIN
+                      : zoom + GAMEPLAY.ZOOM_ON_LOSE
                   )
                 ),
                 answer: randomItem(cards),
                 userAnswer: null,
-                endsAt: new Date(Date.now() + TIME_PER_QUESTION),
+                endsAt: new Date(Date.now() + GAMEPLAY.TIME_PER_CARD),
               });
             }}
           />
@@ -126,7 +128,7 @@ export default function Game() {
                 }));
               }
             }}
-            startedAt={new Date(endsAt.getTime() - TIME_PER_QUESTION)}
+            startedAt={new Date(endsAt.getTime() - GAMEPLAY.TIME_PER_CARD)}
             endsAt={endsAt}
           />
         )}

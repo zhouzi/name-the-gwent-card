@@ -1,0 +1,8 @@
+export default {
+  ZOOM_ON_WIN: 1,
+  ZOOM_ON_LOSE: -1,
+  MIN_ZOOM: 1,
+  MAX_ZOOM: 5,
+  TIME_PER_CARD: 30000,
+  TIME_BETWEEN_CARDS: 30000,
+};
