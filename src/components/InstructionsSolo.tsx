@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import styled from "styled-components";
+import GAME_RULES from "../GAME_RULES";
 import Panel from "./Panel";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";
@@ -12,20 +13,25 @@ const Container = styled.section`
   width: 100%;
 `;
 
+const Actions = styled.div`
+  padding-top: 1rem;
+`;
+
 export default function InstructionsSolo() {
   return (
     <Container>
       <Panel>
         <Heading>Instructions</Heading>
         <Paragraph>
-          You will be shown a Gwent card, your goal is to guess its name.
-          Everytime you succeed, the next card will be zoomed in a little more,
-          making them harder and harder to guess.
+          You have {GAME_RULES.TIME_PER_CARD / 1000} seconds to guess the name
+          of a Gwent card. If the answer is correct, the next card will be
+          zoomed in a bit more. So the better you get, the harder it becomes.
         </Paragraph>
-        <Paragraph>Oh, and obviously you have limited time.</Paragraph>
-        <Button as={RouterLink} to="/play">
-          Play
-        </Button>
+        <Actions>
+          <Button as={RouterLink} to="/play">
+            Play
+          </Button>
+        </Actions>
       </Panel>
       <Footer />
     </Container>

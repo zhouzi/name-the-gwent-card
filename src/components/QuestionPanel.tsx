@@ -1,6 +1,7 @@
 import * as React from "react";
 import Panel from "./Panel";
 import Heading from "./Heading";
+import InputGroup from "./InputGroup";
 import Input from "./Input";
 import Button from "./Button";
 import Paragraph from "./Paragraph";
@@ -27,7 +28,7 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
         <Heading as="label" htmlFor="answer">
           What's the name of this card?
         </Heading>
-        <Paragraph>
+        <Paragraph as={InputGroup}>
           <Input
             id="answer"
             type="text"
