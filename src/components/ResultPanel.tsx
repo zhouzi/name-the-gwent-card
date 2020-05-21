@@ -82,7 +82,7 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
       )}
       <Caption>
         Next card in {Math.round(timeLeft / 1000)} seconds (
-        <Link as="button" type="button" onClick={() => onNext()}>
+        <Link as="button" type="button" onClick={() => onNext()} autoFocus>
           skip
         </Link>
         ).
