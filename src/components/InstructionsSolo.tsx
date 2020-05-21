@@ -12,7 +12,7 @@ const Container = styled.section`
   width: 100%;
 `;
 
-export default function Home() {
+export default function InstructionsSolo() {
   return (
     <Container>
       <Panel>

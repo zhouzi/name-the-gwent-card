@@ -12,7 +12,7 @@ const Container = styled.section`
   width: 100%;
 `;
 
-export default function PlayWithViewers() {
+export default function InstructionsViewers() {
   return (
     <Container>
       <Panel>

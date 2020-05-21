@@ -1,9 +1,9 @@
 import * as React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Layout from "./Layout";
-import Home from "./Home";
+import InstructionsSolo from "./InstructionsSolo";
 import Game from "./Game";
-import PlayWithViewers from "./PlayWithViewers";
+import InstructionsViewers from "./InstructionsViewers";
 
 export default function App() {
   return (
@@ -11,13 +11,13 @@ export default function App() {
       <Layout>
         <Switch>
           <Route path="/" exact>
-            <Home />
+            <InstructionsSolo />
           </Route>
           <Route path="/play" exact>
             <Game />
           </Route>
           <Route path="/play/viewers" exact>
-            <PlayWithViewers />
+            <InstructionsViewers />
           </Route>
           <Route path="/play/:gameid" exact>
             <Game />
