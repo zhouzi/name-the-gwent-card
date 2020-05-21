@@ -1,9 +1,8 @@
 import * as React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import randomItem from "random-item";
 import { Client } from "tmi.js";
-import cards from "../cards.json";
+import CardsContext from "../containers/CardsContainer";
 import GAME_RULES from "../GAME_RULES";
 import QuestionPanel from "./QuestionPanel";
 import ResultPanel from "./ResultPanel";
@@ -63,6 +62,7 @@ type Action =
     }
   | {
       type: ActionType.NextCard;
+      answer: Card;
     };
 
 function reducer(state: State, action: Action): State {
@@ -92,7 +92,7 @@ function reducer(state: State, action: Action): State {
               : state.zoom + GAME_RULES.ZOOM_ON_LOSE
           )
         ),
-        answer: randomItem(cards),
+        answer: action.answer,
         userAnswer: {
           username: null,
           answer: null,
@@ -105,12 +105,16 @@ function reducer(state: State, action: Action): State {
 }
 
 export default function Game() {
+  const cards = React.useContext(CardsContext);
   const [{ zoom, answer, userAnswer, endsAt }, dispatch] = React.useReducer(
     reducer,
     {
       zoom: 1,
-      answer: randomItem(cards),
-      userAnswer: { username: null, answer: null },
+      answer: cards.random(),
+      userAnswer: {
+        username: null,
+        answer: null,
+      },
       endsAt: new Date(Date.now() + GAME_RULES.TIME_PER_CARD),
     }
   );
@@ -132,13 +136,17 @@ export default function Game() {
     client.connect();
 
     client.on("message", (channel, tags, message, self) => {
-      // TODO: ignore message if it couldn't be matched to a card
-      // TODO: ignore message if it's incorrect
+      const match = cards.find(message);
+
+      if (match == null) {
+        return;
+      }
+
       dispatch({
         type: ActionType.SubmitAnswer,
         userAnswer: {
           username: tags["display-name"] || null,
-          answer: null,
+          answer: match,
         },
       });
     });
@@ -146,7 +154,7 @@ export default function Game() {
     return () => {
       client.disconnect();
     };
-  }, [channel, dispatch]);
+  }, [channel, cards, dispatch]);
 
   React.useEffect(() => {
     let timeoutId: number | null = null;
@@ -186,6 +194,7 @@ export default function Game() {
             onNext={() => {
               dispatch({
                 type: ActionType.NextCard,
+                answer: cards.random(),
               });
             }}
           />
