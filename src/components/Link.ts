@@ -12,9 +12,5 @@ export default styled.a`
   display: inline;
   cursor: pointer;
   color: #f3c053;
-
-  &:focus,
-  &:hover {
-    text-decoration: underline;
-  }
+  text-decoration: underline;
 `;

@@ -8,11 +8,10 @@ import Heading from "./Heading";
 import InputGroup from "./InputGroup";
 import Input from "./Input";
 import Button from "./Button";
-import Paragraph from "./Paragraph";
 import Lifebar from "./Lifebar";
 
 interface Props {
-  onSubmit: (userAnswer: Card) => void;
+  onSubmit: (userAnswer: Card | null) => void;
   startedAt: Date;
   endsAt: Date;
 }
@@ -75,11 +74,6 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
           <form
             onSubmit={(event) => {
               event.preventDefault();
-
-              if (selectedItem == null) {
-                return;
-              }
-
               onSubmit(selectedItem);
             }}
             autoComplete="off"
@@ -88,7 +82,7 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
               What's the name of this card?
             </Heading>
             <Lifebar startedAt={startedAt} endsAt={endsAt} />
-            <Paragraph as={InputGroup}>
+            <InputGroup>
               <InputGroupInput
                 {...getRootProps({ refKey: "ref" }, { suppressRefError: true })}
               >
@@ -120,7 +114,7 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
                 </Suggestions>
               </InputGroupInput>
               <Button type="submit">Send</Button>
-            </Paragraph>
+            </InputGroup>
           </form>
         )}
       </Downshift>

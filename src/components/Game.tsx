@@ -104,7 +104,7 @@ export default function Game() {
           />
         ) : (
           <QuestionPanel
-            onSubmit={(userAnswer: Card) => {
+            onSubmit={(userAnswer: Card | null) => {
               setState((currentState) => ({
                 ...currentState,
                 userAnswer,
