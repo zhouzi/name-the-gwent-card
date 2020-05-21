@@ -17,11 +17,14 @@ export default function Footer() {
           Instructions
         </Link>{" "}
         -{" "}
-        <Link as={RouterLink} to="/play/viewers">
+        <Link as={RouterLink} to="/viewers">
           Play with your viewers
         </Link>{" "}
-        - Inspired by <Link href="#">Faberstein</Link> -{" "}
-        <Link href="#">About/Code</Link>
+        - Inspired by{" "}
+        <Link href="https://twitch.tv/faberstein">Faberstein</Link> -{" "}
+        <Link href="https://github.com/zhouzi/guess-the-gwent-card">
+          About/Code
+        </Link>
       </Paragraph>
       <Paragraph>
         This is an unofficial fan work under the{" "}

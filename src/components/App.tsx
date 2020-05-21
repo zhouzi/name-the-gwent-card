@@ -13,11 +13,11 @@ export default function App() {
           <Route path="/" exact>
             <InstructionsSolo />
           </Route>
+          <Route path="/viewers" exact>
+            <InstructionsViewers />
+          </Route>
           <Route path="/play" exact>
             <Game />
-          </Route>
-          <Route path="/play/viewers" exact>
-            <InstructionsViewers />
           </Route>
           <Route path="/play/:gameid" exact>
             <Game />
