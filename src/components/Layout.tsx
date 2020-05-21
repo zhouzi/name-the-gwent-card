@@ -2,7 +2,6 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import GlobalStyle from "./GlobalStyle";
-import "modern-normalize/modern-normalize.css";
 import "particles.js";
 
 declare global {
