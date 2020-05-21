@@ -1,5 +1,7 @@
 import * as React from "react";
+import Downshift from "downshift";
 import Fuse from "fuse.js";
+import styled, { css } from "styled-components";
 import cards from "../cards.json";
 import Panel from "./Panel";
 import Heading from "./Heading";
@@ -22,40 +24,106 @@ const fuse = new Fuse(cards, {
   shouldSort: true,
 });
 
-export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
-  const [input, setInput] = React.useState("");
+const InputGroupInput = styled.div`
+  flex: 1;
+  position: relative;
+`;
 
+const Suggestions = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  width: 100%;
+`;
+
+const SuggestionsItem = styled.li<{
+  highlighted: boolean;
+  selected: boolean;
+}>`
+  font-weight: ${(props) => (props.selected ? "700" : "400")};
+  padding: 1rem 2rem 1rem 1rem;
+  background-color: #15100e;
+
+  ${(props) =>
+    props.highlighted &&
+    css`
+      color: #f3c053;
+      background-color: #2b201e;
+    `}
+`;
+
+export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
   return (
     <Panel>
-      <form
-        onSubmit={(event) => {
-          event.preventDefault();
+      <Downshift itemToString={(card) => card?.localizedName || ""}>
+        {({
+          getRootProps,
+          getLabelProps,
+          getInputProps,
+          getMenuProps,
+          getItemProps,
+          inputValue,
+          highlightedIndex,
+          selectedItem,
+          isOpen,
+        }) => (
+          <form
+            onSubmit={(event) => {
+              event.preventDefault();
 
-          const matches = fuse.search(input);
-          const bestMatch = matches[0];
+              if (selectedItem == null) {
+                return;
+              }
 
-          if (bestMatch && bestMatch.score != null && bestMatch.score <= 0.3) {
-            onSubmit(bestMatch.item);
-          }
-        }}
-        autoComplete="off"
-      >
-        <Heading as="label" htmlFor="answer">
-          What's the name of this card?
-        </Heading>
-        <Paragraph as={InputGroup}>
-          <Input
-            id="answer"
-            type="text"
-            placeholder="Submit your answer..."
-            onChange={(event) => setInput(event.currentTarget.value)}
-            value={input}
-            autoFocus
-          />
-          <Button type="submit">Send</Button>
-        </Paragraph>
-        <Lifebar startedAt={startedAt} endsAt={endsAt} />
-      </form>
+              onSubmit(selectedItem);
+            }}
+            autoComplete="off"
+          >
+            <Heading as="label" {...getLabelProps()}>
+              What's the name of this card?
+            </Heading>
+            <Lifebar startedAt={startedAt} endsAt={endsAt} />
+            <Paragraph as={InputGroup}>
+              <InputGroupInput
+                {...getRootProps({ refKey: "ref" }, { suppressRefError: true })}
+              >
+                <Input
+                  {...getInputProps()}
+                  type="text"
+                  placeholder="Submit your answer..."
+                  autoFocus
+                />
+                <Suggestions {...getMenuProps()}>
+                  {isOpen &&
+                    inputValue &&
+                    fuse
+                      .search(inputValue)
+                      .slice(0, 3)
+                      .map((match, index) => (
+                        <SuggestionsItem
+                          {...getItemProps({
+                            index,
+                            key: match.item.id,
+                            item: match.item,
+                          })}
+                          highlighted={highlightedIndex === index}
+                          selected={selectedItem?.id === match.item.id}
+                        >
+                          {match.item.localizedName}
+                        </SuggestionsItem>
+                      ))}
+                </Suggestions>
+              </InputGroupInput>
+              <Button type="submit">Send</Button>
+            </Paragraph>
+          </form>
+        )}
+      </Downshift>
     </Panel>
   );
 }

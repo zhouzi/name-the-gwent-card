@@ -9,6 +9,7 @@ export default styled.input`
   border: none;
 
   flex: 1;
+  width: 100%;
   border: 1px solid transparent;
   background-color: #15100e;
   padding: 1rem 2rem 1rem 1rem;

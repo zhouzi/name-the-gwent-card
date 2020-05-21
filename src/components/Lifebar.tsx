@@ -7,6 +7,7 @@ const LifebarContainer = styled.div`
   background-color: #21bf6f;
   border: 1px solid #19ad62;
   box-shadow: inset 0 2px 0 #35d685, 0 0 10px #21bf6f;
+  margin-bottom: 1rem;
 `;
 
 interface Props {
