@@ -1,6 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
-import GAMEPLAY from "../GAMEPLAY";
+import GAME_RULES from "../GAME_RULES";
 import Panel from "./Panel";
 import Heading from "./Heading";
 import Paragraph from "./Paragraph";
@@ -26,7 +26,7 @@ interface Props {
 }
 
 export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
-  const [timeLeft, setTimeLeft] = React.useState(GAMEPLAY.TIME_BETWEEN_CARDS);
+  const [timeLeft, setTimeLeft] = React.useState(GAME_RULES.TIME_BETWEEN_CARDS);
 
   React.useEffect(() => {
     const startedAt = new Date();
@@ -34,7 +34,7 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
 
     (function update() {
       const newTimeLeft =
-        GAMEPLAY.TIME_BETWEEN_CARDS - (Date.now() - startedAt.getTime());
+        GAME_RULES.TIME_BETWEEN_CARDS - (Date.now() - startedAt.getTime());
       setTimeLeft(newTimeLeft);
 
       if (newTimeLeft <= 0) {
