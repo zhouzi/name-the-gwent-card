@@ -21,5 +21,5 @@ export default {
   cardNameNotBut: "This card is not named {invalid}, but {valid}.",
   congratsUser: "Congrats {username}!",
   congrats: "Congrats!",
-  nextCardIn: "Next card in {seconds} seconds (<a>skip<a>).",
+  nextCardIn: "Next card in {seconds} seconds (<a>skip</a>).",
 };

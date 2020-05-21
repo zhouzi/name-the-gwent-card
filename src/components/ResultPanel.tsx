@@ -124,7 +124,7 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
       <Caption>
         <FormattedMessage
           id="nextCardIn"
-          defaultMessage="Next card in {seconds} seconds (<a>skip<a>)."
+          defaultMessage="Next card in {seconds} seconds (<a>skip</a>)."
           values={{
             seconds: Math.round(timeLeft / 1000),
             a: (children: string) => (
