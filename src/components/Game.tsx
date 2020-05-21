@@ -1,6 +1,5 @@
 import * as React from "react";
 import styled from "styled-components";
-import Fuse from "fuse.js";
 import randomItem from "random-item";
 import cards from "../cards.json";
 import GAME_RULES from "../GAME_RULES";
@@ -32,13 +31,6 @@ const ContainerRightColumn = styled.div`
 const FooterContainer = styled.div`
   padding: 0 2rem;
 `;
-
-const fuse = new Fuse(cards, {
-  keys: ["localizedName"],
-  includeScore: true,
-  minMatchCharLength: 3,
-  shouldSort: true,
-});
 
 interface State {
   zoom: number;
@@ -112,21 +104,12 @@ export default function Game() {
           />
         ) : (
           <QuestionPanel
-            onSubmit={(input: string) => {
-              const matches = fuse.search(input);
-              const bestMatch = matches[0];
-
-              if (
-                bestMatch &&
-                bestMatch.score != null &&
-                bestMatch.score <= 0.3
-              ) {
-                setState((currentState) => ({
-                  ...currentState,
-                  userAnswer: bestMatch.item,
-                  endsAt: null,
-                }));
-              }
+            onSubmit={(userAnswer: Card) => {
+              setState((currentState) => ({
+                ...currentState,
+                userAnswer,
+                endsAt: null,
+              }));
             }}
             startedAt={new Date(endsAt.getTime() - GAME_RULES.TIME_PER_CARD)}
             endsAt={endsAt}
