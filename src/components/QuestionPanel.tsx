@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FormattedMessage } from "react-intl";
 import Downshift from "downshift";
 import styled, { css } from "styled-components";
 import CardsContext from "../containers/CardsContainer";
@@ -79,7 +80,10 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
             autoComplete="off"
           >
             <Heading as="label" {...getLabelProps()}>
-              What's the name of this card?
+              <FormattedMessage
+                id="whatCard"
+                defaultMessage="What's the name of this card?"
+              />
             </Heading>
             <Lifebar startedAt={startedAt} endsAt={endsAt} />
             <InputGroup>
@@ -110,7 +114,9 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
                     ))}
                 </Suggestions>
               </InputGroupInput>
-              <Button type="submit">Send</Button>
+              <Button type="submit">
+                <FormattedMessage id="send" defaultMessage="Send" />
+              </Button>
             </InputGroup>
           </form>
         )}

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import GAME_RULES from "../GAME_RULES";
 import Panel from "./Panel";
@@ -61,38 +62,83 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
     <Panel>
       {userAnswer.answer == null ? (
         <>
-          <Heading>Time out!</Heading>
+          <Heading>
+            <FormattedMessage id="timeout" defaultMessage="Time out!" />
+          </Heading>
           <ResultParagraph>
-            This card is named <Correct>{answer.localizedName}</Correct>.
+            <FormattedMessage
+              id="cardName"
+              defaultMessage="This card is named {name}."
+              values={{
+                name: <Correct>{answer.localizedName}</Correct>,
+              }}
+            />
           </ResultParagraph>
         </>
       ) : userAnswer.answer.id !== answer.id ? (
         <>
-          <Heading>Nope.</Heading>
+          <Heading>
+            <FormattedMessage id="fail" defaultMessage="Nope." />
+          </Heading>
           <ResultParagraph>
-            This card is not named{" "}
-            <Incorrect>{userAnswer.answer.localizedName}</Incorrect>, but{" "}
-            <Correct>{answer.localizedName}</Correct>.
+            <FormattedMessage
+              id="cardNameNotBut"
+              defaultMessage="This card is not named {invalid}, but {valid}."
+              values={{
+                invalid: (
+                  <Incorrect>{userAnswer.answer.localizedName}</Incorrect>
+                ),
+                valid: <Correct>{answer.localizedName}</Correct>,
+              }}
+            />
           </ResultParagraph>
         </>
       ) : (
         <>
           <Heading>
-            {userAnswer.username
-              ? `Congrats ${userAnswer.username}!`
-              : "Congrats!"}
+            {userAnswer.username ? (
+              <FormattedMessage
+                id="congratsUser"
+                defaultMessage="Congrats {username}!"
+                values={{ username: userAnswer.username }}
+              />
+            ) : (
+              <FormattedMessage
+                id="congrats"
+                defaultMessage="Congrats!"
+                values={{ username: userAnswer.username }}
+              />
+            )}
           </Heading>
           <ResultParagraph>
-            This card is named <Correct>{answer.localizedName}</Correct>.
+            <FormattedMessage
+              id="cardName"
+              defaultMessage="This card is named {name}."
+              values={{
+                name: <Correct>{answer.localizedName}</Correct>,
+              }}
+            />
           </ResultParagraph>
         </>
       )}
       <Caption>
-        Next card in {Math.round(timeLeft / 1000)} seconds (
-        <Link as="button" type="button" onClick={() => onNext()} autoFocus>
-          skip
-        </Link>
-        ).
+        <FormattedMessage
+          id="nextCardIn"
+          defaultMessage="Next card in {seconds} seconds (<a>skip<a>)."
+          values={{
+            seconds: Math.round(timeLeft / 1000),
+            a: (children: string) => (
+              <Link
+                as="button"
+                type="button"
+                onClick={() => onNext()}
+                autoFocus
+              >
+                {children}
+              </Link>
+            ),
+          }}
+        />
       </Caption>
     </Panel>
   );

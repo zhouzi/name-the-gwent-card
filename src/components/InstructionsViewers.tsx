@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useHistory } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import Panel from "./Panel";
 import Heading from "./Heading";
@@ -21,11 +22,17 @@ export default function InstructionsViewers() {
   return (
     <Container>
       <Panel>
-        <Heading>Play with your viewers</Heading>
+        <Heading>
+          <FormattedMessage
+            id="playWithViewers"
+            defaultMessage="Pay with your viewers"
+          />
+        </Heading>
         <Paragraph>
-          The game is the same. The only difference is that the answers are
-          taken from your Twitch chat. The first viewer to send the correct
-          answer will be credited here.
+          <FormattedMessage
+            id="rulesViewers"
+            defaultMessage="The game is the same. The only difference is that the answers are taken from your Twitch chat. The first viewer to send the correct answer will be credited here."
+          />
         </Paragraph>
         <form
           onSubmit={(event) => {
@@ -34,7 +41,10 @@ export default function InstructionsViewers() {
           }}
         >
           <Paragraph as="label" htmlFor="channel">
-            What is your Twitch channel?
+            <FormattedMessage
+              id="whatTwitchChannel"
+              defaultMessage="What is your Twitch channel?"
+            />
           </Paragraph>
           <InputGroup>
             <Input
@@ -45,7 +55,9 @@ export default function InstructionsViewers() {
               value={channel}
               required
             />
-            <Button type="submit">Play</Button>
+            <Button type="submit">
+              <FormattedMessage id="play" defaultMessage="Play" />
+            </Button>
           </InputGroup>
         </form>
       </Panel>
