@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import Panel from "./Panel";
 import Heading from "./Heading";
@@ -14,6 +15,9 @@ const Container = styled.section`
 `;
 
 export default function InstructionsViewers() {
+  const [channel, setChannel] = React.useState("");
+  const history = useHistory();
+
   return (
     <Container>
       <Panel>
@@ -26,17 +30,20 @@ export default function InstructionsViewers() {
         <form
           onSubmit={(event) => {
             event.preventDefault();
-            alert("Sorry, this feature is currently in development.");
+            history.push(`/play/${channel}`);
           }}
         >
           <Paragraph as="label" htmlFor="channel">
-            What is the url of your Twitch channel?
+            What is your Twitch channel?
           </Paragraph>
           <InputGroup>
             <Input
               type="text"
               id="channel"
-              placeholder="https://www.twitch.tv/{your channel}"
+              placeholder="Your channel..."
+              onChange={(event) => setChannel(event.currentTarget.value)}
+              value={channel}
+              required
             />
             <Button type="submit">Play</Button>
           </InputGroup>

@@ -21,6 +21,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
+    "tmi.js": "^1.5.0",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -48,6 +49,7 @@
     "@types/react-helmet": "^6.0.0",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.0",
+    "@types/tmi.js": "^1.4.0",
     "cheerio": "^1.0.0-rc.3",
     "got": "^11.1.4"
   }

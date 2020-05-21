@@ -21,7 +21,10 @@ const Incorrect = styled.span`
 
 interface Props {
   answer: Card;
-  userAnswer: Card | null;
+  userAnswer: {
+    username: string | null;
+    answer: Card | null;
+  };
   onNext: () => void;
 }
 
@@ -56,25 +59,29 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
 
   return (
     <Panel>
-      {userAnswer == null ? (
+      {userAnswer.answer == null ? (
         <>
           <Heading>Time out!</Heading>
           <ResultParagraph>
             This card is named <Correct>{answer.localizedName}</Correct>.
           </ResultParagraph>
         </>
-      ) : userAnswer.id !== answer.id ? (
+      ) : userAnswer.answer.id !== answer.id ? (
         <>
           <Heading>Nope.</Heading>
           <ResultParagraph>
             This card is not named{" "}
-            <Incorrect>{userAnswer.localizedName}</Incorrect>, but{" "}
+            <Incorrect>{userAnswer.answer.localizedName}</Incorrect>, but{" "}
             <Correct>{answer.localizedName}</Correct>.
           </ResultParagraph>
         </>
       ) : (
         <>
-          <Heading>Congrats!</Heading>
+          <Heading>
+            {userAnswer.username
+              ? `Congrats ${userAnswer.username}!`
+              : "Congrats!"}
+          </Heading>
           <ResultParagraph>
             This card is named <Correct>{answer.localizedName}</Correct>.
           </ResultParagraph>

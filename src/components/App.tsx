@@ -19,7 +19,7 @@ export default function App() {
           <Route path="/play" exact>
             <Game />
           </Route>
-          <Route path="/play/:gameid" exact>
+          <Route path="/play/:channel" exact>
             <Game />
           </Route>
           <Route>

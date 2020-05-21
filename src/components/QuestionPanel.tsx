@@ -11,7 +11,10 @@ import Button from "./Button";
 import Lifebar from "./Lifebar";
 
 interface Props {
-  onSubmit: (userAnswer: Card | null) => void;
+  onSubmit: (userAnswer: {
+    username: string | null;
+    answer: Card | null;
+  }) => void;
   startedAt: Date;
   endsAt: Date;
 }
@@ -74,7 +77,10 @@ export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
           <form
             onSubmit={(event) => {
               event.preventDefault();
-              onSubmit(selectedItem);
+              onSubmit({
+                username: null,
+                answer: selectedItem,
+              });
             }}
             autoComplete="off"
           >
