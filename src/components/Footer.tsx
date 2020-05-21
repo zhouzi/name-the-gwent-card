@@ -1,7 +1,9 @@
 import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
-import { FormattedMessage } from "react-intl";
+import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
+import messages from "../messages";
+import LocaleContext from "../containers/LocaleContainer";
 import Caption from "./Caption";
 import Paragraph from "./Paragraph";
 import Link from "./Link";
@@ -11,6 +13,9 @@ const FooterContainer = styled(Caption).attrs({ as: "footer" })`
 `;
 
 export default function Footer() {
+  const intl = useIntl();
+  const { onChange } = React.useContext(LocaleContext);
+
   return (
     <FooterContainer>
       <Paragraph>
@@ -37,7 +42,26 @@ export default function Footer() {
         -{" "}
         <Link href="https://github.com/zhouzi/guess-the-gwent-card">
           <FormattedMessage id="aboutCode" defaultMessage="About/Code" />
-        </Link>
+        </Link>{" "}
+        -{" "}
+        {(Object.keys(messages) as Array<keyof typeof messages>).map(
+          (locale, index, arr) => (
+            <React.Fragment key={locale}>
+              {intl.locale === locale ? (
+                <strong>{locale}</strong>
+              ) : (
+                <Link
+                  as="button"
+                  type="button"
+                  onClick={() => onChange(locale)}
+                >
+                  {locale}
+                </Link>
+              )}
+              {index < arr.length - 1 && <> / </>}
+            </React.Fragment>
+          )
+        )}
       </Paragraph>
       <Paragraph>
         <FormattedMessage
