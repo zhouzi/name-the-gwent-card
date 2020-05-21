@@ -9754,6 +9754,65 @@
     "armour": 0
   },
   {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30289_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30289_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Crownsplitter Thug",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "intimidate",
+          "value": "Intimidate"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Deploy"
+        },
+        {
+          "type": "text",
+          "value": ": Damage an enemy unit by 2."
+        }
+      ]
+    ],
+    "fluff": "Frilly frock or Mahakam steel breastplate – wouldn't have mattered.",
+    "rarity": "rare",
+    "repeatCount": 1,
+    "ownable": true,
+    "categoryName": "Dwarf, Crownsplitters",
+    "id": 202382,
+    "name": "Crownsplitter Thug",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "power": 3,
+    "provisionsCost": 5,
+    "type": "unit",
+    "primaryCategoryId": 47,
+    "categoryIds": [
+      95
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
     "craftingCost": 30,
     "slotImg": {
       "small": "/uploads/media/assets_slot/0001/31/thumb_30223_assets_slot_small.jpg",
@@ -9835,71 +9894,64 @@
     "armour": 0
   },
   {
-    "craftingCost": 800,
+    "craftingCost": 200,
     "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/30/thumb_29686_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/30/thumb_29686_assets_slot_big.jpg"
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30031_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30031_assets_slot_big.jpg"
     },
     "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_big.jpg"
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30025_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30025_assets_preview_big.jpg"
     },
     "thumbnailImg": null,
     "abilityImg": null,
-    "localizedName": "Whoreson Senior",
+    "localizedName": "Damnation",
     "tooltip": [
       [
         {
-          "type": "keyword",
-          "key": "intimidate",
-          "value": "Intimidate"
-        },
-        {
           "type": "text",
-          "value": "."
+          "value": "Damage 3 adjacent enemy units by 2."
         }
       ],
       [
         {
           "type": "keyword",
-          "key": "deploy",
-          "value": "Deploy"
+          "key": "deathblow",
+          "value": "Deathblow"
         },
         {
           "type": "text",
-          "value": ": Transform an adjacent unit into a Cutup Lackey."
-        }
-      ],
-      [
+          "value": ": For every enemy unit destroyed, "
+        },
         {
           "type": "keyword",
-          "key": "tribute",
-          "value": "Tribute"
+          "key": "spawn",
+          "value": "Spawn"
         },
         {
           "type": "text",
-          "value": " {Tribute-B.P.BB_Tribute}: Transform adjacent units into Cutup Lackeys instead."
+          "value": " a Firesworn Zealot on the opposite row."
         }
       ]
     ],
-    "fluff": "Like father, like son.",
-    "rarity": "legendary",
+    "fluff": "I can't bloody breathe! Won't they burn the wretches someplace else?",
+    "rarity": "epic",
     "repeatCount": 0,
     "ownable": true,
-    "categoryName": "Human, Cutups",
-    "id": 202312,
-    "name": "Whoreson Senior",
+    "categoryName": "Crime, Firesworn",
+    "id": 202352,
+    "name": "Damnation",
     "faction": {
       "short": "syn",
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "power": 6,
+    "power": 0,
     "provisionsCost": 8,
-    "type": "unit",
-    "primaryCategoryId": 78,
+    "type": "special",
+    "primaryCategoryId": 92,
     "categoryIds": [
-      97
+      94
     ],
     "secondaryFactions": [],
     "armour": 0
@@ -9973,65 +10025,6 @@
     "armour": 1
   },
   {
-    "craftingCost": 80,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/31/thumb_30289_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/31/thumb_30289_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Crownsplitter Thug",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "intimidate",
-          "value": "Intimidate"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Deploy"
-        },
-        {
-          "type": "text",
-          "value": ": Damage an enemy unit by 2."
-        }
-      ]
-    ],
-    "fluff": "Frilly frock or Mahakam steel breastplate – wouldn't have mattered.",
-    "rarity": "rare",
-    "repeatCount": 1,
-    "ownable": true,
-    "categoryName": "Dwarf, Crownsplitters",
-    "id": 202382,
-    "name": "Crownsplitter Thug",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "power": 3,
-    "provisionsCost": 5,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [
-      95
-    ],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
     "craftingCost": 800,
     "slotImg": {
       "small": "/uploads/media/assets_slot/0001/31/thumb_30352_assets_slot_small.jpg",
@@ -10089,6 +10082,124 @@
     "armour": 0
   },
   {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/30/thumb_29686_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/30/thumb_29686_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Whoreson Senior",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "intimidate",
+          "value": "Intimidate"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Deploy"
+        },
+        {
+          "type": "text",
+          "value": ": Transform an adjacent unit into a Cutup Lackey."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "tribute",
+          "value": "Tribute"
+        },
+        {
+          "type": "text",
+          "value": " {Tribute-B.P.BB_Tribute}: Transform adjacent units into Cutup Lackeys instead."
+        }
+      ]
+    ],
+    "fluff": "Like father, like son.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Human, Cutups",
+    "id": 202312,
+    "name": "Whoreson Senior",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "power": 6,
+    "provisionsCost": 8,
+    "type": "unit",
+    "primaryCategoryId": 78,
+    "categoryIds": [
+      97
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 30,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31264_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31264_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31261_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31261_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Mutant",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "intimidate",
+          "value": "Intimidate"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "With the right tools you can shape the human body like wet clay.",
+    "rarity": "common",
+    "repeatCount": 1,
+    "ownable": true,
+    "categoryName": "Human, Salamandra",
+    "id": 202433,
+    "name": "Mutant",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "power": 3,
+    "provisionsCost": 4,
+    "type": "unit",
+    "primaryCategoryId": 78,
+    "categoryIds": [
+      105
+    ],
+    "secondaryFactions": [],
+    "armour": 2
+  },
+  {
     "craftingCost": 200,
     "slotImg": {
       "small": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_small.jpg",
@@ -10141,54 +10252,6 @@
     ],
     "secondaryFactions": [],
     "armour": 0
-  },
-  {
-    "craftingCost": 30,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31264_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31264_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31261_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31261_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Mutant",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "intimidate",
-          "value": "Intimidate"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ]
-    ],
-    "fluff": "With the right tools you can shape the human body like wet clay.",
-    "rarity": "common",
-    "repeatCount": 1,
-    "ownable": true,
-    "categoryName": "Human, Salamandra",
-    "id": 202433,
-    "name": "Mutant",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "power": 3,
-    "provisionsCost": 4,
-    "type": "unit",
-    "primaryCategoryId": 78,
-    "categoryIds": [
-      105
-    ],
-    "secondaryFactions": [],
-    "armour": 2
   },
   {
     "craftingCost": 200,
@@ -10261,6 +10324,58 @@
   {
     "craftingCost": 200,
     "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30514_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30514_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Tavern Brawl",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Force an enemy unit to "
+        },
+        {
+          "type": "keyword",
+          "key": "duel",
+          "value": "Duel"
+        },
+        {
+          "type": "text",
+          "value": " an adjacent unit."
+        }
+      ]
+    ],
+    "fluff": "About time we had some entertainment! My knuckles are itchin'!",
+    "rarity": "epic",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Crime, Tidecloaks",
+    "id": 202358,
+    "name": "Tavern Brawl",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 7,
+    "type": "special",
+    "primaryCategoryId": 92,
+    "categoryIds": [
+      98
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 200,
+    "slotImg": {
       "small": "/uploads/media/assets_slot/0001/31/thumb_30070_assets_slot_small.jpg",
       "big": "/uploads/media/assets_slot/0001/31/thumb_30070_assets_slot_big.jpg"
     },
@@ -10308,58 +10423,6 @@
     "primaryCategoryId": 92,
     "categoryIds": [
       94
-    ],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 200,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/31/thumb_30514_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/31/thumb_30514_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Tavern Brawl",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Force an enemy unit to "
-        },
-        {
-          "type": "keyword",
-          "key": "duel",
-          "value": "Duel"
-        },
-        {
-          "type": "text",
-          "value": " an adjacent unit."
-        }
-      ]
-    ],
-    "fluff": "About time we had some entertainment! My knuckles are itchin'!",
-    "rarity": "epic",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Crime, Tidecloaks",
-    "id": 202358,
-    "name": "Tavern Brawl",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 7,
-    "type": "special",
-    "primaryCategoryId": 92,
-    "categoryIds": [
-      98
     ],
     "secondaryFactions": [],
     "armour": 0

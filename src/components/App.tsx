@@ -2,7 +2,8 @@ import * as React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { IntlProvider } from "react-intl";
 import messages from "../messages";
-import cards from "../cards.json";
+import enCards from "../cards.en.json";
+import frCards from "../cards.fr.json";
 import CardsContext, { CardsContainer } from "../containers/CardsContainer";
 import LocaleContext from "../containers/LocaleContainer";
 import Layout from "./Layout";
@@ -11,6 +12,11 @@ import Game from "./Game";
 import InstructionsViewers from "./InstructionsViewers";
 
 const SUPPORTED_LOCALES = Object.keys(messages) as Array<keyof typeof messages>;
+
+const cards = {
+  en: enCards,
+  fr: frCards,
+};
 
 export default function App() {
   const [locale, setLocale] = React.useState<keyof typeof messages>(() => {
@@ -35,7 +41,7 @@ export default function App() {
               setLocale(newLocale),
           }}
         >
-          <CardsContext.Provider value={new CardsContainer(cards)}>
+          <CardsContext.Provider value={new CardsContainer(cards[locale])}>
             <Layout>
               <Switch>
                 <Route path="/" exact>

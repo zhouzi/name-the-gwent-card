@@ -11,27 +11,39 @@ async function getDeck(url) {
   return deck;
 }
 
-async function getDecks() {
+async function getDecks(locale) {
   const { body } = await got("https://teamleviathangaming.com/meta/");
   const $ = cheerio.load(body);
   const decks = $("a[href^='https://www.playgwent.com/en/decks/']")
     .map((index, a) => $(a).attr("href"))
     .get();
 
-  return Promise.all(decks.map((url) => getDeck(url)));
+  return Promise.all(
+    decks.map((url) => getDeck(url.replace(/\/en\//, `/${locale}/`)))
+  );
 }
 
-(async function downloadCards() {
-  const decks = await getDecks();
-  const cards = decks
+function getCards(decks) {
+  return decks
     .reduce((acc, deck) => acc.concat(deck.cards), [])
     .filter(
       (card, index, cards) =>
         cards.findIndex((otherCard) => otherCard.id === card.id) === index
     );
+}
+
+async function downloadsCards(locale) {
+  const decks = await getDecks(locale);
+  const cards = getCards(decks);
 
   fs.writeFileSync(
-    path.join(__dirname, "../src/cards.json"),
+    path.join(__dirname, `../src/cards.${locale}.json`),
     JSON.stringify(cards, null, 2)
   );
+}
+
+(async () => {
+  for (const locale of ["en", "fr"]) {
+    await downloadsCards(locale);
+  }
 })();
