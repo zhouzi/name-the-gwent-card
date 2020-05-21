@@ -20,7 +20,7 @@ export default function Footer() {
         <Link as={RouterLink} to="/play/viewers">
           Play with your viewers
         </Link>{" "}
-        - Original idea from <Link href="#">Faberstein</Link> -{" "}
+        - Inspired by <Link href="#">Faberstein</Link> -{" "}
         <Link href="#">About/Code</Link>
       </Paragraph>
       <Paragraph>
