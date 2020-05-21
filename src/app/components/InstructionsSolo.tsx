@@ -2,13 +2,9 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
+import { Panel, Heading, Paragraph, Button, Link } from "../../designSystem";
 import GAME_RULES from "../GAME_RULES";
-import Panel from "./Panel";
-import Heading from "./Heading";
-import Paragraph from "./Paragraph";
 import Footer from "./Footer";
-import Button from "./Button";
-import Link from "./Link";
 
 const Container = styled.section`
   max-width: 40rem;

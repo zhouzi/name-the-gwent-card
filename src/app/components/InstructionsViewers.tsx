@@ -2,13 +2,15 @@ import * as React from "react";
 import { useHistory } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import Panel from "./Panel";
-import Heading from "./Heading";
-import Paragraph from "./Paragraph";
+import {
+  Panel,
+  Heading,
+  Paragraph,
+  InputGroup,
+  Input,
+  Button,
+} from "../../designSystem";
 import Footer from "./Footer";
-import InputGroup from "./InputGroup";
-import Input from "./Input";
-import Button from "./Button";
 
 const Container = styled.section`
   max-width: 40rem;

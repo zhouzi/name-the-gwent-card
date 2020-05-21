@@ -37,7 +37,7 @@ async function downloadsCards(locale) {
   const cards = getCards(decks);
 
   fs.writeFileSync(
-    path.join(__dirname, `../src/cards.${locale}.json`),
+    path.join(__dirname, `../src/app/cards.${locale}.json`),
     JSON.stringify(cards, null, 2)
   );
 }

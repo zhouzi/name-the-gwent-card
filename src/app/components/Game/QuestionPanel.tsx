@@ -2,13 +2,15 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import Downshift from "downshift";
 import styled, { css } from "styled-components";
-import CardsContext from "../containers/CardsContainer";
-import Panel from "./Panel";
-import Heading from "./Heading";
-import InputGroup from "./InputGroup";
-import Input from "./Input";
-import Button from "./Button";
-import Lifebar from "./Lifebar";
+import {
+  Panel,
+  Heading,
+  InputGroup,
+  Input,
+  Button,
+  Lifebar,
+} from "../../../designSystem";
+import CardsContext from "../../containers/CardsContainer";
 
 interface Props {
   onSubmit: (userAnswer: {

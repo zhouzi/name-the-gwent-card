@@ -2,12 +2,12 @@ import * as React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { Client } from "tmi.js";
-import CardsContext from "../containers/CardsContainer";
-import GAME_RULES from "../GAME_RULES";
+import { CardImage } from "../../../designSystem";
+import CardsContext from "../../containers/CardsContainer";
+import GAME_RULES from "../../GAME_RULES";
+import Footer from "../Footer";
 import QuestionPanel from "./QuestionPanel";
 import ResultPanel from "./ResultPanel";
-import CardImage from "./CardImage";
-import Footer from "./Footer";
 
 const Container = styled.section`
   max-width: 60rem;

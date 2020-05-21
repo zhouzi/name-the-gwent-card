@@ -1,12 +1,14 @@
 import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import GAME_RULES from "../GAME_RULES";
-import Panel from "./Panel";
-import Heading from "./Heading";
-import Paragraph from "./Paragraph";
-import Caption from "./Caption";
-import Link from "./Link";
+import {
+  Panel,
+  Heading,
+  Paragraph,
+  Caption,
+  Link,
+} from "../../../designSystem";
+import GAME_RULES from "../../GAME_RULES";
 
 const ResultParagraph = styled(Paragraph)`
   font-size: 1.2rem;
