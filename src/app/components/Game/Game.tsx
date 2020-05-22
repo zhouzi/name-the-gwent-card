@@ -12,25 +12,38 @@ import ResultPanel from "./ResultPanel";
 const Container = styled.section`
   max-width: 60rem;
   width: 100%;
-  display: flex;
-  perspective: 1500px;
+
+  @media (min-width: 800px) {
+    display: flex;
+    perspective: 1500px;
+  }
 `;
 const ContainerLeftColumn = styled.div`
+  display: flex;
+  justify-content: center;
   position: relative;
-  z-index: 1;
+
+  @media (min-width: 800px) {
+    z-index: 1;
+  }
 `;
 const ContainerRightColumn = styled.div`
   position: relative;
   z-index: 0;
-  margin-left: -1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media (min-width: 800px) {
+    margin-left: -1rem;
+  }
 `;
 
 const FooterContainer = styled.div`
-  padding: 0 2rem;
+  @media (min-width: 800px) {
+    padding: 0 2rem;
+  }
 `;
 
 interface State {

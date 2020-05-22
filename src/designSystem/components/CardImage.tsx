@@ -8,12 +8,18 @@ const BIG_PREVIEW_IMG_SIZE = {
 
 const CardImageContainer = styled.div`
   width: ${BIG_PREVIEW_IMG_SIZE.width}px;
-  height: ${BIG_PREVIEW_IMG_SIZE.height}px;
+  height: 400px;
   border-radius: 2px;
   overflow: hidden;
-  transform: rotateY(-5deg);
   background-color: #000;
+  background-position: center top;
   box-shadow: 0 10px 40px #000;
+
+  @media (min-width: 800px) {
+    height: ${BIG_PREVIEW_IMG_SIZE.height}px;
+    transform: rotateY(-5deg);
+    background-position: center center;
+  }
 `;
 
 interface Props {
@@ -26,7 +32,6 @@ export default function CardImage({ card, zoom }: Props) {
     <CardImageContainer
       style={{
         backgroundImage: `url(https://playgwent.com${card.previewImg.big})`,
-        backgroundPosition: "center center",
         backgroundSize: `${BIG_PREVIEW_IMG_SIZE.width * zoom}px ${
           BIG_PREVIEW_IMG_SIZE.height * zoom
         }px`,
