@@ -1,5 +1,10 @@
 # name-the-gwent-card
 
+You have 30 seconds to guess the name of a Gwent card. If the answer is correct, the next card will be zoomed in a bit more. So the better you get, the harder it becomes.
+
+- [Play](https://gabinaureche.com/name-the-gwent-card)
+- [Contributing](CONTRIBUTING.md)
+
 ## Disclaimer
 
 This is an unofficial fan work under the [Gwent Fan Content Guidelines](https://www.playgwent.com/en/fan-content). Not approved/endorsed by CD PROJEKT RED.
