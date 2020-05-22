@@ -23,5 +23,6 @@ export default createGlobalStyle`
     background-image: url(${backgroundImage});
     background-repeat: repeat-y;
     background-position: center top;
+    background-size: cover;
   }
 `;
