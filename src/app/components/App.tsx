@@ -34,7 +34,7 @@ export default function App() {
 
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <LocaleContext.Provider
           value={{
             onChange: (newLocale: keyof typeof messages) =>
