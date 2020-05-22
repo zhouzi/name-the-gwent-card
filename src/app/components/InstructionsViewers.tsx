@@ -1,7 +1,8 @@
 import * as React from "react";
 import { useHistory } from "react-router-dom";
-import { FormattedMessage } from "react-intl";
+import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
+import { Client } from "tmi.js";
 import {
   Panel,
   Heading,
@@ -17,9 +18,38 @@ const Container = styled.section`
   width: 100%;
 `;
 
+const Alert = styled.div`
+  margin-top: 0.4rem;
+  color: #d22a2a;
+`;
+
+enum StatusType {
+  Idle = "Idle",
+  Connecting = "Connecting",
+  Failed = "Failed",
+}
+
+type Status =
+  | { type: StatusType.Idle }
+  | { type: StatusType.Connecting }
+  | { type: StatusType.Failed; message: string };
+
+function formatChannel(input: string): string {
+  const regex = /https?:\/\/(?:www\.)?twitch\.tv\/([^/]+)/;
+  const matches = input.match(regex);
+
+  if (matches) {
+    return matches[1];
+  }
+
+  return input;
+}
+
 export default function InstructionsViewers() {
-  const [channel, setChannel] = React.useState("");
+  const [input, setInput] = React.useState("");
+  const [status, setStatus] = React.useState<Status>({ type: StatusType.Idle });
   const history = useHistory();
+  const intl = useIntl();
 
   return (
     <Container>
@@ -37,15 +67,50 @@ export default function InstructionsViewers() {
           />
         </Paragraph>
         <form
-          onSubmit={(event) => {
+          onSubmit={async (event) => {
             event.preventDefault();
-            history.push(`/play/${channel}`);
+
+            setStatus({ type: StatusType.Connecting });
+
+            const channel = formatChannel(input);
+
+            const client = Client({
+              connection: {
+                secure: true,
+                reconnect: true,
+              },
+            });
+
+            await client.connect();
+
+            try {
+              await client.join(channel);
+              await client.disconnect();
+
+              history.push(`/play/${channel}`);
+            } catch (err) {
+              await client.disconnect();
+
+              setStatus({
+                type: StatusType.Failed,
+                message: intl.formatMessage(
+                  {
+                    id: "connectionFailure",
+                    defaultMessage:
+                      'Could not connect to the Twitch channel "{channel}". Make sure that you typed the name correctly and that it\'s currently online.',
+                  },
+                  {
+                    channel: formatChannel(input),
+                  }
+                ),
+              });
+            }
           }}
         >
           <Paragraph as="label" htmlFor="channel">
             <FormattedMessage
               id="whatTwitchChannel"
-              defaultMessage="What is your Twitch channel?"
+              defaultMessage="What is your Twitch channel? https://twitch.tv/{your channel}"
             />
           </Paragraph>
           <InputGroup>
@@ -53,14 +118,22 @@ export default function InstructionsViewers() {
               type="text"
               id="channel"
               placeholder="Your channel..."
-              onChange={(event) => setChannel(event.currentTarget.value)}
-              value={channel}
+              onChange={(event) => setInput(event.currentTarget.value)}
+              value={input}
               required
             />
-            <Button type="submit">
-              <FormattedMessage id="play" defaultMessage="Play" />
+            <Button
+              type="submit"
+              disabled={status.type === StatusType.Connecting}
+            >
+              {status.type === StatusType.Connecting ? (
+                <FormattedMessage id="connecting" defaultMessage="Connecting" />
+              ) : (
+                <FormattedMessage id="play" defaultMessage="Play" />
+              )}
             </Button>
           </InputGroup>
+          {status.type === StatusType.Failed && <Alert>{status.message}</Alert>}
         </form>
       </Panel>
       <Footer />

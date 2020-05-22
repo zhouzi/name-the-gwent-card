@@ -12,7 +12,8 @@ export default {
   unofficialFanWork:
     "Ceci est une œuvre de fan non officielle suivant le <a>Guide pour le contenu des fans de Gwent</a>. Et qu'elle n'est pas approuvée ou soutenue par CD PROJEKT RED.",
   play: "Jouer",
-  whatTwitchChannel: "Quelle est votre chaîne Twitch ?",
+  whatTwitchChannel:
+    "Quelle est votre chaîne Twitch ? https://twitch.tv/{votre chaîne}",
   whatCard: "Comment s'appelle cette carte ?",
   send: "Envoyer",
   timeout: "Temps écoulé !",
@@ -22,4 +23,7 @@ export default {
   congratsUser: "Bravo {username}!",
   congrats: "Bravo!",
   nextCardIn: "Carte suivante dans {seconds} secondes (<a>passer</a>).",
+  connecting: "Connexion",
+  connectionFailure:
+    'Impossible de se connecter à la chaîne Twitch "{channel}". Vérifiez que vous avez entré le nom correctement et qu\'elle est actuellement en ligne.',
 };

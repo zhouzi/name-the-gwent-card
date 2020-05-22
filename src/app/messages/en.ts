@@ -12,7 +12,8 @@ export default {
   unofficialFanWork:
     "This is an unofficial fan work under the <a>Gwent Fan Content Guidelines</a>. Not approved/endorsed by CD PROJEKT RED.",
   play: "Play",
-  whatTwitchChannel: "What is your Twitch channel?",
+  whatTwitchChannel:
+    "What is your Twitch channel? https://twitch.tv/{your channel}",
   whatCard: "What's the name of this card?",
   send: "Send",
   timeout: "Time out!",
@@ -22,4 +23,7 @@ export default {
   congratsUser: "Congrats {username}!",
   congrats: "Congrats!",
   nextCardIn: "Next card in {seconds} seconds (<a>skip</a>).",
+  connecting: "Connecting",
+  connectionFailure:
+    'Could not connect to the Twitch channel "{channel}". Make sure that you typed the name correctly and that it\'s currently online.',
 };

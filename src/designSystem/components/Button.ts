@@ -20,4 +20,9 @@ export default styled.button`
   &:hover {
     background-color: #1b1a18;
   }
+
+  &[disabled] {
+    pointer-events: none;
+    opacity: 0.8;
+  }
 `;
