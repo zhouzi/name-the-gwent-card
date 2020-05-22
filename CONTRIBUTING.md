@@ -5,14 +5,13 @@ This project uses [create-react-app](https://create-react-app.dev/).
 - Installation: `npm install`
 - Start: `npm start`
 
-* [TODOs](#todos)
-
 ## TODOs
 
 Below is a list of things that could be improved, splitted into different categories.
 
 ### Design
 
+- [ ] Pressing enter when the autocomplete is open should select the first item. Also, perhaps it should display a "No results" when there are no results. It'd make the autocomplete friendlier.
 - [ ] The lifebar should be green when full, orange when reaching 50% and red when reaching 25%.
 - [ ] Use a less-white color for the body text? Looking at the instructions, the body text seems really bright. The heading/body's hierarchy seems to suffer from that.
 - [ ] Extract the colors into a theme and make sense of them. I liked the freedom of using colors without thinking too much about it in the beginning. But now they're all over the place. They can probably reduced to a smaller number that makes sense.
