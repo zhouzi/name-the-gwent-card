@@ -38,7 +38,7 @@ export default function Footer() {
           }}
         />{" "}
         -{" "}
-        <Link href="https://github.com/zhouzi/guess-the-gwent-card">
+        <Link href="https://github.com/zhouzi/name-the-gwent-card">
           <FormattedMessage id="aboutCode" defaultMessage="About/Code" />
         </Link>{" "}
         -{" "}
