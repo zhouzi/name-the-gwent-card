@@ -28,4 +28,3 @@ Below is a list of things that could be improved, splitted into different catego
 
 - [ ] Configure Typescript's root to avoid the long import paths (e.g replace "../../designSystem" with "designSystem")
 - [ ] Configure GitHub actions to run ESLint.
-- [ ] Configure GitHub actions to deploy.
