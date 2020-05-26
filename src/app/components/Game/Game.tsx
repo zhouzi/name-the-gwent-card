@@ -82,8 +82,18 @@ function reducer(state: State, action: Action): State {
   switch (action.type) {
     case ActionType.SubmitAnswer:
       if (state.endsAt == null) {
+        // Ignore answers that are sent too late.
         return state;
       }
+
+      if (
+        action.userAnswer.username &&
+        action.userAnswer.answer?.id !== state.answer.id
+      ) {
+        // Ignore wrong answers from the Twitch chat.
+        return state;
+      }
+
       return {
         ...state,
         userAnswer: action.userAnswer,
