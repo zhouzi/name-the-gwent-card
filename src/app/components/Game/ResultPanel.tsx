@@ -21,6 +21,9 @@ const Incorrect = styled.span`
   color: #d22a2a;
   font-weight: 700;
 `;
+const Username = styled.span`
+  color: #f3c053;
+`;
 
 interface Props {
   answer: Card;
@@ -102,7 +105,9 @@ export default function ResultPanel({ answer, userAnswer, onNext }: Props) {
               <FormattedMessage
                 id="congratsUser"
                 defaultMessage="Congrats {username}!"
-                values={{ username: userAnswer.username }}
+                values={{
+                  username: <Username>{userAnswer.username}</Username>,
+                }}
               />
             ) : (
               <FormattedMessage
