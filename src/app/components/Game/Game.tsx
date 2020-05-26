@@ -140,8 +140,7 @@ export default function Game() {
 
     const client = createClient();
 
-    client.connect();
-    client.join(channel);
+    client.connect().then(() => client.join(channel));
 
     client.on("message", (channel, tags, message, self) => {
       const match = cards.find(message);
