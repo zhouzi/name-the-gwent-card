@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import { Client } from "tmi.js";
+import createClient from "../../createClient";
 import { CardImage } from "../../../designSystem";
 import CardsContext from "../../containers/CardsContainer";
 import GAME_RULES from "../../GAME_RULES";
@@ -138,15 +138,10 @@ export default function Game() {
       return;
     }
 
-    const client = Client({
-      connection: {
-        secure: true,
-        reconnect: true,
-      },
-      channels: [channel],
-    });
+    const client = createClient();
 
     client.connect();
+    client.join(channel);
 
     client.on("message", (channel, tags, message, self) => {
       const match = cards.find(message);

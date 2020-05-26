@@ -2,7 +2,7 @@ import * as React from "react";
 import { useHistory } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import { Client } from "tmi.js";
+import createClient from "../createClient";
 import {
   Panel,
   Heading,
@@ -70,16 +70,12 @@ export default function InstructionsViewers() {
           onSubmit={async (event) => {
             event.preventDefault();
 
-            setStatus({ type: StatusType.Connecting });
+            setStatus({
+              type: StatusType.Connecting,
+            });
 
             const channel = formatChannel(input);
-
-            const client = Client({
-              connection: {
-                secure: true,
-                reconnect: true,
-              },
-            });
+            const client = createClient();
 
             await client.connect();
 
@@ -100,7 +96,7 @@ export default function InstructionsViewers() {
                       'Could not connect to the Twitch channel "{channel}". Make sure that you typed the name correctly and that it\'s currently online.',
                   },
                   {
-                    channel: formatChannel(input),
+                    channel,
                   }
                 ),
               });
