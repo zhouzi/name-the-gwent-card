@@ -13,7 +13,7 @@ export default {
     "This is an unofficial fan work under the <a>Gwent Fan Content Guidelines</a>. Not approved/endorsed by CD PROJEKT RED.",
   play: "Play",
   whatTwitchChannel:
-    "What is your Twitch channel? https://twitch.tv/{your channel}",
+    "What is your Twitch channel? https://twitch.tv/'{your channel}'",
   whatCard: "What's the name of this card?",
   send: "Send",
   timeout: "Time out!",

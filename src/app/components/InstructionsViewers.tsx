@@ -110,7 +110,7 @@ export default function InstructionsViewers() {
           <Paragraph as="label" htmlFor="channel">
             <FormattedMessage
               id="whatTwitchChannel"
-              defaultMessage="What is your Twitch channel? https://twitch.tv/{your channel}"
+              defaultMessage="What is your Twitch channel? https://twitch.tv/'{your channel}'"
             />
           </Paragraph>
           <InputGroup>
