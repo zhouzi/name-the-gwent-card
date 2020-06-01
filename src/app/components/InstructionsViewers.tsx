@@ -1,7 +1,8 @@
 import * as React from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, generatePath } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
+import ROUTES from "../ROUTES";
 import createClient from "../createClient";
 import {
   Panel,
@@ -83,7 +84,7 @@ export default function InstructionsViewers() {
               await client.join(channel);
               await client.disconnect();
 
-              history.push(`/play/${channel}`);
+              history.push(generatePath(ROUTES.PLAY_CHANNEL, { channel }));
             } catch (err) {
               await client.disconnect();
 

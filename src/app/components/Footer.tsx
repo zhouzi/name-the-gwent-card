@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
+import ROUTES from "../ROUTES";
 import { Caption, Paragraph, Link } from "../../designSystem";
 import messages from "../messages";
 import LocaleContext from "../containers/LocaleContainer";
@@ -17,11 +18,11 @@ export default function Footer() {
   return (
     <FooterContainer>
       <Paragraph>
-        <Link as={RouterLink} to="/">
+        <Link as={RouterLink} to={ROUTES.HOMEPAGE}>
           <FormattedMessage id="instructions" defaultMessage="Instructions" />
         </Link>{" "}
         -{" "}
-        <Link as={RouterLink} to="/viewers">
+        <Link as={RouterLink} to={ROUTES.VIEWERS}>
           <FormattedMessage
             id="playWithViewers"
             defaultMessage="Play with your viewers"

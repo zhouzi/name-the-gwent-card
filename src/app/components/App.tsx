@@ -1,6 +1,7 @@
 import * as React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { IntlProvider } from "react-intl";
+import ROUTES from "../ROUTES";
 import messages from "../messages";
 import enCards from "../cards.en.json";
 import frCards from "../cards.fr.json";
@@ -44,20 +45,20 @@ export default function App() {
           <CardsContext.Provider value={new CardsContainer(cards[locale])}>
             <Layout>
               <Switch>
-                <Route path="/" exact>
+                <Route path={ROUTES.HOMEPAGE} exact>
                   <InstructionsSolo />
                 </Route>
-                <Route path="/viewers" exact>
+                <Route path={ROUTES.VIEWERS} exact>
                   <InstructionsViewers />
                 </Route>
-                <Route path="/play" exact>
+                <Route path={ROUTES.PLAY} exact>
                   <Game />
                 </Route>
-                <Route path="/play/:channel" exact>
+                <Route path={ROUTES.PLAY_CHANNEL} exact>
                   <Game />
                 </Route>
                 <Route>
-                  <Redirect to="/" />
+                  <Redirect to={ROUTES.HOMEPAGE} />
                 </Route>
               </Switch>
             </Layout>

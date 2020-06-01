@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
+import ROUTES from "../ROUTES";
 import { Panel, Heading, Paragraph, Button, Link } from "../../designSystem";
 import GAME_RULES from "../GAME_RULES";
 import Footer from "./Footer";
@@ -46,7 +47,7 @@ export default function InstructionsSolo() {
           />
         </Paragraph>
         <Actions>
-          <Button as={RouterLink} to="/play">
+          <Button as={RouterLink} to={ROUTES.PLAY}>
             <FormattedMessage id="play" defaultMessage="Play" />
           </Button>
         </Actions>
