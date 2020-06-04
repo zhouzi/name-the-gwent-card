@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import { GlobalStyle } from "design";
 import "particles.js";
@@ -149,15 +148,6 @@ export default function Layout({ children }: Props) {
 
   return (
     <>
-      <Helmet
-        link={[
-          {
-            rel: "stylesheet",
-            href:
-              "https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Lato:wght@400;700&display=swap",
-          },
-        ]}
-      />
       <GlobalStyle />
       <Particles id="particles-js" />
       <LayoutContainer>{children}</LayoutContainer>
