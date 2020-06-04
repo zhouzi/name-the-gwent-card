@@ -9,6 +9,14 @@ const FUSE_OPTIONS = {
   shouldSort: true,
 };
 
+export interface Card {
+  id: number;
+  localizedName: string;
+  previewImg: {
+    big: string;
+  };
+}
+
 export class CardsCollectionContainer {
   private readonly cards: Card[];
   private readonly fuse: Fuse<Card, typeof FUSE_OPTIONS>;

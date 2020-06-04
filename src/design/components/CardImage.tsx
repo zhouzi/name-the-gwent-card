@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import { Card } from "app/containers";
 
 const BIG_PREVIEW_IMG_SIZE = {
   width: 376,

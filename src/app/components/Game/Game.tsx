@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { CardImage } from "design";
 import createClient from "app/createClient";
-import { CardsCollectionContext } from "app/containers";
+import { Card, CardsCollectionContext } from "app/containers";
 import GAME_RULES from "app/GAME_RULES";
 import Footer from "app/components/Footer";
 

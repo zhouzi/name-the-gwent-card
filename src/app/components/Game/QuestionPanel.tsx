@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 import Downshift from "downshift";
 import styled, { css } from "styled-components";
 import { Panel, Heading, InputGroup, Input, Button, Lifebar } from "design";
-import { CardsCollectionContext } from "app/containers";
+import { Card, CardsCollectionContext } from "app/containers";
 
 interface Props {
   onSubmit: (userAnswer: {
