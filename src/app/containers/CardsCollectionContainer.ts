@@ -9,7 +9,7 @@ const FUSE_OPTIONS = {
   shouldSort: true,
 };
 
-export class CardsContainer {
+export class CardsCollectionContainer {
   private readonly cards: Card[];
   private readonly fuse: Fuse<Card, typeof FUSE_OPTIONS>;
 
@@ -45,4 +45,6 @@ export class CardsContainer {
   };
 }
 
-export default React.createContext(new CardsContainer([]));
+export const CardsCollectionContext = React.createContext(
+  new CardsCollectionContainer([])
+);

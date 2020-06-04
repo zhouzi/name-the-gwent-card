@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { CardImage } from "design";
 import createClient from "app/createClient";
-import CardsContext from "app/containers/CardsContainer";
+import { CardsCollectionContext } from "app/containers";
 import GAME_RULES from "app/GAME_RULES";
 import Footer from "app/components/Footer";
 
@@ -129,7 +129,7 @@ function reducer(state: State, action: Action): State {
 }
 
 export default function Game() {
-  const cards = React.useContext(CardsContext);
+  const cards = React.useContext(CardsCollectionContext);
   const [{ zoom, answer, userAnswer, endsAt }, dispatch] = React.useReducer(
     reducer,
     {

@@ -5,8 +5,11 @@ import ROUTES from "app/ROUTES";
 import messages from "app/messages";
 import enCards from "app/cards.en.json";
 import frCards from "app/cards.fr.json";
-import CardsContext, { CardsContainer } from "app/containers/CardsContainer";
-import LocaleContext from "app/containers/LocaleContainer";
+import {
+  CardsCollectionContext,
+  CardsCollectionContainer,
+  LocaleContext,
+} from "app/containers";
 
 import Layout from "./Layout";
 import InstructionsSolo from "./InstructionsSolo";
@@ -43,7 +46,9 @@ export default function App() {
               setLocale(newLocale),
           }}
         >
-          <CardsContext.Provider value={new CardsContainer(cards[locale])}>
+          <CardsCollectionContext.Provider
+            value={new CardsCollectionContainer(cards[locale])}
+          >
             <Layout>
               <Switch>
                 <Route path={ROUTES.HOMEPAGE} exact>
@@ -63,7 +68,7 @@ export default function App() {
                 </Route>
               </Switch>
             </Layout>
-          </CardsContext.Provider>
+          </CardsCollectionContext.Provider>
         </LocaleContext.Provider>
       </BrowserRouter>
     </IntlProvider>

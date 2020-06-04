@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 import Downshift from "downshift";
 import styled, { css } from "styled-components";
 import { Panel, Heading, InputGroup, Input, Button, Lifebar } from "design";
-import CardsContext from "app/containers/CardsContainer";
+import { CardsCollectionContext } from "app/containers";
 
 interface Props {
   onSubmit: (userAnswer: {
@@ -48,7 +48,7 @@ const SuggestionsItem = styled.li<{
 `;
 
 export default function QuestionPanel({ onSubmit, startedAt, endsAt }: Props) {
-  const cards = React.useContext(CardsContext);
+  const cards = React.useContext(CardsCollectionContext);
 
   return (
     <Panel>

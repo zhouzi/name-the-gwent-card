@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { Caption, Paragraph, Link } from "design";
 import ROUTES from "app/ROUTES";
 import messages from "app/messages";
-import LocaleContext from "app/containers/LocaleContainer";
+import { LocaleContext } from "app/containers";
 
 const FooterContainer = styled(Caption).attrs({ as: "footer" })`
   padding: 1rem 0;
