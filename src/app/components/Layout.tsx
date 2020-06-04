@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
-import { GlobalStyle } from "designSystem";
+import { GlobalStyle } from "design";
 import "particles.js";
 
 declare global {

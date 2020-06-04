@@ -2,14 +2,7 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import Downshift from "downshift";
 import styled, { css } from "styled-components";
-import {
-  Panel,
-  Heading,
-  InputGroup,
-  Input,
-  Button,
-  Lifebar,
-} from "designSystem";
+import { Panel, Heading, InputGroup, Input, Button, Lifebar } from "design";
 import CardsContext from "app/containers/CardsContainer";
 
 interface Props {

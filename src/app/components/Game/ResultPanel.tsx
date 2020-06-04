@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import { Panel, Heading, Paragraph, Caption, Link } from "designSystem";
+import { Panel, Heading, Paragraph, Caption, Link } from "design";
 import GAME_RULES from "app/GAME_RULES";
 
 const ResultParagraph = styled(Paragraph)`

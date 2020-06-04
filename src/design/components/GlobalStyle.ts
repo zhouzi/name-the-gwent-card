@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import backgroundImage from "designSystem/assets/bg-simple-1440.jpg";
+import backgroundImage from "design/assets/bg-simple-1440.jpg";
 import "modern-normalize/modern-normalize.css";
 
 export default createGlobalStyle`

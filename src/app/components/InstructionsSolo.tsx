@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import { Panel, Heading, Paragraph, Button, Link } from "designSystem";
+import { Panel, Heading, Paragraph, Button, Link } from "design";
 import ROUTES from "app/ROUTES";
 import GAME_RULES from "app/GAME_RULES";
 

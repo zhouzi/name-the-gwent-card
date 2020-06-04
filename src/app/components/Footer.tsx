@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import { Caption, Paragraph, Link } from "designSystem";
+import { Caption, Paragraph, Link } from "design";
 import ROUTES from "app/ROUTES";
 import messages from "app/messages";
 import LocaleContext from "app/containers/LocaleContainer";

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import frame from "designSystem/assets/frame.png";
+import frame from "design/assets/frame.png";
 
 export default styled.div`
   position: relative;
