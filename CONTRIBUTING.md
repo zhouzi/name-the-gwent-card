@@ -20,7 +20,6 @@ Below is a list of things that could be improved, splitted into different catego
 ### Clean code
 
 - [ ] Make the relation between cards and messages tighter. Currently, it's unclear when looking at the code that cards and messages are tightly related. It should not be possible to add a locale without the corresponding cards. A possible fix could be to isolate them in a localization folder.
-- [ ] Create some more reusable types. A few types are duplicated and sometimes their declaration is quite complex (e.g `Array<keyof typeof messages>`).
 
 ### Developer Experience
 

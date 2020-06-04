@@ -2,7 +2,7 @@ import * as React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { IntlProvider } from "react-intl";
 import ROUTES from "app/ROUTES";
-import messages from "app/messages";
+import messages, { SUPPORTED_LOCALES } from "app/messages";
 import enCards from "app/cards.en.json";
 import frCards from "app/cards.fr.json";
 import {
@@ -15,8 +15,6 @@ import Layout from "./Layout";
 import InstructionsSolo from "./InstructionsSolo";
 import Game from "./Game";
 import InstructionsViewers from "./InstructionsViewers";
-
-const SUPPORTED_LOCALES = Object.keys(messages) as Array<keyof typeof messages>;
 
 const cards = {
   en: enCards,

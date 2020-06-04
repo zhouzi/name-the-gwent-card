@@ -4,7 +4,7 @@ import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Caption, Paragraph, Link } from "design/components";
 import ROUTES from "app/ROUTES";
-import messages from "app/messages";
+import { SUPPORTED_LOCALES } from "app/messages";
 import { LocaleContext } from "app/containers";
 
 const FooterContainer = styled(Caption).attrs({ as: "footer" })`
@@ -43,24 +43,18 @@ export default function Footer() {
           <FormattedMessage id="aboutCode" defaultMessage="About/Code" />
         </Link>{" "}
         -{" "}
-        {(Object.keys(messages) as Array<keyof typeof messages>).map(
-          (locale, index, arr) => (
-            <React.Fragment key={locale}>
-              {intl.locale === locale ? (
-                <strong>{locale}</strong>
-              ) : (
-                <Link
-                  as="button"
-                  type="button"
-                  onClick={() => onChange(locale)}
-                >
-                  {locale}
-                </Link>
-              )}
-              {index < arr.length - 1 && <> / </>}
-            </React.Fragment>
-          )
-        )}
+        {SUPPORTED_LOCALES.map((locale, index, arr) => (
+          <React.Fragment key={locale}>
+            {intl.locale === locale ? (
+              <strong>{locale}</strong>
+            ) : (
+              <Link as="button" type="button" onClick={() => onChange(locale)}>
+                {locale}
+              </Link>
+            )}
+            {index < arr.length - 1 && <> / </>}
+          </React.Fragment>
+        ))}
       </Paragraph>
       <Paragraph>
         <FormattedMessage
