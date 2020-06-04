@@ -2,8 +2,6 @@ import * as React from "react";
 import { useHistory, generatePath } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import ROUTES from "../ROUTES";
-import createClient from "../createClient";
 import {
   Panel,
   Heading,
@@ -11,7 +9,10 @@ import {
   InputGroup,
   Input,
   Button,
-} from "../../designSystem";
+} from "designSystem";
+import ROUTES from "app/ROUTES";
+import createClient from "app/createClient";
+
 import Footer from "./Footer";
 
 const Container = styled.section`

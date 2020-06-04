@@ -2,10 +2,10 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import ROUTES from "../ROUTES";
-import { Caption, Paragraph, Link } from "../../designSystem";
-import messages from "../messages";
-import LocaleContext from "../containers/LocaleContainer";
+import { Caption, Paragraph, Link } from "designSystem";
+import ROUTES from "app/ROUTES";
+import messages from "app/messages";
+import LocaleContext from "app/containers/LocaleContainer";
 
 const FooterContainer = styled(Caption).attrs({ as: "footer" })`
   padding: 1rem 0;

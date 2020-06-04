@@ -1,12 +1,13 @@
 import * as React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { IntlProvider } from "react-intl";
-import ROUTES from "../ROUTES";
-import messages from "../messages";
-import enCards from "../cards.en.json";
-import frCards from "../cards.fr.json";
-import CardsContext, { CardsContainer } from "../containers/CardsContainer";
-import LocaleContext from "../containers/LocaleContainer";
+import ROUTES from "app/ROUTES";
+import messages from "app/messages";
+import enCards from "app/cards.en.json";
+import frCards from "app/cards.fr.json";
+import CardsContext, { CardsContainer } from "app/containers/CardsContainer";
+import LocaleContext from "app/containers/LocaleContainer";
+
 import Layout from "./Layout";
 import InstructionsSolo from "./InstructionsSolo";
 import Game from "./Game";

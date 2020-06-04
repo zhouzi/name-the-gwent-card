@@ -9,8 +9,8 @@ import {
   Input,
   Button,
   Lifebar,
-} from "../../../designSystem";
-import CardsContext from "../../containers/CardsContainer";
+} from "designSystem";
+import CardsContext from "app/containers/CardsContainer";
 
 interface Props {
   onSubmit: (userAnswer: {

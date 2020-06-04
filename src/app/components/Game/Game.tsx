@@ -1,11 +1,12 @@
 import * as React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import createClient from "../../createClient";
-import { CardImage } from "../../../designSystem";
-import CardsContext from "../../containers/CardsContainer";
-import GAME_RULES from "../../GAME_RULES";
-import Footer from "../Footer";
+import { CardImage } from "designSystem";
+import createClient from "app/createClient";
+import CardsContext from "app/containers/CardsContainer";
+import GAME_RULES from "app/GAME_RULES";
+import Footer from "app/components/Footer";
+
 import QuestionPanel from "./QuestionPanel";
 import ResultPanel from "./ResultPanel";
 

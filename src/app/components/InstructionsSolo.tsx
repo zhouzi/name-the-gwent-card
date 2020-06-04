@@ -2,9 +2,10 @@ import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import ROUTES from "../ROUTES";
-import { Panel, Heading, Paragraph, Button, Link } from "../../designSystem";
-import GAME_RULES from "../GAME_RULES";
+import { Panel, Heading, Paragraph, Button, Link } from "designSystem";
+import ROUTES from "app/ROUTES";
+import GAME_RULES from "app/GAME_RULES";
+
 import Footer from "./Footer";
 
 const Container = styled.section`
