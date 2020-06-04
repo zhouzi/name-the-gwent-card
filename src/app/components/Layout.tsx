@@ -1,6 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
-import { GlobalStyle } from "design";
+import { GlobalStyle } from "design/components";
 import "particles.js";
 
 declare global {

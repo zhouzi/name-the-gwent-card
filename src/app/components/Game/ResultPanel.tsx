@@ -1,7 +1,7 @@
 import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import { Panel, Heading, Paragraph, Caption, Link } from "design";
+import { Panel, Heading, Paragraph, Caption, Link } from "design/components";
 import { Card } from "app/containers";
 import GAME_RULES from "app/GAME_RULES";
 

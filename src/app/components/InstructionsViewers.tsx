@@ -2,7 +2,14 @@ import * as React from "react";
 import { useHistory, generatePath } from "react-router-dom";
 import { useIntl, FormattedMessage } from "react-intl";
 import styled from "styled-components";
-import { Panel, Heading, Paragraph, InputGroup, Input, Button } from "design";
+import {
+  Panel,
+  Heading,
+  Paragraph,
+  InputGroup,
+  Input,
+  Button,
+} from "design/components";
 import ROUTES from "app/ROUTES";
 import createClient from "app/createClient";
 

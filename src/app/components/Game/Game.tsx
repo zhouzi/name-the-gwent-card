@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
-import { CardImage } from "design";
+import { CardImage } from "design/components";
 import createClient from "app/createClient";
 import { Card, CardsCollectionContext } from "app/containers";
 import GAME_RULES from "app/GAME_RULES";
