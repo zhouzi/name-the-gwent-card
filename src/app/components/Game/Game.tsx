@@ -2,10 +2,10 @@ import * as React from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { CardImage } from "design/components";
-import createClient from "app/createClient";
 import { Card, CardsCollectionContext } from "app/containers";
 import GAME_RULES from "app/GAME_RULES";
 import Footer from "app/components/Footer";
+import { useChannelMessage } from "app/hooks";
 
 import QuestionPanel from "./QuestionPanel";
 import ResultPanel from "./ResultPanel";
@@ -129,12 +129,12 @@ function reducer(state: State, action: Action): State {
 }
 
 export default function Game() {
-  const cards = React.useContext(CardsCollectionContext);
+  const cardsCollection = React.useContext(CardsCollectionContext);
   const [{ zoom, answer, userAnswer, endsAt }, dispatch] = React.useReducer(
     reducer,
     {
       zoom: 1,
-      answer: cards.random(),
+      answer: cardsCollection.random(),
       userAnswer: {
         username: null,
         answer: null,
@@ -144,35 +144,27 @@ export default function Game() {
   );
   const { channel } = useParams<{ channel?: string }>();
 
-  React.useEffect(() => {
-    if (channel == null) {
-      return;
-    }
+  useChannelMessage(
+    channel,
+    React.useCallback(
+      (channel, { "display-name": username = null }, message, self) => {
+        const match = cardsCollection.find(message);
 
-    const client = createClient();
+        if (match == null) {
+          return;
+        }
 
-    client.connect().then(() => client.join(channel));
-
-    client.on("message", (channel, tags, message, self) => {
-      const match = cards.find(message);
-
-      if (match == null) {
-        return;
-      }
-
-      dispatch({
-        type: ActionType.SubmitAnswer,
-        userAnswer: {
-          username: tags["display-name"] || null,
-          answer: match,
-        },
-      });
-    });
-
-    return () => {
-      client.disconnect();
-    };
-  }, [channel, cards, dispatch]);
+        dispatch({
+          type: ActionType.SubmitAnswer,
+          userAnswer: {
+            username,
+            answer: match,
+          },
+        });
+      },
+      [cardsCollection, dispatch]
+    )
+  );
 
   React.useEffect(() => {
     let timeoutId: number | null = null;
@@ -212,7 +204,7 @@ export default function Game() {
             onNext={() => {
               dispatch({
                 type: ActionType.NextCard,
-                answer: cards.random(),
+                answer: cardsCollection.random(),
               });
             }}
           />
