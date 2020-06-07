@@ -1,6 +1,29 @@
 import { DefaultTheme } from "styled-components";
 
-export const theme: DefaultTheme = {};
+export const theme: DefaultTheme = {
+  fonts: {
+    heading: "Bitter, serif",
+    body: "Lato, sans-serif",
+  },
+  colors: {
+    primary: {
+      main: "#f3c053",
+      lighter: "#1b1a18",
+    },
+    text: {
+      main: "#dcdbcc",
+      light: "#989789",
+    },
+    background: {
+      dark: "#000",
+      main: "#121315",
+    },
+  },
+  spacing: {
+    large: "2rem",
+    normal: "1rem",
+  },
+};
 
 function isObject(value: any): boolean {
   return Object.prototype.toString.call(value) === "[object Object]";
