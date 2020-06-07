@@ -1,33 +1,23 @@
 import * as React from "react";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { themeCSSVariables } from "design/theme";
-import {
-  GlobalStyle,
-  Container,
-  FireSparks,
-  Panel,
-  Heading,
-  Paragraph,
-  Button,
-} from "design/components";
-import { Footer } from "./Footer";
+import { GlobalStyle, FireSparks } from "design/components";
+import { ROUTES, RouteInstructions } from "./routes";
 
 export function App() {
   return (
-    <ThemeProvider theme={themeCSSVariables}>
-      <GlobalStyle />
-      <FireSparks />
-      <Container>
-        <Panel>
-          <Heading>Instructions</Heading>
-          <Paragraph spacingBottom="large">
-            You will be shown a random Gwent card with visual effects applied to
-            it. Your goal is to name the card in a limited time.
-          </Paragraph>
-          <Button>Play</Button>
-        </Panel>
-        <Footer />
-      </Container>
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={themeCSSVariables}>
+        <GlobalStyle />
+        <FireSparks />
+        <Switch>
+          <Route path={ROUTES.INSTRUCTIONS} exact={true}>
+            <RouteInstructions />
+          </Route>
+          <Redirect to={ROUTES.INSTRUCTIONS} />
+        </Switch>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }

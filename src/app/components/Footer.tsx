@@ -1,6 +1,8 @@
 import * as React from "react";
+import { Link as RouterLink } from "react-router-dom";
 import styled from "styled-components";
 import { Paragraph, Link } from "design/components";
+import { ROUTES } from "./routes";
 
 const FooterContainer = styled.footer`
   font-size: 0.9rem;
@@ -32,13 +34,16 @@ export function Footer() {
       <FooterNav>
         <FooterNavList>
           <FooterNavListItem>
-            <Link>Instructions</Link>
+            <Link as={RouterLink} to={ROUTES.INSTRUCTIONS}>
+              Instructions
+            </Link>
           </FooterNavListItem>
           <FooterNavListItem>
             <Link>Play with your viewers</Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            Inspired by <Link>Faberstein</Link>
+            Inspired by{" "}
+            <Link href="https://twitch.tv/faberstein">Faberstein</Link>
           </FooterNavListItem>
           <FooterNavListItem>
             <Link>About/Code</Link>
