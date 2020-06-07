@@ -1,0 +1,26 @@
+{
+  "projectName": "name-the-gwent-card",
+  "projectOwner": "Zhouzi",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "Zhouzi",
+      "name": "Gabin Aureche",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2291025?v=4",
+      "profile": "http://gabinaureche.com",
+      "contributions": [
+        "code",
+        "doc",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

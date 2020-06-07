@@ -1,25 +1,31 @@
 # Contributing
 
-This project uses [create-react-app](https://create-react-app.dev/).
+Thanks for your interest in contributing to this project.
+There are a few ways you can help:
 
-- Installation: `npm install`
-- Start: `npm start`
+- [Report a bug](#report-a-bug)
+- [Suggest a feature](#suggest-a-feature)
+- [Fix a bug](#fix-a-bug)
+- [Implement a feature](#implement-a-feature)
 
-## TODOs
+## Report a bug
 
-Below is a list of things that could be improved, splitted into different categories.
+Do not hesitate to create an issue if you found a bug.
 
-### Design
+## Suggest a feature
 
-- [ ] Pressing enter when the autocomplete is open should select the first item. Also, perhaps it should display a "No results" when there are no results. It'd make the autocomplete friendlier.
-- [ ] The lifebar should be green when full, orange when reaching 50% and red when reaching 25%.
-- [ ] Extract the colors into a theme and make sense of them. I liked the freedom of using colors without thinking too much about it in the beginning. But now they're all over the place. They can probably reduced to a smaller number that makes sense.
-- [ ] Improve the design system's components reusability. Laziness led me to add margins to some reusable components, which makes them not so reusable. The thing is that there are still some places where they need a margin. [styled-system](https://styled-system.com/) could come handy here.
+You can also create an issue if you have an idea on how to improve this project.
 
-### Clean code
+## Fix a bug
 
-- [ ] Make the relation between cards and messages tighter. Currently, it's unclear when looking at the code that cards and messages are tightly related. It should not be possible to add a locale without the corresponding cards. A possible fix could be to isolate them in a localization folder.
+You can have a look at the existing issues to find bugs that need fixing.
+Once you found something, you will have to [create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) with your fix.
 
-### Developer Experience
+Have a look at the [README's installation](./README.md#installation) instructions to get a development version of this project running on your machine.
 
-- [ ] Configure GitHub actions to run ESLint.
+## Implement a feature
+
+Feature requests also come in the form of issues.
+If you find anything of interest, feel free to [create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) with your changes.
+
+Have a look at the [README's installation](./README.md#installation) instructions to get a development version of this project running on your machine.
