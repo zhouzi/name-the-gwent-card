@@ -1,4 +1,11 @@
 import styled from "styled-components";
+import { Paragraph } from "./Paragraph";
+
+export const ButtonList = styled(Paragraph).attrs({ variant: "text" })`
+  & > *:not(:last-child) {
+    margin-right: 0.4rem;
+  }
+`;
 
 export const Button = styled.button`
   color: inherit;
