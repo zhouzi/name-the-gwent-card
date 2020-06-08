@@ -58,7 +58,7 @@ const AutocompleteContainer = styled.div`
 `;
 
 export function PhaseInProgress({ gameState, dispatch }: Props) {
-  const { fuse } = useLocaleContext();
+  const { fuse, cards } = useLocaleContext();
   const difficulty = DIFFICULTIES.find(
     (otherDifficulty) =>
       otherDifficulty.difficultyLevel === gameState.difficultyLevel
@@ -175,14 +175,22 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                 ) : (
                   <>
                     <Heading>Nope.</Heading>
-                    {currentQuestionAnswer.id == null ? (
+                    {currentQuestionAnswer.id == null ||
+                    cards.find(
+                      (card) => card.id === currentQuestionAnswer.id
+                    ) == null ? (
                       <Paragraph>
                         This card is named {currentQuestion.card.localizedName}.
                       </Paragraph>
                     ) : (
                       <Paragraph>
-                        This card is not named {currentQuestionAnswer.id} but{" "}
-                        {currentQuestion.card.localizedName}.
+                        This card is not named{" "}
+                        {
+                          cards.find(
+                            (card) => card.id === currentQuestionAnswer.id
+                          )!.localizedName
+                        }{" "}
+                        but {currentQuestion.card.localizedName}.
                       </Paragraph>
                     )}
                   </>
