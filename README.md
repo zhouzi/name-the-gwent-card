@@ -1,11 +1,5 @@
 # name-the-gwent-card
 
-You will be shown a random Gwent card with visual effects applied to it. Your goal is to name it within a limited time.
-
-- [Play](https://gau.re/ntgc)
-
-This is an unofficial fan work under the [Gwent Fan Content Guidelines](https://www.playgwent.com/en/fan-content). Not approved/endorsed by CD PROJEKT RED.
-
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./CODE_OF_CONDUCT.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -15,6 +9,12 @@ This is an unofficial fan work under the [Gwent Fan Content Guidelines](https://
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+In this mini game, your goal is to name a random Gwent card from its illustration.
+
+- [Play](https://gau.re/ntgc)
+
+_This is an unofficial fan work under the [Gwent Fan Content Guidelines](https://www.playgwent.com/en/fan-content). Not approved/endorsed by CD PROJEKT RED._
 
 ## Credits
 
