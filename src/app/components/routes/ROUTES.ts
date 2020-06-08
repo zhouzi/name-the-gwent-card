@@ -1,4 +1,4 @@
 export const ROUTES = {
   INSTRUCTIONS: "/",
-  PLAY: "/play/:questions",
+  PLAY: "/play/:gameRules",
 };

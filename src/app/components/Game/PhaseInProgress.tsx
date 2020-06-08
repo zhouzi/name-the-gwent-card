@@ -2,7 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Downshift from "downshift";
 import { useLocaleContext } from "app/i18n";
-import { GameState, Action } from "app/GameState";
+import { GameState, Action, DIFFICULTIES } from "app/GameState";
 import {
   Container,
   Panel,
@@ -53,6 +53,10 @@ const QuestionFooter = styled(Footer)`
 
 export function PhaseInProgress({ gameState, dispatch }: Props) {
   const { fuse } = useLocaleContext();
+  const difficulty = DIFFICULTIES.find(
+    (otherDifficulty) =>
+      otherDifficulty.difficultyLevel === gameState.difficultyLevel
+  )!;
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
   const currentQuestionAnswer =
     gameState.answers[gameState.currentQuestionIndex];
@@ -77,7 +81,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
         <CardWithVisualEffects
           card={currentQuestion.card}
           visualEffects={
-            currentQuestionAnswer == null ? currentQuestion.visualEffects : []
+            currentQuestionAnswer == null ? difficulty.visualEffects : []
           }
         />
         <QuestionPanelContainer>

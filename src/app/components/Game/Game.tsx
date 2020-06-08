@@ -13,11 +13,11 @@ const PHASES = {
 };
 
 export function Game() {
-  const { questions } = useParams<{ questions: string }>();
+  const { gameRules } = useParams<{ gameRules: string }>();
   const { cards } = useLocaleContext();
   const [gameState, dispatch] = React.useReducer(
     reducer,
-    getInitialState(deserialize(questions, cards))
+    getInitialState(deserialize(gameRules, cards))
   );
   const CurrentPhase = PHASES[gameState.phase];
 

@@ -66,10 +66,7 @@ export type VisualEffect =
 
 export interface Question {
   card: GwentCard;
-  visualEffects: VisualEffect[];
 }
-
-type CompressedQuestion = [number, VisualEffect[]];
 
 export interface Answer {
   id: number | null;
@@ -77,11 +74,19 @@ export interface Answer {
 }
 
 export interface GameState {
+  difficultyLevel: DifficultyLevel;
   phase: "loading" | "inProgress" | "gameOver";
   currentQuestionIndex: number;
   questions: Question[];
   answers: Answer[];
 }
+
+interface GameRules {
+  difficultyLevel: DifficultyLevel;
+  questions: Question[];
+}
+
+type CompressedGameRules = [DifficultyLevel, number[]];
 
 function getRandomCards(
   cards: GwentCard[],
@@ -101,54 +106,53 @@ function getRandomCards(
   return getRandomCards(cards, length, acc.concat([randomCard]));
 }
 
-export function createQuestions(
-  cards: GwentCard[],
-  difficultyLevel: DifficultyLevel
-): Question[] {
-  const difficulty = DIFFICULTIES.find(
-    (otherDifficulty) => otherDifficulty.difficultyLevel === difficultyLevel
-  )!;
-
+export function createQuestions(cards: GwentCard[]): Question[] {
   return getRandomCards(cards, 10).map((card) => ({
     card,
-    visualEffects: difficulty.visualEffects,
   }));
 }
 
-export function serialize(questions: Question[]): string {
-  const compressedQuestions: CompressedQuestion[] = questions.map(
-    (question) => [question.card.id, question.visualEffects]
-  );
+export function serialize(gameRules: GameRules): string {
+  const compressedGameState: CompressedGameRules = [
+    gameRules.difficultyLevel,
+    gameRules.questions.map((question) => question.card.id),
+  ];
   return lzString.compressToEncodedURIComponent(
-    JSON.stringify(compressedQuestions)
+    JSON.stringify(compressedGameState)
   );
 }
 
-export function deserialize(questions: string, cards: GwentCard[]): Question[] {
-  const compressedQuestions: CompressedQuestion[] = JSON.parse(
+export function deserialize(
+  serializedCompressedGameRules: string,
+  cards: GwentCard[]
+): GameRules {
+  const compressedGameRules: CompressedGameRules = JSON.parse(
     // This function is fragile on purpose, we want it to throw an error
     // if there's an issue with the serialized string.
-    lzString.decompressFromEncodedURIComponent(questions)!
+    lzString.decompressFromEncodedURIComponent(serializedCompressedGameRules)!
   );
-  return compressedQuestions.map(([id, visualEffects]) => {
-    const card = cards.find((card) => card.id === id);
+  return {
+    difficultyLevel: compressedGameRules[0],
+    questions: compressedGameRules[1].map((id) => {
+      const card = cards.find((card) => card.id === id);
 
-    if (card == null) {
-      throw new Error(`No cards with id ${id} found.`);
-    }
+      if (card == null) {
+        throw new Error(`No cards with id ${id} found.`);
+      }
 
-    return {
-      card,
-      visualEffects,
-    };
-  });
+      return {
+        card,
+      };
+    }),
+  };
 }
 
-export function getInitialState(questions: Question[]): GameState {
+export function getInitialState(gameRules: GameRules): GameState {
   return {
+    difficultyLevel: gameRules.difficultyLevel,
     phase: "loading",
     currentQuestionIndex: 0,
-    questions,
+    questions: gameRules.questions,
     answers: [],
   };
 }
