@@ -18,6 +18,7 @@ import {
   AutocompleteListItem,
 } from "design/components";
 import { CardWithVisualEffects } from "./CardWithVisualEffects";
+import { CardHints } from "./CardHints";
 import { Footer } from "../Footer";
 
 interface Props {
@@ -49,6 +50,11 @@ const QuestionFooter = styled(Footer)`
     ${(props) => props.theme.spacing.large} +
       ${(props) => props.theme.spacing.normal}
   );
+`;
+
+const AutocompleteContainer = styled.div`
+  position: relative;
+  margin-bottom: ${(props) => props.theme.spacing.normal};
 `;
 
 export function PhaseInProgress({ gameState, dispatch }: Props) {
@@ -115,8 +121,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                       What is the name of this card?
                     </Heading>
                     <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
-                    <div
-                      style={{ position: "relative" }}
+                    <AutocompleteContainer
                       {...getRootProps(
                         { refKey: "ref" },
                         { suppressRefError: true }
@@ -151,7 +156,10 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                               </AutocompleteListItem>
                             ))}
                       </AutocompleteList>
-                    </div>
+                    </AutocompleteContainer>
+                    {difficulty.hints && (
+                      <CardHints card={currentQuestion.card} />
+                    )}
                   </form>
                 )}
               </Downshift>

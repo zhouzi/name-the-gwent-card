@@ -4,4 +4,8 @@ interface GwentCard {
   previewImg: {
     big: string;
   };
+  faction: {
+    slug: string;
+  };
+  cardGroup: string;
 }
