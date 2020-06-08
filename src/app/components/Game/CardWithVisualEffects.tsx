@@ -14,7 +14,9 @@ const ImageContainer = styled.div`
   width: ${BIG_PREVIEW_IMG_SIZE.width}px;
   height: ${BIG_PREVIEW_IMG_SIZE.height}px;
   transform: rotateY(-5deg);
+  background-color: ${(props) => props.theme.colors.background.dark};
   box-shadow: 12px 12px 30px ${(props) => props.theme.colors.background.dark};
+  overflow: hidden;
 `;
 
 const ImageFrame = styled.div`
@@ -61,6 +63,11 @@ export function CardWithVisualEffects({
                     BIG_PREVIEW_IMG_SIZE.width * visualEffect.zoom
                   }px ${BIG_PREVIEW_IMG_SIZE.height * visualEffect.zoom}px`,
                   backgroundPosition: "center center",
+                };
+              case "blur":
+                return {
+                  ...acc,
+                  filter: `blur(${visualEffect.blur}px)`,
                 };
               default:
                 return acc;

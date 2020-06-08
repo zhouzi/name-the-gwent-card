@@ -43,17 +43,26 @@ export const DIFFICULTIES: Difficulty[] = [
     visualEffects: [
       {
         type: "zoom",
-        zoom: 8,
+        zoom: 5,
+      },
+      {
+        type: "blur",
+        blur: 8,
       },
     ],
     hints: false,
   },
 ];
 
-export type VisualEffect = {
-  type: "zoom";
-  zoom: number;
-};
+export type VisualEffect =
+  | {
+      type: "zoom";
+      zoom: number;
+    }
+  | {
+      type: "blur";
+      blur: number;
+    };
 
 export interface Question {
   card: GwentCard;
