@@ -3,6 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Paragraph, Link } from "design/components";
+import { useLocaleContext, SUPPORTED_LOCALES, SupportedLocale } from "app/i18n";
 import { ROUTES } from "./routes";
 
 const FooterContainer = styled.footer`
@@ -29,7 +30,15 @@ const FooterNavListItem = styled.li`
   }
 `;
 
+const LocaleItem = styled.span`
+  &:not(:last-child)::after {
+    content: " / ";
+  }
+`;
+
 export function Footer(props: {}) {
+  const { locale, onChangeLocale } = useLocaleContext();
+
   return (
     <FooterContainer {...props}>
       <FooterNav>
@@ -60,7 +69,23 @@ export function Footer(props: {}) {
             </Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            en / <Link>fr</Link>
+            {(Object.keys(SUPPORTED_LOCALES) as SupportedLocale[]).map(
+              (otherLocale) => (
+                <LocaleItem key={otherLocale}>
+                  {otherLocale === locale ? (
+                    otherLocale
+                  ) : (
+                    <Link
+                      as="button"
+                      type="button"
+                      onClick={() => onChangeLocale(otherLocale)}
+                    >
+                      {otherLocale}
+                    </Link>
+                  )}
+                </LocaleItem>
+              )
+            )}
           </FooterNavListItem>
         </FooterNavList>
       </FooterNav>

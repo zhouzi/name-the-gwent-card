@@ -5,7 +5,7 @@ import * as fr from "./fr";
 
 export type SupportedLocale = "en" | "fr";
 
-const SUPPORTED_LOCALES: Record<
+export const SUPPORTED_LOCALES: Record<
   SupportedLocale,
   {
     messages: Record<string, string>;

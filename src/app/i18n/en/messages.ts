@@ -29,5 +29,6 @@ export const messages = {
   lost: "Nope.",
   butCardNamed:
     "This card is not named {wrongLocalizedName} but {correctLocalizedName}.",
-  breakTimeLeft: "{seconds} left before the next question (<a>skip</a>).",
+  breakTimeLeft:
+    "{seconds} seconds left before the next question (<a>skip</a>).",
 };
