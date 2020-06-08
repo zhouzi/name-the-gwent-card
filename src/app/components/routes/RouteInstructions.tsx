@@ -9,6 +9,7 @@ import {
   List,
   ListItem,
   InputRadio,
+  Link,
 } from "design/components";
 import {
   createQuestions,
@@ -33,8 +34,11 @@ export function RouteInstructions() {
         <Heading>Instructions</Heading>
         <Paragraph>
           In this mini game, your goal is to name a random Gwent card from its
-          illustration. The cards used in this game come from Team Leviathan's
-          latest meta report. It's a great way to improve while having fun!
+          illustration. The cards used in this game come from{" "}
+          <Link href="https://teamleviathangaming.com/">Team Leviathan</Link>
+          's latest{" "}
+          <Link href="https://teamleviathangaming.com/meta/">meta report</Link>.
+          It's a great way to improve while having fun!
         </Paragraph>
         <List spacingBottom="large">
           {DIFFICULTIES.map((difficulty) => (
