@@ -63,7 +63,7 @@ export function PhaseGameOver(props: Props) {
           >
             <FormattedMessage id="tweet" />
           </Button>
-          <Button as={Link} to={ROUTES.INSTRUCTIONS}>
+          <Button as={Link} to={ROUTES.SOLO}>
             <FormattedMessage id="playAgain" />
           </Button>
         </ButtonList>

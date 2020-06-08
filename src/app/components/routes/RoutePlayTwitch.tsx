@@ -4,9 +4,12 @@ import { useLocaleContext } from "app/i18n";
 import { deserialize } from "app/GameState";
 import { Game } from "../Game";
 
-export function RoutePlay() {
-  const { gameRules } = useParams<{ gameRules: string }>();
+export function RoutePlayTwitch() {
+  const { channel, gameRules } = useParams<{
+    channel: string;
+    gameRules: string;
+  }>();
   const { cards } = useLocaleContext();
 
-  return <Game gameRules={deserialize(gameRules, cards)} />;
+  return <Game channel={channel} gameRules={deserialize(gameRules, cards)} />;
 }

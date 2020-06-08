@@ -10,7 +10,7 @@ export function LocaleButton() {
   const intl = useIntl();
   const history = useHistory();
   const match = useRouteMatch<{ gameRules: string }>({
-    path: ROUTES.PLAY,
+    path: ROUTES.SOLO_PLAY,
     exact: true,
   });
 
@@ -29,7 +29,7 @@ export function LocaleButton() {
         ) {
           // I'm too lazy to do it right, sorry.
           onChangeLocale(intl.locale as SupportedLocale);
-          history.push(generatePath(ROUTES.INSTRUCTIONS));
+          history.push(generatePath(ROUTES.SOLO));
           return;
         }
 

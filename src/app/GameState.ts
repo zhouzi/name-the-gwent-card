@@ -81,7 +81,7 @@ export interface GameState {
   answers: Answer[];
 }
 
-interface GameRules {
+export interface GameRules {
   difficultyLevel: DifficultyLevel;
   questions: Question[];
 }
@@ -179,6 +179,17 @@ export function reducer(gameState: GameState, action: Action): GameState {
 
     case "answer": {
       if (gameState.currentQuestionIndex === gameState.answers.length) {
+        if (
+          action.username &&
+          action.id !==
+            gameState.questions[gameState.currentQuestionIndex].card.id
+        ) {
+          debug(
+            `${action.username} from the Twitch chat made a mistake, they're forgiven`
+          );
+          return gameState;
+        }
+
         return {
           ...gameState,
           answers: gameState.answers.concat([

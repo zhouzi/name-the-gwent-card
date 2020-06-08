@@ -43,12 +43,12 @@ export function Footer(props: {}) {
       <FooterNav>
         <FooterNavList>
           <FooterNavListItem>
-            <Link as={RouterLink} to={ROUTES.INSTRUCTIONS}>
+            <Link as={RouterLink} to={ROUTES.SOLO}>
               <FormattedMessage id="instructions" />
             </Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            <Link>
+            <Link as={RouterLink} to={ROUTES.TWITCH}>
               <FormattedMessage id="playWithTwitchChat" />
             </Link>
           </FooterNavListItem>

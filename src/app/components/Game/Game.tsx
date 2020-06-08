@@ -1,10 +1,13 @@
 import * as React from "react";
-import { useParams } from "react-router-dom";
-import { reducer, deserialize, getInitialState } from "app/GameState";
+import createDebug from "debug";
+import { Client } from "tmi.js";
+import { reducer, getInitialState, GameRules } from "app/GameState";
 import { useLocaleContext } from "app/i18n";
 import { PhaseGameOver } from "./PhaseGameOver";
 import { PhaseInProgress } from "./PhaseInProgress";
 import { PhaseLoading } from "./PhaseLoading";
+
+const debug = createDebug("Game");
 
 const PHASES = {
   loading: PhaseLoading,
@@ -12,14 +15,65 @@ const PHASES = {
   gameOver: PhaseGameOver,
 };
 
-export function Game() {
-  const { gameRules } = useParams<{ gameRules: string }>();
-  const { cards } = useLocaleContext();
+interface GameProps {
+  channel?: string;
+  gameRules: GameRules;
+}
+
+export function Game({ channel, gameRules }: GameProps) {
+  const { fuse } = useLocaleContext();
   const [gameState, dispatch] = React.useReducer(
     reducer,
-    getInitialState(deserialize(gameRules, cards))
+    getInitialState(gameRules)
   );
   const CurrentPhase = PHASES[gameState.phase];
+
+  React.useEffect(() => {
+    if (channel == null) {
+      return;
+    }
+
+    const client = Client({
+      options: {
+        debug: process.env.NODE_ENV === "development",
+      },
+      connection: {
+        secure: true,
+        reconnect: true,
+      },
+      channels: [channel],
+    });
+
+    client.connect();
+
+    client.on("message", (channel, userstate, message) => {
+      const bestMatch = fuse.search(message)[0];
+
+      if (
+        bestMatch == null ||
+        bestMatch.score == null ||
+        bestMatch.score > 0.4
+      ) {
+        debug(
+          `${userstate["display-name"]} made an attempt that didn't find a close match`
+        );
+        return;
+      }
+
+      debug(
+        `${userstate["display-name"]}'s attempt has a close match, their answer has been submitted`
+      );
+      dispatch({
+        type: "answer",
+        username: userstate["display-name"] || null,
+        id: bestMatch.item.id,
+      });
+    });
+
+    return () => {
+      client.disconnect();
+    };
+  }, [channel, dispatch, fuse]);
 
   return <CurrentPhase gameState={gameState} dispatch={dispatch} />;
 }

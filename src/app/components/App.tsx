@@ -8,7 +8,13 @@ import {
   Provider as LocaleContextProvider,
   Consumer as LocaleContextConsumer,
 } from "app/i18n";
-import { ROUTES, RouteInstructions, RoutePlay } from "./routes";
+import {
+  ROUTES,
+  RouteInstructions,
+  RoutePlay,
+  RouteInstructionsTwitch,
+  RoutePlayTwitch,
+} from "./routes";
 
 export function App() {
   return (
@@ -21,13 +27,19 @@ export function App() {
                 <GlobalStyle />
                 <FireSparks />
                 <Switch>
-                  <Route path={ROUTES.INSTRUCTIONS} exact={true}>
+                  <Route path={ROUTES.SOLO} exact={true}>
                     <RouteInstructions />
                   </Route>
-                  <Route path={ROUTES.PLAY} exact={true}>
+                  <Route path={ROUTES.SOLO_PLAY} exact={true}>
                     <RoutePlay />
                   </Route>
-                  <Redirect to={ROUTES.INSTRUCTIONS} />
+                  <Route path={ROUTES.TWITCH} exact={true}>
+                    <RouteInstructionsTwitch />
+                  </Route>
+                  <Route path={ROUTES.TWITCH_PLAY} exact={true}>
+                    <RoutePlayTwitch />
+                  </Route>
+                  <Redirect to={ROUTES.SOLO} />
                 </Switch>
               </IntlProvider>
             )}

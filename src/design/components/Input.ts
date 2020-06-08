@@ -31,3 +31,16 @@ export const Input = styled.input`
     color: ${(props) => props.theme.colors.text.light};
   }
 `;
+
+interface InputHintProps {
+  variant?: "text" | "error";
+}
+
+export const InputHint = styled.div<InputHintProps>`
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: ${(props) =>
+    props.variant === "error"
+      ? props.theme.colors.danger.main
+      : props.theme.colors.text.main};
+`;

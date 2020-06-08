@@ -76,7 +76,7 @@ export function RouteInstructions() {
           type="button"
           onClick={() => {
             history.push(
-              generatePath(ROUTES.PLAY, {
+              generatePath(ROUTES.SOLO_PLAY, {
                 gameRules: serialize({
                   difficultyLevel,
                   questions: createQuestions(cards),

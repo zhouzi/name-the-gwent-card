@@ -33,4 +33,9 @@ export const messages = {
     "{seconds} secondes restantes avant la question suivante (<a>passer</a>).",
   changeLocaleWhilePlaying:
     "Afin de changer la langue actuelle, le jeu doit être redémarré. Souhaites-tu changer la langue et redémarrer le jeu ?",
+  gameInstructionsTwitchChat:
+    "Les règles sont les mêmes. La seule différence c'est que tes spectateurs peuvent participer en soumettant leur réponse dans ton chat Twitch. Le nom du vainqueur apparaîtra à l'écran.",
+  channelRequired: "Ta chaîne Twitch est requise pour se connecter à ton chat.",
+  twitchError:
+    "La connexion à ton chat Twitch a échoué. Es-tu sûr d'avoir saisi ta chaîne correctement ?",
 };

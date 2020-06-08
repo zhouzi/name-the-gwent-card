@@ -33,4 +33,9 @@ export const messages = {
     "{seconds} seconds left before the next question (<a>skip</a>).",
   changeLocaleWhilePlaying:
     "In order to change the current language, the game has to be restarted. Do you want to change the language and restart the game?",
+  gameInstructionsTwitchChat:
+    "The rules are the same. The only difference is that your viewers can participate by submitting their answers to your Twitch chat. The winner's username will appear on screen.",
+  channelRequired: "Your Twitch channel is required to connect to your chat.",
+  twitchError:
+    "Could not connect to your Twitch chat. Are you sure that you have entered your channel correctly?",
 };
