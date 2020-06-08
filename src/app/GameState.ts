@@ -102,10 +102,7 @@ export function createQuestions(
 
   return getRandomCards(cards, 10).map((card) => ({
     card,
-    visualEffects:
-      difficulty.visualEffects.length > 0
-        ? [randomItem(difficulty.visualEffects)]
-        : [],
+    visualEffects: difficulty.visualEffects,
   }));
 }
 
@@ -122,7 +119,7 @@ export function deserialize(questions: string, cards: GwentCard[]): Question[] {
   const compressedQuestions: CompressedQuestion[] = JSON.parse(
     // This function is fragile on purpose, we want it to throw an error
     // if there's an issue with the serialized string.
-    lzString.decompressFromEncodedURIComponent(questions) as string
+    lzString.decompressFromEncodedURIComponent(questions)!
   );
   return compressedQuestions.map(([id, visualEffects]) => {
     const card = cards.find((card) => card.id === id);
