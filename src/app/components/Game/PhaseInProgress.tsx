@@ -180,28 +180,25 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                         {currentQuestion.card.localizedName}.
                       </Paragraph>
                     )}
-                    <Paragraph variant="hint">
-                      <SecondsLeft
-                        duration={15000}
-                        onTimeout={onBreakTimeout}
-                      />{" "}
-                      seconds left before the next question (
-                      <Link
-                        as="button"
-                        type="button"
-                        onClick={() =>
-                          dispatch({
-                            type: "nextQuestion",
-                          })
-                        }
-                        autoFocus
-                      >
-                        skip
-                      </Link>
-                      ).
-                    </Paragraph>
                   </>
                 )}
+                <Paragraph variant="hint">
+                  <SecondsLeft duration={15000} onTimeout={onBreakTimeout} />{" "}
+                  seconds left before the next question (
+                  <Link
+                    as="button"
+                    type="button"
+                    onClick={() =>
+                      dispatch({
+                        type: "nextQuestion",
+                      })
+                    }
+                    autoFocus
+                  >
+                    skip
+                  </Link>
+                  ).
+                </Paragraph>
               </>
             )}
           </QuestionPanel>
