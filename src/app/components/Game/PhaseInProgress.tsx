@@ -1,6 +1,5 @@
 import * as React from "react";
 import styled from "styled-components";
-import Fuse from "fuse.js";
 import Downshift from "downshift";
 import { useLocaleContext } from "app/i18n";
 import { GameState, Action } from "app/GameState";
@@ -20,13 +19,6 @@ import {
 } from "design/components";
 import { CardWithVisualEffects } from "./CardWithVisualEffects";
 import { Footer } from "../Footer";
-
-const FUSE_OPTIONS = {
-  keys: ["localizedName"],
-  includeScore: true,
-  minMatchCharLength: 3,
-  shouldSort: true,
-};
 
 interface Props {
   gameState: GameState;
@@ -60,11 +52,10 @@ const QuestionFooter = styled(Footer)`
 `;
 
 export function PhaseInProgress({ gameState, dispatch }: Props) {
-  const { cards } = useLocaleContext();
+  const { fuse } = useLocaleContext();
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
   const currentQuestionAnswer =
     gameState.answers[gameState.currentQuestionIndex];
-  const fuse = React.useMemo(() => new Fuse(cards, FUSE_OPTIONS), [cards]);
 
   const onQuestionTimeout = React.useCallback(() => {
     dispatch({

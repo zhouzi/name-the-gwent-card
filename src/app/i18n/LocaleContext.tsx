@@ -1,23 +1,37 @@
 import * as React from "react";
+import Fuse from "fuse.js";
 import * as en from "./en";
 import * as fr from "./fr";
 
-const SUPPORTED_LOCALES = {
+export type SupportedLocale = "en" | "fr";
+
+const SUPPORTED_LOCALES: Record<
+  SupportedLocale,
+  {
+    messages: Record<string, string>;
+    cards: GwentCard[];
+  }
+> = {
   en,
   fr,
 };
 
-export type SupportedLocale = keyof typeof SUPPORTED_LOCALES;
+const FUSE_OPTIONS = {
+  keys: ["localizedName"],
+  includeScore: true,
+  minMatchCharLength: 3,
+  shouldSort: true,
+};
 
 export interface LocaleContextContainer {
   locale: SupportedLocale;
   cards: GwentCard[];
+  fuse: Fuse<GwentCard, typeof FUSE_OPTIONS>;
   onChangeLocale: (locale: SupportedLocale) => void;
 }
 
 const LocaleContext = React.createContext<LocaleContextContainer>({
-  locale: "en",
-  cards: SUPPORTED_LOCALES.en.cards,
+  ...getState("en"),
   onChangeLocale: () => {},
 });
 
@@ -25,25 +39,32 @@ interface Props {
   children: React.ReactNode;
 }
 
+interface State {
+  locale: SupportedLocale;
+  cards: GwentCard[];
+  fuse: Fuse<GwentCard, typeof FUSE_OPTIONS>;
+}
+
+function getState(locale: SupportedLocale): State {
+  const cards = SUPPORTED_LOCALES[locale].cards;
+  const fuse = new Fuse(cards, FUSE_OPTIONS);
+
+  return {
+    locale,
+    cards,
+    fuse,
+  };
+}
+
 export function Provider({ children }: Props) {
-  const [state, setState] = React.useState<{
-    locale: SupportedLocale;
-    cards: GwentCard[];
-  }>({
-    locale: "en",
-    cards: SUPPORTED_LOCALES.en.cards,
-  });
+  const [state, setState] = React.useState<State>(() => getState("en"));
 
   return (
     <LocaleContext.Provider
       value={{
         ...state,
-        onChangeLocale: (locale) => {
-          setState((currentState) => ({
-            ...currentState,
-            locale,
-            cards: SUPPORTED_LOCALES[locale].cards,
-          }));
+        onChangeLocale: (locale: SupportedLocale) => {
+          setState(getState(locale));
         },
       }}
     >
