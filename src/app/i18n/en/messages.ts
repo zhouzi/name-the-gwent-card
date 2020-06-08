@@ -9,7 +9,7 @@ export const messages = {
   inspiredBy: "Inspired by <a>Faberstein</a>",
   aboutCode: "About/Code",
   disclaimer:
-    "This is an unofficial fan work under the Gwent Fan Content Guidelines. Not approved/endorsed by CD PROJEKT RED.",
+    "This is an unofficial fan work under the <a>Gwent Fan Content Guidelines</a>. Not approved/endorsed by CD PROJEKT RED.",
   hint: "Hint",
   hintCardGroup: "This is a {cardGroup} card",
   hintFaction: "owned by {faction}",

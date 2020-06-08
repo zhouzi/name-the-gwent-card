@@ -3,7 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Paragraph, Link } from "design/components";
-import { SUPPORTED_LOCALES, SupportedLocale } from "app/i18n";
+import { SUPPORTED_LOCALES, SupportedLocale, useLocaleContext } from "app/i18n";
 import { ROUTES } from "./routes";
 import { LocaleButton } from "./LocaleButton";
 
@@ -38,6 +38,8 @@ const LocaleItem = styled.span`
 `;
 
 export function Footer(props: {}) {
+  const { locale } = useLocaleContext();
+
   return (
     <FooterContainer {...props}>
       <FooterNav>
@@ -85,7 +87,16 @@ export function Footer(props: {}) {
         </FooterNavList>
       </FooterNav>
       <Paragraph>
-        <FormattedMessage id="disclaimer" />
+        <FormattedMessage
+          id="disclaimer"
+          values={{
+            a: (children: string) => (
+              <Link href={`https://www.playgwent.com/${locale}/fan-content`}>
+                {children}
+              </Link>
+            ),
+          }}
+        />
       </Paragraph>
     </FooterContainer>
   );
