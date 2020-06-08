@@ -4,6 +4,37 @@ import lzString from "lz-string";
 
 const debug = createDebug("GameState");
 
+export type DifficultyLevel = "easy" | "medium" | "hard" | "extreme";
+
+export interface Difficulty {
+  difficultyLevel: DifficultyLevel;
+  visualEffects: VisualEffect[];
+  hints: boolean;
+}
+
+export const DIFFICULTIES: Difficulty[] = [
+  {
+    difficultyLevel: "easy",
+    visualEffects: [],
+    hints: true,
+  },
+  {
+    difficultyLevel: "medium",
+    visualEffects: [],
+    hints: false,
+  },
+  {
+    difficultyLevel: "hard",
+    visualEffects: [],
+    hints: false,
+  },
+  {
+    difficultyLevel: "extreme",
+    visualEffects: [],
+    hints: false,
+  },
+];
+
 export type VisualEffect = {
   type: "zoom";
   zoom: number;
@@ -46,7 +77,10 @@ function getRandomCards(
   return getRandomCards(cards, length, acc.concat([randomCard]));
 }
 
-export function createQuestions(cards: GwentCard[]): Question[] {
+export function createQuestions(
+  cards: GwentCard[],
+  difficultyLevel: DifficultyLevel
+): Question[] {
   return getRandomCards(cards, 10).map((card) => ({
     card,
     visualEffects: [],

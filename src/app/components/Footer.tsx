@@ -39,7 +39,7 @@ export function Footer(props: {}) {
             </Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            <Link>Play with your viewers</Link>
+            <Link>Play with your Twitch chat</Link>
           </FooterNavListItem>
           <FooterNavListItem>
             Inspired by{" "}
