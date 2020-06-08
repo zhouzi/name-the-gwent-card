@@ -31,4 +31,6 @@ export const messages = {
     "Cette carte ne s'appelle pas {wrongLocalizedName} mais {correctLocalizedName}.",
   breakTimeLeft:
     "{seconds} secondes restantes avant la question suivante (<a>passer</a>).",
+  changeLocaleWhilePlaying:
+    "Afin de changer la langue actuelle, le jeu doit être redémarré. Souhaites-tu changer la langue et redémarrer le jeu ?",
 };

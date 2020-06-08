@@ -1,10 +1,11 @@
 import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
-import { FormattedMessage } from "react-intl";
+import { IntlProvider, FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Paragraph, Link } from "design/components";
-import { useLocaleContext, SUPPORTED_LOCALES, SupportedLocale } from "app/i18n";
+import { SUPPORTED_LOCALES, SupportedLocale } from "app/i18n";
 import { ROUTES } from "./routes";
+import { LocaleButton } from "./LocaleButton";
 
 const FooterContainer = styled.footer`
   font-size: 0.9rem;
@@ -37,8 +38,6 @@ const LocaleItem = styled.span`
 `;
 
 export function Footer(props: {}) {
-  const { locale, onChangeLocale } = useLocaleContext();
-
   return (
     <FooterContainer {...props}>
       <FooterNav>
@@ -71,19 +70,15 @@ export function Footer(props: {}) {
           <FooterNavListItem>
             {(Object.keys(SUPPORTED_LOCALES) as SupportedLocale[]).map(
               (otherLocale) => (
-                <LocaleItem key={otherLocale}>
-                  {otherLocale === locale ? (
-                    otherLocale
-                  ) : (
-                    <Link
-                      as="button"
-                      type="button"
-                      onClick={() => onChangeLocale(otherLocale)}
-                    >
-                      {otherLocale}
-                    </Link>
-                  )}
-                </LocaleItem>
+                <IntlProvider
+                  key={otherLocale}
+                  locale={otherLocale}
+                  messages={SUPPORTED_LOCALES[otherLocale].messages}
+                >
+                  <LocaleItem>
+                    <LocaleButton />
+                  </LocaleItem>
+                </IntlProvider>
               )
             )}
           </FooterNavListItem>

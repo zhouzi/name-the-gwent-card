@@ -31,4 +31,6 @@ export const messages = {
     "This card is not named {wrongLocalizedName} but {correctLocalizedName}.",
   breakTimeLeft:
     "{seconds} seconds left before the next question (<a>skip</a>).",
+  changeLocaleWhilePlaying:
+    "In order to change the current language, the game has to be restarted. Do you want to change the language and restart the game?",
 };
