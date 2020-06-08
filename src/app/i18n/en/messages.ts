@@ -25,6 +25,7 @@ export const messages = {
   placeholder: "Name this card...",
   submit: "Submit",
   won: "Congrats!",
+  wonUsername: "Congrats {username}!",
   cardNamed: "This card is named {localizedName}.",
   lost: "Nope.",
   butCardNamed:

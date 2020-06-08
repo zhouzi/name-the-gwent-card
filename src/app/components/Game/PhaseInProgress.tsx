@@ -174,7 +174,14 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                 {currentQuestionAnswer.id === currentQuestion.card.id ? (
                   <>
                     <Heading>
-                      <FormattedMessage id="won" />
+                      {currentQuestionAnswer.username ? (
+                        <FormattedMessage
+                          id="wonUsername"
+                          values={{ username: currentQuestionAnswer.username }}
+                        />
+                      ) : (
+                        <FormattedMessage id="won" />
+                      )}
                     </Heading>
                     <Paragraph>
                       <FormattedMessage

@@ -25,6 +25,7 @@ export const messages = {
   placeholder: "Nomme cette carte...",
   submit: "Envoyer",
   won: "Bravo !",
+  wonUsername: "Bravo {username} !",
   cardNamed: "Cette carte s'appelle {localizedName}.",
   lost: "Nope.",
   butCardNamed:
