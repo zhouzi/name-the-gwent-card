@@ -76,7 +76,9 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
       <QuestionContainer>
         <CardWithVisualEffects
           card={currentQuestion.card}
-          visualEffects={currentQuestion.visualEffects}
+          visualEffects={
+            currentQuestionAnswer == null ? currentQuestion.visualEffects : []
+          }
         />
         <QuestionPanelContainer>
           <QuestionPanel>

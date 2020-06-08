@@ -20,17 +20,32 @@ export const DIFFICULTIES: Difficulty[] = [
   },
   {
     difficultyLevel: "medium",
-    visualEffects: [],
+    visualEffects: [
+      {
+        type: "zoom",
+        zoom: 2,
+      },
+    ],
     hints: false,
   },
   {
     difficultyLevel: "hard",
-    visualEffects: [],
+    visualEffects: [
+      {
+        type: "zoom",
+        zoom: 5,
+      },
+    ],
     hints: false,
   },
   {
     difficultyLevel: "extreme",
-    visualEffects: [],
+    visualEffects: [
+      {
+        type: "zoom",
+        zoom: 8,
+      },
+    ],
     hints: false,
   },
 ];
@@ -81,9 +96,16 @@ export function createQuestions(
   cards: GwentCard[],
   difficultyLevel: DifficultyLevel
 ): Question[] {
+  const difficulty = DIFFICULTIES.find(
+    (otherDifficulty) => otherDifficulty.difficultyLevel === difficultyLevel
+  )!;
+
   return getRandomCards(cards, 10).map((card) => ({
     card,
-    visualEffects: [],
+    visualEffects:
+      difficulty.visualEffects.length > 0
+        ? [randomItem(difficulty.visualEffects)]
+        : [],
   }));
 }
 

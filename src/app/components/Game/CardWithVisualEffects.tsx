@@ -3,16 +3,16 @@ import styled from "styled-components";
 import { VisualEffect } from "app/GameState";
 import bronze from "design/assets/bronze.png";
 
-interface Props {
-  card: GwentCard;
-  visualEffects: VisualEffect[];
-}
+const BIG_PREVIEW_IMG_SIZE = {
+  width: 376,
+  height: 540,
+};
 
 const ImageContainer = styled.div`
   position: relative;
   z-index: 1;
-  width: 376px;
-  height: 539px;
+  width: ${BIG_PREVIEW_IMG_SIZE.width}px;
+  height: ${BIG_PREVIEW_IMG_SIZE.height}px;
   transform: rotateY(-5deg);
   box-shadow: 12px 12px 30px ${(props) => props.theme.colors.background.dark};
 `;
@@ -29,16 +29,48 @@ const ImageFrame = styled.div`
   transform: scale(1.02);
 `;
 
-const Image = styled.img`
-  position: relative;
+const Image = styled.div`
+  position: absolute;
   z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 `;
 
-export function CardWithVisualEffects({ card, visualEffects }: Props) {
+interface CardWithVisualEffectsProps {
+  card: GwentCard;
+  visualEffects: VisualEffect[];
+}
+
+export function CardWithVisualEffects({
+  card,
+  visualEffects,
+}: CardWithVisualEffectsProps) {
   return (
     <ImageContainer>
       <ImageFrame />
-      <Image src={`https://playgwent.com${card.previewImg.big}`} alt="" />
+      <Image
+        style={visualEffects.reduce(
+          (acc, visualEffect) => {
+            switch (visualEffect.type) {
+              case "zoom":
+                return {
+                  ...acc,
+                  backgroundSize: `${
+                    BIG_PREVIEW_IMG_SIZE.width * visualEffect.zoom
+                  }px ${BIG_PREVIEW_IMG_SIZE.height * visualEffect.zoom}px`,
+                  backgroundPosition: "center center",
+                };
+              default:
+                return acc;
+            }
+          },
+          {
+            backgroundImage: `url(https://playgwent.com${card.previewImg.big})`,
+          }
+        )}
+      />
     </ImageContainer>
   );
 }
