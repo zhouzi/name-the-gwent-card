@@ -4,7 +4,7 @@ import { useLocaleContext } from "app/i18n";
 import { deserialize } from "app/GameState";
 import { Game } from "../Game";
 
-export function RoutePlay() {
+export function RoutePlaySolo() {
   const { gameRules } = useParams<{ gameRules: string }>();
   const { cards } = useLocaleContext();
 

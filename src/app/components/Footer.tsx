@@ -44,7 +44,7 @@ export function Footer(props: {}) {
         <FooterNavList>
           <FooterNavListItem>
             <Link as={RouterLink} to={ROUTES.SOLO}>
-              <FormattedMessage id="instructions" />
+              <FormattedMessage id="playSolo" />
             </Link>
           </FooterNavListItem>
           <FooterNavListItem>

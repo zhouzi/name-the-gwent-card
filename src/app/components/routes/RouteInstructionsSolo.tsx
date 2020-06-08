@@ -22,7 +22,7 @@ import { useLocaleContext } from "app/i18n";
 import { Footer } from "app/components/Footer";
 import { ROUTES } from "./ROUTES";
 
-export function RouteInstructions() {
+export function RouteInstructionsSolo() {
   const history = useHistory();
   const { cards } = useLocaleContext();
   const [difficultyLevel, setDifficultyLevel] = React.useState<DifficultyLevel>(
@@ -33,7 +33,7 @@ export function RouteInstructions() {
     <Container>
       <Panel>
         <Heading>
-          <FormattedMessage id="instructions" />
+          <FormattedMessage id="playSolo" />
         </Heading>
         <Paragraph>
           <FormattedMessage

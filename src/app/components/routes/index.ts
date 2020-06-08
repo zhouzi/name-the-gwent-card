@@ -1,5 +1,5 @@
-export * from "./RouteInstructions";
+export * from "./RouteInstructionsSolo";
 export * from "./RouteInstructionsTwitch";
-export * from "./RoutePlay";
+export * from "./RoutePlaySolo";
 export * from "./RoutePlayTwitch";
 export * from "./ROUTES";

@@ -10,8 +10,8 @@ import {
 } from "app/i18n";
 import {
   ROUTES,
-  RouteInstructions,
-  RoutePlay,
+  RouteInstructionsSolo,
+  RoutePlaySolo,
   RouteInstructionsTwitch,
   RoutePlayTwitch,
 } from "./routes";
@@ -28,10 +28,10 @@ export function App() {
                 <FireSparks />
                 <Switch>
                   <Route path={ROUTES.SOLO} exact={true}>
-                    <RouteInstructions />
+                    <RouteInstructionsSolo />
                   </Route>
                   <Route path={ROUTES.SOLO_PLAY} exact={true}>
-                    <RoutePlay />
+                    <RoutePlaySolo />
                   </Route>
                   <Route path={ROUTES.TWITCH} exact={true}>
                     <RouteInstructionsTwitch />

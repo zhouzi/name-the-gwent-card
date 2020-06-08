@@ -1,5 +1,5 @@
 export const messages = {
-  instructions: "Instructions",
+  playSolo: "Play solo",
   gameInstructions:
     "In this mini game, your goal is to name a random Gwent card from its illustration. The cards used in this game come from <leviathan>Team Leviathan</leviathan>'s latest <meta>meta report</meta>. It's a great way to improve while having fun!",
   difficultyLevel:
