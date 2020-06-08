@@ -10,20 +10,21 @@ const FullHeightWrapper = styled.div`
   min-height: 100vh;
 `;
 
-const CenteredContainer = styled.main`
-  max-width: 44rem;
+const CenteredContainer = styled.main<{ variant?: "normal" | "large" }>`
+  max-width: ${(props) => (props.variant === "large" ? "64rem" : "44rem")};
   width: 100%;
   padding: ${(props) => props.theme.spacing.large};
 `;
 
 interface Props {
+  variant?: "normal" | "large";
   children: React.ReactNode;
 }
 
-export function Container({ children }: Props) {
+export function Container({ variant, children }: Props) {
   return (
     <FullHeightWrapper>
-      <CenteredContainer>{children}</CenteredContainer>
+      <CenteredContainer variant={variant}>{children}</CenteredContainer>
     </FullHeightWrapper>
   );
 }

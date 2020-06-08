@@ -28,9 +28,9 @@ const FooterNavListItem = styled.li`
   }
 `;
 
-export function Footer() {
+export function Footer(props: {}) {
   return (
-    <FooterContainer>
+    <FooterContainer {...props}>
       <FooterNav>
         <FooterNavList>
           <FooterNavListItem>
@@ -46,7 +46,9 @@ export function Footer() {
             <Link href="https://twitch.tv/faberstein">Faberstein</Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            <Link>About/Code</Link>
+            <Link href="https://github.com/zhouzi/name-the-gwent-card">
+              About/Code
+            </Link>
           </FooterNavListItem>
           <FooterNavListItem>
             en / <Link>fr</Link>

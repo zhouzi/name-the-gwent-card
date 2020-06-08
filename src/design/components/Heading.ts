@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Heading = styled.h1`
+  display: block;
   font-size: 2rem;
   font-family: ${(props) => props.theme.fonts.heading};
   line-height: 1.2;

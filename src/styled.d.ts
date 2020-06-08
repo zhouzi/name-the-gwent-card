@@ -18,6 +18,16 @@ declare module "styled-components" {
       background: {
         dark: string;
         main: string;
+        light: string;
+      };
+      danger: {
+        main: string;
+      };
+      warning: {
+        main: string;
+      };
+      success: {
+        main: string;
       };
     };
     spacing: {

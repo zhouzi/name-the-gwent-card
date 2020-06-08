@@ -17,6 +17,16 @@ export const theme: DefaultTheme = {
     background: {
       dark: "#000",
       main: "#121315",
+      light: "#15100e",
+    },
+    danger: {
+      main: "#ff4533",
+    },
+    warning: {
+      main: "#ffb817",
+    },
+    success: {
+      main: "#21bf6f",
     },
   },
   spacing: {
