@@ -61,7 +61,16 @@ function getState(locale: SupportedLocale): State {
 }
 
 export function Provider({ children }: Props) {
-  const [state, setState] = React.useState<State>(() => getState("en"));
+  const [state, setState] = React.useState<State>(() => {
+    const locale = window.navigator.languages
+      .map((language) =>
+        (Object.keys(SUPPORTED_LOCALES) as SupportedLocale[]).find((locale) =>
+          language.startsWith(locale)
+        )
+      )
+      .filter(Boolean)[0];
+    return getState(locale || "en");
+  });
 
   return (
     <LocaleContext.Provider
