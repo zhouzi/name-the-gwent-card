@@ -16,6 +16,8 @@
     "@types/styled-components": "^5.1.0",
     "cheerio": "^1.0.0-rc.3",
     "debug": "^4.1.1",
+    "downshift": "^5.4.2",
+    "fuse.js": "^6.0.4",
     "got": "^11.3.0",
     "lz-string": "^1.4.4",
     "modern-normalize": "^0.6.0",

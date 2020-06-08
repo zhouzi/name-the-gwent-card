@@ -1,5 +1,8 @@
 import * as React from "react";
 import styled from "styled-components";
+import Fuse from "fuse.js";
+import Downshift from "downshift";
+import { useLocaleContext } from "app/i18n";
 import { GameState, Action } from "app/GameState";
 import {
   Container,
@@ -12,9 +15,18 @@ import {
   Lifebar,
   SecondsLeft,
   Link,
+  AutocompleteList,
+  AutocompleteListItem,
 } from "design/components";
 import { CardWithVisualEffects } from "./CardWithVisualEffects";
 import { Footer } from "../Footer";
+
+const FUSE_OPTIONS = {
+  keys: ["localizedName"],
+  includeScore: true,
+  minMatchCharLength: 3,
+  shouldSort: true,
+};
 
 interface Props {
   gameState: GameState;
@@ -48,10 +60,11 @@ const QuestionFooter = styled(Footer)`
 `;
 
 export function PhaseInProgress({ gameState, dispatch }: Props) {
-  const [input, setInput] = React.useState("");
+  const { cards } = useLocaleContext();
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
   const currentQuestionAnswer =
     gameState.answers[gameState.currentQuestionIndex];
+  const fuse = React.useMemo(() => new Fuse(cards, FUSE_OPTIONS), [cards]);
 
   const onQuestionTimeout = React.useCallback(() => {
     dispatch({
@@ -77,33 +90,74 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
         <QuestionPanelContainer>
           <QuestionPanel>
             {currentQuestionAnswer == null ? (
-              <form
-                onSubmit={(event) => {
-                  event.preventDefault();
+              <Downshift itemToString={(card) => card?.localizedName || ""}>
+                {({
+                  getRootProps,
+                  getLabelProps,
+                  getInputProps,
+                  getMenuProps,
+                  getItemProps,
+                  inputValue,
+                  highlightedIndex,
+                  selectedItem,
+                  isOpen,
+                }) => (
+                  <form
+                    onSubmit={(event) => {
+                      event.preventDefault();
 
-                  dispatch({
-                    type: "answer",
-                    id: null,
-                    username: null,
-                  });
-                }}
-                autoComplete="off"
-              >
-                <Heading as="label" htmlFor="userAnswer">
-                  What is the name of this card?
-                </Heading>
-                <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
-                <InputGroup>
-                  <Input
-                    id="userAnswer"
-                    onChange={(event) => setInput(event.target.value)}
-                    value={input}
-                    placeholder="Name this card..."
-                    autoFocus
-                  />
-                  <Button>Submit</Button>
-                </InputGroup>
-              </form>
+                      dispatch({
+                        type: "answer",
+                        id: selectedItem ? selectedItem.id : null,
+                        username: null,
+                      });
+                    }}
+                    autoComplete="off"
+                  >
+                    <Heading as="label" {...getLabelProps()}>
+                      What is the name of this card?
+                    </Heading>
+                    <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
+                    <div
+                      style={{ position: "relative" }}
+                      {...getRootProps(
+                        { refKey: "ref" },
+                        { suppressRefError: true }
+                      )}
+                    >
+                      <InputGroup>
+                        <Input
+                          {...getInputProps()}
+                          placeholder="Name this card..."
+                          autoFocus
+                        />
+                        <Button>Submit</Button>
+                      </InputGroup>
+                      <AutocompleteList {...getMenuProps()}>
+                        {isOpen &&
+                          inputValue &&
+                          fuse
+                            .search(inputValue)
+                            .slice(0, 3)
+                            .map((match) => match.item)
+                            .map((card, index) => (
+                              <AutocompleteListItem
+                                {...getItemProps({
+                                  index,
+                                  key: card.id,
+                                  item: card,
+                                })}
+                                highlighted={highlightedIndex === index}
+                                selected={selectedItem?.id === card.id}
+                              >
+                                {card.localizedName}
+                              </AutocompleteListItem>
+                            ))}
+                      </AutocompleteList>
+                    </div>
+                  </form>
+                )}
+              </Downshift>
             ) : (
               <>
                 {currentQuestionAnswer.id === currentQuestion.card.id ? (
