@@ -42,6 +42,7 @@ export function RouteInstructionsTwitch() {
   const intl = useIntl();
   const { cards } = useLocaleContext();
   const [input, setInput] = React.useState("");
+  const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<Error | null>(null);
   const [difficultyLevel, setDifficultyLevel] = React.useState<DifficultyLevel>(
     "easy"
@@ -81,6 +82,7 @@ export function RouteInstructionsTwitch() {
               return;
             }
 
+            setLoading(true);
             setError(null);
 
             const client = Client({
@@ -109,6 +111,8 @@ export function RouteInstructionsTwitch() {
               );
             } catch (err) {
               console.error(err);
+
+              setLoading(false);
               setError(
                 new Error(
                   intl.formatMessage({
@@ -148,8 +152,12 @@ export function RouteInstructionsTwitch() {
               value={input}
               onChange={(event) => setInput(event.target.value)}
             />
-            <Button type="submit">
-              <FormattedMessage id="play" />
+            <Button type="submit" disabled={loading}>
+              {loading ? (
+                <FormattedMessage id="connecting" />
+              ) : (
+                <FormattedMessage id="play" />
+              )}
             </Button>
           </InputGroup>
           {error && <InputHint variant="error">{error.message}</InputHint>}

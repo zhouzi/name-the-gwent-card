@@ -39,4 +39,5 @@ export const messages = {
   channelRequired: "Ta chaîne Twitch est requise pour se connecter à ton chat.",
   twitchError:
     "La connexion à ton chat Twitch a échoué. Es-tu sûr d'avoir saisi ta chaîne correctement ?",
+  connecting: "Connexion...",
 };
