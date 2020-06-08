@@ -25,6 +25,7 @@ const FUSE_OPTIONS = {
 
 export interface LocaleContextContainer {
   locale: SupportedLocale;
+  messages: Record<string, string>;
   cards: GwentCard[];
   fuse: Fuse<GwentCard, typeof FUSE_OPTIONS>;
   onChangeLocale: (locale: SupportedLocale) => void;
@@ -41,16 +42,19 @@ interface Props {
 
 interface State {
   locale: SupportedLocale;
+  messages: Record<string, string>;
   cards: GwentCard[];
   fuse: Fuse<GwentCard, typeof FUSE_OPTIONS>;
 }
 
 function getState(locale: SupportedLocale): State {
+  const messages = SUPPORTED_LOCALES[locale].messages;
   const cards = SUPPORTED_LOCALES[locale].cards;
   const fuse = new Fuse(cards, FUSE_OPTIONS);
 
   return {
     locale,
+    messages,
     cards,
     fuse,
   };

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link as RouterLink } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Paragraph, Link } from "design/components";
 import { ROUTES } from "./routes";
@@ -35,19 +36,27 @@ export function Footer(props: {}) {
         <FooterNavList>
           <FooterNavListItem>
             <Link as={RouterLink} to={ROUTES.INSTRUCTIONS}>
-              Instructions
+              <FormattedMessage id="instructions" />
             </Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            <Link>Play with your Twitch chat</Link>
+            <Link>
+              <FormattedMessage id="playWithTwitchChat" />
+            </Link>
           </FooterNavListItem>
           <FooterNavListItem>
-            Inspired by{" "}
-            <Link href="https://twitch.tv/faberstein">Faberstein</Link>
+            <FormattedMessage
+              id="inspiredBy"
+              values={{
+                a: (children: string) => (
+                  <Link href="https://twitch.tv/faberstein">{children}</Link>
+                ),
+              }}
+            />
           </FooterNavListItem>
           <FooterNavListItem>
             <Link href="https://github.com/zhouzi/name-the-gwent-card">
-              About/Code
+              <FormattedMessage id="aboutCode" />
             </Link>
           </FooterNavListItem>
           <FooterNavListItem>
@@ -56,8 +65,7 @@ export function Footer(props: {}) {
         </FooterNavList>
       </FooterNav>
       <Paragraph>
-        This is an unofficial fan work under the Gwent Fan Content Guidelines.
-        Not approved/endorsed by CD PROJEKT RED.
+        <FormattedMessage id="disclaimer" />
       </Paragraph>
     </FooterContainer>
   );

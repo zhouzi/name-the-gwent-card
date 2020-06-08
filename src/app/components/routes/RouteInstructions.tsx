@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useHistory, generatePath } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 import {
   Container,
   Panel,
@@ -31,14 +32,23 @@ export function RouteInstructions() {
   return (
     <Container>
       <Panel>
-        <Heading>Instructions</Heading>
+        <Heading>
+          <FormattedMessage id="instructions" />
+        </Heading>
         <Paragraph>
-          In this mini game, your goal is to name a random Gwent card from its
-          illustration. The cards used in this game come from{" "}
-          <Link href="https://teamleviathangaming.com/">Team Leviathan</Link>
-          's latest{" "}
-          <Link href="https://teamleviathangaming.com/meta/">meta report</Link>.
-          It's a great way to improve while having fun!
+          <FormattedMessage
+            id="gameInstructions"
+            values={{
+              leviathan: (children: string) => (
+                <Link href="https://teamleviathangaming.com/">{children}</Link>
+              ),
+              meta: (children: string) => (
+                <Link href="https://teamleviathangaming.com/meta/">
+                  {children}
+                </Link>
+              ),
+            }}
+          />
         </Paragraph>
         <List spacingBottom="large">
           {DIFFICULTIES.map((difficulty) => (
@@ -51,14 +61,13 @@ export function RouteInstructions() {
                 }
                 checked={difficultyLevel === difficulty.difficultyLevel}
               >
-                <strong>{difficulty.difficultyLevel}</strong>:{" "}
-                {difficulty.difficultyLevel === "easy"
-                  ? "illustrations are not obfuscated and you are given hints."
-                  : difficulty.difficultyLevel === "medium"
-                  ? "illustrations are slightly obfuscated, no hints."
-                  : difficulty.difficultyLevel === "hard"
-                  ? "illustrations are strongly obfuscated, no hints."
-                  : "illustrations are extremely obfuscated, no hints."}
+                <FormattedMessage
+                  id="difficultyLevel"
+                  values={{
+                    difficultyLevel: difficulty.difficultyLevel,
+                    b: (children: string) => <strong>{children}</strong>,
+                  }}
+                />
               </InputRadio>
             </ListItem>
           ))}
@@ -76,7 +85,7 @@ export function RouteInstructions() {
             );
           }}
         >
-          Play
+          <FormattedMessage id="play" />
         </Button>
       </Panel>
       <Footer />

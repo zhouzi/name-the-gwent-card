@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Link, List, ListItem } from "design/components";
 
@@ -50,25 +51,42 @@ export function CardHints({ card }: CardHintsProps) {
           {hints.map((hint) => {
             if (hint === "cardGroup") {
               return (
-                <HintsListItem>This is a {card.cardGroup} card</HintsListItem>
+                <HintsListItem>
+                  <FormattedMessage
+                    id="hintCardGroup"
+                    values={{
+                      cardGroup: card.cardGroup,
+                    }}
+                  />
+                </HintsListItem>
               );
             }
 
             if (hint === "faction") {
               return (
-                <HintsListItem>owned by {card.faction.slug}</HintsListItem>
+                <HintsListItem>
+                  <FormattedMessage
+                    id="hintFaction"
+                    values={{
+                      faction: card.faction.slug,
+                    }}
+                  />
+                </HintsListItem>
               );
             }
 
             if (hint === "initials") {
               return (
                 <HintsListItem>
-                  with a name starting with "
-                  {card.localizedName
-                    .split(" ")
-                    .map((part) => `${part.charAt(0)}.`)
-                    .join(" ")}
-                  "
+                  <FormattedMessage
+                    id="hintInitials"
+                    values={{
+                      initials: card.localizedName
+                        .split(" ")
+                        .map((part) => `${part.charAt(0)}.`)
+                        .join(" "),
+                    }}
+                  />
                 </HintsListItem>
               );
             }
@@ -86,7 +104,7 @@ export function CardHints({ card }: CardHintsProps) {
             setHints((currentHints) => HINTS.slice(0, currentHints.length + 1))
           }
         >
-          Hint
+          <FormattedMessage id="hint" />
         </Link>
       )}
     </CardHintsContainer>

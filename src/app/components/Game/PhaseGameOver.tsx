@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FormattedMessage, useIntl } from "react-intl";
 import { Link } from "react-router-dom";
 import {
   Container,
@@ -18,6 +19,7 @@ interface Props {
 }
 
 export function PhaseGameOver(props: Props) {
+  const intl = useIntl();
   const correctAnswers = props.gameState.answers.reduce(
     (acc, answer, index) => {
       if (answer.id === props.gameState.questions[index].card.id) {
@@ -32,24 +34,37 @@ export function PhaseGameOver(props: Props) {
   return (
     <Container>
       <Panel>
-        <Heading>Game Over!</Heading>
+        <Heading>
+          <FormattedMessage id="gameOver" />
+        </Heading>
         <Paragraph>
-          You had {correctAnswers} correct answers out of{" "}
-          {props.gameState.questions.length}. Feeling proud? Let the world know!
+          <FormattedMessage
+            id="gameOverSummary"
+            values={{
+              correctAnswers,
+              totalQuestions: props.gameState.questions.length,
+            }}
+          />
         </Paragraph>
         <ButtonList>
           <Button
             as="a"
             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-              `I just named ${correctAnswers} Gwent cards out of the ${props.gameState.questions.length} random ones. Beat me to it!`
+              intl.formatMessage(
+                { id: "tweetText" },
+                {
+                  correctAnswers,
+                  totalQuestions: props.gameState.questions.length,
+                }
+              )
             )}&url=${encodeURIComponent(window.location.href)}&via=zh0uzi`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Tweet
+            <FormattedMessage id="tweet" />
           </Button>
           <Button as={Link} to={ROUTES.INSTRUCTIONS}>
-            Play Again
+            <FormattedMessage id="playAgain" />
           </Button>
         </ButtonList>
       </Panel>

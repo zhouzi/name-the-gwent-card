@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FormattedMessage, useIntl } from "react-intl";
 import styled from "styled-components";
 import Downshift from "downshift";
 import { useLocaleContext } from "app/i18n";
@@ -58,6 +59,7 @@ const AutocompleteContainer = styled.div`
 `;
 
 export function PhaseInProgress({ gameState, dispatch }: Props) {
+  const intl = useIntl();
   const { fuse, cards } = useLocaleContext();
   const difficulty = DIFFICULTIES.find(
     (otherDifficulty) =>
@@ -118,7 +120,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                     autoComplete="off"
                   >
                     <Heading as="label" {...getLabelProps()}>
-                      What is the name of this card?
+                      <FormattedMessage id="questionLabel" />
                     </Heading>
                     <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
                     <AutocompleteContainer
@@ -130,10 +132,14 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                       <InputGroup>
                         <Input
                           {...getInputProps()}
-                          placeholder="Name this card..."
+                          placeholder={intl.formatMessage({
+                            id: "placeholder",
+                          })}
                           autoFocus
                         />
-                        <Button>Submit</Button>
+                        <Button>
+                          <FormattedMessage id="submit" />
+                        </Button>
                       </InputGroup>
                       <AutocompleteList {...getMenuProps()}>
                         {isOpen &&
@@ -167,50 +173,77 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
               <>
                 {currentQuestionAnswer.id === currentQuestion.card.id ? (
                   <>
-                    <Heading>Congrats!</Heading>
+                    <Heading>
+                      <FormattedMessage id="won" />
+                    </Heading>
                     <Paragraph>
-                      This card is named {currentQuestion.card.localizedName}.
+                      <FormattedMessage
+                        id="cardNamed"
+                        values={{
+                          localizedName: currentQuestion.card.localizedName,
+                        }}
+                      />
                     </Paragraph>
                   </>
                 ) : (
                   <>
-                    <Heading>Nope.</Heading>
+                    <Heading>
+                      <FormattedMessage id="lost" />
+                    </Heading>
                     {currentQuestionAnswer.id == null ||
                     cards.find(
                       (card) => card.id === currentQuestionAnswer.id
                     ) == null ? (
                       <Paragraph>
-                        This card is named {currentQuestion.card.localizedName}.
+                        <FormattedMessage
+                          id="cardNamed"
+                          values={{
+                            localizedName: currentQuestion.card.localizedName,
+                          }}
+                        />
                       </Paragraph>
                     ) : (
                       <Paragraph>
-                        This card is not named{" "}
-                        {
-                          cards.find(
-                            (card) => card.id === currentQuestionAnswer.id
-                          )!.localizedName
-                        }{" "}
-                        but {currentQuestion.card.localizedName}.
+                        <FormattedMessage
+                          id="butCardNamed"
+                          values={{
+                            wrongLocalizedName: cards.find(
+                              (card) => card.id === currentQuestionAnswer.id
+                            )!.localizedName,
+                            correctLocalizedName:
+                              currentQuestion.card.localizedName,
+                          }}
+                        />
                       </Paragraph>
                     )}
                   </>
                 )}
                 <Paragraph variant="hint">
-                  <SecondsLeft duration={15000} onTimeout={onBreakTimeout} />{" "}
-                  seconds left before the next question (
-                  <Link
-                    as="button"
-                    type="button"
-                    onClick={() =>
-                      dispatch({
-                        type: "nextQuestion",
-                      })
-                    }
-                    autoFocus
-                  >
-                    skip
-                  </Link>
-                  ).
+                  <FormattedMessage
+                    id="breakTimeLeft"
+                    values={{
+                      seconds: (
+                        <SecondsLeft
+                          duration={15000}
+                          onTimeout={onBreakTimeout}
+                        />
+                      ),
+                      a: (children: string) => (
+                        <Link
+                          as="button"
+                          type="button"
+                          onClick={() =>
+                            dispatch({
+                              type: "nextQuestion",
+                            })
+                          }
+                          autoFocus
+                        >
+                          {children}
+                        </Link>
+                      ),
+                    }}
+                  />
                 </Paragraph>
               </>
             )}
