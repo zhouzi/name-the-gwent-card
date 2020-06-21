@@ -35,7 +35,7 @@ export const messages = {
   changeLocaleWhilePlaying:
     "Afin de changer la langue actuelle, le jeu doit être redémarré. Souhaites-tu changer la langue et redémarrer le jeu ?",
   gameInstructionsTwitchChat:
-    "Les règles sont les mêmes. La seule différence c'est que tes spectateurs peuvent participer en soumettant leur réponse dans ton chat Twitch. Le nom du vainqueur apparaîtra à l'écran.",
+    "Le jeu est le même. La seule différence est que votre navigateur va se connecter à votre chat Twitch et écoutera les messages de vos viewers. Il essaiera de faire correspondre leurs messages avec une carte et affichera le gagnant à l'écran si il en trouve un. Vos viewers n'ont pas besoin de donner le nom exact de la carte, le jeu utilise un mécanisme qui autorise les fautes d'orthographe.",
   channelRequired: "Ta chaîne Twitch est requise pour se connecter à ton chat.",
   twitchError:
     "La connexion à ton chat Twitch a échoué. Es-tu sûr d'avoir saisi ta chaîne correctement ?",
