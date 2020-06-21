@@ -26,7 +26,7 @@ export const DIFFICULTIES: Difficulty[] = [
         zoom: 2,
       },
     ],
-    hints: false,
+    hints: true,
   },
   {
     difficultyLevel: "hard",
@@ -36,7 +36,7 @@ export const DIFFICULTIES: Difficulty[] = [
         zoom: 5,
       },
     ],
-    hints: false,
+    hints: true,
   },
   {
     difficultyLevel: "extreme",
@@ -50,7 +50,7 @@ export const DIFFICULTIES: Difficulty[] = [
         blur: 8,
       },
     ],
-    hints: false,
+    hints: true,
   },
 ];
 
