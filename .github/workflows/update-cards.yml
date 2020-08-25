@@ -1,0 +1,21 @@
+name: Update cards
+on:
+  schedule:
+    - cron: "0 14 * * *"
+jobs:
+  updateCards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm ci
+      - run: node ./scripts/downloadCards.js
+      - uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Run scripts/downloadCards
+          branch: update-cards
+          title: "Update cards following the new meta report"
+          body: |
+            This PR was automatically created after running the `downloadCards` scripts.
+            It updates the cards following the recent changes to Team Leviathan's [meta report](https://teamleviathangaming.com/meta/).
+          reviewers: zhouzi
