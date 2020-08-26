@@ -2865,150 +2865,6 @@
     "armour": 0
   },
   {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Korathi Heatwave",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "banish",
-          "value": "Banish"
-        },
-        {
-          "type": "text",
-          "value": " a unit or an artifact."
-        }
-      ]
-    ],
-    "fluff": "Vicovaro scholars have determined that, in the absence of imperial aid, drought-stricken provinces lose half their population, two-thirds of their livestock and all their will to rebel.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": null,
-    "id": 200018,
-    "name": "Korathi Heatwave",
-    "faction": {
-      "short": "neu",
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 10,
-    "type": "special",
-    "primaryCategoryId": null,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Schirrú",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "zeal",
-          "value": "Zeal"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "order",
-          "value": "Order"
-        },
-        {
-          "type": "text",
-          "value": ": Destroy self and all other units with the same power."
-        }
-      ]
-    ],
-    "fluff": "Time to look death in the face.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Elf",
-    "id": 142108,
-    "name": "Schirru",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 3,
-    "provisionsCost": 9,
-    "type": "unit",
-    "primaryCategoryId": 39,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Isengrim's Council",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Look at a random Dwarf, Dryad and Elf from your deck, then play one and boost it by 2."
-        }
-      ]
-    ],
-    "fluff": "Before us lies Elskerdeg Pass, and beyond that, Zerrikania and Hakland. Before us lies a long and dangerous road. If we are to walk it together… let us put aside our mistrust.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Nature",
-    "id": 201615,
-    "name": "Isengrim's Council",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 8,
-    "type": "special",
-    "primaryCategoryId": 89,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
     "craftingCost": 80,
     "slotImg": {
       "small": "/uploads/media/assets_slot/0001/18/thumb_17173_assets_slot_small.jpg",
@@ -3084,50 +2940,72 @@
     "armour": 0
   },
   {
-    "craftingCost": 80,
+    "craftingCost": 200,
     "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_big.jpg"
+      "small": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_big.jpg"
     },
     "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_big.jpg"
+      "small": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
     },
     "thumbnailImg": null,
     "abilityImg": null,
-    "localizedName": "Bomb Heaver",
+    "localizedName": "Pavko Gale",
     "tooltip": [
       [
         {
           "type": "keyword",
-          "key": "deploy",
-          "value": "Deploy"
+          "key": "order",
+          "value": "Order"
         },
         {
           "type": "text",
-          "value": ": Destroy an enemy artifact."
+          "value": " ("
+        },
+        {
+          "type": "keyword",
+          "key": "ranged",
+          "value": "Ranged"
+        },
+        {
+          "type": "text",
+          "value": "): Damage a unit by 1. "
+        },
+        {
+          "type": "keyword",
+          "key": "cooldown",
+          "value": "Cooldown"
+        },
+        {
+          "type": "text",
+          "value": ": 1."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "If you control only Scoia'tael units, damage a unit by 2 instead."
         }
       ]
     ],
-    "fluff": "Knew a young couple once—got separated right after the weddin'. Bomb in the carriage'll do that.",
-    "rarity": "rare",
+    "fluff": "No one smuggled as much food to the elves of the Blue Mountains as Gale. He'd bring them sacks of turnips and, prized most of all, leeks.",
+    "rarity": "epic",
     "repeatCount": 0,
     "ownable": true,
-    "categoryName": "Human, Bandit",
-    "id": 202122,
-    "name": "Bomb Heaver",
+    "categoryName": "Human",
+    "id": 201676,
+    "name": "Pavko Gale",
     "faction": {
-      "short": "neu",
-      "slug": "neutral"
+      "short": "sco",
+      "slug": "scoiatael"
     },
-    "cardGroup": "bronze",
-    "power": 4,
-    "provisionsCost": 5,
+    "cardGroup": "gold",
+    "power": 5,
+    "provisionsCost": 8,
     "type": "unit",
     "primaryCategoryId": 78,
-    "categoryIds": [
-      83
-    ],
+    "categoryIds": [],
     "secondaryFactions": [],
     "armour": 0
   },
@@ -3174,7 +3052,7 @@
     ],
     "fluff": "Shh, shh... Evelienn va maeth, elaine blath...",
     "rarity": "common",
-    "repeatCount": 1,
+    "repeatCount": 0,
     "ownable": true,
     "categoryName": "Nature",
     "id": 202269,
@@ -3234,6 +3112,226 @@
     "provisionsCost": 8,
     "type": "unit",
     "primaryCategoryId": 37,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 30,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Nature's Rebuke",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Damage an enemy unit by 5. "
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "deathblow",
+          "value": "Deathblow"
+        },
+        {
+          "type": "text",
+          "value": ": Boost a random allied Treant by 2."
+        }
+      ]
+    ],
+    "fluff": "Nature has long endured man's excesses. But even she finally ran out of patience…",
+    "rarity": "common",
+    "repeatCount": 1,
+    "ownable": true,
+    "categoryName": "Nature",
+    "id": 202539,
+    "name": "Nature's Rebuke",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "power": 0,
+    "provisionsCost": 5,
+    "type": "special",
+    "primaryCategoryId": 89,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Figgis Merluzzo",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "defender",
+          "value": "Defender"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Deploy"
+        },
+        {
+          "type": "text",
+          "value": ": "
+        },
+        {
+          "type": "keyword",
+          "key": "spawn",
+          "value": "Spawn"
+        },
+        {
+          "type": "text",
+          "value": " Rowdy Dwarf in this row."
+        }
+      ]
+    ],
+    "fluff": "I'm a simple guy. I like drinking, eating, singing lewd songs… And when the party dies down, pissing on the dying bonfire.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Dwarf",
+    "id": 202470,
+    "name": "Figgis Merluzzo",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 5,
+    "provisionsCost": 9,
+    "type": "unit",
+    "primaryCategoryId": 47,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 2
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Isengrim's Council",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Look at a random Dwarf, Dryad and Elf from your deck, then play one and boost it by 2."
+        }
+      ]
+    ],
+    "fluff": "Before us lies Elskerdeg Pass, and beyond that, Zerrikania and Hakland. Before us lies a long and dangerous road. If we are to walk it together… let us put aside our mistrust.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Nature",
+    "id": 201615,
+    "name": "Isengrim's Council",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 8,
+    "type": "special",
+    "primaryCategoryId": 89,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 30,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Miner",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "order",
+          "value": "Order"
+        },
+        {
+          "type": "text",
+          "value": ": Boost an allied unit by 2."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "If it's a Dwarf, also give it 2 "
+        },
+        {
+          "type": "keyword",
+          "key": "armor",
+          "value": "Armor"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "Which moron's whistling in the mine?!",
+    "rarity": "common",
+    "repeatCount": 1,
+    "ownable": true,
+    "categoryName": "Dwarf",
+    "id": 202474,
+    "name": "Miner",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "power": 4,
+    "provisionsCost": 4,
+    "type": "unit",
+    "primaryCategoryId": 47,
     "categoryIds": [],
     "secondaryFactions": [],
     "armour": 0
@@ -3372,381 +3470,23 @@
     "armour": 0
   },
   {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Novigradian Justice",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "spawn",
-          "value": "Spawn"
-        },
-        {
-          "type": "text",
-          "value": " a Cleaver's Muscle in your "
-        },
-        {
-          "type": "keyword",
-          "key": "melee",
-          "value": "Melee"
-        },
-        {
-          "type": "text",
-          "value": " row and play a bronze Dwarf from your deck."
-        }
-      ]
-    ],
-    "fluff": "\"With both arms tied behind me back,\" recall ye said. So feel free to start kickin' me in the arse when the mood strikes ye.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Crime, Crownsplitters",
-    "id": 202384,
-    "name": "Novigradian Justice",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 10,
-    "type": "special",
-    "primaryCategoryId": 92,
-    "categoryIds": [
-      95
-    ],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 200,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Harald Gord",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Deploy"
-        },
-        {
-          "type": "text",
-          "value": ": Boost self by 0."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Increase the boost by 1 for every special card you played this game."
-        }
-      ]
-    ],
-    "fluff": "The last occasion Harald's grim countenance betrayed a smile was in 1211 when Brouver Hoog drunkenly ate five bowls of goat and cabbage stew then promptly shat his trousers.",
-    "rarity": "epic",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Dwarf, Crownsplitters",
-    "id": 202383,
-    "name": "Harald Gord",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "power": 3,
-    "provisionsCost": 7,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [
-      95
-    ],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 200,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Pavko Gale",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "order",
-          "value": "Order"
-        },
-        {
-          "type": "text",
-          "value": " ("
-        },
-        {
-          "type": "keyword",
-          "key": "ranged",
-          "value": "Ranged"
-        },
-        {
-          "type": "text",
-          "value": "): Damage a unit by 1. "
-        },
-        {
-          "type": "keyword",
-          "key": "cooldown",
-          "value": "Cooldown"
-        },
-        {
-          "type": "text",
-          "value": ": 1."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "If you control only Scoia'tael units, damage a unit by 2 instead."
-        }
-      ]
-    ],
-    "fluff": "No one smuggled as much food to the elves of the Blue Mountains as Gale. He'd bring them sacks of turnips and, prized most of all, leeks.",
-    "rarity": "epic",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Human",
-    "id": 201676,
-    "name": "Pavko Gale",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 5,
-    "provisionsCost": 8,
-    "type": "unit",
-    "primaryCategoryId": 78,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 30,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Miner",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "order",
-          "value": "Order"
-        },
-        {
-          "type": "text",
-          "value": ": Boost an allied unit by 2."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "If it's a Dwarf, also give it 2 "
-        },
-        {
-          "type": "keyword",
-          "key": "armor",
-          "value": "Armor"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ]
-    ],
-    "fluff": "Which moron's whistling in the mine?!",
-    "rarity": "common",
-    "repeatCount": 1,
-    "ownable": true,
-    "categoryName": "Dwarf",
-    "id": 202474,
-    "name": "Miner",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "power": 4,
-    "provisionsCost": 4,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
     "craftingCost": 80,
     "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_big.jpg"
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_small_a3604d55dddf802d411c94781dcaa14495d47a0f.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_big_16fff90310571d423f0488ae0b8141708ed2b5ae.jpg"
     },
     "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_big.jpg"
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_small_05a5cd5fbf24c664cafb129caee92b96f09edf9f.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_big_ddbefcbbc36173f700e37a6493c9ed62c83e5857.jpg"
     },
     "thumbnailImg": null,
     "abilityImg": null,
-    "localizedName": "Tempering",
+    "localizedName": "Circle of Life",
     "tooltip": [
       [
         {
           "type": "text",
-          "value": "Boost an ally by 5. If it's a Dwarf, also give it 2 "
-        },
-        {
-          "type": "keyword",
-          "key": "armor",
-          "value": "Armor"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ]
-    ],
-    "fluff": "Dwarven steel is very tough. Almost as tough as the dwarves themselves.",
-    "rarity": "rare",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Nature",
-    "id": 202473,
-    "name": "Tempering",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "power": 0,
-    "provisionsCost": 4,
-    "type": "special",
-    "primaryCategoryId": 89,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Figgis Merluzzo",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "defender",
-          "value": "Defender"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Deploy"
-        },
-        {
-          "type": "text",
-          "value": ": "
-        },
-        {
-          "type": "keyword",
-          "key": "spawn",
-          "value": "Spawn"
-        },
-        {
-          "type": "text",
-          "value": " Rowdy Dwarf in this row."
-        }
-      ]
-    ],
-    "fluff": "I'm a simple guy. I like drinking, eating, singing lewd songs… And when the party dies down, pissing on the dying bonfire.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Dwarf",
-    "id": 202470,
-    "name": "Figgis Merluzzo",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 5,
-    "provisionsCost": 9,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 2
-  },
-  {
-    "craftingCost": 30,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Nature's Rebuke",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Damage an enemy unit by 5. "
+          "value": "Damage an enemy unit by 3, then boost a random Scoia'tael unit in your hand by 2."
         }
       ],
       [
@@ -3757,17 +3497,17 @@
         },
         {
           "type": "text",
-          "value": ": Boost a random allied Treant by 2."
+          "value": ": Boost Scoia'tael unit in your hand instead."
         }
       ]
     ],
-    "fluff": "Nature has long endured man's excesses. But even she finally ran out of patience…",
-    "rarity": "common",
+    "fluff": "Those who want to destroy Brokilon, who try to burn its trees and kill all the living things in it, will soon enough become nourishment for its soil.",
+    "rarity": "rare",
     "repeatCount": 1,
     "ownable": true,
     "categoryName": "Nature",
-    "id": 202539,
-    "name": "Nature's Rebuke",
+    "id": 202677,
+    "name": "Circle of Life",
     "faction": {
       "short": "sco",
       "slug": "scoiatael"
@@ -3843,156 +3583,6 @@
     "provisionsCost": 5,
     "type": "unit",
     "primaryCategoryId": 37,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 80,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_small_a3604d55dddf802d411c94781dcaa14495d47a0f.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_big_16fff90310571d423f0488ae0b8141708ed2b5ae.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_small_05a5cd5fbf24c664cafb129caee92b96f09edf9f.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_big_ddbefcbbc36173f700e37a6493c9ed62c83e5857.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Circle of Life",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Damage an enemy unit by 3, then boost a random Scoia'tael unit in your hand by 2."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "deathblow",
-          "value": "Deathblow"
-        },
-        {
-          "type": "text",
-          "value": ": Boost Scoia'tael unit in your hand instead."
-        }
-      ]
-    ],
-    "fluff": "Those who want to destroy Brokilon, who try to burn its trees and kill all the living things in it, will soon enough become nourishment for its soil.",
-    "rarity": "rare",
-    "repeatCount": 1,
-    "ownable": true,
-    "categoryName": "Nature",
-    "id": 202677,
-    "name": "Circle of Life",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "power": 0,
-    "provisionsCost": 5,
-    "type": "special",
-    "primaryCategoryId": 89,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_small_f1752165eece3e0135b4fcf622379d9696751167.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_big_00ba0de02363fd59f3ba3bd84c50a027e81ef60f.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_small_6a7ae8a5f747b934a7525fb3d18014ff39c3433a.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_big_fee44c1b638bd3e77bac6c8d194e0dbf1bc33e82.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Oneiromancy",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "echo",
-          "value": "Echo"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Play any card from your deck."
-        }
-      ]
-    ],
-    "fluff": "Deciphering the past and the future as they appear in dreams is very difficult, even for a master.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Spell",
-    "id": 202594,
-    "name": "Oneiromancy",
-    "faction": {
-      "short": "neu",
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 12,
-    "type": "special",
-    "primaryCategoryId": 20,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_small_bdbb88ca6d0c5ece02f9e5f6331ebfc20fc4c9a2.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_big_6d86379b759748877954c83fe1d0d7fc49f4c491.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_small_f9c644625f8661345c3851675c3cdd1d0a021ddb.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_big_0c459fdd00cc665b6319695ccab1116124e72488.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Forest Protector",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Deploy"
-        },
-        {
-          "type": "text",
-          "value": ": Play a bronze Nature card from your graveyard."
-        }
-      ]
-    ],
-    "fluff": "You know today is not your day when you go searching for firewood but the wood ends up seeing you as good fertilizer instead.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Treant",
-    "id": 202673,
-    "name": "Forest Protector",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 5,
-    "provisionsCost": 11,
-    "type": "unit",
-    "primaryCategoryId": 90,
     "categoryIds": [],
     "secondaryFactions": [],
     "armour": 0
@@ -4086,6 +3676,466 @@
     "categoryIds": [],
     "secondaryFactions": [],
     "armour": 1
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Schirrú",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "zeal",
+          "value": "Zeal"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "order",
+          "value": "Order"
+        },
+        {
+          "type": "text",
+          "value": ": Destroy self and all other units with the same power."
+        }
+      ]
+    ],
+    "fluff": "Time to look death in the face.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Elf",
+    "id": 142108,
+    "name": "Schirru",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 3,
+    "provisionsCost": 9,
+    "type": "unit",
+    "primaryCategoryId": 39,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Korathi Heatwave",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "banish",
+          "value": "Banish"
+        },
+        {
+          "type": "text",
+          "value": " a unit or an artifact."
+        }
+      ]
+    ],
+    "fluff": "Vicovaro scholars have determined that, in the absence of imperial aid, drought-stricken provinces lose half their population, two-thirds of their livestock and all their will to rebel.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": null,
+    "id": 200018,
+    "name": "Korathi Heatwave",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 10,
+    "type": "special",
+    "primaryCategoryId": null,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_small_bdbb88ca6d0c5ece02f9e5f6331ebfc20fc4c9a2.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_big_6d86379b759748877954c83fe1d0d7fc49f4c491.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_small_f9c644625f8661345c3851675c3cdd1d0a021ddb.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_big_0c459fdd00cc665b6319695ccab1116124e72488.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Forest Protector",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Deploy"
+        },
+        {
+          "type": "text",
+          "value": ": Play a bronze Nature card from your graveyard."
+        }
+      ]
+    ],
+    "fluff": "You know today is not your day when you go searching for firewood but the wood ends up seeing you as good fertilizer instead.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Treant",
+    "id": 202673,
+    "name": "Forest Protector",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 5,
+    "provisionsCost": 11,
+    "type": "unit",
+    "primaryCategoryId": 90,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Novigradian Justice",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "spawn",
+          "value": "Spawn"
+        },
+        {
+          "type": "text",
+          "value": " a Cleaver's Muscle in your "
+        },
+        {
+          "type": "keyword",
+          "key": "melee",
+          "value": "Melee"
+        },
+        {
+          "type": "text",
+          "value": " row and play a bronze Dwarf from your deck."
+        }
+      ]
+    ],
+    "fluff": "\"With both arms tied behind me back,\" recall ye said. So feel free to start kickin' me in the arse when the mood strikes ye.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Crime, Crownsplitters",
+    "id": 202384,
+    "name": "Novigradian Justice",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 10,
+    "type": "special",
+    "primaryCategoryId": 92,
+    "categoryIds": [
+      95
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Tempering",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Boost an ally by 5. If it's a Dwarf, also give it 2 "
+        },
+        {
+          "type": "keyword",
+          "key": "armor",
+          "value": "Armor"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "Dwarven steel is very tough. Almost as tough as the dwarves themselves.",
+    "rarity": "rare",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Nature",
+    "id": 202473,
+    "name": "Tempering",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "power": 0,
+    "provisionsCost": 4,
+    "type": "special",
+    "primaryCategoryId": 89,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_small_f1752165eece3e0135b4fcf622379d9696751167.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_big_00ba0de02363fd59f3ba3bd84c50a027e81ef60f.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_small_6a7ae8a5f747b934a7525fb3d18014ff39c3433a.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_big_fee44c1b638bd3e77bac6c8d194e0dbf1bc33e82.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Oneiromancy",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "echo",
+          "value": "Echo"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Play any card from your deck."
+        }
+      ]
+    ],
+    "fluff": "Deciphering the past and the future as they appear in dreams is very difficult, even for a master.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Spell",
+    "id": 202594,
+    "name": "Oneiromancy",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 12,
+    "type": "special",
+    "primaryCategoryId": 20,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 200,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Harald Gord",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Deploy"
+        },
+        {
+          "type": "text",
+          "value": ": Boost self by 0."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Increase the boost by 1 for every special card you played this game."
+        }
+      ]
+    ],
+    "fluff": "The last occasion Harald's grim countenance betrayed a smile was in 1211 when Brouver Hoog drunkenly ate five bowls of goat and cabbage stew then promptly shat his trousers.",
+    "rarity": "epic",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Dwarf, Crownsplitters",
+    "id": 202383,
+    "name": "Harald Gord",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "power": 3,
+    "provisionsCost": 7,
+    "type": "unit",
+    "primaryCategoryId": 47,
+    "categoryIds": [
+      95
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Bomb Heaver",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Deploy"
+        },
+        {
+          "type": "text",
+          "value": ": Destroy an enemy artifact."
+        }
+      ]
+    ],
+    "fluff": "Knew a young couple once—got separated right after the weddin'. Bomb in the carriage'll do that.",
+    "rarity": "rare",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Human, Bandit",
+    "id": 202122,
+    "name": "Bomb Heaver",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "power": 4,
+    "provisionsCost": 5,
+    "type": "unit",
+    "primaryCategoryId": 78,
+    "categoryIds": [
+      83
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32566_assets_slot_small_8387df4b01b04f38740d28e2644a46abe50f4bc3.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32566_assets_slot_big_ff83725b07689f44e4f37b198688276ef15db993.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_small_ce0eb0b97b440a114cf956dcac28d5ba8e2f0371.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_big_eedcd0a5daae325f4f6bc1f44b90a4a885fd1b75.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Pact",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Boost a unit by 6 and give it "
+        },
+        {
+          "type": "keyword",
+          "key": "doomed",
+          "value": "Doomed"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "Your wishes he grants, as he swears to adore you – Gold, silver, jewels... he lays riches before you – Dues need be repaid, and he will come for you – All to reclaim, no smile to console you!",
+    "rarity": "rare",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Spell",
+    "id": 202598,
+    "name": "Pact",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "power": 0,
+    "provisionsCost": 4,
+    "type": "special",
+    "primaryCategoryId": 20,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
   },
   {
     "craftingCost": 800,

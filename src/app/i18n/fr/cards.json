@@ -2865,150 +2865,6 @@
     "armour": 0
   },
   {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Fournaise de Korath",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "banish",
-          "value": "Bannissez"
-        },
-        {
-          "type": "text",
-          "value": " une unité ou un artefact."
-        }
-      ]
-    ],
-    "fluff": "Les érudits de Vicovaro ont déterminé que, sans aide impériale, les provinces frappées par la sécheresse perdent la moitié de leur population, deux tiers de leur bétail et toute volonté de se révolter.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": null,
-    "id": 200018,
-    "name": "Korathi Heatwave",
-    "faction": {
-      "short": "neu",
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 10,
-    "type": "special",
-    "primaryCategoryId": null,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Schirrú",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "zeal",
-          "value": "Zèle"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "order",
-          "value": "Ordre"
-        },
-        {
-          "type": "text",
-          "value": " : détruisez la présente unité et toutes les autres unités disposant de la même force."
-        }
-      ]
-    ],
-    "fluff": "Le demi-elfe s'empara d'un assortiment de plumes sur l'écritoire, et y mit le feu à l'aide d'un bougeoir. Il inclina l'allume-feu pour qu'il prenne bien, après quoi il le jeta parmi les rouleaux, qui s'enflammèrent instantanément.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Elfe",
-    "id": 142108,
-    "name": "Schirru",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 3,
-    "provisionsCost": 9,
-    "type": "unit",
-    "primaryCategoryId": 39,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Conseil d'Isengrim",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Regardez un Nain, une Dryade et un Elfe aléatoires dans votre jeu, puis jouez-en un et améliorez-le de 2 point(s)."
-        }
-      ]
-    ],
-    "fluff": "En voyant son visage à la lueur du feu de camp, ils frissonnèrent. Mais pas un soupir ne leur échappa à la vue de ce visage, sans doute magnifique autrefois, défiguré à présent par une affreuse balafre.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Nature",
-    "id": 201615,
-    "name": "Isengrim's Council",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 8,
-    "type": "special",
-    "primaryCategoryId": 89,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
     "craftingCost": 80,
     "slotImg": {
       "small": "/uploads/media/assets_slot/0001/18/thumb_17173_assets_slot_small.jpg",
@@ -3084,50 +2940,72 @@
     "armour": 0
   },
   {
-    "craftingCost": 80,
+    "craftingCost": 200,
     "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_big.jpg"
+      "small": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_big.jpg"
     },
     "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_big.jpg"
+      "small": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
     },
     "thumbnailImg": null,
     "abilityImg": null,
-    "localizedName": "Souleveur de bombes",
+    "localizedName": "Pavko Gale",
     "tooltip": [
       [
         {
           "type": "keyword",
-          "key": "deploy",
-          "value": "Déploiement"
+          "key": "order",
+          "value": "Ordre"
         },
         {
           "type": "text",
-          "value": " : détruisez un artefact ennemi."
+          "value": " ("
+        },
+        {
+          "type": "keyword",
+          "key": "ranged",
+          "value": "Combat à distance"
+        },
+        {
+          "type": "text",
+          "value": ") : infligez 1 point(s) de dégâts à une unité. "
+        },
+        {
+          "type": "keyword",
+          "key": "cooldown",
+          "value": "Réutilisation"
+        },
+        {
+          "type": "text",
+          "value": " : 1 tour(s)."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Si vous contrôlez uniquement des unités des Scoia'tael, infligez 2 point(s) de dégâts à une unité à la place."
         }
       ]
     ],
-    "fluff": "J'ai connu un jeune couple qui a été séparé juste après son mariage. Une bombe dans un chariot peut avoir cet effet.",
-    "rarity": "rare",
+    "fluff": "Aucun contrebandier ne fournit plus de nourriture aux elfes des Montagnes bleues que Gale. Il leur apportait des sacs de navets, mais aussi de poireaux très appréciés.",
+    "rarity": "epic",
     "repeatCount": 0,
     "ownable": true,
-    "categoryName": "Humain, Bandit",
-    "id": 202122,
-    "name": "Bomb Heaver",
+    "categoryName": "Humain",
+    "id": 201676,
+    "name": "Pavko Gale",
     "faction": {
-      "short": "neu",
-      "slug": "neutral"
+      "short": "sco",
+      "slug": "scoiatael"
     },
-    "cardGroup": "bronze",
-    "power": 4,
-    "provisionsCost": 5,
+    "cardGroup": "gold",
+    "power": 5,
+    "provisionsCost": 8,
     "type": "unit",
     "primaryCategoryId": 78,
-    "categoryIds": [
-      83
-    ],
+    "categoryIds": [],
     "secondaryFactions": [],
     "armour": 0
   },
@@ -3174,7 +3052,7 @@
     ],
     "fluff": "Shh, shh… Evelienn va maeth, elaine blath…",
     "rarity": "common",
-    "repeatCount": 1,
+    "repeatCount": 0,
     "ownable": true,
     "categoryName": "Nature",
     "id": 202269,
@@ -3234,6 +3112,226 @@
     "provisionsCost": 8,
     "type": "unit",
     "primaryCategoryId": 37,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 30,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Révolte de la nature",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Infligez 5 point(s) de dégâts à une unité ennemie. "
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "deathblow",
+          "value": "Coup mortel"
+        },
+        {
+          "type": "text",
+          "value": " : améliorez un Sylvain allié aléatoire de 2 point(s)."
+        }
+      ]
+    ],
+    "fluff": "La nature a longtemps supporté les excès des humains, mais même elle a fini par perdre patience…",
+    "rarity": "common",
+    "repeatCount": 1,
+    "ownable": true,
+    "categoryName": "Nature",
+    "id": 202539,
+    "name": "Nature's Rebuke",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "power": 0,
+    "provisionsCost": 5,
+    "type": "special",
+    "primaryCategoryId": 89,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Figgis Merluzzo",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "defender",
+          "value": "Défenseur"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Déploiement"
+        },
+        {
+          "type": "text",
+          "value": " : "
+        },
+        {
+          "type": "keyword",
+          "key": "spawn",
+          "value": "générez"
+        },
+        {
+          "type": "text",
+          "value": " un Nain bagarreur sur cette ligne."
+        }
+      ]
+    ],
+    "fluff": "Je suis un type simple. J'aime boire, manger, chanter des chansons paillardes… Et lorsque la fête est finie, pisser sur le feu de camp mourant.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Nain",
+    "id": 202470,
+    "name": "Figgis Merluzzo",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 5,
+    "provisionsCost": 9,
+    "type": "unit",
+    "primaryCategoryId": 47,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 2
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/18/thumb_17929_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Conseil d'Isengrim",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Regardez un Nain, une Dryade et un Elfe aléatoires dans votre jeu, puis jouez-en un et améliorez-le de 2 point(s)."
+        }
+      ]
+    ],
+    "fluff": "En voyant son visage à la lueur du feu de camp, ils frissonnèrent. Mais pas un soupir ne leur échappa à la vue de ce visage, sans doute magnifique autrefois, défiguré à présent par une affreuse balafre.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Nature",
+    "id": 201615,
+    "name": "Isengrim's Council",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 8,
+    "type": "special",
+    "primaryCategoryId": 89,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 30,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Mineur",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "order",
+          "value": "Ordre"
+        },
+        {
+          "type": "text",
+          "value": " : améliorez une unité alliée de 2 point(s)."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "S'il s'agit d'un Nain, ajoutez-lui aussi 2 point(s) d'"
+        },
+        {
+          "type": "keyword",
+          "key": "armor",
+          "value": "armure"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "Qui est l'idiot qui siffle dans la mine ?!",
+    "rarity": "common",
+    "repeatCount": 1,
+    "ownable": true,
+    "categoryName": "Nain",
+    "id": 202474,
+    "name": "Miner",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "power": 4,
+    "provisionsCost": 4,
+    "type": "unit",
+    "primaryCategoryId": 47,
     "categoryIds": [],
     "secondaryFactions": [],
     "armour": 0
@@ -3372,381 +3470,23 @@
     "armour": 0
   },
   {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Justice de Novigrad",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "spawn",
-          "value": "Générez"
-        },
-        {
-          "type": "text",
-          "value": " une Brute de Surin sur votre ligne de "
-        },
-        {
-          "type": "keyword",
-          "key": "melee",
-          "value": "combat rapproché"
-        },
-        {
-          "type": "text",
-          "value": " et jouez un Nain Bronze depuis votre jeu."
-        }
-      ]
-    ],
-    "fluff": "\"Les deux bras attachés dans le dos\", c'est ce que t'as dit. Alors hésite pas à me botter le cul si l'envie t'en prend.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Crime, Découpeurs",
-    "id": 202384,
-    "name": "Novigradian Justice",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 10,
-    "type": "special",
-    "primaryCategoryId": 92,
-    "categoryIds": [
-      95
-    ],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 200,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Harald Gord",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Déploiement"
-        },
-        {
-          "type": "text",
-          "value": " : améliorez la présente unité de 0 point(s)."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Augmentez cette amélioration de 1 point(s) par carte spéciale que vous avez jouée durant cette partie."
-        }
-      ]
-    ],
-    "fluff": "Le sinistre Harald a esquissé son dernier sourire en 1211, quand un Brouver Hoog ivre a avalé cinq bols de ragoût de chou à la chèvre avant de chier dans son froc.",
-    "rarity": "epic",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Nain, Découpeurs",
-    "id": 202383,
-    "name": "Harald Gord",
-    "faction": {
-      "short": "syn",
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "power": 3,
-    "provisionsCost": 7,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [
-      95
-    ],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 200,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/25/thumb_24499_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Pavko Gale",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "order",
-          "value": "Ordre"
-        },
-        {
-          "type": "text",
-          "value": " ("
-        },
-        {
-          "type": "keyword",
-          "key": "ranged",
-          "value": "Combat à distance"
-        },
-        {
-          "type": "text",
-          "value": ") : infligez 1 point(s) de dégâts à une unité. "
-        },
-        {
-          "type": "keyword",
-          "key": "cooldown",
-          "value": "Réutilisation"
-        },
-        {
-          "type": "text",
-          "value": " : 1 tour(s)."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Si vous contrôlez uniquement des unités des Scoia'tael, infligez 2 point(s) de dégâts à une unité à la place."
-        }
-      ]
-    ],
-    "fluff": "Aucun contrebandier ne fournit plus de nourriture aux elfes des Montagnes bleues que Gale. Il leur apportait des sacs de navets, mais aussi de poireaux très appréciés.",
-    "rarity": "epic",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Humain",
-    "id": 201676,
-    "name": "Pavko Gale",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 5,
-    "provisionsCost": 8,
-    "type": "unit",
-    "primaryCategoryId": 78,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 30,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31747_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Mineur",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "order",
-          "value": "Ordre"
-        },
-        {
-          "type": "text",
-          "value": " : améliorez une unité alliée de 2 point(s)."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "S'il s'agit d'un Nain, ajoutez-lui aussi 2 point(s) d'"
-        },
-        {
-          "type": "keyword",
-          "key": "armor",
-          "value": "armure"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ]
-    ],
-    "fluff": "Qui est l'idiot qui siffle dans la mine ?!",
-    "rarity": "common",
-    "repeatCount": 1,
-    "ownable": true,
-    "categoryName": "Nain",
-    "id": 202474,
-    "name": "Miner",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "power": 4,
-    "provisionsCost": 4,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
     "craftingCost": 80,
     "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_big.jpg"
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_small_a3604d55dddf802d411c94781dcaa14495d47a0f.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_big_16fff90310571d423f0488ae0b8141708ed2b5ae.jpg"
     },
     "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_big.jpg"
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_small_05a5cd5fbf24c664cafb129caee92b96f09edf9f.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_big_ddbefcbbc36173f700e37a6493c9ed62c83e5857.jpg"
     },
     "thumbnailImg": null,
     "abilityImg": null,
-    "localizedName": "Trempe",
+    "localizedName": "Cercle de la vie",
     "tooltip": [
       [
         {
           "type": "text",
-          "value": "Améliorez un allié de 5 point(s). S'il s'agit d'un Nain, ajoutez-lui aussi 2 point(s) d'"
-        },
-        {
-          "type": "keyword",
-          "key": "armor",
-          "value": "armure"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ]
-    ],
-    "fluff": "L'acier nain est très résistant. Presque autant que les nains eux-mêmes.",
-    "rarity": "rare",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Nature",
-    "id": 202473,
-    "name": "Tempering",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "power": 0,
-    "provisionsCost": 4,
-    "type": "special",
-    "primaryCategoryId": 89,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/32/thumb_31741_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Figgis Merluzzo",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "defender",
-          "value": "Défenseur"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Déploiement"
-        },
-        {
-          "type": "text",
-          "value": " : "
-        },
-        {
-          "type": "keyword",
-          "key": "spawn",
-          "value": "générez"
-        },
-        {
-          "type": "text",
-          "value": " un Nain bagarreur sur cette ligne."
-        }
-      ]
-    ],
-    "fluff": "Je suis un type simple. J'aime boire, manger, chanter des chansons paillardes… Et lorsque la fête est finie, pisser sur le feu de camp mourant.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Nain",
-    "id": 202470,
-    "name": "Figgis Merluzzo",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 5,
-    "provisionsCost": 9,
-    "type": "unit",
-    "primaryCategoryId": 47,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 2
-  },
-  {
-    "craftingCost": 30,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_small.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32077_assets_slot_big.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_small.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_big.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Révolte de la nature",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Infligez 5 point(s) de dégâts à une unité ennemie. "
+          "value": "Infligez 3 point(s) de dégâts à une unité ennemie, puis améliorez une unité aléatoire des Scoia'tael dans votre main de 2 point(s)."
         }
       ],
       [
@@ -3757,17 +3497,17 @@
         },
         {
           "type": "text",
-          "value": " : améliorez un Sylvain allié aléatoire de 2 point(s)."
+          "value": " : améliorez une unité ciblée des Scoia'tael dans votre main à la place."
         }
       ]
     ],
-    "fluff": "La nature a longtemps supporté les excès des humains, mais même elle a fini par perdre patience…",
-    "rarity": "common",
+    "fluff": "Ceux qui veulent détruire Brokilone, qui tentent de brûler ses arbres et de tuer les créatures vivantes qui l'habitent, ne tarderont pas à fertiliser son sol.",
+    "rarity": "rare",
     "repeatCount": 1,
     "ownable": true,
     "categoryName": "Nature",
-    "id": 202539,
-    "name": "Nature's Rebuke",
+    "id": 202677,
+    "name": "Circle of Life",
     "faction": {
       "short": "sco",
       "slug": "scoiatael"
@@ -3843,156 +3583,6 @@
     "provisionsCost": 5,
     "type": "unit",
     "primaryCategoryId": 37,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 80,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_small_a3604d55dddf802d411c94781dcaa14495d47a0f.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32752_assets_slot_big_16fff90310571d423f0488ae0b8141708ed2b5ae.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_small_05a5cd5fbf24c664cafb129caee92b96f09edf9f.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_big_ddbefcbbc36173f700e37a6493c9ed62c83e5857.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Cercle de la vie",
-    "tooltip": [
-      [
-        {
-          "type": "text",
-          "value": "Infligez 3 point(s) de dégâts à une unité ennemie, puis améliorez une unité aléatoire des Scoia'tael dans votre main de 2 point(s)."
-        }
-      ],
-      [
-        {
-          "type": "keyword",
-          "key": "deathblow",
-          "value": "Coup mortel"
-        },
-        {
-          "type": "text",
-          "value": " : améliorez une unité ciblée des Scoia'tael dans votre main à la place."
-        }
-      ]
-    ],
-    "fluff": "Ceux qui veulent détruire Brokilone, qui tentent de brûler ses arbres et de tuer les créatures vivantes qui l'habitent, ne tarderont pas à fertiliser son sol.",
-    "rarity": "rare",
-    "repeatCount": 1,
-    "ownable": true,
-    "categoryName": "Nature",
-    "id": 202677,
-    "name": "Circle of Life",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "power": 0,
-    "provisionsCost": 5,
-    "type": "special",
-    "primaryCategoryId": 89,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_small_f1752165eece3e0135b4fcf622379d9696751167.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_big_00ba0de02363fd59f3ba3bd84c50a027e81ef60f.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_small_6a7ae8a5f747b934a7525fb3d18014ff39c3433a.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_big_fee44c1b638bd3e77bac6c8d194e0dbf1bc33e82.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Oniromancie",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "echo",
-          "value": "Écho"
-        },
-        {
-          "type": "text",
-          "value": "."
-        }
-      ],
-      [
-        {
-          "type": "text",
-          "value": "Jouez n'importe quelle carte depuis votre jeu."
-        }
-      ]
-    ],
-    "fluff": "Déchiffrer le passé et l'avenir à partir des rêves est une tâche très complexe, même pour un maître.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Sort",
-    "id": 202594,
-    "name": "Oneiromancy",
-    "faction": {
-      "short": "neu",
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "power": 0,
-    "provisionsCost": 12,
-    "type": "special",
-    "primaryCategoryId": 20,
-    "categoryIds": [],
-    "secondaryFactions": [],
-    "armour": 0
-  },
-  {
-    "craftingCost": 800,
-    "slotImg": {
-      "small": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_small_bdbb88ca6d0c5ece02f9e5f6331ebfc20fc4c9a2.jpg",
-      "big": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_big_6d86379b759748877954c83fe1d0d7fc49f4c491.jpg"
-    },
-    "previewImg": {
-      "small": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_small_f9c644625f8661345c3851675c3cdd1d0a021ddb.jpg",
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_big_0c459fdd00cc665b6319695ccab1116124e72488.jpg"
-    },
-    "thumbnailImg": null,
-    "abilityImg": null,
-    "localizedName": "Protecteur de la forêt",
-    "tooltip": [
-      [
-        {
-          "type": "keyword",
-          "key": "deploy",
-          "value": "Déploiement"
-        },
-        {
-          "type": "text",
-          "value": " : jouez une carte Nature Bronze depuis votre cimetière."
-        }
-      ]
-    ],
-    "fluff": "Quand vous partez chercher du bois pour la cheminée, mais que le bois se met à vous considérer comme de l'engrais, c'est que ce n'est pas votre journée.",
-    "rarity": "legendary",
-    "repeatCount": 0,
-    "ownable": true,
-    "categoryName": "Sylvain",
-    "id": 202673,
-    "name": "Forest Protector",
-    "faction": {
-      "short": "sco",
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "power": 5,
-    "provisionsCost": 11,
-    "type": "unit",
-    "primaryCategoryId": 90,
     "categoryIds": [],
     "secondaryFactions": [],
     "armour": 0
@@ -4086,6 +3676,466 @@
     "categoryIds": [],
     "secondaryFactions": [],
     "armour": 1
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/17/thumb_16357_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Schirrú",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "zeal",
+          "value": "Zèle"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "keyword",
+          "key": "order",
+          "value": "Ordre"
+        },
+        {
+          "type": "text",
+          "value": " : détruisez la présente unité et toutes les autres unités disposant de la même force."
+        }
+      ]
+    ],
+    "fluff": "Le demi-elfe s'empara d'un assortiment de plumes sur l'écritoire, et y mit le feu à l'aide d'un bougeoir. Il inclina l'allume-feu pour qu'il prenne bien, après quoi il le jeta parmi les rouleaux, qui s'enflammèrent instantanément.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Elfe",
+    "id": 142108,
+    "name": "Schirru",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 3,
+    "provisionsCost": 9,
+    "type": "unit",
+    "primaryCategoryId": 39,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/18/thumb_17071_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26779_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Fournaise de Korath",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "banish",
+          "value": "Bannissez"
+        },
+        {
+          "type": "text",
+          "value": " une unité ou un artefact."
+        }
+      ]
+    ],
+    "fluff": "Les érudits de Vicovaro ont déterminé que, sans aide impériale, les provinces frappées par la sécheresse perdent la moitié de leur population, deux tiers de leur bétail et toute volonté de se révolter.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": null,
+    "id": 200018,
+    "name": "Korathi Heatwave",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 10,
+    "type": "special",
+    "primaryCategoryId": null,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_small_bdbb88ca6d0c5ece02f9e5f6331ebfc20fc4c9a2.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32743_assets_slot_big_6d86379b759748877954c83fe1d0d7fc49f4c491.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_small_f9c644625f8661345c3851675c3cdd1d0a021ddb.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_big_0c459fdd00cc665b6319695ccab1116124e72488.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Protecteur de la forêt",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Déploiement"
+        },
+        {
+          "type": "text",
+          "value": " : jouez une carte Nature Bronze depuis votre cimetière."
+        }
+      ]
+    ],
+    "fluff": "Quand vous partez chercher du bois pour la cheminée, mais que le bois se met à vous considérer comme de l'engrais, c'est que ce n'est pas votre journée.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Sylvain",
+    "id": 202673,
+    "name": "Forest Protector",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "power": 5,
+    "provisionsCost": 11,
+    "type": "unit",
+    "primaryCategoryId": 90,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30304_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Justice de Novigrad",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "spawn",
+          "value": "Générez"
+        },
+        {
+          "type": "text",
+          "value": " une Brute de Surin sur votre ligne de "
+        },
+        {
+          "type": "keyword",
+          "key": "melee",
+          "value": "combat rapproché"
+        },
+        {
+          "type": "text",
+          "value": " et jouez un Nain Bronze depuis votre jeu."
+        }
+      ]
+    ],
+    "fluff": "\"Les deux bras attachés dans le dos\", c'est ce que t'as dit. Alors hésite pas à me botter le cul si l'envie t'en prend.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Crime, Découpeurs",
+    "id": 202384,
+    "name": "Novigradian Justice",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 10,
+    "type": "special",
+    "primaryCategoryId": 92,
+    "categoryIds": [
+      95
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/32/thumb_31744_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Trempe",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Améliorez un allié de 5 point(s). S'il s'agit d'un Nain, ajoutez-lui aussi 2 point(s) d'"
+        },
+        {
+          "type": "keyword",
+          "key": "armor",
+          "value": "armure"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "L'acier nain est très résistant. Presque autant que les nains eux-mêmes.",
+    "rarity": "rare",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Nature",
+    "id": 202473,
+    "name": "Tempering",
+    "faction": {
+      "short": "sco",
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "power": 0,
+    "provisionsCost": 4,
+    "type": "special",
+    "primaryCategoryId": 89,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 800,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_small_f1752165eece3e0135b4fcf622379d9696751167.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32557_assets_slot_big_00ba0de02363fd59f3ba3bd84c50a027e81ef60f.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_small_6a7ae8a5f747b934a7525fb3d18014ff39c3433a.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32275_assets_preview_big_fee44c1b638bd3e77bac6c8d194e0dbf1bc33e82.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Oniromancie",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "echo",
+          "value": "Écho"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Jouez n'importe quelle carte depuis votre jeu."
+        }
+      ]
+    ],
+    "fluff": "Déchiffrer le passé et l'avenir à partir des rêves est une tâche très complexe, même pour un maître.",
+    "rarity": "legendary",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Sort",
+    "id": 202594,
+    "name": "Oneiromancy",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "power": 0,
+    "provisionsCost": 12,
+    "type": "special",
+    "primaryCategoryId": 20,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 200,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/31/thumb_30298_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Harald Gord",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Déploiement"
+        },
+        {
+          "type": "text",
+          "value": " : améliorez la présente unité de 0 point(s)."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "value": "Augmentez cette amélioration de 1 point(s) par carte spéciale que vous avez jouée durant cette partie."
+        }
+      ]
+    ],
+    "fluff": "Le sinistre Harald a esquissé son dernier sourire en 1211, quand un Brouver Hoog ivre a avalé cinq bols de ragoût de chou à la chèvre avant de chier dans son froc.",
+    "rarity": "epic",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Nain, Découpeurs",
+    "id": 202383,
+    "name": "Harald Gord",
+    "faction": {
+      "short": "syn",
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "power": 3,
+    "provisionsCost": 7,
+    "type": "unit",
+    "primaryCategoryId": 47,
+    "categoryIds": [
+      95
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_small.jpg",
+      "big": "/uploads/media/assets_slot/0001/19/thumb_18439_assets_slot_big.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_small.jpg",
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28558_assets_preview_big.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Souleveur de bombes",
+    "tooltip": [
+      [
+        {
+          "type": "keyword",
+          "key": "deploy",
+          "value": "Déploiement"
+        },
+        {
+          "type": "text",
+          "value": " : détruisez un artefact ennemi."
+        }
+      ]
+    ],
+    "fluff": "J'ai connu un jeune couple qui a été séparé juste après son mariage. Une bombe dans un chariot peut avoir cet effet.",
+    "rarity": "rare",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Humain, Bandit",
+    "id": 202122,
+    "name": "Bomb Heaver",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "power": 4,
+    "provisionsCost": 5,
+    "type": "unit",
+    "primaryCategoryId": 78,
+    "categoryIds": [
+      83
+    ],
+    "secondaryFactions": [],
+    "armour": 0
+  },
+  {
+    "craftingCost": 80,
+    "slotImg": {
+      "small": "/uploads/media/assets_slot/0001/33/thumb_32566_assets_slot_small_8387df4b01b04f38740d28e2644a46abe50f4bc3.jpg",
+      "big": "/uploads/media/assets_slot/0001/33/thumb_32566_assets_slot_big_ff83725b07689f44e4f37b198688276ef15db993.jpg"
+    },
+    "previewImg": {
+      "small": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_small_ce0eb0b97b440a114cf956dcac28d5ba8e2f0371.jpg",
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_big_eedcd0a5daae325f4f6bc1f44b90a4a885fd1b75.jpg"
+    },
+    "thumbnailImg": null,
+    "abilityImg": null,
+    "localizedName": "Pacte",
+    "tooltip": [
+      [
+        {
+          "type": "text",
+          "value": "Améliorez une unité de 6 point(s) et ajoutez-lui l'attribut "
+        },
+        {
+          "type": "keyword",
+          "key": "doomed",
+          "value": "Condamnée"
+        },
+        {
+          "type": "text",
+          "value": "."
+        }
+      ]
+    ],
+    "fluff": "Il exauce vos vœux, en jurant de vous adorer. Or, argent, joyaux… il dépose des richesses à vos pieds. Les dettes doivent être remboursées, alors il reviendra vous trouver. Il reprendra tout, sans sourire pour vous réconforter !",
+    "rarity": "rare",
+    "repeatCount": 0,
+    "ownable": true,
+    "categoryName": "Sort",
+    "id": 202598,
+    "name": "Pact",
+    "faction": {
+      "short": "neu",
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "power": 0,
+    "provisionsCost": 4,
+    "type": "special",
+    "primaryCategoryId": 20,
+    "categoryIds": [],
+    "secondaryFactions": [],
+    "armour": 0
   },
   {
     "craftingCost": 800,
