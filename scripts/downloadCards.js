@@ -29,7 +29,19 @@ function getCards(decks) {
     .filter(
       (card, index, cards) =>
         cards.findIndex((otherCard) => otherCard.id === card.id) === index
-    );
+    )
+    .sort((a, b) => a.id - b.id)
+    .map(({ id, localizedName, previewImg, faction, cardGroup }) => ({
+      id,
+      localizedName,
+      previewImg: {
+        big: previewImg.big,
+      },
+      faction: {
+        slug: faction.slug,
+      },
+      cardGroup,
+    }));
 }
 
 async function downloadsCards(locale) {
