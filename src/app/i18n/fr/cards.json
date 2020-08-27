@@ -231,6 +231,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 152201,
+    "localizedName": "Lugos la Beigne",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26287_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 152202,
     "localizedName": "Charge de champion",
     "previewImg": {
@@ -246,6 +257,17 @@
     "localizedName": "Donar an Hindar",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26299_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 152206,
+    "localizedName": "Gremist",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26305_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -312,6 +334,17 @@
     "localizedName": "Éviscération",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26437_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 152318,
+    "localizedName": "Drummond : guerrière",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26452_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -570,6 +603,17 @@
       "slug": "northernrealms"
     },
     "cardGroup": "bronze"
+  },
+  {
+    "id": 200177,
+    "localizedName": "Cerys an Craite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27514_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold"
   },
   {
     "id": 200212,
@@ -1384,6 +1428,17 @@
       "slug": "nilfgaard"
     },
     "cardGroup": "bronze"
+  },
+  {
+    "id": 202458,
+    "localizedName": "Morkvarg : terrifiant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31393_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold"
   },
   {
     "id": 202459,
