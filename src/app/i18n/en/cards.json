@@ -55,6 +55,17 @@
     "cardGroup": "bronze"
   },
   {
+    "id": 122302,
+    "localizedName": "Reinforced Ballista",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25528_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 131102,
     "localizedName": "Ge'els",
     "previewImg": {
@@ -825,17 +836,6 @@
     "cardGroup": "bronze"
   },
   {
-    "id": 202151,
-    "localizedName": "Falibor",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28609_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 202152,
     "localizedName": "Anna Strenger",
     "previewImg": {
@@ -1056,32 +1056,21 @@
     "cardGroup": "gold"
   },
   {
+    "id": 202308,
+    "localizedName": "Sly Seductress",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29614_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 202312,
     "localizedName": "Whoreson Senior",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 202313,
-    "localizedName": "Adriano the Mink",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29689_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 202315,
-    "localizedName": "Adalbertus Kalkstein",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29722_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1309,6 +1298,17 @@
     "cardGroup": "bronze"
   },
   {
+    "id": 202429,
+    "localizedName": "Mutated Hounds",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31240_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 202430,
     "localizedName": "Assault",
     "previewImg": {
@@ -1494,6 +1494,39 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze"
+  },
+  {
+    "id": 202479,
+    "localizedName": "Maraal",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31780_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202503,
+    "localizedName": "War Elephant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31876_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202504,
+    "localizedName": "Siege",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31882_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold"
   },
   {
     "id": 202511,
@@ -1973,6 +2006,17 @@
     "localizedName": "Kerack Marine",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32449_assets_preview_big_18eea8ea83e7d588fccee4aba8f8b1640f2872b9.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 202653,
+    "localizedName": "Kerack Cutthroat",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32452_assets_preview_big_8860903862d42f39b67204cd40e931cc270b5be2.jpg"
     },
     "faction": {
       "slug": "northernrealms"
