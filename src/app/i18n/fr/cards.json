@@ -297,6 +297,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 152210,
+    "localizedName": "Ours sauvage",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 152211,
     "localizedName": "Rituel de Sigrdrifa",
     "previewImg": {
@@ -306,17 +317,6 @@
       "slug": "skellige"
     },
     "cardGroup": "gold"
-  },
-  {
-    "id": 152301,
-    "localizedName": "Ravageur de Svalblod",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26329_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze"
   },
   {
     "id": 152303,
@@ -334,17 +334,6 @@
     "localizedName": "An Craite : drakkar",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze"
-  },
-  {
-    "id": 152316,
-    "localizedName": "Éviscération",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26437_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -418,17 +407,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 162201,
-    "localizedName": "Albrich",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26542_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 162202,
     "localizedName": "Assire var Anahid",
     "previewImg": {
@@ -455,17 +433,6 @@
     "localizedName": "Remède expérimental",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26617_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze"
-  },
-  {
-    "id": 162305,
-    "localizedName": "Deithwen : arbalétrier",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26626_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -713,6 +680,17 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold"
+  },
+  {
+    "id": 201617,
+    "localizedName": "Recrue",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27967_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze"
   },
   {
     "id": 201626,
@@ -1056,21 +1034,32 @@
     "cardGroup": "gold"
   },
   {
-    "id": 202308,
-    "localizedName": "Séductrice rusée",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29614_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 202312,
     "localizedName": "Le Vieux Bâtard",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202313,
+    "localizedName": "Adriano le Vison",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29689_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202315,
+    "localizedName": "Adalbertus Kalkstein",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29722_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1298,17 +1287,6 @@
     "cardGroup": "bronze"
   },
   {
-    "id": 202429,
-    "localizedName": "Molosse mutants",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31240_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 202430,
     "localizedName": "Agression",
     "previewImg": {
@@ -1408,6 +1386,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 202448,
+    "localizedName": "Ffion var Gaernel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31498_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 202451,
     "localizedName": "Ard Feainn : tortue",
     "previewImg": {
@@ -1494,17 +1483,6 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze"
-  },
-  {
-    "id": 202479,
-    "localizedName": "Maraal",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31780_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold"
   },
   {
     "id": 202503,
@@ -1725,17 +1703,6 @@
       "slug": "neutral"
     },
     "cardGroup": "gold"
-  },
-  {
-    "id": 202598,
-    "localizedName": "Pacte",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_big_eedcd0a5daae325f4f6bc1f44b90a4a885fd1b75.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze"
   },
   {
     "id": 202600,
