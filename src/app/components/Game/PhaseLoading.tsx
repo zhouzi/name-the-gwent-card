@@ -19,7 +19,7 @@ import scoiataelBorder from "design/assets/scoiataelBorder.png";
 
 const debug = createDebug("PhaseLoading");
 
-const LEADERS = [
+export const LEADERS = [
   {
     name: "Morvran Voorhis",
     avatar: morvan,

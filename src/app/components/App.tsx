@@ -2,6 +2,7 @@ import * as React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { IntlProvider } from "react-intl";
 import { ThemeProvider } from "styled-components";
+import { Helmet } from "react-helmet";
 import { themeCSSVariables } from "design/theme";
 import { GlobalStyle, FireSparks } from "design/components";
 import {
@@ -15,6 +16,7 @@ import {
   RouteInstructionsTwitch,
   RoutePlayTwitch,
 } from "./routes";
+import { LEADERS } from "./Game/PhaseLoading";
 
 export function App() {
   return (
@@ -24,6 +26,26 @@ export function App() {
           <LocaleContextConsumer>
             {({ locale, messages }) => (
               <IntlProvider locale={locale} messages={messages}>
+                <Helmet
+                  link={LEADERS.reduce<
+                    Array<{ rel: "preload"; as: "image"; href: string }>
+                  >(
+                    (acc, leader) =>
+                      acc.concat([
+                        {
+                          rel: "preload",
+                          as: "image",
+                          href: leader.avatar,
+                        },
+                        {
+                          rel: "preload",
+                          as: "image",
+                          href: leader.border,
+                        },
+                      ]),
+                    []
+                  )}
+                />
                 <GlobalStyle />
                 <FireSparks />
                 <Switch>
