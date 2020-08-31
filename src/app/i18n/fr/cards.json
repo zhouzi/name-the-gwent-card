@@ -165,6 +165,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 142101,
+    "localizedName": "Saesenthessis",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25918_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 142108,
     "localizedName": "Schirrú",
     "previewImg": {
@@ -704,6 +715,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 201634,
+    "localizedName": "Éboulement de Bekker",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28054_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 201636,
     "localizedName": "Chasseur demi-elfe",
     "previewImg": {
@@ -744,17 +766,6 @@
     },
     "faction": {
       "slug": "monsters"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 201772,
-    "localizedName": "Geralt : spécialiste",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28255_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
     },
     "cardGroup": "gold"
   },
