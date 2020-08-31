@@ -16,6 +16,7 @@ import foltest from "design/assets/foltest.png";
 import northerRealmBorder from "design/assets/northerRealmBorder.png";
 import brouver from "design/assets/brouver.png";
 import scoiataelBorder from "design/assets/scoiataelBorder.png";
+import bronze from "design/assets/bronze.png";
 
 const debug = createDebug("PhaseLoading");
 
@@ -178,8 +179,10 @@ export function PhaseLoading({ gameState, dispatch }: Props) {
     const controller = new AbortController();
 
     preloadImages(
-      gameState.questions.map(
-        (question) => `https://playgwent.com${question.card.previewImg.big}`
+      [bronze].concat(
+        gameState.questions.map(
+          (question) => `https://playgwent.com${question.card.previewImg.big}`
+        )
       ),
       controller.signal
     ).then(() => {
