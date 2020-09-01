@@ -25,76 +25,49 @@ export const LEADERS = [
     name: "Morvran Voorhis",
     avatar: morvan,
     border: nilfgaardBorder,
-    taunts: [
-      "You will like this.",
-      "I don't mean to rush you, but...",
-      "Forgive me, but I must destroy you.",
-    ],
+    taunts: ["morvranTaunt1", "morvranTaunt2", "morvranTaunt3"],
   },
   {
     name: "Emhyr var Emreis",
     avatar: emhyr,
     border: nilfgaardBorder,
-    taunts: [
-      "Your continued struggle has grown amusing.",
-      "Careful. You do not want me to lose patience.",
-    ],
+    taunts: ["emhyrTaunt1", "emhyrTaunt2"],
   },
   {
     name: "Dettlaff van der Eretein",
     avatar: dettlaff,
     border: monsterBorder,
-    taunts: [
-      "Your entire world shall soon lapse into slumber as darkness descends upon it.",
-      "Get on with it! Move! Now!",
-      "Do you truly believe that will stop me?",
-    ],
+    taunts: ["dettlaffTaunt1", "dettlaffTaunt2", "dettlaffTaunt3"],
   },
   {
     name: "Woodland Spirit",
     avatar: woodland,
     border: monsterBorder,
-    taunts: ["..."],
+    taunts: ["woodlandTaunt1"],
   },
   {
     name: "Eredin Bréacc Glas",
     avatar: eredin,
     border: monsterBorder,
-    taunts: [
-      "You would make a good slave.",
-      "You know well how this will end.",
-      "You shall perish, worm.",
-    ],
+    taunts: ["eredinTaunt1", "eredinTaunt2", "eredinTaunt3"],
   },
   {
     name: "Queen Meve",
     avatar: meve,
     border: northerRealmBorder,
-    taunts: [
-      "Brace yourself, there'll be no mercy.",
-      "Careful. I'm losing patience.",
-      "Really? You think you stand a chance?",
-    ],
+    taunts: ["meveTaunt1", "meveTaunt2", "meveTaunt3"],
   },
   {
     name: "King Foltest",
     avatar: foltest,
     border: northerRealmBorder,
-    taunts: [
-      "Don't give up easy, do you?",
-      "Enough! Do something! Stop mucking about!",
-      "Grrr, I've had battles go awry, but this topples them all!",
-    ],
+    taunts: ["foltestTaunt1", "foltestTaunt2", "foltestTaunt3"],
   },
   {
     name: "Brouver Hoog",
     avatar: brouver,
     border: scoiataelBorder,
-    taunts: [
-      "Ye waitin' round, hopin I'll croak, ye badger?",
-      "Hahaha! Ehh… wait, ye're serious? That's yer move?",
-      "Somebody hold me back or I'll…",
-    ],
+    taunts: ["brouverTaunt1", "brouverTaunt2", "brouverTaunt3"],
   },
 ];
 
