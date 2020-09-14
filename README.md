@@ -1,5 +1,6 @@
 # name-the-gwent-card
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fae9fbc7-d24f-43ef-b6da-dae4efa07359/deploy-status)](https://app.netlify.com/sites/name-the-gwent-card/deploys)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./CODE_OF_CONDUCT.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
