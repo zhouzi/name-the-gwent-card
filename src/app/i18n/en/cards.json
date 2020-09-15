@@ -154,6 +154,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 152210,
+    "localizedName": "Savage Bear",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 152303,
     "localizedName": "An Craite Warrior",
     "previewImg": {
@@ -165,10 +176,32 @@
     "cardGroup": "bronze"
   },
   {
+    "id": 152309,
+    "localizedName": "Dimun Light Longship",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 152314,
     "localizedName": "An Craite Longship",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 152316,
+    "localizedName": "Gutting Slash",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26437_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -381,6 +414,17 @@
     },
     "faction": {
       "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 200149,
+    "localizedName": "Heymaey Protector",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27382_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
     },
     "cardGroup": "bronze"
   },
@@ -1313,6 +1357,17 @@
     "localizedName": "Harald an Craite",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32338_assets_preview_big_7ec15ca721ee132be4fb015b320f62de1010083d.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202618,
+    "localizedName": "Tyrggvi Tuirseach",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32344_assets_preview_big_42b7ae96d37567e43f8fa1c864d50bdf2e6ab2ed.jpg"
     },
     "faction": {
       "slug": "skellige"
