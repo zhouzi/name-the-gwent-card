@@ -143,21 +143,10 @@
     "cardGroup": "gold"
   },
   {
-    "id": 152204,
-    "localizedName": "Donar an Hindar",
+    "id": 152301,
+    "localizedName": "Ravageur de Svalblod",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26299_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 152210,
-    "localizedName": "Ours sauvage",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26329_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -176,32 +165,10 @@
     "cardGroup": "bronze"
   },
   {
-    "id": 152309,
-    "localizedName": "Dimun : drakkar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 152314,
     "localizedName": "An Craite : drakkar",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze"
-  },
-  {
-    "id": 152316,
-    "localizedName": "Éviscération",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26437_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -414,17 +381,6 @@
     },
     "faction": {
       "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze"
-  },
-  {
-    "id": 200149,
-    "localizedName": "Heymaey : protecteur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27382_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
     },
     "cardGroup": "bronze"
   },
@@ -924,6 +880,28 @@
     "cardGroup": "bronze"
   },
   {
+    "id": 202375,
+    "localizedName": "Serrurier halfelin",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30226_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 202377,
+    "localizedName": "Combattant à mains nues",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30238_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 202383,
     "localizedName": "Harald Gord",
     "previewImg": {
@@ -1397,17 +1375,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 202621,
-    "localizedName": "Herkja Drummond",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32353_assets_preview_big_80752278781fc9d1425048d98e6800ffae45a1ca.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 202622,
     "localizedName": "Guerre de clans",
     "previewImg": {
@@ -1434,17 +1401,6 @@
     "localizedName": "An Craite : attaquant",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32362_assets_preview_big_e5d5286c6f285b574194febba5f2b2b93708e180.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze"
-  },
-  {
-    "id": 202625,
-    "localizedName": "Drummond : villageoise",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32365_assets_preview_big_a74789c2173a2a0cfa985a69856e26b43ac049df.jpg"
     },
     "faction": {
       "slug": "skellige"
