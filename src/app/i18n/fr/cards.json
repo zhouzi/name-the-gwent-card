@@ -1452,28 +1452,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 202634,
-    "localizedName": "Roderick de Wett",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32392_assets_preview_big_4b122bbbc4f35012c2885356c671b5d13781f87f.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 202635,
-    "localizedName": "Lieutenant von Herst",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32395_assets_preview_big_fef0f7ed9691ee4b1a2a1c3d042a644931af4a44.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 202636,
     "localizedName": "Contrebande",
     "previewImg": {
