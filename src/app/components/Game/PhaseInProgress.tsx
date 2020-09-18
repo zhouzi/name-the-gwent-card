@@ -31,16 +31,16 @@ const QuestionContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  perspective: 1500px;
 
   @media ${(props) => props.theme.breakpoints.up("small")} {
     flex-direction: row;
+    perspective: 1500px;
   }
 `;
 
 const QuestionPanelContainer = styled.div`
   position: relative;
-  z-index: 10;
+  z-index: 1;
   margin-top: calc(-1 * ${(props) => props.theme.spacing.large});
 
   @media ${(props) => props.theme.breakpoints.up("small")} {

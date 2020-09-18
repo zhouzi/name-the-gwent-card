@@ -10,13 +10,17 @@ const BIG_PREVIEW_IMG_SIZE = {
 
 const ImageContainer = styled.div`
   position: relative;
-  z-index: 1;
+  z-index: 0;
   width: ${BIG_PREVIEW_IMG_SIZE.width}px;
   height: ${BIG_PREVIEW_IMG_SIZE.height}px;
-  transform: rotateY(-5deg);
   background-color: ${(props) => props.theme.colors.background.dark};
   box-shadow: 12px 12px 30px ${(props) => props.theme.colors.background.dark};
   overflow: hidden;
+
+  @media ${(props) => props.theme.breakpoints.up("small")} {
+    z-index: 1;
+    transform: rotateY(-5deg);
+  }
 `;
 
 const ImageFrame = styled.div`
