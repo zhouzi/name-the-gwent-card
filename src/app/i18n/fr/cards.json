@@ -132,6 +132,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 142315,
+    "localizedName": "Passeuse havekar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26218_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 152101,
     "localizedName": "Hjalmar an Craite",
     "previewImg": {
@@ -836,6 +847,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 202366,
+    "localizedName": "Disciple du Feu Éternel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30547_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 202367,
     "localizedName": "Le Redanien volant",
     "previewImg": {
@@ -1485,17 +1507,6 @@
     "cardGroup": "bronze"
   },
   {
-    "id": 202640,
-    "localizedName": "Créateur de mutants",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 202642,
     "localizedName": "Prince Viraxas",
     "previewImg": {
@@ -1659,6 +1670,17 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold"
+  },
+  {
+    "id": 202677,
+    "localizedName": "Cercle de la vie",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_big_ddbefcbbc36173f700e37a6493c9ed62c83e5857.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze"
   },
   {
     "id": 202678,
