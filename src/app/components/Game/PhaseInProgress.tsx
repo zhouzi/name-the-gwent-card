@@ -40,7 +40,7 @@ const QuestionContainer = styled.div`
 
 const QuestionPanelContainer = styled.div`
   position: relative;
-  z-index: 2;
+  z-index: 10;
   margin-top: calc(-1 * ${(props) => props.theme.spacing.large});
 
   @media ${(props) => props.theme.breakpoints.up("small")} {
