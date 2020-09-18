@@ -9,13 +9,17 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    font-size: 16px;
+    font-size: 14px;
     background-color: ${(props) => props.theme.colors.background.main};
     background-image: url(${backgroundImage});
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
     min-height: 100vh;
+
+    @media ${(props) => props.theme.breakpoints.up("small")} {
+      font-size: 16px;
+    }
   }
 
   body {

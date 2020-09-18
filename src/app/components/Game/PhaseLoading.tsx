@@ -89,11 +89,16 @@ const LeaderAvatar = styled.div<{ border: string; avatar: string }>`
 
 const Flavour = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-bottom: ${(props) => props.theme.spacing.large};
 
   & > *:last-child {
     flex: 1;
+  }
+
+  @media ${(props) => props.theme.breakpoints.up("small")} {
+    flex-direction: row;
   }
 `;
 

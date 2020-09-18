@@ -34,5 +34,8 @@ declare module "styled-components" {
       large: string;
       normal: string;
     };
+    breakpoints: {
+      up: (breakpoint: "small") => string;
+    };
   }
 }

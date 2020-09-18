@@ -16,6 +16,7 @@ export const Input = styled.input`
   margin: 0;
   border: none;
 
+  color: ${(props) => props.theme.colors.text.main};
   width: 100%;
   border: 1px solid transparent;
   background-color: ${(props) => props.theme.colors.background.light};

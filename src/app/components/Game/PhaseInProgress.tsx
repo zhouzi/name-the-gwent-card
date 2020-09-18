@@ -29,14 +29,25 @@ interface Props {
 
 const QuestionContainer = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
   perspective: 1500px;
+
+  @media ${(props) => props.theme.breakpoints.up("small")} {
+    flex-direction: row;
+  }
 `;
 
 const QuestionPanelContainer = styled.div`
   position: relative;
-  z-index: 0;
-  margin-left: calc(-1 * ${(props) => props.theme.spacing.large});
+  z-index: 2;
+  margin-top: calc(-1 * ${(props) => props.theme.spacing.large});
+
+  @media ${(props) => props.theme.breakpoints.up("small")} {
+    z-index: 0;
+    margin-top: 0;
+    margin-left: calc(-1 * ${(props) => props.theme.spacing.large});
+  }
 `;
 
 const QuestionPanel = styled(Panel)`

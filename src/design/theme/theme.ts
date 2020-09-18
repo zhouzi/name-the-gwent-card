@@ -33,6 +33,9 @@ export const theme: DefaultTheme = {
     large: "2rem",
     normal: "1rem",
   },
+  breakpoints: {
+    up: (breakpoint: "small") => "(min-width: 40rem)",
+  },
 };
 
 function isObject(value: any): boolean {
@@ -45,7 +48,9 @@ function toCSSVariables(theme: Object, ancestors: string[] = []): Object {
       Object.assign(acc, {
         [key]: isObject(theme[key])
           ? toCSSVariables(theme[key], ancestors.concat([key]))
-          : `var(--${ancestors.concat([key]).join("-")})`,
+          : ["string", "number"].includes(typeof theme[key])
+          ? `var(--${ancestors.concat([key]).join("-")})`
+          : theme[key],
       }),
     {}
   );
