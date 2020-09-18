@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import randomItem from "random-item";
 import createDebug from "debug";
@@ -174,7 +175,9 @@ export function PhaseLoading({ gameState, dispatch }: Props) {
       <Flavour>
         <LeaderAvatar avatar={leader.avatar} border={leader.border} />
         <Quote>
-          <Heading>{leader.taunt}</Heading>
+          <Heading>
+            <FormattedMessage id={leader.taunt} />
+          </Heading>
           <Paragraph as="footer" variant="hint">
             - {leader.name}
           </Paragraph>
