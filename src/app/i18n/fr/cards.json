@@ -121,6 +121,17 @@
     "cardGroup": "gold"
   },
   {
+    "id": 142212,
+    "localizedName": "Sheldon Skaggs",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26041_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 142214,
     "localizedName": "Ele'yas",
     "previewImg": {
@@ -403,6 +414,17 @@
     },
     "faction": {
       "slug": "northernrealms"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 200293,
+    "localizedName": "Agitateur nain",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27661_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
     },
     "cardGroup": "bronze"
   },
@@ -847,17 +869,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 202366,
-    "localizedName": "Disciple du Feu Éternel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30547_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 202367,
     "localizedName": "Le Redanien volant",
     "previewImg": {
@@ -1054,6 +1065,17 @@
       "slug": "nilfgaard"
     },
     "cardGroup": "bronze"
+  },
+  {
+    "id": 202458,
+    "localizedName": "Morkvarg : terrifiant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31393_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold"
   },
   {
     "id": 202459,
@@ -1298,6 +1320,28 @@
     "cardGroup": "gold"
   },
   {
+    "id": 202596,
+    "localizedName": "Tout-puissant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32281_assets_preview_big_ae0756e04b77acaec65af5a2d19350abd48c9257.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202598,
+    "localizedName": "Pacte",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_big_eedcd0a5daae325f4f6bc1f44b90a4a885fd1b75.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 202603,
     "localizedName": "Roi Auberon",
     "previewImg": {
@@ -1357,17 +1401,6 @@
     "localizedName": "Harald an Craite",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32338_assets_preview_big_7ec15ca721ee132be4fb015b320f62de1010083d.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 202618,
-    "localizedName": "Tyrggvi Tuirseach",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32344_assets_preview_big_42b7ae96d37567e43f8fa1c864d50bdf2e6ab2ed.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -1500,6 +1533,17 @@
     "localizedName": "Chevalier déchu",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32404_assets_preview_big_9a7155d0204d34fa74765eda4585bf76b92b1a3e.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 202640,
+    "localizedName": "Créateur de mutants",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
     },
     "faction": {
       "slug": "syndicate"
