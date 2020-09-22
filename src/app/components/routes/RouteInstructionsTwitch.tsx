@@ -17,7 +17,7 @@ import {
   InputHint,
 } from "design/components";
 import {
-  createQuestions,
+  getRandomCards,
   serialize,
   DIFFICULTIES,
   DifficultyLevel,
@@ -105,7 +105,7 @@ export function RouteInstructionsTwitch() {
                   channel,
                   gameRules: serialize([
                     difficultyLevel,
-                    createQuestions(cards).map((question) => question.cardID),
+                    getRandomCards(cards).map((card) => card.id),
                   ]),
                 })
               );

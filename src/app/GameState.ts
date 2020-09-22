@@ -85,9 +85,9 @@ export interface GameState {
 
 export type GameRules = [DifficultyLevel, CardID[]];
 
-function getRandomCards(
+export function getRandomCards(
   cards: GwentCard[],
-  length: number,
+  length: number = 10,
   acc: GwentCard[] = []
 ): GwentCard[] {
   if (acc.length >= length) {
@@ -101,12 +101,6 @@ function getRandomCards(
   }
 
   return getRandomCards(cards, length, acc.concat([randomCard]));
-}
-
-export function createQuestions(cards: GwentCard[]): Question[] {
-  return getRandomCards(cards, 10).map((card) => ({
-    cardID: card.id,
-  }));
 }
 
 export function serialize(gameRules: GameRules): string {

@@ -13,7 +13,7 @@ import {
   Link,
 } from "design/components";
 import {
-  createQuestions,
+  getRandomCards,
   serialize,
   DIFFICULTIES,
   DifficultyLevel,
@@ -84,7 +84,7 @@ export function RouteInstructionsSolo() {
               generatePath(ROUTES.SOLO_PLAY, {
                 gameRules: serialize([
                   difficultyLevel,
-                  createQuestions(cards).map((question) => question.cardID),
+                  getRandomCards(cards).map((card) => card.id),
                 ]),
               })
             );
