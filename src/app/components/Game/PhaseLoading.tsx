@@ -18,6 +18,7 @@ import northerRealmBorder from "design/assets/northerRealmBorder.png";
 import brouver from "design/assets/brouver.png";
 import scoiataelBorder from "design/assets/scoiataelBorder.png";
 import bronze from "design/assets/bronze.png";
+import { useLocaleContext } from "app/i18n";
 
 const debug = createDebug("PhaseLoading");
 
@@ -143,6 +144,7 @@ function preloadImages(images: string[], signal: AbortSignal) {
 }
 
 export function PhaseLoading({ gameState, dispatch }: Props) {
+  const { cards } = useLocaleContext();
   const [leader] = React.useState(() => {
     const { name, avatar, border, taunts } = randomItem(LEADERS);
 
@@ -159,9 +161,12 @@ export function PhaseLoading({ gameState, dispatch }: Props) {
 
     preloadImages(
       [bronze].concat(
-        gameState.questions.map(
-          (question) => `https://playgwent.com${question.card.previewImg.big}`
-        )
+        gameState.questions.map((question) => {
+          const { previewImg } = cards.find(
+            (card) => card.id === question.cardID
+          )!;
+          return `https://playgwent.com${previewImg.big}`;
+        })
       ),
       controller.signal
     ).then(() => {
@@ -173,7 +178,7 @@ export function PhaseLoading({ gameState, dispatch }: Props) {
     return () => {
       controller.abort();
     };
-  }, [gameState.questions, dispatch]);
+  }, [gameState.questions, dispatch, cards]);
 
   return (
     <Container variant="large">

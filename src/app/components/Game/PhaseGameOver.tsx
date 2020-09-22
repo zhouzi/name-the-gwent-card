@@ -22,7 +22,7 @@ export function PhaseGameOver(props: Props) {
   const intl = useIntl();
   const correctAnswers = props.gameState.answers.reduce(
     (acc, answer, index) => {
-      if (answer.id === props.gameState.questions[index].card.id) {
+      if (answer.cardID === props.gameState.questions[index].cardID) {
         return acc + 1;
       }
 

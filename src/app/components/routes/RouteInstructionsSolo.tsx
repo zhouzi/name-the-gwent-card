@@ -82,10 +82,10 @@ export function RouteInstructionsSolo() {
           onClick={() => {
             history.push(
               generatePath(ROUTES.SOLO_PLAY, {
-                gameRules: serialize({
+                gameRules: serialize([
                   difficultyLevel,
-                  questions: createQuestions(cards),
-                }),
+                  createQuestions(cards).map((question) => question.cardID),
+                ]),
               })
             );
           }}

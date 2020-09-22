@@ -9,6 +9,7 @@ const BIG_PREVIEW_IMG_SIZE = {
 };
 
 const ImageContainer = styled.div`
+  flex: 0 0 auto;
   position: relative;
   z-index: 0;
   width: ${BIG_PREVIEW_IMG_SIZE.width}px;

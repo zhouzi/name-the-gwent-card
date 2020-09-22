@@ -74,13 +74,16 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
   const { fuse, cards } = useLocaleContext();
   const difficulty = DIFFICULTIES[gameState.difficultyLevel];
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
+  const currentQuestionCard = cards.find(
+    (card) => card.id === currentQuestion.cardID
+  )!;
   const currentQuestionAnswer =
     gameState.answers[gameState.currentQuestionIndex];
 
   const onQuestionTimeout = React.useCallback(() => {
     dispatch({
       type: "answer",
-      id: null,
+      cardID: null,
       username: null,
     });
   }, [dispatch]);
@@ -95,7 +98,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
     <Container variant="large">
       <QuestionContainer>
         <CardWithVisualEffects
-          card={currentQuestion.card}
+          card={currentQuestionCard}
           visualEffects={
             currentQuestionAnswer == null ? difficulty.visualEffects : []
           }
@@ -121,7 +124,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
 
                       dispatch({
                         type: "answer",
-                        id: selectedItem ? selectedItem.id : null,
+                        cardID: selectedItem ? selectedItem.id : null,
                         username: null,
                       });
                     }}
@@ -172,14 +175,14 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                       </AutocompleteList>
                     </AutocompleteContainer>
                     {difficulty.hints && (
-                      <CardHints card={currentQuestion.card} />
+                      <CardHints card={currentQuestionCard} />
                     )}
                   </form>
                 )}
               </Downshift>
             ) : (
               <>
-                {currentQuestionAnswer.id === currentQuestion.card.id ? (
+                {currentQuestionAnswer.cardID === currentQuestion.cardID ? (
                   <>
                     <Heading>
                       {currentQuestionAnswer.username ? (
@@ -195,7 +198,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                       <FormattedMessage
                         id="cardNamed"
                         values={{
-                          localizedName: currentQuestion.card.localizedName,
+                          localizedName: currentQuestionCard.localizedName,
                         }}
                       />
                     </Paragraph>
@@ -205,15 +208,15 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                     <Heading>
                       <FormattedMessage id="lost" />
                     </Heading>
-                    {currentQuestionAnswer.id == null ||
+                    {currentQuestionAnswer.cardID == null ||
                     cards.find(
-                      (card) => card.id === currentQuestionAnswer.id
+                      (card) => card.id === currentQuestionAnswer.cardID
                     ) == null ? (
                       <Paragraph>
                         <FormattedMessage
                           id="cardNamed"
                           values={{
-                            localizedName: currentQuestion.card.localizedName,
+                            localizedName: currentQuestionCard.localizedName,
                           }}
                         />
                       </Paragraph>
@@ -223,10 +226,10 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                           id="butCardNamed"
                           values={{
                             wrongLocalizedName: cards.find(
-                              (card) => card.id === currentQuestionAnswer.id
+                              (card) => card.id === currentQuestionAnswer.cardID
                             )!.localizedName,
                             correctLocalizedName:
-                              currentQuestion.card.localizedName,
+                              currentQuestionCard.localizedName,
                           }}
                         />
                       </Paragraph>

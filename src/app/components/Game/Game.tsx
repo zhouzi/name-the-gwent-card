@@ -66,7 +66,7 @@ export function Game({ channel, gameRules }: GameProps) {
       dispatch({
         type: "answer",
         username: userstate["display-name"] || null,
-        id: bestMatch.item.id,
+        cardID: bestMatch.item.id,
       });
     });
 

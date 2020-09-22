@@ -103,10 +103,10 @@ export function RouteInstructionsTwitch() {
               history.push(
                 generatePath(ROUTES.TWITCH_PLAY, {
                   channel,
-                  gameRules: serialize({
+                  gameRules: serialize([
                     difficultyLevel,
-                    questions: createQuestions(cards),
-                  }),
+                    createQuestions(cards).map((question) => question.cardID),
+                  ]),
                 })
               );
             } catch (err) {
