@@ -58,10 +58,12 @@ const QuestionPanel = styled(Panel)`
 `;
 
 const QuestionFooter = styled(Footer)`
-  padding-left: calc(
-    ${(props) => props.theme.spacing.large} +
-      ${(props) => props.theme.spacing.normal}
-  );
+  @media ${(props) => props.theme.breakpoints.up("small")} {
+    padding-left: calc(
+      ${(props) => props.theme.spacing.large} +
+        ${(props) => props.theme.spacing.normal}
+    );
+  }
 `;
 
 const AutocompleteContainer = styled.div`
