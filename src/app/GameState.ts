@@ -125,26 +125,45 @@ export function serialize(gameRules: GameRules): string {
 export function deserialize(
   serializedCompressedGameRules: string,
   cards: GwentCard[]
-): GameRules {
-  const compressedGameRules: CompressedGameRules = JSON.parse(
-    // This function is fragile on purpose, we want it to throw an error
-    // if there's an issue with the serialized string.
-    lzString.decompressFromEncodedURIComponent(serializedCompressedGameRules)!
-  );
-  return {
-    difficultyLevel: compressedGameRules[0],
-    questions: compressedGameRules[1].map((id) => {
-      const card = cards.find((card) => card.id === id);
+): GameRules | null {
+  try {
+    const compressedGameRules: CompressedGameRules = JSON.parse(
+      lzString.decompressFromEncodedURIComponent(serializedCompressedGameRules)!
+    );
 
-      if (card == null) {
-        throw new Error(`No cards with id ${id} found.`);
-      }
+    if (
+      !Array.isArray(compressedGameRules) ||
+      compressedGameRules.length !== 2
+    ) {
+      throw new Error("Serialized game rules are malformatted");
+    }
 
-      return {
-        card,
-      };
-    }),
-  };
+    const difficulty = DIFFICULTIES.find(
+      (otherDifficulty) =>
+        otherDifficulty.difficultyLevel === compressedGameRules[0]
+    );
+
+    if (difficulty == null) {
+      throw new Error(`Unknown difficulty level "${compressedGameRules[0]}"`);
+    }
+
+    return {
+      difficultyLevel: difficulty.difficultyLevel,
+      questions: compressedGameRules[1].map((id) => {
+        const card = cards.find((card) => card.id === id);
+
+        if (card == null) {
+          throw new Error(`No cards with id ${id} found.`);
+        }
+
+        return {
+          card,
+        };
+      }),
+    };
+  } catch (err) {}
+
+  return null;
 }
 
 export function getInitialState(gameRules: GameRules): GameState {

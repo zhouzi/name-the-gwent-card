@@ -1,12 +1,19 @@
 import * as React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Redirect } from "react-router-dom";
 import { useLocaleContext } from "app/i18n";
 import { deserialize } from "app/GameState";
 import { Game } from "../Game";
 
 export function RoutePlaySolo() {
-  const { gameRules } = useParams<{ gameRules: string }>();
+  const { gameRules: serializedGameRules } = useParams<{ gameRules: string }>();
   const { cards } = useLocaleContext();
+  const [gameRules] = React.useState(() =>
+    deserialize(serializedGameRules, cards)
+  );
 
-  return <Game gameRules={deserialize(gameRules, cards)} />;
+  if (gameRules == null) {
+    return <Redirect to="/" />;
+  }
+
+  return <Game gameRules={gameRules} />;
 }
