@@ -4,7 +4,12 @@ import lzString from "lz-string";
 
 const debug = createDebug("GameState");
 
-export type DifficultyLevel = "easy" | "medium" | "hard" | "extreme";
+export enum DifficultyLevel {
+  Easy = "easy",
+  Medium = "medium",
+  Hard = "hard",
+  Extreme = "extreme",
+}
 
 export interface Difficulty {
   difficultyLevel: DifficultyLevel;
@@ -12,14 +17,14 @@ export interface Difficulty {
   hints: boolean;
 }
 
-export const DIFFICULTIES: Difficulty[] = [
-  {
-    difficultyLevel: "easy",
+export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
+  [DifficultyLevel.Easy]: {
+    difficultyLevel: DifficultyLevel.Easy,
     visualEffects: [],
     hints: true,
   },
-  {
-    difficultyLevel: "medium",
+  [DifficultyLevel.Medium]: {
+    difficultyLevel: DifficultyLevel.Medium,
     visualEffects: [
       {
         type: "zoom",
@@ -28,8 +33,8 @@ export const DIFFICULTIES: Difficulty[] = [
     ],
     hints: true,
   },
-  {
-    difficultyLevel: "hard",
+  [DifficultyLevel.Hard]: {
+    difficultyLevel: DifficultyLevel.Hard,
     visualEffects: [
       {
         type: "zoom",
@@ -38,8 +43,8 @@ export const DIFFICULTIES: Difficulty[] = [
     ],
     hints: true,
   },
-  {
-    difficultyLevel: "extreme",
+  [DifficultyLevel.Extreme]: {
+    difficultyLevel: DifficultyLevel.Extreme,
     visualEffects: [
       {
         type: "zoom",
@@ -52,7 +57,7 @@ export const DIFFICULTIES: Difficulty[] = [
     ],
     hints: true,
   },
-];
+};
 
 export type VisualEffect =
   | {
@@ -138,10 +143,7 @@ export function deserialize(
       throw new Error("Serialized game rules are malformatted");
     }
 
-    const difficulty = DIFFICULTIES.find(
-      (otherDifficulty) =>
-        otherDifficulty.difficultyLevel === compressedGameRules[0]
-    );
+    const difficulty = DIFFICULTIES[compressedGameRules[0]];
 
     if (difficulty == null) {
       throw new Error(`Unknown difficulty level "${compressedGameRules[0]}"`);

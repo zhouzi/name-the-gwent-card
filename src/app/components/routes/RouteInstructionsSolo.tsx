@@ -26,7 +26,7 @@ export function RouteInstructionsSolo() {
   const history = useHistory();
   const { cards } = useLocaleContext();
   const [difficultyLevel, setDifficultyLevel] = React.useState<DifficultyLevel>(
-    "easy"
+    DifficultyLevel.Easy
   );
 
   return (
@@ -51,7 +51,12 @@ export function RouteInstructionsSolo() {
           />
         </Paragraph>
         <List spacingBottom="large">
-          {DIFFICULTIES.map((difficulty) => (
+          {[
+            DIFFICULTIES[DifficultyLevel.Easy],
+            DIFFICULTIES[DifficultyLevel.Medium],
+            DIFFICULTIES[DifficultyLevel.Hard],
+            DIFFICULTIES[DifficultyLevel.Extreme],
+          ].map((difficulty) => (
             <ListItem key={difficulty.difficultyLevel}>
               <InputRadio
                 name="difficulty"

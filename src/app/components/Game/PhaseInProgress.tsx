@@ -72,10 +72,7 @@ const AutocompleteContainer = styled.div`
 export function PhaseInProgress({ gameState, dispatch }: Props) {
   const intl = useIntl();
   const { fuse, cards } = useLocaleContext();
-  const difficulty = DIFFICULTIES.find(
-    (otherDifficulty) =>
-      otherDifficulty.difficultyLevel === gameState.difficultyLevel
-  )!;
+  const difficulty = DIFFICULTIES[gameState.difficultyLevel];
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
   const currentQuestionAnswer =
     gameState.answers[gameState.currentQuestionIndex];

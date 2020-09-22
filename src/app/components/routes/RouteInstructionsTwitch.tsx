@@ -45,7 +45,7 @@ export function RouteInstructionsTwitch() {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState<Error | null>(null);
   const [difficultyLevel, setDifficultyLevel] = React.useState<DifficultyLevel>(
-    "easy"
+    DifficultyLevel.Easy
   );
 
   return (
@@ -124,7 +124,12 @@ export function RouteInstructionsTwitch() {
           }}
         >
           <List spacingBottom="large">
-            {DIFFICULTIES.map((difficulty) => (
+            {[
+              DIFFICULTIES[DifficultyLevel.Easy],
+              DIFFICULTIES[DifficultyLevel.Medium],
+              DIFFICULTIES[DifficultyLevel.Hard],
+              DIFFICULTIES[DifficultyLevel.Extreme],
+            ].map((difficulty) => (
               <ListItem key={difficulty.difficultyLevel}>
                 <InputRadio
                   name="difficulty"
