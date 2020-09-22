@@ -14,14 +14,12 @@ export enum DifficultyLevel {
 export interface Difficulty {
   difficultyLevel: DifficultyLevel;
   visualEffects: VisualEffect[];
-  hints: boolean;
 }
 
 export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
   [DifficultyLevel.Easy]: {
     difficultyLevel: DifficultyLevel.Easy,
     visualEffects: [],
-    hints: true,
   },
   [DifficultyLevel.Medium]: {
     difficultyLevel: DifficultyLevel.Medium,
@@ -31,7 +29,6 @@ export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
         zoom: 2,
       },
     ],
-    hints: true,
   },
   [DifficultyLevel.Hard]: {
     difficultyLevel: DifficultyLevel.Hard,
@@ -41,7 +38,6 @@ export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
         zoom: 5,
       },
     ],
-    hints: true,
   },
   [DifficultyLevel.Extreme]: {
     difficultyLevel: DifficultyLevel.Extreme,
@@ -55,7 +51,6 @@ export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
         blur: 8,
       },
     ],
-    hints: true,
   },
 };
 

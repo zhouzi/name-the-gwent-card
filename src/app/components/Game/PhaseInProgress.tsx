@@ -176,9 +176,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                             ))}
                       </AutocompleteList>
                     </AutocompleteContainer>
-                    {difficulty.hints && (
-                      <CardHints card={currentQuestionCard} />
-                    )}
+                    <CardHints card={currentQuestionCard} />
                   </form>
                 )}
               </Downshift>
