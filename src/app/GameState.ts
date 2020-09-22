@@ -161,71 +161,61 @@ export type Action =
   | { type: "answer"; cardID: number | null; username: string | null }
   | { type: "nextQuestion" };
 
-export function reducer(gameState: GameState, action: Action): GameState {
+export function reducer(draft: GameState, action: Action): void {
   switch (action.type) {
     case "loaded": {
-      if (gameState.phase === "loading") {
+      if (draft.phase === "loading") {
         debug("The game is loaded, now starting");
-        return {
-          ...gameState,
-          phase: "inProgress",
-        };
+        draft.phase = "inProgress";
+
+        return;
       }
 
       debug("Loaded was dispatched although the game is not currently loading");
-      return gameState;
+      return;
     }
 
     case "answer": {
-      if (gameState.currentQuestionIndex === gameState.answers.length) {
+      if (draft.currentQuestionIndex === draft.answers.length) {
         if (
           action.username &&
-          action.cardID !==
-            gameState.questions[gameState.currentQuestionIndex].cardID
+          action.cardID !== draft.questions[draft.currentQuestionIndex].cardID
         ) {
           debug(
             `${action.username} from the Twitch chat made a mistake, they're forgiven`
           );
-          return gameState;
+          return;
         }
 
-        return {
-          ...gameState,
-          answers: gameState.answers.concat([
-            {
-              cardID: action.cardID,
-              username: action.username,
-            },
-          ]),
-        };
+        draft.answers.push({
+          cardID: action.cardID,
+          username: action.username,
+        });
+        return;
       }
 
       debug("An answer has already been submitted for this question");
-      return gameState;
+      return;
     }
 
     case "nextQuestion": {
-      if (gameState.answers[gameState.currentQuestionIndex] == null) {
+      if (draft.answers[draft.currentQuestionIndex] == null) {
         debug(
           "An answer must be submitted before proceeding to the next question"
         );
-        return gameState;
+        return;
       }
 
-      if (gameState.currentQuestionIndex + 1 >= gameState.questions.length) {
-        return {
-          ...gameState,
-          phase: "gameOver",
-        };
+      if (draft.currentQuestionIndex + 1 >= draft.questions.length) {
+        draft.phase = "gameOver";
+        return;
       }
 
-      return {
-        ...gameState,
-        currentQuestionIndex: gameState.currentQuestionIndex + 1,
-      };
+      draft.currentQuestionIndex += 1;
+      return;
     }
 
     default:
-      return gameState;
+      return;
   }
 }

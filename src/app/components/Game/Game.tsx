@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useImmerReducer } from "use-immer";
 import createDebug from "debug";
 import { Client } from "tmi.js";
 import { reducer, getInitialState, GameRules } from "app/GameState";
@@ -22,7 +23,7 @@ interface GameProps {
 
 export function Game({ channel, gameRules }: GameProps) {
   const { fuse } = useLocaleContext();
-  const [gameState, dispatch] = React.useReducer(
+  const [gameState, dispatch] = useImmerReducer(
     reducer,
     getInitialState(gameRules)
   );
