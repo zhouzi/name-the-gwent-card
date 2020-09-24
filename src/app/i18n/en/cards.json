@@ -110,17 +110,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 142202,
-    "localizedName": "Ida Emean aep Sivney",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25963_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 142212,
     "localizedName": "Sheldon Skaggs",
     "previewImg": {
@@ -141,17 +130,6 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold"
-  },
-  {
-    "id": 142315,
-    "localizedName": "Hawker Smuggler",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26218_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze"
   },
   {
     "id": 152101,
@@ -528,17 +506,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 201779,
-    "localizedName": "Call of the Forest",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28312_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 201780,
     "localizedName": "Yennefer: Divination",
     "previewImg": {
@@ -642,17 +609,6 @@
     "localizedName": "Fauve",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/30/thumb_29203_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 202264,
-    "localizedName": "The Great Oak",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29206_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -1661,17 +1617,6 @@
     "cardGroup": "bronze"
   },
   {
-    "id": 202670,
-    "localizedName": "Eithné Young Queen",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32509_assets_preview_big_3c1290c93965effbc9f01c5905df6f67bdbe0944.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold"
-  },
-  {
     "id": 202673,
     "localizedName": "Forest Protector",
     "previewImg": {
@@ -1687,17 +1632,6 @@
     "localizedName": "Shaping Nature",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32521_assets_preview_big_d94daa6855e26d857d67b7eb32d1bd6dd661d11c.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold"
-  },
-  {
-    "id": 202675,
-    "localizedName": "Freixenet",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32524_assets_preview_big_5df0a6ca874996c1446b213dac6ee18e8fbcbafc.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -1731,17 +1665,6 @@
     "localizedName": "Hamadryad",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32533_assets_preview_big_7c5dae2b6f3dc67aacb5f3fd12e02a102ba23f1c.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze"
-  },
-  {
-    "id": 202680,
-    "localizedName": "Oakcritters",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32539_assets_preview_big_c9ee2b372a0b649a042ee633b989f7b660380a0c.jpg"
     },
     "faction": {
       "slug": "scoiatael"
