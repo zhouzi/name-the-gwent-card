@@ -2,7 +2,7 @@ import * as React from "react";
 import { useImmerReducer } from "use-immer";
 import createDebug from "debug";
 import { Client } from "tmi.js";
-import { reducer, getInitialState, GameRules } from "app/GameState";
+import { reducer, getInitialState, GameRules, GamePhase } from "app/GameState";
 import { useLocaleContext } from "app/i18n";
 import { PhaseGameOver } from "./PhaseGameOver";
 import { PhaseInProgress } from "./PhaseInProgress";
@@ -11,9 +11,9 @@ import { PhaseLoading } from "./PhaseLoading";
 const debug = createDebug("Game");
 
 const PHASES = {
-  loading: PhaseLoading,
-  inProgress: PhaseInProgress,
-  gameOver: PhaseGameOver,
+  [GamePhase.Loading]: PhaseLoading,
+  [GamePhase.InProgress]: PhaseInProgress,
+  [GamePhase.GameOver]: PhaseGameOver,
 };
 
 interface GameProps {

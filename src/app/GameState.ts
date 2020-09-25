@@ -75,9 +75,15 @@ export interface Answer {
   username: string | null;
 }
 
+export enum GamePhase {
+  Loading = "loading",
+  InProgress = "inProgress",
+  GameOver = "gameOver",
+}
+
 export interface GameState {
   difficultyLevel: DifficultyLevel;
-  phase: "loading" | "inProgress" | "gameOver";
+  phase: GamePhase;
   currentQuestionIndex: number;
   questions: Question[];
   answers: Answer[];
@@ -147,7 +153,7 @@ export function deserialize(
 export function getInitialState(gameRules: GameRules): GameState {
   return {
     difficultyLevel: gameRules[0],
-    phase: "loading",
+    phase: GamePhase.Loading,
     currentQuestionIndex: 0,
     questions: gameRules[1].map((cardID) => ({
       cardID,
@@ -166,7 +172,7 @@ export function reducer(draft: GameState, action: Action): void {
     case "loaded": {
       if (draft.phase === "loading") {
         debug("The game is loaded, now starting");
-        draft.phase = "inProgress";
+        draft.phase = GamePhase.InProgress;
 
         return;
       }
@@ -207,7 +213,7 @@ export function reducer(draft: GameState, action: Action): void {
       }
 
       if (draft.currentQuestionIndex + 1 >= draft.questions.length) {
-        draft.phase = "gameOver";
+        draft.phase = GamePhase.GameOver;
         return;
       }
 
