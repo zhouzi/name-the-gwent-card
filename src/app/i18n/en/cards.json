@@ -253,17 +253,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 162302,
-    "localizedName": "Rot Tosser",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26596_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 162305,
     "localizedName": "Deithwen Arbalest",
     "previewImg": {
@@ -1181,6 +1170,17 @@
     "localizedName": "Masquerade Ball",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32098_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202546,
+    "localizedName": "Van Moorlehem's Cupbearer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32110_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
