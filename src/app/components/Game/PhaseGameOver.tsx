@@ -20,16 +20,13 @@ interface Props {
 
 export function PhaseGameOver(props: Props) {
   const intl = useIntl();
-  const correctAnswers = props.gameState.answers.reduce(
-    (acc, answer, index) => {
-      if (answer.cardID === props.gameState.questions[index].cardID) {
-        return acc + 1;
-      }
+  const correctAnswers = props.gameState.questions.reduce((acc, question) => {
+    if (question.answers.find((answer) => answer.cardID === question.cardID)) {
+      return acc + 1;
+    }
 
-      return acc;
-    },
-    0
-  );
+    return acc;
+  }, 0);
 
   return (
     <Container>

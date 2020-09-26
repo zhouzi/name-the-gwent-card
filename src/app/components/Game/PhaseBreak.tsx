@@ -2,7 +2,7 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import { useLocaleContext } from "app/i18n";
 import CurrentUser from "app/CurrentUser";
-import { GameState, Action } from "app/GameState";
+import { GameState, Action, Answer } from "app/GameState";
 import { Heading, Paragraph, SecondsLeft, Link } from "design/components";
 import { QuestionLayout } from "./QuestionLayout";
 
@@ -18,8 +18,7 @@ export function PhaseBreak({ gameState, dispatch }: Props) {
   const currentQuestionCard = cards.find(
     (card) => card.id === currentQuestion.cardID
   )!;
-  const currentQuestionAnswer =
-    gameState.answers[gameState.currentQuestionIndex];
+  const currentQuestionAnswer = currentQuestion.answers[0] as Answer | null;
 
   const onBreakTimeout = React.useCallback(() => {
     dispatch({
@@ -29,7 +28,7 @@ export function PhaseBreak({ gameState, dispatch }: Props) {
 
   return (
     <QuestionLayout card={currentQuestionCard} visualEffects={[]}>
-      {currentQuestionAnswer.cardID === currentQuestion.cardID ? (
+      {currentQuestionAnswer?.cardID === currentQuestion.cardID ? (
         <>
           <Heading>
             {currentQuestionAnswer.username !== currentUserUsername ? (
@@ -55,7 +54,7 @@ export function PhaseBreak({ gameState, dispatch }: Props) {
           <Heading>
             <FormattedMessage id="lost" />
           </Heading>
-          {cards.find((card) => card.id === currentQuestionAnswer.cardID) ==
+          {cards.find((card) => card.id === currentQuestionAnswer?.cardID) ==
           null ? (
             <Paragraph>
               <FormattedMessage
@@ -71,7 +70,7 @@ export function PhaseBreak({ gameState, dispatch }: Props) {
                 id="butCardNamed"
                 values={{
                   wrongLocalizedName: cards.find(
-                    (card) => card.id === currentQuestionAnswer.cardID
+                    (card) => card.id === currentQuestionAnswer?.cardID
                   )!.localizedName,
                   correctLocalizedName: currentQuestionCard.localizedName,
                 }}

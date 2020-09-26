@@ -39,18 +39,16 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
 
   const onQuestionTimeout = React.useCallback(() => {
     dispatch({
-      type: "answer",
-      cardID: null,
-      username: currentUserUsername,
+      type: "timeOver",
     });
-  }, [dispatch, currentUserUsername]);
+  }, [dispatch]);
 
   return (
     <QuestionLayout
       card={currentQuestionCard}
       visualEffects={difficulty.visualEffects}
     >
-      <Downshift itemToString={(card) => card?.localizedName || ""}>
+      <Downshift<GwentCard> itemToString={(card) => card?.localizedName || ""}>
         {({
           getRootProps,
           getLabelProps,
@@ -66,9 +64,13 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
             onSubmit={(event) => {
               event.preventDefault();
 
+              if (selectedItem == null) {
+                return;
+              }
+
               dispatch({
                 type: "answer",
-                cardID: selectedItem ? selectedItem.id : null,
+                cardID: selectedItem.id,
                 username: currentUserUsername,
               });
             }}

@@ -68,10 +68,11 @@ export type CardID = number;
 
 export interface Question {
   cardID: CardID;
+  answers: Answer[];
 }
 
 export interface Answer {
-  cardID: number | null;
+  cardID: number;
   username: string;
 }
 
@@ -87,7 +88,6 @@ export interface GameState {
   phase: GamePhase;
   currentQuestionIndex: number;
   questions: Question[];
-  answers: Answer[];
 }
 
 export type GameRules = [DifficultyLevel, CardID[]];
@@ -158,14 +158,14 @@ export function getInitialState(gameRules: GameRules): GameState {
     currentQuestionIndex: 0,
     questions: gameRules[1].map((cardID) => ({
       cardID,
+      answers: [],
     })),
-    answers: [],
   };
 }
 
 export type Action =
   | { type: "loaded" }
-  | { type: "answer"; cardID: number | null; username: string }
+  | { type: "answer"; cardID: number; username: string }
   | { type: "timeOver" }
   | { type: "nextQuestion" };
 
@@ -191,16 +191,12 @@ export function reducer(draft: GameState, action: Action): void {
         return;
       }
 
-      if (draft.currentQuestionIndex === draft.answers.length) {
-        draft.answers.push({
-          cardID: action.cardID,
-          username: action.username,
-        });
-        draft.phase = GamePhase.Break;
-        return;
-      }
+      draft.questions[draft.currentQuestionIndex].answers.push({
+        cardID: action.cardID,
+        username: action.username,
+      });
+      draft.phase = GamePhase.Break;
 
-      debug("An answer has already been submitted for this question");
       return;
     }
 
