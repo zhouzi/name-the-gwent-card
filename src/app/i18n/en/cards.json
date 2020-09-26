@@ -1,5 +1,16 @@
 [
   {
+    "id": 112101,
+    "localizedName": "Ciri",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25099_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 112106,
     "localizedName": "Triss Merigold",
     "previewImg": {
@@ -9,6 +20,39 @@
       "slug": "neutral"
     },
     "cardGroup": "gold"
+  },
+  {
+    "id": 112110,
+    "localizedName": "Ciri: Dash",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25135_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 113301,
+    "localizedName": "Alzur's Thunder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 113307,
+    "localizedName": "Adrenaline Rush",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25372_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze"
   },
   {
     "id": 122103,
@@ -48,6 +92,17 @@
     "localizedName": "Ge'els",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/26/thumb_25657_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 132102,
+    "localizedName": "Imlerith's Wrath",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25666_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
@@ -95,6 +150,17 @@
     },
     "faction": {
       "slug": "nilfgaard"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 142101,
+    "localizedName": "Saesenthessis",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25918_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
     },
     "cardGroup": "gold"
   },
@@ -385,6 +451,17 @@
     "cardGroup": "bronze"
   },
   {
+    "id": 200224,
+    "localizedName": "Crow's Eye",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27568_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze"
+  },
+  {
     "id": 200293,
     "localizedName": "Dwarven Agitator",
     "previewImg": {
@@ -495,6 +572,39 @@
     "cardGroup": "gold"
   },
   {
+    "id": 201657,
+    "localizedName": "Parasite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28138_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 201698,
+    "localizedName": "Ozzrel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28177_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 201772,
+    "localizedName": "Geralt: Professional",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28255_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 201780,
     "localizedName": "Yennefer: Divination",
     "previewImg": {
@@ -502,6 +612,17 @@
     },
     "faction": {
       "slug": "neutral"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202103,
+    "localizedName": "Keltullis",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28396_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
     },
     "cardGroup": "gold"
   },
@@ -682,17 +803,6 @@
     "cardGroup": "gold"
   },
   {
-    "id": 202308,
-    "localizedName": "Sly Seductress",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29614_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 202312,
     "localizedName": "Whoreson Senior",
     "previewImg": {
@@ -704,21 +814,21 @@
     "cardGroup": "gold"
   },
   {
-    "id": 202322,
-    "localizedName": "Fisstech",
+    "id": 202315,
+    "localizedName": "Adalbertus Kalkstein",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29806_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29722_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "gold"
   },
   {
-    "id": 202334,
-    "localizedName": "Sewer Raiders",
+    "id": 202322,
+    "localizedName": "Fisstech",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29914_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29806_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -741,6 +851,17 @@
     "localizedName": "Sea Jackal",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/30/thumb_29947_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 202342,
+    "localizedName": "Kikimore Warrior",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29950_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -946,6 +1067,28 @@
     "cardGroup": "gold"
   },
   {
+    "id": 202436,
+    "localizedName": "Cave Troll",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31273_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold"
+  },
+  {
+    "id": 202437,
+    "localizedName": "Yghern",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31279_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold"
+  },
+  {
     "id": 202440,
     "localizedName": "Endrega Larva",
     "previewImg": {
@@ -961,6 +1104,17 @@
     "localizedName": "Endrega Warrior",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 202442,
+    "localizedName": "Natural Selection",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31309_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
@@ -1109,6 +1263,17 @@
       "slug": "northernrealms"
     },
     "cardGroup": "bronze"
+  },
+  {
+    "id": 202525,
+    "localizedName": "The Beast",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31996_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold"
   },
   {
     "id": 202526,
@@ -1291,6 +1456,17 @@
     "localizedName": "Pact",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32287_assets_preview_big_eedcd0a5daae325f4f6bc1f44b90a4a885fd1b75.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 202600,
+    "localizedName": "Squirrel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32293_assets_preview_big_0c6060a0480b159aa1e0139ae00f31d2fe5231d4.jpg"
     },
     "faction": {
       "slug": "neutral"
