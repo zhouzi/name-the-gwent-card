@@ -78,6 +78,7 @@ export interface Answer {
 export enum GamePhase {
   Loading = "loading",
   InProgress = "inProgress",
+  Break = "break",
   GameOver = "gameOver",
 }
 
@@ -165,6 +166,7 @@ export function getInitialState(gameRules: GameRules): GameState {
 export type Action =
   | { type: "loaded" }
   | { type: "answer"; cardID: number | null; username: string }
+  | { type: "timeOver" }
   | { type: "nextQuestion" };
 
 export function reducer(draft: GameState, action: Action): void {
@@ -182,11 +184,19 @@ export function reducer(draft: GameState, action: Action): void {
     }
 
     case "answer": {
+      if (draft.phase !== GamePhase.InProgress) {
+        debug(
+          `Cannot submit an answer outside of the ${GamePhase.InProgress} phase (currently ${draft.phase})`
+        );
+        return;
+      }
+
       if (draft.currentQuestionIndex === draft.answers.length) {
         draft.answers.push({
           cardID: action.cardID,
           username: action.username,
         });
+        draft.phase = GamePhase.Break;
         return;
       }
 
@@ -194,10 +204,22 @@ export function reducer(draft: GameState, action: Action): void {
       return;
     }
 
-    case "nextQuestion": {
-      if (draft.answers[draft.currentQuestionIndex] == null) {
+    case "timeOver": {
+      if (draft.phase !== GamePhase.InProgress) {
         debug(
-          "An answer must be submitted before proceeding to the next question"
+          `Cannot time over outside of the ${GamePhase.InProgress} phase (currently ${draft.phase})`
+        );
+        return;
+      }
+
+      draft.phase = GamePhase.Break;
+      return;
+    }
+
+    case "nextQuestion": {
+      if (draft.phase !== GamePhase.Break) {
+        debug(
+          "The game must go through a break phase before moving on to the next question"
         );
         return;
       }
@@ -207,6 +229,7 @@ export function reducer(draft: GameState, action: Action): void {
         return;
       }
 
+      draft.phase = GamePhase.InProgress;
       draft.currentQuestionIndex += 1;
       return;
     }

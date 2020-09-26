@@ -6,6 +6,7 @@ import { reducer, getInitialState, GameRules, GamePhase } from "app/GameState";
 import { useLocaleContext } from "app/i18n";
 import { PhaseGameOver } from "./PhaseGameOver";
 import { PhaseInProgress } from "./PhaseInProgress";
+import { PhaseBreak } from "./PhaseBreak";
 import { PhaseLoading } from "./PhaseLoading";
 
 const debug = createDebug("Game");
@@ -13,6 +14,7 @@ const debug = createDebug("Game");
 const PHASES = {
   [GamePhase.Loading]: PhaseLoading,
   [GamePhase.InProgress]: PhaseInProgress,
+  [GamePhase.Break]: PhaseBreak,
   [GamePhase.GameOver]: PhaseGameOver,
 };
 
