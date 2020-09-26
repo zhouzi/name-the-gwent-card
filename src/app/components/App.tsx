@@ -3,12 +3,14 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import { IntlProvider } from "react-intl";
 import { ThemeProvider } from "styled-components";
 import { Helmet } from "react-helmet";
+import cuid from "cuid";
 import { themeCSSVariables } from "design/theme";
 import { GlobalStyle, FireSparks } from "design/components";
 import {
   Provider as LocaleContextProvider,
   Consumer as LocaleContextConsumer,
 } from "app/i18n";
+import CurrentUser from "app/CurrentUser";
 import {
   ROUTES,
   RouteInstructionsSolo,
@@ -19,6 +21,8 @@ import {
 import { LEADERS } from "./Game/PhaseLoading";
 
 export function App() {
+  const [username] = React.useState<string>(() => cuid());
+
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ThemeProvider theme={themeCSSVariables}>
@@ -46,23 +50,25 @@ export function App() {
                     []
                   )}
                 />
-                <GlobalStyle />
-                <FireSparks />
-                <Switch>
-                  <Route path={ROUTES.SOLO} exact={true}>
-                    <RouteInstructionsSolo />
-                  </Route>
-                  <Route path={ROUTES.SOLO_PLAY} exact={true}>
-                    <RoutePlaySolo />
-                  </Route>
-                  <Route path={ROUTES.TWITCH} exact={true}>
-                    <RouteInstructionsTwitch />
-                  </Route>
-                  <Route path={ROUTES.TWITCH_PLAY} exact={true}>
-                    <RoutePlayTwitch />
-                  </Route>
-                  <Redirect to={ROUTES.SOLO} />
-                </Switch>
+                <CurrentUser.Provider value={{ username }}>
+                  <GlobalStyle />
+                  <FireSparks />
+                  <Switch>
+                    <Route path={ROUTES.SOLO} exact={true}>
+                      <RouteInstructionsSolo />
+                    </Route>
+                    <Route path={ROUTES.SOLO_PLAY} exact={true}>
+                      <RoutePlaySolo />
+                    </Route>
+                    <Route path={ROUTES.TWITCH} exact={true}>
+                      <RouteInstructionsTwitch />
+                    </Route>
+                    <Route path={ROUTES.TWITCH_PLAY} exact={true}>
+                      <RoutePlayTwitch />
+                    </Route>
+                    <Redirect to={ROUTES.SOLO} />
+                  </Switch>
+                </CurrentUser.Provider>
               </IntlProvider>
             )}
           </LocaleContextConsumer>

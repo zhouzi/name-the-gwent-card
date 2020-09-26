@@ -3,6 +3,7 @@ import { FormattedMessage, useIntl } from "react-intl";
 import styled from "styled-components";
 import Downshift from "downshift";
 import { useLocaleContext } from "app/i18n";
+import CurrentUser from "app/CurrentUser";
 import { GameState, Action, DIFFICULTIES } from "app/GameState";
 import {
   Container,
@@ -74,6 +75,7 @@ const AutocompleteContainer = styled.div`
 export function PhaseInProgress({ gameState, dispatch }: Props) {
   const intl = useIntl();
   const { fuse, cards } = useLocaleContext();
+  const { username: currentUserUsername } = React.useContext(CurrentUser);
   const difficulty = DIFFICULTIES[gameState.difficultyLevel];
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
   const currentQuestionCard = cards.find(
@@ -86,9 +88,9 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
     dispatch({
       type: "answer",
       cardID: null,
-      username: null,
+      username: currentUserUsername,
     });
-  }, [dispatch]);
+  }, [dispatch, currentUserUsername]);
 
   const onBreakTimeout = React.useCallback(() => {
     dispatch({
@@ -127,7 +129,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                       dispatch({
                         type: "answer",
                         cardID: selectedItem ? selectedItem.id : null,
-                        username: null,
+                        username: currentUserUsername,
                       });
                     }}
                     autoComplete="off"
@@ -185,7 +187,8 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
                 {currentQuestionAnswer.cardID === currentQuestion.cardID ? (
                   <>
                     <Heading>
-                      {currentQuestionAnswer.username ? (
+                      {currentQuestionAnswer.username !==
+                      currentUserUsername ? (
                         <FormattedMessage
                           id="wonUsername"
                           values={{ username: currentQuestionAnswer.username }}

@@ -27,7 +27,11 @@ export function Game({ channel, gameRules }: GameProps) {
     reducer,
     getInitialState(gameRules)
   );
+  const correctAnswerRef = React.useRef<number | null>(null);
   const CurrentPhase = PHASES[gameState.phase];
+
+  correctAnswerRef.current =
+    gameState.questions[gameState.currentQuestionIndex]?.cardID;
 
   React.useEffect(() => {
     if (channel == null) {
@@ -48,25 +52,25 @@ export function Game({ channel, gameRules }: GameProps) {
     client.connect();
 
     client.on("message", (channel, userstate, message) => {
+      if (userstate["display-name"] == null) {
+        return;
+      }
+
       const bestMatch = fuse.search(message)[0];
 
-      if (
-        bestMatch == null ||
-        bestMatch.score == null ||
-        bestMatch.score > 0.4
-      ) {
+      if (bestMatch?.item.id !== correctAnswerRef.current) {
         debug(
-          `${userstate["display-name"]} made an attempt that didn't find a close match`
+          `${userstate["display-name"]} from the Twitch chat made a mistake, they're forgiven`
         );
         return;
       }
 
       debug(
-        `${userstate["display-name"]}'s attempt has a close match, their answer has been submitted`
+        `${userstate["display-name"]} from the Twitch chat made a successful attempt`
       );
       dispatch({
         type: "answer",
-        username: userstate["display-name"] || null,
+        username: userstate["display-name"],
         cardID: bestMatch.item.id,
       });
     });

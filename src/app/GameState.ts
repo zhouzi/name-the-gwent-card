@@ -72,7 +72,7 @@ export interface Question {
 
 export interface Answer {
   cardID: number | null;
-  username: string | null;
+  username: string;
 }
 
 export enum GamePhase {
@@ -164,7 +164,7 @@ export function getInitialState(gameRules: GameRules): GameState {
 
 export type Action =
   | { type: "loaded" }
-  | { type: "answer"; cardID: number | null; username: string | null }
+  | { type: "answer"; cardID: number | null; username: string }
   | { type: "nextQuestion" };
 
 export function reducer(draft: GameState, action: Action): void {
@@ -183,16 +183,6 @@ export function reducer(draft: GameState, action: Action): void {
 
     case "answer": {
       if (draft.currentQuestionIndex === draft.answers.length) {
-        if (
-          action.username &&
-          action.cardID !== draft.questions[draft.currentQuestionIndex].cardID
-        ) {
-          debug(
-            `${action.username} from the Twitch chat made a mistake, they're forgiven`
-          );
-          return;
-        }
-
         draft.answers.push({
           cardID: action.cardID,
           username: action.username,

@@ -17,6 +17,7 @@
     "@types/styled-components": "^5.1.0",
     "@types/tmi.js": "^1.4.0",
     "cheerio": "^1.0.0-rc.3",
+    "cuid": "^2.1.8",
     "debug": "^4.1.1",
     "downshift": "^5.4.2",
     "fuse.js": "^6.0.4",
