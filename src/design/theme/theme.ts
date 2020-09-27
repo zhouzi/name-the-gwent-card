@@ -32,6 +32,7 @@ export const theme: DefaultTheme = {
   spacing: {
     large: "2rem",
     normal: "1rem",
+    small: "0.5rem",
   },
   breakpoints: {
     up: (breakpoint: "small") => "(min-width: 40rem)",

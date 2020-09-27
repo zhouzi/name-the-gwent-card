@@ -33,6 +33,7 @@ declare module "styled-components" {
     spacing: {
       large: string;
       normal: string;
+      small: string;
     };
     breakpoints: {
       up: (breakpoint: "small") => string;

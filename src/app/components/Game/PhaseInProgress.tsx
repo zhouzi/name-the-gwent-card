@@ -2,10 +2,16 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import { useLocaleContext } from "app/i18n";
 import CurrentUser from "app/CurrentUser";
-import { GameState, Action, DIFFICULTIES } from "app/GameState";
+import { GameState, Action, DIFFICULTIES, InputMode } from "app/GameState";
 import { Heading, Lifebar } from "design/components";
 import { QuestionLayout } from "./QuestionLayout";
 import { CardAutocomplete } from "./CardAutocomplete";
+import { CardChoices } from "./CardChoices";
+
+const INPUT_MODES = {
+  [InputMode.Autocomplete]: CardAutocomplete,
+  [InputMode.Choices]: CardChoices,
+};
 
 interface Props {
   gameState: GameState;
@@ -27,12 +33,14 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
     });
   }, [dispatch]);
 
+  const Input = INPUT_MODES[difficulty.inputMode];
+
   return (
     <QuestionLayout
       card={currentQuestionCard}
       visualEffects={difficulty.visualEffects}
     >
-      <CardAutocomplete
+      <Input
         card={currentQuestionCard}
         onSubmit={(selectedCard) =>
           dispatch({
@@ -46,7 +54,7 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
           <FormattedMessage id="questionLabel" />
         </Heading>
         <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
-      </CardAutocomplete>
+      </Input>
     </QuestionLayout>
   );
 }

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { Paragraph } from "./Paragraph";
 
 export const ButtonList = styled(Paragraph).attrs({ variant: "text" })`
@@ -7,7 +7,10 @@ export const ButtonList = styled(Paragraph).attrs({ variant: "text" })`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.button<{
+  variant?: "primary" | "outline";
+  size?: "normal" | "small";
+}>`
   color: inherit;
   font: inherit;
   background: transparent;
@@ -18,18 +21,48 @@ export const Button = styled.button`
   display: inline-block;
 
   cursor: pointer;
-  padding: ${(props) => props.theme.spacing.normal}
-    ${(props) => props.theme.spacing.large};
-  color: ${(props) => props.theme.colors.primary.main};
-  border: 1px solid ${(props) => props.theme.colors.primary.main};
-
-  &:focus,
-  &:hover {
-    background-color: ${(props) => props.theme.colors.primary.lighter};
-  }
+  border: 1px solid transparent;
 
   &[disabled] {
     pointer-events: none;
     opacity: 0.8;
   }
+
+  ${(props) => {
+    switch (props.variant) {
+      case "outline":
+        return css`
+          &:focus,
+          &:hover {
+            color: ${props.theme.colors.primary.main};
+            background-color: ${props.theme.colors.background.light};
+          }
+        `;
+      case "primary":
+      default:
+        return css`
+          color: ${props.theme.colors.primary.main};
+          border-color: ${props.theme.colors.primary.main};
+
+          &:focus,
+          &:hover {
+            background-color: ${props.theme.colors.primary.lighter};
+          }
+        `;
+    }
+  }}
+
+  ${(props) => {
+    switch (props.size) {
+      case "small":
+        return css`
+          padding: ${props.theme.spacing.small} ${props.theme.spacing.normal};
+        `;
+      case "normal":
+      default:
+        return css`
+          padding: ${props.theme.spacing.normal} ${props.theme.spacing.large};
+        `;
+    }
+  }}
 `;

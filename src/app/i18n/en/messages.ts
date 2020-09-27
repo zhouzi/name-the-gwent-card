@@ -3,7 +3,7 @@ export const messages = {
   gameInstructions:
     "In this mini game, your goal is to name a random Gwent card from its illustration. The cards used in this game come from <leviathan>Team Leviathan</leviathan>'s latest <meta>meta report</meta>. It's a great way to improve while having fun!",
   difficultyLevel:
-    "{difficultyLevel, select, easy {<b>Easy</b>: illustrations are not obfuscated.} medium {<b>Medium</b>: illustrations are slightly obfuscated.} hard {<b>Hard</b>: illustrations are strongly obfuscated.} extreme {<b>Extreme</b>: illustrations are extremely obfuscated.}}",
+    "{difficultyLevel, select, easy {<b>Easy</b>: full illustration, select among 3 choices.} medium {<b>Medium</b>: full illustration, free selection.} hard {<b>Hard</b>: part of the illustration, select among 3 choices.} extreme {<b>Extreme</b>: part of the illustration, free selection.}}",
   play: "Play",
   playWithTwitchChat: "Play with your Twitch chat",
   inspiredBy: "Inspired by <a>Faberstein</a>",

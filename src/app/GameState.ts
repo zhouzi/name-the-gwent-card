@@ -11,24 +11,27 @@ export enum DifficultyLevel {
   Extreme = "extreme",
 }
 
+export enum InputMode {
+  Autocomplete = "autocomplete",
+  Choices = "choices",
+}
+
 export interface Difficulty {
   difficultyLevel: DifficultyLevel;
   visualEffects: VisualEffect[];
+  inputMode: InputMode;
 }
 
 export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
   [DifficultyLevel.Easy]: {
     difficultyLevel: DifficultyLevel.Easy,
     visualEffects: [],
+    inputMode: InputMode.Choices,
   },
   [DifficultyLevel.Medium]: {
     difficultyLevel: DifficultyLevel.Medium,
-    visualEffects: [
-      {
-        type: "zoom",
-        zoom: 2,
-      },
-    ],
+    visualEffects: [],
+    inputMode: InputMode.Autocomplete,
   },
   [DifficultyLevel.Hard]: {
     difficultyLevel: DifficultyLevel.Hard,
@@ -38,6 +41,7 @@ export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
         zoom: 5,
       },
     ],
+    inputMode: InputMode.Choices,
   },
   [DifficultyLevel.Extreme]: {
     difficultyLevel: DifficultyLevel.Extreme,
@@ -46,11 +50,8 @@ export const DIFFICULTIES: Record<DifficultyLevel, Difficulty> = {
         type: "zoom",
         zoom: 5,
       },
-      {
-        type: "blur",
-        blur: 8,
-      },
     ],
+    inputMode: InputMode.Autocomplete,
   },
 };
 

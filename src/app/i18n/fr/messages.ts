@@ -3,7 +3,7 @@ export const messages = {
   gameInstructions:
     "Dans ce mini jeu, ton objectif est de nommer une carte aléatoire Gwent depuis son illustration. Les cartes utilisées dans ce jeu viennent du <meta>dernier rapport de méta</meta> de <leviathan>Team Leviathan</leviathan>. C'est un bon moyen pour s'améliorer tout en s'amusant !",
   difficultyLevel:
-    "{difficultyLevel, select, easy {<b>Facile</b>: les illustrations ne sont pas modifiées.} medium {<b>Moyen</b>: les illustrations sont légèrement modifiées.} hard {<b>Difficile</b>: les illustrations sont fortement modifiées.} extreme {<b>Extrême</b>: les illustrations sont extrêmement modifiées.}}",
+    "{difficultyLevel, select, easy {<b>Facile</b>: illustration complète, choix parmi 3 propositions.} medium {<b>Moyen</b>: illustration complète, choix libre.} hard {<b>Difficile</b>: partie de l'illustration, choix parmi 3 propositions.} extreme {<b>Extrême</b>: partie de l'illustration, choix libre.}}",
   play: "Jouer",
   playWithTwitchChat: "Jouer avec ton chat Twitch",
   inspiredBy: "Inspiré par <a>Faberstein</a>",
