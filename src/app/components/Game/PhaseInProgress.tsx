@@ -1,35 +1,19 @@
 import * as React from "react";
-import { FormattedMessage, useIntl } from "react-intl";
-import styled from "styled-components";
-import Downshift from "downshift";
+import { FormattedMessage } from "react-intl";
 import { useLocaleContext } from "app/i18n";
 import CurrentUser from "app/CurrentUser";
 import { GameState, Action, DIFFICULTIES } from "app/GameState";
-import {
-  Heading,
-  InputGroup,
-  Input,
-  Button,
-  Lifebar,
-  AutocompleteList,
-  AutocompleteListItem,
-} from "design/components";
-import { CardHints } from "./CardHints";
+import { Heading, Lifebar } from "design/components";
 import { QuestionLayout } from "./QuestionLayout";
+import { CardAutocomplete } from "./CardAutocomplete";
 
 interface Props {
   gameState: GameState;
   dispatch: React.Dispatch<Action>;
 }
 
-const AutocompleteContainer = styled.div`
-  position: relative;
-  margin-bottom: ${(props) => props.theme.spacing.normal};
-`;
-
 export function PhaseInProgress({ gameState, dispatch }: Props) {
-  const intl = useIntl();
-  const { fuse, cards } = useLocaleContext();
+  const { cards } = useLocaleContext();
   const { username: currentUserUsername } = React.useContext(CurrentUser);
   const difficulty = DIFFICULTIES[gameState.difficultyLevel];
   const currentQuestion = gameState.questions[gameState.currentQuestionIndex];
@@ -48,79 +32,21 @@ export function PhaseInProgress({ gameState, dispatch }: Props) {
       card={currentQuestionCard}
       visualEffects={difficulty.visualEffects}
     >
-      <Downshift<GwentCard> itemToString={(card) => card?.localizedName || ""}>
-        {({
-          getRootProps,
-          getLabelProps,
-          getInputProps,
-          getMenuProps,
-          getItemProps,
-          inputValue,
-          highlightedIndex,
-          selectedItem,
-          isOpen,
-        }) => (
-          <form
-            onSubmit={(event) => {
-              event.preventDefault();
-
-              if (selectedItem == null) {
-                return;
-              }
-
-              dispatch({
-                type: "answer",
-                cardID: selectedItem.id,
-                username: currentUserUsername,
-              });
-            }}
-            autoComplete="off"
-          >
-            <Heading as="label" {...getLabelProps()}>
-              <FormattedMessage id="questionLabel" />
-            </Heading>
-            <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
-            <AutocompleteContainer
-              {...getRootProps({ refKey: "ref" }, { suppressRefError: true })}
-            >
-              <InputGroup>
-                <Input
-                  {...getInputProps()}
-                  placeholder={intl.formatMessage({
-                    id: "placeholder",
-                  })}
-                  autoFocus
-                />
-                <Button>
-                  <FormattedMessage id="submit" />
-                </Button>
-              </InputGroup>
-              <AutocompleteList {...getMenuProps()}>
-                {isOpen &&
-                  inputValue &&
-                  fuse
-                    .search(inputValue)
-                    .slice(0, 3)
-                    .map((match) => match.item)
-                    .map((card, index) => (
-                      <AutocompleteListItem
-                        {...getItemProps({
-                          index,
-                          key: card.id,
-                          item: card,
-                        })}
-                        highlighted={highlightedIndex === index}
-                        selected={selectedItem?.id === card.id}
-                      >
-                        {card.localizedName}
-                      </AutocompleteListItem>
-                    ))}
-              </AutocompleteList>
-            </AutocompleteContainer>
-            <CardHints card={currentQuestionCard} />
-          </form>
-        )}
-      </Downshift>
+      <CardAutocomplete
+        card={currentQuestionCard}
+        onSubmit={(selectedCard) =>
+          dispatch({
+            type: "answer",
+            cardID: selectedCard.id,
+            username: currentUserUsername,
+          })
+        }
+      >
+        <Heading as="label">
+          <FormattedMessage id="questionLabel" />
+        </Heading>
+        <Lifebar duration={30000} onTimeout={onQuestionTimeout} />
+      </CardAutocomplete>
     </QuestionLayout>
   );
 }
