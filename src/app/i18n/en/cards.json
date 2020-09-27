@@ -8,7 +8,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
   },
   {
     "id": 112106,
@@ -19,7 +21,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 112110,
@@ -30,7 +34,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
   },
   {
     "id": 113301,
@@ -41,7 +47,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Spell",
+    "type": "special"
   },
   {
     "id": 113307,
@@ -52,7 +60,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Organic",
+    "type": "special"
   },
   {
     "id": 122103,
@@ -63,7 +73,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 122309,
@@ -74,7 +86,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 122313,
@@ -85,7 +99,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 131102,
@@ -96,7 +112,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
   },
   {
     "id": 132102,
@@ -107,7 +125,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 132108,
@@ -118,7 +138,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Relict",
+    "type": "unit"
   },
   {
     "id": 132301,
@@ -129,7 +151,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Necrophage",
+    "type": "unit"
   },
   {
     "id": 132310,
@@ -140,7 +164,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt, Warrior",
+    "type": "unit"
   },
   {
     "id": 132407,
@@ -151,7 +177,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Construct",
+    "type": "unit"
   },
   {
     "id": 142101,
@@ -162,7 +190,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dragon",
+    "type": "unit"
   },
   {
     "id": 142108,
@@ -173,7 +203,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
   },
   {
     "id": 142212,
@@ -184,7 +216,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dwarf",
+    "type": "unit"
   },
   {
     "id": 142214,
@@ -195,7 +229,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
   },
   {
     "id": 152101,
@@ -206,7 +242,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 152301,
@@ -217,7 +255,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Cultist, Warrior",
+    "type": "unit"
   },
   {
     "id": 152303,
@@ -228,7 +268,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 152314,
@@ -239,7 +281,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Ship",
+    "type": "unit"
   },
   {
     "id": 152402,
@@ -250,7 +294,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 162102,
@@ -261,7 +307,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 162105,
@@ -272,7 +320,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 162107,
@@ -283,7 +333,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 162108,
@@ -294,7 +346,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 162207,
@@ -305,7 +359,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 162211,
@@ -316,7 +372,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 162305,
@@ -327,7 +385,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 162307,
@@ -338,7 +398,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 200018,
@@ -349,7 +411,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 200019,
@@ -360,7 +424,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 200028,
@@ -371,7 +437,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Cultist, Warrior",
+    "type": "unit"
   },
   {
     "id": 200040,
@@ -382,7 +450,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 200044,
@@ -393,7 +463,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 200052,
@@ -404,7 +476,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Ogroid",
+    "type": "unit"
   },
   {
     "id": 200073,
@@ -415,7 +489,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Beast, Cursed",
+    "type": "unit"
   },
   {
     "id": 200115,
@@ -426,7 +502,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 200135,
@@ -437,7 +515,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
   },
   {
     "id": 200171,
@@ -448,7 +528,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 200224,
@@ -459,7 +541,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
   },
   {
     "id": 200293,
@@ -470,7 +554,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
   },
   {
     "id": 200299,
@@ -481,7 +567,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 200301,
@@ -492,7 +580,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 201559,
@@ -503,7 +593,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
   },
   {
     "id": 201599,
@@ -514,7 +606,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Beast",
+    "type": "unit"
   },
   {
     "id": 201601,
@@ -525,7 +619,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Spell",
+    "type": "special"
   },
   {
     "id": 201615,
@@ -536,7 +632,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 201618,
@@ -547,7 +645,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Knight",
+    "type": "unit"
   },
   {
     "id": 201626,
@@ -558,7 +658,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
   },
   {
     "id": 201634,
@@ -569,7 +671,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 201657,
@@ -580,7 +684,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Organic",
+    "type": "special"
   },
   {
     "id": 201698,
@@ -591,7 +697,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Necrophage",
+    "type": "unit"
   },
   {
     "id": 201772,
@@ -602,7 +710,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
   },
   {
     "id": 201780,
@@ -613,7 +723,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 202103,
@@ -624,7 +736,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dragon",
+    "type": "unit"
   },
   {
     "id": 202150,
@@ -635,7 +749,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202152,
@@ -646,7 +762,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Cursed",
+    "type": "unit"
   },
   {
     "id": 202216,
@@ -657,7 +775,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202239,
@@ -668,7 +788,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 202240,
@@ -679,7 +801,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202242,
@@ -690,7 +814,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 202247,
@@ -701,7 +827,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Agent",
+    "type": "unit"
   },
   {
     "id": 202250,
@@ -712,7 +840,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202251,
@@ -723,7 +853,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Knight",
+    "type": "unit"
   },
   {
     "id": 202263,
@@ -734,7 +866,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dryad",
+    "type": "unit"
   },
   {
     "id": 202268,
@@ -745,7 +879,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Treant",
+    "type": "unit"
   },
   {
     "id": 202269,
@@ -756,7 +892,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202273,
@@ -767,7 +905,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dryad",
+    "type": "unit"
   },
   {
     "id": 202278,
@@ -778,7 +918,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
   },
   {
     "id": 202291,
@@ -789,7 +931,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Vampire",
+    "type": "unit"
   },
   {
     "id": 202298,
@@ -800,7 +944,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 202300,
@@ -811,7 +957,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 202312,
@@ -822,7 +970,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Cutups",
+    "type": "unit"
   },
   {
     "id": 202315,
@@ -833,7 +983,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Blindeyes",
+    "type": "unit"
   },
   {
     "id": 202322,
@@ -844,7 +996,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
   },
   {
     "id": 202339,
@@ -855,7 +1009,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Tidecloaks",
+    "type": "unit"
   },
   {
     "id": 202341,
@@ -866,7 +1022,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Tidecloaks",
+    "type": "unit"
   },
   {
     "id": 202342,
@@ -877,7 +1035,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Insectoid, Cutups",
+    "type": "unit"
   },
   {
     "id": 202345,
@@ -888,7 +1048,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202349,
@@ -899,7 +1061,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
   },
   {
     "id": 202350,
@@ -910,7 +1074,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Cleric",
+    "type": "unit"
   },
   {
     "id": 202354,
@@ -921,7 +1087,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Firesworn",
+    "type": "unit"
   },
   {
     "id": 202356,
@@ -932,7 +1100,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Crime, Firesworn",
+    "type": "special"
   },
   {
     "id": 202358,
@@ -943,7 +1113,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Crime, Tidecloaks",
+    "type": "special"
   },
   {
     "id": 202367,
@@ -954,7 +1126,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Specter, Ship",
+    "type": "unit"
   },
   {
     "id": 202370,
@@ -965,7 +1139,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Tidecloaks",
+    "type": "unit"
   },
   {
     "id": 202371,
@@ -976,7 +1152,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Cutups",
+    "type": "special"
   },
   {
     "id": 202374,
@@ -987,7 +1165,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Firesworn",
+    "type": "special"
   },
   {
     "id": 202375,
@@ -998,7 +1178,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Halfling, Crownsplitters",
+    "type": "unit"
   },
   {
     "id": 202377,
@@ -1009,7 +1191,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf, Crownsplitters",
+    "type": "unit"
   },
   {
     "id": 202383,
@@ -1020,7 +1204,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dwarf, Crownsplitters",
+    "type": "unit"
   },
   {
     "id": 202384,
@@ -1031,7 +1217,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Crime, Crownsplitters",
+    "type": "special"
   },
   {
     "id": 202389,
@@ -1042,7 +1230,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dwarf, Crownsplitters",
+    "type": "unit"
   },
   {
     "id": 202418,
@@ -1053,7 +1243,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier, Knight",
+    "type": "unit"
   },
   {
     "id": 202421,
@@ -1064,7 +1256,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202425,
@@ -1075,7 +1269,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage, Salamandra",
+    "type": "unit"
   },
   {
     "id": 202436,
@@ -1086,7 +1282,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Ogroid",
+    "type": "unit"
   },
   {
     "id": 202437,
@@ -1097,7 +1295,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Insectoid",
+    "type": "unit"
   },
   {
     "id": 202440,
@@ -1108,7 +1308,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Insectoid",
+    "type": "unit"
   },
   {
     "id": 202441,
@@ -1119,7 +1321,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Insectoid, Warrior",
+    "type": "unit"
   },
   {
     "id": 202442,
@@ -1130,7 +1334,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Organic",
+    "type": "special"
   },
   {
     "id": 202445,
@@ -1141,7 +1347,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202447,
@@ -1152,7 +1360,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 202451,
@@ -1163,7 +1373,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202454,
@@ -1174,7 +1386,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 202458,
@@ -1185,7 +1399,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 202459,
@@ -1196,7 +1412,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 202465,
@@ -1207,7 +1425,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 202473,
@@ -1218,7 +1438,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202474,
@@ -1229,7 +1451,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
   },
   {
     "id": 202475,
@@ -1240,7 +1464,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dryad",
+    "type": "unit"
   },
   {
     "id": 202479,
@@ -1251,7 +1477,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Agent",
+    "type": "unit"
   },
   {
     "id": 202503,
@@ -1262,7 +1490,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Beast, Siege Engine",
+    "type": "unit"
   },
   {
     "id": 202511,
@@ -1273,7 +1503,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Warfare",
+    "type": "special"
   },
   {
     "id": 202525,
@@ -1284,7 +1516,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Specter",
+    "type": "unit"
   },
   {
     "id": 202526,
@@ -1295,7 +1529,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Scenario",
+    "type": "artifact"
   },
   {
     "id": 202527,
@@ -1306,7 +1542,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Specter",
+    "type": "unit"
   },
   {
     "id": 202530,
@@ -1317,7 +1555,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Specter",
+    "type": "unit"
   },
   {
     "id": 202539,
@@ -1328,7 +1568,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202543,
@@ -1339,7 +1581,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Vampire, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202544,
@@ -1350,7 +1594,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Scenario",
+    "type": "artifact"
   },
   {
     "id": 202546,
@@ -1361,7 +1607,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202547,
@@ -1372,7 +1620,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Vampire, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202549,
@@ -1383,7 +1633,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Beast",
+    "type": "unit"
   },
   {
     "id": 202551,
@@ -1394,7 +1646,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Vampire, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202554,
@@ -1405,7 +1659,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Scenario",
+    "type": "artifact"
   },
   {
     "id": 202555,
@@ -1416,7 +1672,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Tidecloaks",
+    "type": "unit"
   },
   {
     "id": 202559,
@@ -1427,7 +1685,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Blindeyes",
+    "type": "unit"
   },
   {
     "id": 202561,
@@ -1438,7 +1698,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Blindeyes",
+    "type": "unit"
   },
   {
     "id": 202594,
@@ -1449,7 +1711,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Spell",
+    "type": "special"
   },
   {
     "id": 202596,
@@ -1460,7 +1724,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Relict",
+    "type": "unit"
   },
   {
     "id": 202598,
@@ -1471,7 +1737,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Spell",
+    "type": "special"
   },
   {
     "id": 202600,
@@ -1482,7 +1750,9 @@
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Beast",
+    "type": "unit"
   },
   {
     "id": 202603,
@@ -1493,7 +1763,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
   },
   {
     "id": 202607,
@@ -1504,7 +1776,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 202608,
@@ -1515,7 +1789,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
   },
   {
     "id": 202611,
@@ -1526,7 +1802,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
   },
   {
     "id": 202614,
@@ -1537,7 +1815,9 @@
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
   },
   {
     "id": 202615,
@@ -1548,7 +1828,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 202619,
@@ -1559,7 +1841,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 202620,
@@ -1570,7 +1854,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 202622,
@@ -1581,7 +1867,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 202623,
@@ -1592,7 +1880,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 202624,
@@ -1603,7 +1893,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 202626,
@@ -1614,7 +1906,9 @@
     "faction": {
       "slug": "skellige"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Cultist, Warrior",
+    "type": "unit"
   },
   {
     "id": 202629,
@@ -1625,7 +1919,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202632,
@@ -1636,7 +1932,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Firesworn",
+    "type": "unit"
   },
   {
     "id": 202633,
@@ -1647,7 +1945,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Crime, Firesworn",
+    "type": "special"
   },
   {
     "id": 202636,
@@ -1658,7 +1958,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Firesworn",
+    "type": "special"
   },
   {
     "id": 202637,
@@ -1669,7 +1971,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Cleric",
+    "type": "unit"
   },
   {
     "id": 202638,
@@ -1680,7 +1984,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Firesworn",
+    "type": "unit"
   },
   {
     "id": 202640,
@@ -1691,7 +1997,9 @@
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Salamandra",
+    "type": "unit"
   },
   {
     "id": 202642,
@@ -1702,7 +2010,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202646,
@@ -1713,7 +2023,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Warfare",
+    "type": "special"
   },
   {
     "id": 202650,
@@ -1724,7 +2036,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Siege Engine, Ship",
+    "type": "unit"
   },
   {
     "id": 202651,
@@ -1735,7 +2049,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202652,
@@ -1746,7 +2062,9 @@
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier, Pirate",
+    "type": "unit"
   },
   {
     "id": 202655,
@@ -1757,7 +2075,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202658,
@@ -1768,7 +2088,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage, Agent",
+    "type": "unit"
   },
   {
     "id": 202659,
@@ -1779,7 +2101,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 202660,
@@ -1790,7 +2114,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Human, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202665,
@@ -1801,7 +2127,9 @@
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202673,
@@ -1812,7 +2140,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Treant",
+    "type": "unit"
   },
   {
     "id": 202674,
@@ -1823,7 +2153,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202676,
@@ -1834,7 +2166,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "gold"
+    "cardGroup": "gold",
+    "categoryName": "Dryad",
+    "type": "unit"
   },
   {
     "id": 202677,
@@ -1845,7 +2179,9 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202678,
@@ -1856,6 +2192,8 @@
     "faction": {
       "slug": "scoiatael"
     },
-    "cardGroup": "bronze"
+    "cardGroup": "bronze",
+    "categoryName": "Dryad",
+    "type": "unit"
   }
 ]
