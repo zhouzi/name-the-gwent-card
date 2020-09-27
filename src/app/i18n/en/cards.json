@@ -385,17 +385,6 @@
     "cardGroup": "bronze"
   },
   {
-    "id": 200042,
-    "localizedName": "Mahakam Marauder",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26935_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze"
-  },
-  {
     "id": 200044,
     "localizedName": "Magne Division",
     "previewImg": {
@@ -436,6 +425,17 @@
     },
     "faction": {
       "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze"
+  },
+  {
+    "id": 200135,
+    "localizedName": "Pyrotechnician",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27352_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
     },
     "cardGroup": "bronze"
   },
@@ -647,6 +647,17 @@
       "slug": "northernrealms"
     },
     "cardGroup": "gold"
+  },
+  {
+    "id": 202216,
+    "localizedName": "Pellar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze"
   },
   {
     "id": 202239,
