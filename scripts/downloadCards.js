@@ -31,17 +31,29 @@ function getCards(decks) {
         cards.findIndex((otherCard) => otherCard.id === card.id) === index
     )
     .sort((a, b) => a.id - b.id)
-    .map(({ id, localizedName, previewImg, faction, cardGroup }) => ({
-      id,
-      localizedName,
-      previewImg: {
-        big: previewImg.big,
-      },
-      faction: {
-        slug: faction.slug,
-      },
-      cardGroup,
-    }));
+    .map(
+      ({
+        id,
+        localizedName,
+        previewImg,
+        faction,
+        cardGroup,
+        categoryName,
+        type,
+      }) => ({
+        id,
+        localizedName,
+        previewImg: {
+          big: previewImg.big,
+        },
+        faction: {
+          slug: faction.slug,
+        },
+        cardGroup,
+        categoryName,
+        type,
+      })
+    );
 }
 
 async function downloadsCards(locale) {

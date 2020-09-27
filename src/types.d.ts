@@ -8,4 +8,10 @@ interface GwentCard {
     slug: string;
   };
   cardGroup: string;
+  categoryName: string | null;
+  type: string;
+}
+
+declare module "array-shuffle" {
+  export default function shuffle<T>(array: T[]): T[];
 }
