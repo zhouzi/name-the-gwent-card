@@ -13,6 +13,19 @@
     "type": "unit"
   },
   {
+    "id": 112103,
+    "localizedName": "Geralt of Rivia",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25105_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 112106,
     "localizedName": "Triss Merigold",
     "previewImg": {
@@ -104,19 +117,6 @@
     "type": "unit"
   },
   {
-    "id": 131102,
-    "localizedName": "Ge'els",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25657_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
     "id": 132102,
     "localizedName": "Imlerith's Wrath",
     "previewImg": {
@@ -128,6 +128,19 @@
     "cardGroup": "gold",
     "categoryName": null,
     "type": "special"
+  },
+  {
+    "id": 132104,
+    "localizedName": "Caranthir Ar-Feiniel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25687_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf, Mage",
+    "type": "unit"
   },
   {
     "id": 132108,
@@ -153,19 +166,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Necrophage",
-    "type": "unit"
-  },
-  {
-    "id": 132310,
-    "localizedName": "Wild Hunt Rider",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt, Warrior",
     "type": "unit"
   },
   {
@@ -455,6 +455,19 @@
     "type": "unit"
   },
   {
+    "id": 200042,
+    "localizedName": "Mahakam Marauder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26935_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
+  },
+  {
     "id": 200044,
     "localizedName": "Magne Division",
     "previewImg": {
@@ -478,19 +491,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Ogroid",
-    "type": "unit"
-  },
-  {
-    "id": 200073,
-    "localizedName": "Adda: Striga",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27070_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Beast, Cursed",
     "type": "unit"
   },
   {
@@ -570,19 +570,6 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier",
     "type": "unit"
-  },
-  {
-    "id": 200301,
-    "localizedName": "Naglfar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27682_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
   },
   {
     "id": 201559,
@@ -780,6 +767,32 @@
     "type": "unit"
   },
   {
+    "id": 202231,
+    "localizedName": "Plumard",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28981_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
+    "id": 202234,
+    "localizedName": "Bruxa",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28990_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
     "id": 202239,
     "localizedName": "Artorius Vigo",
     "previewImg": {
@@ -868,19 +881,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Dryad",
-    "type": "unit"
-  },
-  {
-    "id": 202268,
-    "localizedName": "Treant Boar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29248_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Treant",
     "type": "unit"
   },
   {
@@ -1443,19 +1443,6 @@
     "type": "special"
   },
   {
-    "id": 202474,
-    "localizedName": "Miner",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dwarf",
-    "type": "unit"
-  },
-  {
     "id": 202475,
     "localizedName": "Dryad Enchantress",
     "previewImg": {
@@ -1752,71 +1739,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
-    "id": 202603,
-    "localizedName": "Auberon King",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32302_assets_preview_big_95bdded2b7b9afb30e42cf92a9ed59f197c255cb.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
-    "id": 202607,
-    "localizedName": "Ard Gaeth",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32311_assets_preview_big_ca4b513f10e4a294086887fb9d8e87d08d02d1e2.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
-  },
-  {
-    "id": 202608,
-    "localizedName": "Winter Queen",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32314_assets_preview_big_27dd545c47bcd3700e9ae32c6e89698b13584d36.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
-    "id": 202611,
-    "localizedName": "Wild Hunt Bruiser",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
-    "id": 202614,
-    "localizedName": "Aen Elle Conqueror",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32335_assets_preview_big_07bb6a68ebb6450d5e7f756d59d89b56c916bdee.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt",
     "type": "unit"
   },
   {

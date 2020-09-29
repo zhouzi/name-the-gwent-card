@@ -13,6 +13,19 @@
     "type": "unit"
   },
   {
+    "id": 112103,
+    "localizedName": "Geralt de Riv",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25105_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
     "id": 112106,
     "localizedName": "Triss Merigold",
     "previewImg": {
@@ -104,19 +117,6 @@
     "type": "unit"
   },
   {
-    "id": 131102,
-    "localizedName": "Ge'els",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25657_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
     "id": 132102,
     "localizedName": "Fureur d'Imlerith",
     "previewImg": {
@@ -128,6 +128,19 @@
     "cardGroup": "gold",
     "categoryName": null,
     "type": "special"
+  },
+  {
+    "id": 132104,
+    "localizedName": "Caranthir Ar-Feiniel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25687_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe, Mage",
+    "type": "unit"
   },
   {
     "id": 132108,
@@ -153,19 +166,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Nécrophage",
-    "type": "unit"
-  },
-  {
-    "id": 132310,
-    "localizedName": "Chasse : cavalier",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage, Guerrier",
     "type": "unit"
   },
   {
@@ -455,6 +455,19 @@
     "type": "unit"
   },
   {
+    "id": 200042,
+    "localizedName": "Mahakam : maraudeur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26935_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
     "id": 200044,
     "localizedName": "Division Magne",
     "previewImg": {
@@ -478,19 +491,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Ogroïde",
-    "type": "unit"
-  },
-  {
-    "id": 200073,
-    "localizedName": "Adda : strige",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27070_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Bête, Maudite",
     "type": "unit"
   },
   {
@@ -570,19 +570,6 @@
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
     "type": "unit"
-  },
-  {
-    "id": 200301,
-    "localizedName": "Naglfar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27682_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
   },
   {
     "id": 201559,
@@ -780,6 +767,32 @@
     "type": "unit"
   },
   {
+    "id": 202231,
+    "localizedName": "Plumeur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28981_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
+    "id": 202234,
+    "localizedName": "Brouxe",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28990_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
     "id": 202239,
     "localizedName": "Artorius Vigo",
     "previewImg": {
@@ -868,19 +881,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Dryade",
-    "type": "unit"
-  },
-  {
-    "id": 202268,
-    "localizedName": "Sanglier sylvain",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29248_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sylvain",
     "type": "unit"
   },
   {
@@ -1443,19 +1443,6 @@
     "type": "special"
   },
   {
-    "id": 202474,
-    "localizedName": "Mineur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
     "id": 202475,
     "localizedName": "Enchanteresse dryade",
     "previewImg": {
@@ -1752,71 +1739,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête",
-    "type": "unit"
-  },
-  {
-    "id": 202603,
-    "localizedName": "Roi Auberon",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32302_assets_preview_big_95bdded2b7b9afb30e42cf92a9ed59f197c255cb.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 202607,
-    "localizedName": "Ard Gaeth",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32311_assets_preview_big_ca4b513f10e4a294086887fb9d8e87d08d02d1e2.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
-  },
-  {
-    "id": 202608,
-    "localizedName": "Reine de l'hiver",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32314_assets_preview_big_27dd545c47bcd3700e9ae32c6e89698b13584d36.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 202611,
-    "localizedName": "Chasse : cogneur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 202614,
-    "localizedName": "Conquérant Aen Elle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32335_assets_preview_big_07bb6a68ebb6450d5e7f756d59d89b56c916bdee.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage",
     "type": "unit"
   },
   {
