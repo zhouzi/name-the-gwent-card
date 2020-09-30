@@ -13,19 +13,6 @@
     "type": "unit"
   },
   {
-    "id": 112103,
-    "localizedName": "Geralt of Rivia",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25105_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
     "id": 112106,
     "localizedName": "Triss Merigold",
     "previewImg": {
@@ -494,6 +481,19 @@
     "type": "unit"
   },
   {
+    "id": 200073,
+    "localizedName": "Adda: Striga",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27070_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Cursed",
+    "type": "unit"
+  },
+  {
     "id": 200115,
     "localizedName": "Assassination",
     "previewImg": {
@@ -881,6 +881,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Dryad",
+    "type": "unit"
+  },
+  {
+    "id": 202268,
+    "localizedName": "Treant Boar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29248_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Treant",
     "type": "unit"
   },
   {
