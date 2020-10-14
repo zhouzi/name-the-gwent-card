@@ -2,6 +2,7 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Link, List, ListItem } from "design/components";
+import { messages } from "app/i18n/en";
 
 type Hint = "cardGroup" | "faction" | "initials";
 
@@ -55,7 +56,7 @@ export function CardHints({ card }: CardHintsProps) {
                   <FormattedMessage
                     id="hintCardGroup"
                     values={{
-                      cardGroup: card.cardGroup,
+                      cardGroup: card.type,
                     }}
                   />
                 </HintsListItem>
@@ -105,6 +106,11 @@ export function CardHints({ card }: CardHintsProps) {
           }
         >
           <FormattedMessage id="hint" />
+          
+          <FormattedMessage id="remaining"
+            {...messages.remaining}
+            values= {{remainCount: HINTS.length- hints.length}}
+          />
         </Link>
       )}
     </CardHintsContainer>

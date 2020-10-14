@@ -62,4 +62,5 @@ export const messages = {
   brouverTaunt1: "T'attends quoi pour t'décider, que je coasse ?",
   brouverTaunt2: "Ha ha ha ha ! Eh… sérieux, c'est ça qu'tu joues ?",
   brouverTaunt3: "Retenez-moi ou j'fais un malheur !",
+  remaining: " ({remainCount} rester)"
 };

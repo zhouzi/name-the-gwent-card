@@ -62,4 +62,5 @@ export const messages = {
   brouverTaunt1: "Ye waitin' round, hopin I'll croak, ye badger?",
   brouverTaunt2: "Hahaha! Ehh… wait, ye're serious? That's yer move?",
   brouverTaunt3: "Somebody hold me back or I'll…",
+  remaining: " ({remainCount} left)"
 };
