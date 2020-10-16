@@ -20,7 +20,17 @@
         "doc",
         "design"
       ]
+    },
+    {
+      "login": "RinZero",
+      "name": "Jonathan Lex",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23000079?v=4",
+      "profile": "https://github.com/RinZero",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
