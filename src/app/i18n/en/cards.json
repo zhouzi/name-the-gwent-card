@@ -13,19 +13,6 @@
     "type": "unit"
   },
   {
-    "id": 112106,
-    "localizedName": "Triss Merigold",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25120_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 112110,
     "localizedName": "Ciri: Dash",
     "previewImg": {
@@ -36,6 +23,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 112210,
+    "localizedName": "Roach",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25249_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast",
     "type": "unit"
   },
   {
@@ -65,6 +65,19 @@
     "type": "special"
   },
   {
+    "id": 122101,
+    "localizedName": "Bloody Baron",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25441_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
     "id": 122103,
     "localizedName": "John Natalis",
     "previewImg": {
@@ -78,16 +91,16 @@
     "type": "unit"
   },
   {
-    "id": 122309,
-    "localizedName": "Siege Support",
+    "id": 122301,
+    "localizedName": "Ballista",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25549_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25525_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
+    "categoryName": "Machine, Siege Engine",
     "type": "unit"
   },
   {
@@ -104,6 +117,32 @@
     "type": "unit"
   },
   {
+    "id": 123201,
+    "localizedName": "Reinforcements",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25639_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Warfare",
+    "type": "special"
+  },
+  {
+    "id": 131102,
+    "localizedName": "Ge'els",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25657_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
+  },
+  {
     "id": 132102,
     "localizedName": "Imlerith's Wrath",
     "previewImg": {
@@ -117,19 +156,6 @@
     "type": "special"
   },
   {
-    "id": 132104,
-    "localizedName": "Caranthir Ar-Feiniel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25687_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Mage",
-    "type": "unit"
-  },
-  {
     "id": 132108,
     "localizedName": "Miruna",
     "previewImg": {
@@ -140,6 +166,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Relict",
+    "type": "unit"
+  },
+  {
+    "id": 132209,
+    "localizedName": "Imperial Manticore",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25735_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast",
     "type": "unit"
   },
   {
@@ -156,42 +195,16 @@
     "type": "unit"
   },
   {
-    "id": 132407,
-    "localizedName": "Imperial Golem",
+    "id": 132310,
+    "localizedName": "Wild Hunt Rider",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25882_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "nilfgaard"
+      "slug": "monsters"
     },
-    "cardGroup": "gold",
-    "categoryName": "Construct",
-    "type": "unit"
-  },
-  {
-    "id": 142101,
-    "localizedName": "Saesenthessis",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25918_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Dragon",
-    "type": "unit"
-  },
-  {
-    "id": 142108,
-    "localizedName": "Schirrú",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt, Warrior",
     "type": "unit"
   },
   {
@@ -234,6 +247,71 @@
     "type": "unit"
   },
   {
+    "id": 152103,
+    "localizedName": "Ermion",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26254_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Druid",
+    "type": "unit"
+  },
+  {
+    "id": 152105,
+    "localizedName": "Birna Bran",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26263_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 152206,
+    "localizedName": "Gremist",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26305_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Druid",
+    "type": "unit"
+  },
+  {
+    "id": 152209,
+    "localizedName": "Morkvarg",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26314_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Cursed",
+    "type": "unit"
+  },
+  {
+    "id": 152211,
+    "localizedName": "Sigrdrifa's Rite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26320_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
     "id": 152301,
     "localizedName": "Svalblod Ravager",
     "previewImg": {
@@ -247,10 +325,49 @@
     "type": "unit"
   },
   {
-    "id": 152303,
-    "localizedName": "An Craite Warrior",
+    "id": 152308,
+    "localizedName": "Heymaey Skald",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26335_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26377_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 152309,
+    "localizedName": "Dimun Light Longship",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Ship",
+    "type": "unit"
+  },
+  {
+    "id": 152310,
+    "localizedName": "Freya's Blessing",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26392_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
+    "id": 152313,
+    "localizedName": "Tuirseach Skirmisher",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26410_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -260,16 +377,29 @@
     "type": "unit"
   },
   {
-    "id": 152314,
-    "localizedName": "An Craite Longship",
+    "id": 152316,
+    "localizedName": "Gutting Slash",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26437_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Machine, Ship",
+    "categoryName": "Raid",
+    "type": "special"
+  },
+  {
+    "id": 152318,
+    "localizedName": "Drummond Shieldmaiden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26452_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
     "type": "unit"
   },
   {
@@ -286,58 +416,6 @@
     "type": "unit"
   },
   {
-    "id": 162102,
-    "localizedName": "Menno Coehoorn",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26500_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
-    "id": 162105,
-    "localizedName": "Vilgefortz",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26518_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 162107,
-    "localizedName": "Tibor Eggebracht",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26530_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
-    "id": 162108,
-    "localizedName": "Xarthisius",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26536_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 162207,
     "localizedName": "Vanhemar",
     "previewImg": {
@@ -351,30 +429,30 @@
     "type": "unit"
   },
   {
-    "id": 162211,
-    "localizedName": "Joachim de Wett",
+    "id": 162210,
+    "localizedName": "Cantarella",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26575_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26572_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Soldier, Aristocrat",
+    "categoryName": "Human, Agent",
     "type": "unit"
   },
   {
-    "id": 162305,
-    "localizedName": "Deithwen Arbalest",
+    "id": 162304,
+    "localizedName": "Experimental Remedy",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26626_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26617_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 162307,
@@ -390,6 +468,32 @@
     "type": "unit"
   },
   {
+    "id": 162315,
+    "localizedName": "Imperial Diplomacy",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26707_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
+  },
+  {
+    "id": 163201,
+    "localizedName": "Bribery",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26767_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Tactic",
+    "type": "special"
+  },
+  {
     "id": 200018,
     "localizedName": "Korathi Heatwave",
     "previewImg": {
@@ -400,19 +504,6 @@
     },
     "cardGroup": "gold",
     "categoryName": null,
-    "type": "special"
-  },
-  {
-    "id": 200019,
-    "localizedName": "Marching Orders",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26788_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Tactic",
     "type": "special"
   },
   {
@@ -455,6 +546,19 @@
     "type": "unit"
   },
   {
+    "id": 200043,
+    "localizedName": "Harald Houndsnout",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26944_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 200044,
     "localizedName": "Magne Division",
     "previewImg": {
@@ -465,6 +569,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 200046,
+    "localizedName": "Tuirseach Veteran",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26956_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
     "type": "unit"
   },
   {
@@ -481,6 +598,19 @@
     "type": "unit"
   },
   {
+    "id": 200071,
+    "localizedName": "Shilard Fitz-Oesterlen",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27061_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Aristocrat",
+    "type": "unit"
+  },
+  {
     "id": 200073,
     "localizedName": "Adda: Striga",
     "previewImg": {
@@ -494,17 +624,17 @@
     "type": "unit"
   },
   {
-    "id": 200115,
-    "localizedName": "Assassination",
+    "id": 200098,
+    "localizedName": "Vincent Meis",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27304_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27181_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "nilfgaard"
+      "slug": "northernrealms"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Tactic",
-    "type": "special"
+    "cardGroup": "gold",
+    "categoryName": "Beast, Cursed",
+    "type": "unit"
   },
   {
     "id": 200135,
@@ -520,6 +650,32 @@
     "type": "unit"
   },
   {
+    "id": 200149,
+    "localizedName": "Heymaey Protector",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27382_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 200154,
+    "localizedName": "Royal Decree",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27391_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Tactic",
+    "type": "special"
+  },
+  {
     "id": 200171,
     "localizedName": "Tridam Infantry",
     "previewImg": {
@@ -530,6 +686,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 200177,
+    "localizedName": "Cerys an Craite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27514_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
     "type": "unit"
   },
   {
@@ -572,6 +741,58 @@
     "type": "unit"
   },
   {
+    "id": 200301,
+    "localizedName": "Naglfar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27682_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
+    "id": 200523,
+    "localizedName": "Germain Piquant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27721_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 200529,
+    "localizedName": "Ronvid the Incessant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27730_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 200540,
+    "localizedName": "Aedirnian Mauler",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27763_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
     "id": 201559,
     "localizedName": "Mahakam Volunteers",
     "previewImg": {
@@ -583,6 +804,32 @@
     "cardGroup": "bronze",
     "categoryName": "Dwarf",
     "type": "unit"
+  },
+  {
+    "id": 201583,
+    "localizedName": "Dazhbog Runestone",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27796_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
+    "id": 201598,
+    "localizedName": "Bone Talisman",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27874_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": null,
+    "type": "special"
   },
   {
     "id": 201599,
@@ -611,6 +858,19 @@
     "type": "special"
   },
   {
+    "id": 201609,
+    "localizedName": "Slave Hunter",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27928_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
     "id": 201615,
     "localizedName": "Isengrim's Council",
     "previewImg": {
@@ -637,17 +897,43 @@
     "type": "unit"
   },
   {
-    "id": 201626,
-    "localizedName": "Ciri: Nova",
+    "id": 201622,
+    "localizedName": "Kaedweni Knight",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28033_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28006_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "neutral"
+      "slug": "northernrealms"
     },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier, Knight",
     "type": "unit"
+  },
+  {
+    "id": 201624,
+    "localizedName": "Kaedweni Revenant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28024_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Specter, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 201628,
+    "localizedName": "Forbidden Magic",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28039_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Spell",
+    "type": "special"
   },
   {
     "id": 201634,
@@ -676,6 +962,19 @@
     "type": "special"
   },
   {
+    "id": 201676,
+    "localizedName": "Pavko Gale",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 201698,
     "localizedName": "Ozzrel",
     "previewImg": {
@@ -702,10 +1001,10 @@
     "type": "unit"
   },
   {
-    "id": 201780,
-    "localizedName": "Yennefer: Divination",
+    "id": 201773,
+    "localizedName": "Triss: Telekinesis",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28321_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28261_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
@@ -728,6 +1027,32 @@
     "type": "unit"
   },
   {
+    "id": 202109,
+    "localizedName": "Lippy Gudmund",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28438_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Pirate",
+    "type": "unit"
+  },
+  {
+    "id": 202121,
+    "localizedName": "Strays of Spalla",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28552_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Bandit",
+    "type": "unit"
+  },
+  {
     "id": 202150,
     "localizedName": "Vysogota of Corvo",
     "previewImg": {
@@ -738,6 +1063,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 202151,
+    "localizedName": "Falibor",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28609_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
     "type": "unit"
   },
   {
@@ -754,30 +1092,43 @@
     "type": "unit"
   },
   {
-    "id": 202216,
-    "localizedName": "Pellar",
+    "id": 202161,
+    "localizedName": "Lyrian Scytheman",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28657_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 202201,
+    "localizedName": "Portal",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28810_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
-    "type": "unit"
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
   },
   {
-    "id": 202231,
-    "localizedName": "Plumard",
+    "id": 202204,
+    "localizedName": "Curse of Corruption",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28981_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28819_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "monsters"
+      "slug": "neutral"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire",
-    "type": "unit"
+    "cardGroup": "gold",
+    "categoryName": "Spell",
+    "type": "special"
   },
   {
     "id": 202234,
@@ -832,10 +1183,36 @@
     "type": "special"
   },
   {
+    "id": 202244,
+    "localizedName": "Ducal Guard",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29077_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
     "id": 202247,
     "localizedName": "Fangs of the Empire",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/30/thumb_29092_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Agent",
+    "type": "unit"
+  },
+  {
+    "id": 202248,
+    "localizedName": "Duchess's Informant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29101_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -936,6 +1313,32 @@
     "type": "artifact"
   },
   {
+    "id": 202280,
+    "localizedName": "Vildkaarl",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29344_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Cultist, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 202284,
+    "localizedName": "Svalblod Priest",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29389_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Cultist, Druid",
+    "type": "unit"
+  },
+  {
     "id": 202291,
     "localizedName": "Dettlaff: Higher Vampire",
     "previewImg": {
@@ -988,10 +1391,10 @@
     "type": "unit"
   },
   {
-    "id": 202315,
-    "localizedName": "Adalbertus Kalkstein",
+    "id": 202313,
+    "localizedName": "Adriano the Mink",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29722_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29689_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1170,6 +1573,19 @@
     "type": "special"
   },
   {
+    "id": 202372,
+    "localizedName": "Temple Guard",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30205_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier, Firesworn",
+    "type": "unit"
+  },
+  {
     "id": 202374,
     "localizedName": "Congregation",
     "previewImg": {
@@ -1200,6 +1616,19 @@
     "localizedName": "Bare-Knuckle Brawler",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/31/thumb_30238_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf, Crownsplitters",
+    "type": "unit"
+  },
+  {
+    "id": 202382,
+    "localizedName": "Crownsplitter Thug",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1248,6 +1677,32 @@
     "type": "unit"
   },
   {
+    "id": 202397,
+    "localizedName": "Knickers",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31108_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Bandit",
+    "type": "unit"
+  },
+  {
+    "id": 202417,
+    "localizedName": "Philippa: Blind Fury",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31195_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
+  },
+  {
     "id": 202418,
     "localizedName": "Donimir of Troy",
     "previewImg": {
@@ -1261,10 +1716,49 @@
     "type": "unit"
   },
   {
+    "id": 202419,
+    "localizedName": "Voymir",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31204_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 202420,
+    "localizedName": "Mad Charge",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31207_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Warfare",
+    "type": "special"
+  },
+  {
     "id": 202421,
     "localizedName": "Radovid's Royal Guards",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/32/thumb_31213_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 202422,
+    "localizedName": "Redanian Archer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31219_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
@@ -1284,6 +1778,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Mage, Salamandra",
+    "type": "unit"
+  },
+  {
+    "id": 202429,
+    "localizedName": "Mutated Hounds",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31240_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Beast, Salamandra",
     "type": "unit"
   },
   {
@@ -1352,10 +1859,23 @@
     "type": "special"
   },
   {
-    "id": 202445,
-    "localizedName": "Affan Hillergrand",
+    "id": 202446,
+    "localizedName": "Ramon Tyrconnel",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31327_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31765_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier, Knight",
+    "type": "unit"
+  },
+  {
+    "id": 202449,
+    "localizedName": "Glynnis aep Loernach",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31351_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -1365,17 +1885,17 @@
     "type": "unit"
   },
   {
-    "id": 202447,
-    "localizedName": "War Council",
+    "id": 202450,
+    "localizedName": "Ard Feainn Crossbowman",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31339_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31357_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
-    "cardGroup": "gold",
-    "categoryName": "Tactic",
-    "type": "special"
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202451,
@@ -1391,17 +1911,43 @@
     "type": "unit"
   },
   {
-    "id": 202454,
-    "localizedName": "Battle Preparation",
+    "id": 202453,
+    "localizedName": "Ard Feainn Heavy Cavalry",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31378_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31372_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "bronze",
-    "categoryName": "Tactic",
-    "type": "special"
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 202456,
+    "localizedName": "Dracoturtle",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31384_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
+    "id": 202457,
+    "localizedName": "Covenant of Steel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31387_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 202458,
@@ -1426,19 +1972,6 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": "Raid",
-    "type": "special"
-  },
-  {
-    "id": 202465,
-    "localizedName": "Stunning Blow",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31420_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
     "categoryName": "Raid",
     "type": "special"
   },
@@ -1469,29 +2002,16 @@
     "type": "unit"
   },
   {
-    "id": 202479,
-    "localizedName": "Maraal",
+    "id": 202507,
+    "localizedName": "Siege Ladder",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31780_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Agent",
-    "type": "unit"
-  },
-  {
-    "id": 202503,
-    "localizedName": "War Elephant",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31876_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31900_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold",
-    "categoryName": "Beast, Siege Engine",
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Siege Engine",
     "type": "unit"
   },
   {
@@ -1506,6 +2026,84 @@
     "cardGroup": "bronze",
     "categoryName": "Warfare",
     "type": "special"
+  },
+  {
+    "id": 202513,
+    "localizedName": "Gedyneith",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31930_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Scenario",
+    "type": "artifact"
+  },
+  {
+    "id": 202514,
+    "localizedName": "Crowmother",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31936_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Druid",
+    "type": "unit"
+  },
+  {
+    "id": 202515,
+    "localizedName": "Gigascorpion Decoction",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31942_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
+    "id": 202518,
+    "localizedName": "Crow Clan Preacher",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31960_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Druid",
+    "type": "unit"
+  },
+  {
+    "id": 202520,
+    "localizedName": "Crow's-eye Rhizome",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31966_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
+    "id": 202521,
+    "localizedName": "Crow Messenger",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31972_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Beast",
+    "type": "unit"
   },
   {
     "id": 202525,
@@ -1622,19 +2220,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Vampire, Aristocrat",
-    "type": "unit"
-  },
-  {
-    "id": 202549,
-    "localizedName": "Hunting Pack",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32122_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Beast",
     "type": "unit"
   },
   {
@@ -1755,6 +2340,58 @@
     "type": "unit"
   },
   {
+    "id": 202607,
+    "localizedName": "Ard Gaeth",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32311_assets_preview_big_ca4b513f10e4a294086887fb9d8e87d08d02d1e2.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
+    "id": 202608,
+    "localizedName": "Winter Queen",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32314_assets_preview_big_27dd545c47bcd3700e9ae32c6e89698b13584d36.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
+  },
+  {
+    "id": 202611,
+    "localizedName": "Wild Hunt Bruiser",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
+  },
+  {
+    "id": 202614,
+    "localizedName": "Aen Elle Conqueror",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32335_assets_preview_big_07bb6a68ebb6450d5e7f756d59d89b56c916bdee.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
+  },
+  {
     "id": 202615,
     "localizedName": "Harald an Craite",
     "previewImg": {
@@ -1792,19 +2429,6 @@
     "cardGroup": "gold",
     "categoryName": "Human, Warrior",
     "type": "unit"
-  },
-  {
-    "id": 202622,
-    "localizedName": "War of Clans",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32356_assets_preview_big_16d189e69b90c704987612cbecb6a60b0469dd1e.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Raid",
-    "type": "special"
   },
   {
     "id": 202623,
@@ -1963,6 +2587,32 @@
     "type": "special"
   },
   {
+    "id": 202648,
+    "localizedName": "Egmund",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32437_assets_preview_big_6b4b21cf042daf14e1701770a69b23f754a4d831.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 202649,
+    "localizedName": "Smoke them out!",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32440_assets_preview_big_d21a4afed5b1844990e71bbac6c5007c40d8656f.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Warfare",
+    "type": "special"
+  },
+  {
     "id": 202650,
     "localizedName": "Kerack Frigate",
     "previewImg": {
@@ -1976,19 +2626,6 @@
     "type": "unit"
   },
   {
-    "id": 202651,
-    "localizedName": "Kerack City Guard",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32446_assets_preview_big_37f4b727d98c2fa77542caa891f6990a11161402.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 202652,
     "localizedName": "Kerack Marine",
     "previewImg": {
@@ -1999,6 +2636,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier, Pirate",
+    "type": "unit"
+  },
+  {
+    "id": 202653,
+    "localizedName": "Kerack Cutthroat",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32452_assets_preview_big_8860903862d42f39b67204cd40e931cc270b5be2.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier, Bandit",
     "type": "unit"
   },
   {
@@ -2041,30 +2691,17 @@
     "type": "special"
   },
   {
-    "id": 202660,
-    "localizedName": "Fergus var Emreis",
+    "id": 202663,
+    "localizedName": "Amnesty",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32476_assets_preview_big_61ee6a272d881bd80d5ccd71a7a9e269a973d154.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Aristocrat",
-    "type": "unit"
-  },
-  {
-    "id": 202665,
-    "localizedName": "Seditious Aristocrats",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32494_assets_preview_big_e9d328a49e7c6e855c4ca92d3d05a305a713ce17.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32488_assets_preview_big_eb7c87fe27daae31446ebb268a3463bcdb8c9692.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Aristocrat",
-    "type": "unit"
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 202673,
