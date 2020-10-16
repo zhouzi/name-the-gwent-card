@@ -10,8 +10,9 @@ export const messages = {
   aboutCode: "À propos/Code",
   disclaimer:
     "Ceci est une œuvre de fan non officielle suivant le <a>Guide pour le contenu des fans de Gwent</a>. Non approuvée/soutenue par CD PROJEKT RED.",
-  hint: "Indice",
-  hintCardGroup: "C'est une carte {cardGroup}",
+  hint: "Indice ({remainCount} restants)",
+  hintCardType:
+    "C'est une carte {cardType, select, unit {unité} special {spéciale} artifact {artefact}}",
   hintFaction: "appartenant à {faction}",
   hintInitials: 'dont le nom débute par "{initials}"',
   gameOver: "Game Over!",

@@ -3,9 +3,9 @@ import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Link, List, ListItem } from "design/components";
 
-type Hint = "cardGroup" | "faction" | "initials";
+type Hint = "cardType" | "faction" | "initials";
 
-const HINTS: Hint[] = ["cardGroup", "faction", "initials"];
+const HINTS: Hint[] = ["cardType", "faction", "initials"];
 
 const CardHintsContainer = styled.div`
   display: flex;
@@ -49,13 +49,13 @@ export function CardHints({ card }: CardHintsProps) {
       {hints.length > 0 && (
         <HintsList>
           {hints.map((hint) => {
-            if (hint === "cardGroup") {
+            if (hint === "cardType") {
               return (
                 <HintsListItem>
                   <FormattedMessage
-                    id="hintCardGroup"
+                    id="hintCardType"
                     values={{
-                      cardGroup: card.cardGroup,
+                      cardType: card.type,
                     }}
                   />
                 </HintsListItem>
@@ -104,7 +104,10 @@ export function CardHints({ card }: CardHintsProps) {
             setHints((currentHints) => HINTS.slice(0, currentHints.length + 1))
           }
         >
-          <FormattedMessage id="hint" />
+          <FormattedMessage
+            id="hint"
+            values={{ remainCount: HINTS.length - hints.length }}
+          />
         </Link>
       )}
     </CardHintsContainer>
