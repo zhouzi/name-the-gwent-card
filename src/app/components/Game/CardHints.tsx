@@ -4,9 +4,9 @@ import styled from "styled-components";
 import { Link, List, ListItem } from "design/components";
 import { messages } from "app/i18n/en";
 
-type Hint = "cardGroup" | "faction" | "initials";
+type Hint = "cardType" | "faction" | "initials";
 
-const HINTS: Hint[] = ["cardGroup", "faction", "initials"];
+const HINTS: Hint[] = ["cardType", "faction", "initials"];
 
 const CardHintsContainer = styled.div`
   display: flex;
@@ -50,13 +50,13 @@ export function CardHints({ card }: CardHintsProps) {
       {hints.length > 0 && (
         <HintsList>
           {hints.map((hint) => {
-            if (hint === "cardGroup") {
+            if (hint === "cardType") {
               return (
                 <HintsListItem>
                   <FormattedMessage
-                    id="hintCardGroup"
+                    id="hintCardType"
                     values={{
-                      cardGroup: card.type,
+                      cardType: card.type,
                     }}
                   />
                 </HintsListItem>
@@ -105,10 +105,8 @@ export function CardHints({ card }: CardHintsProps) {
             setHints((currentHints) => HINTS.slice(0, currentHints.length + 1))
           }
         >
-          <FormattedMessage id="hint" />
-          
-          <FormattedMessage id="remaining"
-            {...messages.remaining}
+          <FormattedMessage id="hint"
+            {...messages.hint}
             values= {{remainCount: HINTS.length- hints.length}}
           />
         </Link>

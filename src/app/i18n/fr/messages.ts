@@ -10,8 +10,8 @@ export const messages = {
   aboutCode: "À propos/Code",
   disclaimer:
     "Ceci est une œuvre de fan non officielle suivant le <a>Guide pour le contenu des fans de Gwent</a>. Non approuvée/soutenue par CD PROJEKT RED.",
-  hint: "Indice",
-  hintCardGroup: "C'est une carte {cardGroup}",
+  hint: "Indice ({remainCount} restants)",
+  hintCardType: "C'est une carte {cardType, select, unit {unité} special {spéciale} artifact {artefact}}",
   hintFaction: "appartenant à {faction}",
   hintInitials: 'dont le nom débute par "{initials}"',
   gameOver: "Game Over!",
@@ -61,6 +61,5 @@ export const messages = {
     "Grr, j'ai déjà vu des batailles tourner à l'aigre, mais celle-ci est un comble !",
   brouverTaunt1: "T'attends quoi pour t'décider, que je coasse ?",
   brouverTaunt2: "Ha ha ha ha ! Eh… sérieux, c'est ça qu'tu joues ?",
-  brouverTaunt3: "Retenez-moi ou j'fais un malheur !",
-  remaining: " ({remainCount} rester)"
+  brouverTaunt3: "Retenez-moi ou j'fais un malheur !"
 };

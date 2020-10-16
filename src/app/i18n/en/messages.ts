@@ -10,8 +10,8 @@ export const messages = {
   aboutCode: "About/Code",
   disclaimer:
     "This is an unofficial fan work under the <a>Gwent Fan Content Guidelines</a>. Not approved/endorsed by CD PROJEKT RED.",
-  hint: "Hint",
-  hintCardGroup: "This is a {cardGroup} card",
+  hint: "Hint ({remainCount} left)",
+  hintCardType: "This is a {cardType, select, unit {unit} special {special} artifact {artifact}} card",
   hintFaction: "owned by {faction}",
   hintInitials: 'with a name starting with "{initials}"',
   gameOver: "Game Over!",
@@ -62,5 +62,4 @@ export const messages = {
   brouverTaunt1: "Ye waitin' round, hopin I'll croak, ye badger?",
   brouverTaunt2: "Hahaha! Ehh… wait, ye're serious? That's yer move?",
   brouverTaunt3: "Somebody hold me back or I'll…",
-  remaining: " ({remainCount} left)"
 };
