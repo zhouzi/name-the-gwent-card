@@ -2,7 +2,6 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 import styled from "styled-components";
 import { Link, List, ListItem } from "design/components";
-import { messages } from "app/i18n/en";
 
 type Hint = "cardType" | "faction" | "initials";
 
@@ -105,9 +104,9 @@ export function CardHints({ card }: CardHintsProps) {
             setHints((currentHints) => HINTS.slice(0, currentHints.length + 1))
           }
         >
-          <FormattedMessage id="hint"
-            {...messages.hint}
-            values= {{remainCount: HINTS.length- hints.length}}
+          <FormattedMessage
+            id="hint"
+            values={{ remainCount: HINTS.length - hints.length }}
           />
         </Link>
       )}
