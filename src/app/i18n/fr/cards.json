@@ -156,6 +156,19 @@
     "type": "special"
   },
   {
+    "id": 132104,
+    "localizedName": "Caranthir Ar-Feiniel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25687_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe, Mage",
+    "type": "unit"
+  },
+  {
     "id": 132108,
     "localizedName": "Miruna",
     "previewImg": {
@@ -166,19 +179,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Vestige",
-    "type": "unit"
-  },
-  {
-    "id": 132209,
-    "localizedName": "Manticore impériale",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25735_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Bête",
     "type": "unit"
   },
   {
@@ -312,16 +312,16 @@
     "type": "special"
   },
   {
-    "id": 152301,
-    "localizedName": "Ravageur de Svalblod",
+    "id": 152303,
+    "localizedName": "An Craite : guerrier",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26329_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26335_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Cultiste, Guerrier",
+    "categoryName": "Humain, Guerrier",
     "type": "unit"
   },
   {
@@ -2429,6 +2429,19 @@
     "cardGroup": "gold",
     "categoryName": "Humain, Guerrier",
     "type": "unit"
+  },
+  {
+    "id": 202622,
+    "localizedName": "Guerre de clans",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32356_assets_preview_big_16d189e69b90c704987612cbecb6a60b0469dd1e.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 202623,
