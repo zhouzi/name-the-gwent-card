@@ -1417,6 +1417,19 @@
     "type": "special"
   },
   {
+    "id": 202330,
+    "localizedName": "Payday",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29875_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Cutups",
+    "type": "special"
+  },
+  {
     "id": 202339,
     "localizedName": "Tidecloak Ransackers",
     "previewImg": {
@@ -1521,19 +1534,6 @@
     "type": "special"
   },
   {
-    "id": 202358,
-    "localizedName": "Tavern Brawl",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Crime, Tidecloaks",
-    "type": "special"
-  },
-  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -1616,19 +1616,6 @@
     "localizedName": "Bare-Knuckle Brawler",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/31/thumb_30238_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dwarf, Crownsplitters",
-    "type": "unit"
-  },
-  {
-    "id": 202382,
-    "localizedName": "Crownsplitter Thug",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -2558,19 +2545,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Firesworn",
-    "type": "unit"
-  },
-  {
-    "id": 202640,
-    "localizedName": "Mutants Maker",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Salamandra",
     "type": "unit"
   },
   {
