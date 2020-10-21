@@ -1417,6 +1417,19 @@
     "type": "special"
   },
   {
+    "id": 202330,
+    "localizedName": "Jour de paie",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29875_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Abatteurs",
+    "type": "special"
+  },
+  {
     "id": 202339,
     "localizedName": "Pilleurs des Écumeurs",
     "previewImg": {
@@ -1521,19 +1534,6 @@
     "type": "special"
   },
   {
-    "id": 202358,
-    "localizedName": "Rixe de taverne",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Crime, Écumeurs",
-    "type": "special"
-  },
-  {
     "id": 202367,
     "localizedName": "Le Redanien volant",
     "previewImg": {
@@ -1616,19 +1616,6 @@
     "localizedName": "Combattant à mains nues",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/31/thumb_30238_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nain, Découpeurs",
-    "type": "unit"
-  },
-  {
-    "id": 202382,
-    "localizedName": "Bandit des Découpeurs",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30280_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -2558,19 +2545,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Fidèles du Feu",
-    "type": "unit"
-  },
-  {
-    "id": 202640,
-    "localizedName": "Créateur de mutants",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Salamandre",
     "type": "unit"
   },
   {
