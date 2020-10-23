@@ -208,6 +208,19 @@
     "type": "unit"
   },
   {
+    "id": 142108,
+    "localizedName": "Schirrú",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 142212,
     "localizedName": "Sheldon Skaggs",
     "previewImg": {
@@ -1129,6 +1142,19 @@
     "cardGroup": "gold",
     "categoryName": "Sort",
     "type": "special"
+  },
+  {
+    "id": 202216,
+    "localizedName": "Chaman",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain",
+    "type": "unit"
   },
   {
     "id": 202234,
