@@ -286,6 +286,19 @@
     "type": "unit"
   },
   {
+    "id": 152202,
+    "localizedName": "Champion's Charge",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26293_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
+  },
+  {
     "id": 152206,
     "localizedName": "Gremist",
     "previewImg": {
@@ -351,19 +364,6 @@
     "type": "unit"
   },
   {
-    "id": 152309,
-    "localizedName": "Dimun Light Longship",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine, Ship",
-    "type": "unit"
-  },
-  {
     "id": 152310,
     "localizedName": "Freya's Blessing",
     "previewImg": {
@@ -387,6 +387,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 152314,
+    "localizedName": "An Craite Longship",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Ship",
     "type": "unit"
   },
   {
@@ -1963,19 +1976,6 @@
     "type": "unit"
   },
   {
-    "id": 202458,
-    "localizedName": "Morkvarg: Heart of Terror",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31393_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Warrior",
-    "type": "unit"
-  },
-  {
     "id": 202459,
     "localizedName": "Raiding Fleet",
     "previewImg": {
@@ -2435,6 +2435,19 @@
     "localizedName": "Skjordal Drummond",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32350_assets_preview_big_8bb2f240647a8dbd70b0ab5c606748c58a7abe60.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 202621,
+    "localizedName": "Herkja Drummond",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32353_assets_preview_big_80752278781fc9d1425048d98e6800ffae45a1ca.jpg"
     },
     "faction": {
       "slug": "skellige"
