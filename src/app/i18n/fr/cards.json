@@ -104,6 +104,19 @@
     "type": "unit"
   },
   {
+    "id": 122309,
+    "localizedName": "Aide de siège",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25549_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 122313,
     "localizedName": "Bannière Brune",
     "previewImg": {
@@ -442,6 +455,19 @@
     "type": "unit"
   },
   {
+    "id": 162203,
+    "localizedName": "Cynthia",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26551_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
     "id": 162207,
     "localizedName": "Vanhemar",
     "previewImg": {
@@ -465,6 +491,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Agent",
+    "type": "unit"
+  },
+  {
+    "id": 162301,
+    "localizedName": "Soldat daerlandais",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26590_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
     "type": "unit"
   },
   {
@@ -608,6 +647,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 200050,
+    "localizedName": "Vreemde",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26968_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Soldat",
     "type": "unit"
   },
   {
@@ -988,6 +1040,19 @@
     "type": "special"
   },
   {
+    "id": 201664,
+    "localizedName": "Vrygheff",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28153_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 201676,
     "localizedName": "Pavko Gale",
     "previewImg": {
@@ -1155,19 +1220,6 @@
     "cardGroup": "gold",
     "categoryName": "Sort",
     "type": "special"
-  },
-  {
-    "id": 202216,
-    "localizedName": "Chaman",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain",
-    "type": "unit"
   },
   {
     "id": 202234,
@@ -1755,19 +1807,6 @@
     "type": "unit"
   },
   {
-    "id": 202420,
-    "localizedName": "Charge débridée",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31207_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Guerre",
-    "type": "special"
-  },
-  {
     "id": 202421,
     "localizedName": "Gardes royaux de Radovid",
     "previewImg": {
@@ -2015,6 +2054,19 @@
     "type": "unit"
   },
   {
+    "id": 202480,
+    "localizedName": "Matta Hu'uri",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31786_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Agent",
+    "type": "unit"
+  },
+  {
     "id": 202507,
     "localizedName": "Échelle de siège",
     "previewImg": {
@@ -2236,6 +2288,19 @@
     "type": "unit"
   },
   {
+    "id": 202549,
+    "localizedName": "Meute de limiers",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32122_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
     "id": 202551,
     "localizedName": "Dame assoiffée",
     "previewImg": {
@@ -2383,6 +2448,19 @@
     "localizedName": "Chasse : cogneur",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Chasse Sauvage",
+    "type": "unit"
+  },
+  {
+    "id": 202613,
+    "localizedName": "Premier maître du Naglfar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
     },
     "faction": {
       "slug": "monsters"
