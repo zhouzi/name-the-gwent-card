@@ -455,19 +455,6 @@
     "type": "unit"
   },
   {
-    "id": 162203,
-    "localizedName": "Cynthia",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26551_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 162207,
     "localizedName": "Vanhemar",
     "previewImg": {
@@ -598,19 +585,6 @@
     "type": "unit"
   },
   {
-    "id": 200042,
-    "localizedName": "Mahakam Marauder",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26935_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dwarf",
-    "type": "unit"
-  },
-  {
     "id": 200043,
     "localizedName": "Harald Houndsnout",
     "previewImg": {
@@ -696,19 +670,6 @@
     },
     "faction": {
       "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Beast, Cursed",
-    "type": "unit"
-  },
-  {
-    "id": 200098,
-    "localizedName": "Vincent Meis",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27181_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
     },
     "cardGroup": "gold",
     "categoryName": "Beast, Cursed",
@@ -2039,6 +2000,19 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
+  },
+  {
+    "id": 202474,
+    "localizedName": "Miner",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
   },
   {
     "id": 202475,
