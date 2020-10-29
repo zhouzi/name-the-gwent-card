@@ -169,19 +169,6 @@
     "type": "special"
   },
   {
-    "id": 132104,
-    "localizedName": "Caranthir Ar-Feiniel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25687_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe, Mage",
-    "type": "unit"
-  },
-  {
     "id": 132108,
     "localizedName": "Miruna",
     "previewImg": {
@@ -192,6 +179,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Vestige",
+    "type": "unit"
+  },
+  {
+    "id": 132209,
+    "localizedName": "Manticore impériale",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25735_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête",
     "type": "unit"
   },
   {
@@ -244,19 +244,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
-    "id": 142214,
-    "localizedName": "Ele'yas",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26077_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe",
     "type": "unit"
   },
   {
@@ -686,6 +673,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 200138,
+    "localizedName": "Sage",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27358_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Mage",
     "type": "unit"
   },
   {
@@ -1313,19 +1313,6 @@
     "type": "unit"
   },
   {
-    "id": 202268,
-    "localizedName": "Sanglier sylvain",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29248_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sylvain",
-    "type": "unit"
-  },
-  {
     "id": 202269,
     "localizedName": "Caresse de dryade",
     "previewImg": {
@@ -1482,6 +1469,19 @@
     "type": "special"
   },
   {
+    "id": 202334,
+    "localizedName": "Pillards des égouts",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29914_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Écumeurs",
+    "type": "unit"
+  },
+  {
     "id": 202339,
     "localizedName": "Pilleurs des Écumeurs",
     "previewImg": {
@@ -1505,19 +1505,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Écumeurs",
-    "type": "unit"
-  },
-  {
-    "id": 202342,
-    "localizedName": "Guerrière kikimorrhe",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29950_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Insectoïde, Abatteurs",
     "type": "unit"
   },
   {
@@ -1794,28 +1781,15 @@
     "type": "unit"
   },
   {
-    "id": 202425,
-    "localizedName": "Azar Javed",
+    "id": 202428,
+    "localizedName": "Molosse mutant sinistre",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31225_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31234_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage, Salamandre",
-    "type": "unit"
-  },
-  {
-    "id": 202429,
-    "localizedName": "Molosse mutants",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31240_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
     "categoryName": "Bête, Salamandre",
     "type": "unit"
   },
@@ -1989,6 +1963,19 @@
     "type": "special"
   },
   {
+    "id": 202470,
+    "localizedName": "Figgis Merluzzo",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
     "id": 202473,
     "localizedName": "Trempe",
     "previewImg": {
@@ -2012,19 +1999,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
-    "id": 202475,
-    "localizedName": "Enchanteresse dryade",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31450_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dryade",
     "type": "unit"
   },
   {
@@ -2431,19 +2405,6 @@
     "type": "unit"
   },
   {
-    "id": 202613,
-    "localizedName": "Premier maître du Naglfar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
     "id": 202614,
     "localizedName": "Conquérant Aen Elle",
     "previewImg": {
@@ -2598,6 +2559,19 @@
     "cardGroup": "gold",
     "categoryName": "Crime, Fidèles du Feu",
     "type": "special"
+  },
+  {
+    "id": 202635,
+    "localizedName": "Lieutenant von Herst",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32395_assets_preview_big_fef0f7ed9691ee4b1a2a1c3d042a644931af4a44.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Fidèles du Feu",
+    "type": "unit"
   },
   {
     "id": 202636,
