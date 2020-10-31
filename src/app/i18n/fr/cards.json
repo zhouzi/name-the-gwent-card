@@ -1183,6 +1183,19 @@
     "type": "special"
   },
   {
+    "id": 202231,
+    "localizedName": "Plumeur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28981_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
     "id": 202234,
     "localizedName": "Brouxe",
     "previewImg": {
