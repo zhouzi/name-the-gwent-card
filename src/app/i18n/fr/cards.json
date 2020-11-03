@@ -2795,19 +2795,6 @@
     "type": "special"
   },
   {
-    "id": 202676,
-    "localizedName": "Dunca",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32527_assets_preview_big_84b40f803061c064441309ff8d3fd5a7ca4143e2.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Dryade",
-    "type": "unit"
-  },
-  {
     "id": 202677,
     "localizedName": "Cercle de la vie",
     "previewImg": {
