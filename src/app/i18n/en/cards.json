@@ -377,19 +377,6 @@
     "type": "unit"
   },
   {
-    "id": 152202,
-    "localizedName": "Champion's Charge",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26293_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Raid",
-    "type": "special"
-  },
-  {
     "id": 152206,
     "localizedName": "Gremist",
     "previewImg": {
@@ -416,19 +403,6 @@
     "type": "unit"
   },
   {
-    "id": 152210,
-    "localizedName": "Savage Bear",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
     "id": 152211,
     "localizedName": "Sigrdrifa's Rite",
     "previewImg": {
@@ -440,6 +414,19 @@
     "cardGroup": "gold",
     "categoryName": "Alchemy",
     "type": "special"
+  },
+  {
+    "id": 152303,
+    "localizedName": "An Craite Warrior",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26335_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
   },
   {
     "id": 152308,
@@ -2624,6 +2611,19 @@
     "cardGroup": "gold",
     "categoryName": "Human, Warrior",
     "type": "unit"
+  },
+  {
+    "id": 202622,
+    "localizedName": "War of Clans",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32356_assets_preview_big_16d189e69b90c704987612cbecb6a60b0469dd1e.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 202623,
