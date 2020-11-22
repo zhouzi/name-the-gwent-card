@@ -403,6 +403,19 @@
     "type": "unit"
   },
   {
+    "id": 152201,
+    "localizedName": "Blueboy Lugos",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26287_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
     "id": 152206,
     "localizedName": "Gremist",
     "previewImg": {
@@ -426,6 +439,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Beast, Cursed",
+    "type": "unit"
+  },
+  {
+    "id": 152210,
+    "localizedName": "Savage Bear",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Beast",
     "type": "unit"
   },
   {
