@@ -403,6 +403,19 @@
     "type": "unit"
   },
   {
+    "id": 152201,
+    "localizedName": "Lugos la Beigne",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26287_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 152206,
     "localizedName": "Gremist",
     "previewImg": {
@@ -426,6 +439,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Bête, Maudite",
+    "type": "unit"
+  },
+  {
+    "id": 152210,
+    "localizedName": "Ours sauvage",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête",
     "type": "unit"
   },
   {
