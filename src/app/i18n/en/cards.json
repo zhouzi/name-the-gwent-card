@@ -169,19 +169,6 @@
     "type": "special"
   },
   {
-    "id": 131102,
-    "localizedName": "Ge'els",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25657_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
     "id": 132102,
     "localizedName": "Imlerith's Wrath",
     "previewImg": {
@@ -205,19 +192,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Relict",
-    "type": "unit"
-  },
-  {
-    "id": 132209,
-    "localizedName": "Imperial Manticore",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25735_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Beast",
     "type": "unit"
   },
   {
@@ -960,19 +934,6 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier",
     "type": "unit"
-  },
-  {
-    "id": 200301,
-    "localizedName": "Naglfar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27682_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
   },
   {
     "id": 200523,
@@ -2662,45 +2623,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
-    "id": 202607,
-    "localizedName": "Ard Gaeth",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32311_assets_preview_big_ca4b513f10e4a294086887fb9d8e87d08d02d1e2.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
-  },
-  {
-    "id": 202608,
-    "localizedName": "Winter Queen",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32314_assets_preview_big_27dd545c47bcd3700e9ae32c6e89698b13584d36.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
-    "id": 202614,
-    "localizedName": "Aen Elle Conqueror",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32335_assets_preview_big_07bb6a68ebb6450d5e7f756d59d89b56c916bdee.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt",
     "type": "unit"
   },
   {
