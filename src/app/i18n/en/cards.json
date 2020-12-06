@@ -104,19 +104,6 @@
     "type": "unit"
   },
   {
-    "id": 122205,
-    "localizedName": "Síle de Tansarville",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25495_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 122301,
     "localizedName": "Ballista",
     "previewImg": {
@@ -2106,19 +2093,6 @@
     "type": "unit"
   },
   {
-    "id": 202448,
-    "localizedName": "Ffion var Gaernel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31498_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 202449,
     "localizedName": "Glynnis aep Loernach",
     "previewImg": {
@@ -2136,6 +2110,19 @@
     "localizedName": "Ard Feainn Crossbowman",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/32/thumb_31357_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
+    "id": 202451,
+    "localizedName": "Ard Feainn Tortoise",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31501_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -2494,6 +2481,19 @@
     "cardGroup": "gold",
     "categoryName": "Scenario",
     "type": "artifact"
+  },
+  {
+    "id": 202546,
+    "localizedName": "Van Moorlehem's Cupbearer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32110_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202547,
