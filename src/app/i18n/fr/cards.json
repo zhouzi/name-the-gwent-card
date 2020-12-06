@@ -104,19 +104,6 @@
     "type": "unit"
   },
   {
-    "id": 122205,
-    "localizedName": "Sheala",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25495_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
     "id": 122301,
     "localizedName": "Baliste",
     "previewImg": {
@@ -2106,19 +2093,6 @@
     "type": "unit"
   },
   {
-    "id": 202448,
-    "localizedName": "Ffion var Gaernel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31498_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
     "id": 202449,
     "localizedName": "Glynnis aep Loernach",
     "previewImg": {
@@ -2136,6 +2110,19 @@
     "localizedName": "Ard Feainn : arbalétrier",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/32/thumb_31357_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
+    "id": 202451,
+    "localizedName": "Ard Feainn : tortue",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31501_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -2494,6 +2481,19 @@
     "cardGroup": "gold",
     "categoryName": "Scénario",
     "type": "artifact"
+  },
+  {
+    "id": 202546,
+    "localizedName": "Van Moorlehem : échanson",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32110_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain",
+    "type": "unit"
   },
   {
     "id": 202547,
