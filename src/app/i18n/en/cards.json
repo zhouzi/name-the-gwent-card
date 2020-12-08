@@ -1088,7 +1088,7 @@
       "slug": "northernrealms"
     },
     "cardGroup": "bronze",
-    "categoryName": "Specter, Soldier",
+    "categoryName": "Specter, Cursed, Soldier",
     "type": "unit"
   },
   {
@@ -1660,7 +1660,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Blindeyes",
+    "categoryName": "Human, Agent, Blindeyes",
     "type": "unit"
   },
   {
@@ -1699,7 +1699,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Tidecloaks",
+    "categoryName": "Human, Pirate, Tidecloaks",
     "type": "unit"
   },
   {
@@ -1712,7 +1712,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Tidecloaks",
+    "categoryName": "Human, Pirate, Tidecloaks",
     "type": "unit"
   },
   {
@@ -1725,7 +1725,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Tidecloaks",
+    "categoryName": "Human, Pirate, Tidecloaks",
     "type": "unit"
   },
   {
@@ -1764,7 +1764,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Cleric",
+    "categoryName": "Human, Firesworn, Cleric",
     "type": "unit"
   },
   {
@@ -1816,7 +1816,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Tidecloaks",
+    "categoryName": "Human, Pirate, Tidecloaks",
     "type": "unit"
   },
   {
@@ -2011,7 +2011,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Beast, Salamandra",
+    "categoryName": "Beast, Mutant, Salamandra",
     "type": "unit"
   },
   {
@@ -2180,7 +2180,7 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Warrior",
+    "categoryName": "Human, Pirate, Warrior",
     "type": "unit"
   },
   {
@@ -2193,7 +2193,7 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Warrior",
+    "categoryName": "Human, Pirate, Warrior",
     "type": "unit"
   },
   {
@@ -2473,7 +2473,7 @@
     "id": 202544,
     "localizedName": "Masquerade Ball",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32098_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36667_assets_preview_big_5fbed9c34973985a2a7d35e7b380acba49b633de.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -2687,7 +2687,7 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Warrior",
+    "categoryName": "Human, Pirate, Warrior",
     "type": "unit"
   },
   {
@@ -2700,7 +2700,7 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Warrior",
+    "categoryName": "Human, Pirate, Warrior",
     "type": "unit"
   },
   {
@@ -2739,7 +2739,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Firesworn",
+    "categoryName": "Human, Knight, Firesworn",
     "type": "unit"
   },
   {
@@ -2765,7 +2765,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Human, Firesworn",
+    "categoryName": "Human, Knight, Firesworn",
     "type": "unit"
   },
   {
@@ -2791,7 +2791,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Cleric",
+    "categoryName": "Human, Firesworn, Cleric",
     "type": "unit"
   },
   {
@@ -2804,7 +2804,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Firesworn",
+    "categoryName": "Human, Knight, Firesworn",
     "type": "unit"
   },
   {
