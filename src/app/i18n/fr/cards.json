@@ -1088,7 +1088,7 @@
       "slug": "northernrealms"
     },
     "cardGroup": "bronze",
-    "categoryName": "Spectre, Soldat",
+    "categoryName": "Spectre, Maudite, Soldat",
     "type": "unit"
   },
   {
@@ -1660,7 +1660,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Ignorés",
+    "categoryName": "Humain, Agent, Ignorés",
     "type": "unit"
   },
   {
@@ -1699,7 +1699,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Écumeurs",
+    "categoryName": "Humain, Pirate, Écumeurs",
     "type": "unit"
   },
   {
@@ -1712,7 +1712,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Écumeurs",
+    "categoryName": "Humain, Pirate, Écumeurs",
     "type": "unit"
   },
   {
@@ -1725,7 +1725,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Écumeurs",
+    "categoryName": "Humain, Pirate, Écumeurs",
     "type": "unit"
   },
   {
@@ -1764,7 +1764,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Clerc",
+    "categoryName": "Humain, Fidèles du Feu, Clerc",
     "type": "unit"
   },
   {
@@ -1816,7 +1816,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Écumeurs",
+    "categoryName": "Humain, Pirate, Écumeurs",
     "type": "unit"
   },
   {
@@ -2011,7 +2011,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Bête, Salamandre",
+    "categoryName": "Bête, Mutant, Salamandre",
     "type": "unit"
   },
   {
@@ -2180,7 +2180,7 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Guerrier",
+    "categoryName": "Humain, Pirate, Guerrier",
     "type": "unit"
   },
   {
@@ -2193,7 +2193,7 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Guerrier",
+    "categoryName": "Humain, Pirate, Guerrier",
     "type": "unit"
   },
   {
@@ -2473,7 +2473,7 @@
     "id": 202544,
     "localizedName": "Bal masqué",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32098_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36667_assets_preview_big_5fbed9c34973985a2a7d35e7b380acba49b633de.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -2687,7 +2687,7 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Guerrier",
+    "categoryName": "Humain, Pirate, Guerrier",
     "type": "unit"
   },
   {
@@ -2700,7 +2700,7 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Guerrier",
+    "categoryName": "Humain, Pirate, Guerrier",
     "type": "unit"
   },
   {
@@ -2739,7 +2739,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Fidèles du Feu",
+    "categoryName": "Humain, Chevalier, Fidèles du Feu",
     "type": "unit"
   },
   {
@@ -2765,7 +2765,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Fidèles du Feu",
+    "categoryName": "Humain, Chevalier, Fidèles du Feu",
     "type": "unit"
   },
   {
@@ -2791,7 +2791,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Clerc",
+    "categoryName": "Humain, Fidèles du Feu, Clerc",
     "type": "unit"
   },
   {
@@ -2804,7 +2804,7 @@
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Fidèles du Feu",
+    "categoryName": "Humain, Chevalier, Fidèles du Feu",
     "type": "unit"
   },
   {
