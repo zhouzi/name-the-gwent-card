@@ -637,19 +637,6 @@
     "type": "unit"
   },
   {
-    "id": 200031,
-    "localizedName": "Léo Bonhart",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26854_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain",
-    "type": "unit"
-  },
-  {
     "id": 200039,
     "localizedName": "Dol Blathanna : défenseur",
     "previewImg": {
@@ -986,6 +973,19 @@
     "cardGroup": "gold",
     "categoryName": "Sort",
     "type": "special"
+  },
+  {
+    "id": 201603,
+    "localizedName": "Letho : régicide",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27904_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
   },
   {
     "id": 201609,
@@ -2899,17 +2899,17 @@
     "type": "unit"
   },
   {
-    "id": 202793,
-    "localizedName": "Gorthur Gvaed",
+    "id": 202791,
+    "localizedName": "Ivar Malœil",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36487_assets_preview_big_331cb8aaeaf9a0ec90d22a0fa916887ef24bbae0.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36481_assets_preview_big_f6c098a4f0e06a4e3a9ee939884f08a66223a3cc.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Emplacement",
-    "type": "artifact"
+    "categoryName": "Sorceleur",
+    "type": "unit"
   },
   {
     "id": 202794,
@@ -2942,19 +2942,6 @@
     "localizedName": "Mentor sorceleur : Vipère",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36499_assets_preview_big_d0a58d5646e1768135f850d0a7adb4b250f341d3.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202799,
-    "localizedName": "Élève sorceleur : Vipère",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36505_assets_preview_big_e0474f49624e274fa512a15c7f8c8f11ba621fb4.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
