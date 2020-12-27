@@ -533,19 +533,6 @@
     "type": "special"
   },
   {
-    "id": 162305,
-    "localizedName": "Deithwen Arbalest",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26626_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 162306,
     "localizedName": "Fire Scorpion",
     "previewImg": {
@@ -556,6 +543,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Machine, Siege Engine",
+    "type": "unit"
+  },
+  {
+    "id": 162307,
+    "localizedName": "Impera Brigade",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26647_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
     "type": "unit"
   },
   {
@@ -2728,19 +2728,6 @@
     "cardGroup": "gold",
     "categoryName": "Tactic",
     "type": "special"
-  },
-  {
-    "id": 202660,
-    "localizedName": "Fergus var Emreis",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32476_assets_preview_big_61ee6a272d881bd80d5ccd71a7a9e269a973d154.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Aristocrat",
-    "type": "unit"
   },
   {
     "id": 202663,
