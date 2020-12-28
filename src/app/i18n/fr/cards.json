@@ -1001,19 +1001,6 @@
     "type": "unit"
   },
   {
-    "id": 201615,
-    "localizedName": "Conseil d'Isengrim",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Nature",
-    "type": "special"
-  },
-  {
     "id": 201616,
     "localizedName": "Maître-espion",
     "previewImg": {
@@ -2132,19 +2119,6 @@
     "type": "unit"
   },
   {
-    "id": 202476,
-    "localizedName": "Berserker nain",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31453_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
     "id": 202479,
     "localizedName": "Maraal",
     "previewImg": {
@@ -2743,19 +2717,6 @@
     "type": "special"
   },
   {
-    "id": 202670,
-    "localizedName": "Eithné : jeune reine",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32509_assets_preview_big_3c1290c93965effbc9f01c5905df6f67bdbe0944.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Dryade",
-    "type": "unit"
-  },
-  {
     "id": 202673,
     "localizedName": "Protecteur de la forêt",
     "previewImg": {
@@ -2780,19 +2741,6 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
-  },
-  {
-    "id": 202680,
-    "localizedName": "Chênes vivants",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32539_assets_preview_big_c9ee2b372a0b649a042ee633b989f7b660380a0c.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sylvain",
-    "type": "unit"
   },
   {
     "id": 202776,
