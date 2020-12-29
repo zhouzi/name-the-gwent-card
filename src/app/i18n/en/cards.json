@@ -2834,17 +2834,17 @@
     "type": "unit"
   },
   {
-    "id": 202791,
-    "localizedName": "Ivar Evil-Eye",
+    "id": 202793,
+    "localizedName": "Gorthur Gvaed",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36481_assets_preview_big_f6c098a4f0e06a4e3a9ee939884f08a66223a3cc.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36487_assets_preview_big_331cb8aaeaf9a0ec90d22a0fa916887ef24bbae0.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
+    "categoryName": "Location",
+    "type": "artifact"
   },
   {
     "id": 202794,
@@ -2873,10 +2873,10 @@
     "type": "unit"
   },
   {
-    "id": 202797,
-    "localizedName": "Viper Witcher Mentor",
+    "id": 202799,
+    "localizedName": "Viper Witcher Adept",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36499_assets_preview_big_d0a58d5646e1768135f850d0a7adb4b250f341d3.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36505_assets_preview_big_e0474f49624e274fa512a15c7f8c8f11ba621fb4.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
