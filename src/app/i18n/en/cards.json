@@ -117,6 +117,19 @@
     "type": "special"
   },
   {
+    "id": 113316,
+    "localizedName": "Renew",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25417_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Spell",
+    "type": "special"
+  },
+  {
     "id": 122101,
     "localizedName": "Bloody Baron",
     "previewImg": {
@@ -195,6 +208,19 @@
     "type": "unit"
   },
   {
+    "id": 132102,
+    "localizedName": "Imlerith's Wrath",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25666_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
     "id": 132104,
     "localizedName": "Caranthir Ar-Feiniel",
     "previewImg": {
@@ -205,6 +231,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Elf, Wild Hunt, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 132214,
+    "localizedName": "Nithral",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25759_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf, Wild Hunt, Warrior",
     "type": "unit"
   },
   {
@@ -793,6 +832,19 @@
     "type": "unit"
   },
   {
+    "id": 200224,
+    "localizedName": "Crow's Eye",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27568_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
     "id": 200237,
     "localizedName": "Vesemir: Mentor",
     "previewImg": {
@@ -1285,19 +1337,6 @@
     "cardGroup": "gold",
     "categoryName": "Spell",
     "type": "special"
-  },
-  {
-    "id": 202216,
-    "localizedName": "Pellar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
-    "type": "unit"
   },
   {
     "id": 202234,
@@ -2418,6 +2457,32 @@
     "type": "unit"
   },
   {
+    "id": 202609,
+    "localizedName": "The Apiarian Phantom",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32317_assets_preview_big_0b1d0bbb01da72987d2728ceaa72f26b5c4e7d40.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Wild Hunt",
+    "type": "unit"
+  },
+  {
+    "id": 202613,
+    "localizedName": "Naglfar's Taskmaster",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
+  },
+  {
     "id": 202615,
     "localizedName": "Harald an Craite",
     "previewImg": {
@@ -2864,19 +2929,6 @@
     "localizedName": "Viper Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36496_assets_preview_big_a60f796a2633aac13a7cb2750f95fda909f6ebba.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202799,
-    "localizedName": "Viper Witcher Adept",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36505_assets_preview_big_e0474f49624e274fa512a15c7f8c8f11ba621fb4.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
