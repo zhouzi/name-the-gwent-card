@@ -234,19 +234,6 @@
     "type": "unit"
   },
   {
-    "id": 132214,
-    "localizedName": "Nithral",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25759_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe, Chasse Sauvage, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 132301,
     "localizedName": "Brumelin",
     "previewImg": {
@@ -598,19 +585,6 @@
     "type": "unit"
   },
   {
-    "id": 162308,
-    "localizedName": "Impera : estafiers",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26659_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
     "id": 162309,
     "localizedName": "Nausicaa : sergent",
     "previewImg": {
@@ -621,19 +595,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
-    "id": 162314,
-    "localizedName": "Émissaire",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26698_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Agent",
     "type": "unit"
   },
   {
@@ -1337,6 +1298,19 @@
     "cardGroup": "gold",
     "categoryName": "Sort",
     "type": "special"
+  },
+  {
+    "id": 202216,
+    "localizedName": "Chaman",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain",
+    "type": "unit"
   },
   {
     "id": 202234,
@@ -2054,6 +2028,19 @@
     "type": "unit"
   },
   {
+    "id": 202451,
+    "localizedName": "Ard Feainn : tortue",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31501_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 202453,
     "localizedName": "Ard Feainn : cuirassier",
     "previewImg": {
@@ -2337,19 +2324,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête",
-    "type": "unit"
-  },
-  {
-    "id": 202551,
-    "localizedName": "Dame assoiffée",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32134_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire, Aristocrate",
     "type": "unit"
   },
   {
