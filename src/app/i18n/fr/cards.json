@@ -1,18 +1,5 @@
 [
   {
-    "id": 112102,
-    "localizedName": "Geralt : Igni",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25102_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
     "id": 112110,
     "localizedName": "Ciri : ruée",
     "previewImg": {
@@ -2999,6 +2986,19 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202821,
+    "localizedName": "Erland de Larvik",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36676_assets_preview_big_1ac7295ed929ff1d09bd802a109353ddc773089e.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
     "categoryName": "Sorceleur",
     "type": "unit"
   },
