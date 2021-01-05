@@ -780,19 +780,6 @@
     "type": "unit"
   },
   {
-    "id": 200224,
-    "localizedName": "Œil de corbeau",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27568_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Alchimie",
-    "type": "special"
-  },
-  {
     "id": 200237,
     "localizedName": "Vesemir : mentor",
     "previewImg": {
@@ -1103,6 +1090,19 @@
     "cardGroup": "bronze",
     "categoryName": "Insectoïde",
     "type": "unit"
+  },
+  {
+    "id": 201744,
+    "localizedName": "Spores",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28237_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
   },
   {
     "id": 201772,
@@ -2428,19 +2428,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Bête, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 202613,
-    "localizedName": "Premier maître du Naglfar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage",
     "type": "unit"
   },
   {
