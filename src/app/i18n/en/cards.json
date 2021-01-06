@@ -988,6 +988,19 @@
     "type": "unit"
   },
   {
+    "id": 201615,
+    "localizedName": "Isengrim's Council",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
     "id": 201616,
     "localizedName": "Master of Disguise",
     "previewImg": {
@@ -1456,6 +1469,19 @@
     "type": "unit"
   },
   {
+    "id": 202266,
+    "localizedName": "Water of Brokilon",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29227_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
     "id": 202268,
     "localizedName": "Treant Boar",
     "previewImg": {
@@ -1467,6 +1493,19 @@
     "cardGroup": "gold",
     "categoryName": "Treant",
     "type": "unit"
+  },
+  {
+    "id": 202269,
+    "localizedName": "Dryad's Caress",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29254_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202273,
@@ -1560,6 +1599,19 @@
     "type": "unit"
   },
   {
+    "id": 202315,
+    "localizedName": "Adalbertus Kalkstein",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29722_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Blindeyes",
+    "type": "unit"
+  },
+  {
     "id": 202322,
     "localizedName": "Fisstech",
     "previewImg": {
@@ -1584,19 +1636,6 @@
     "cardGroup": "bronze",
     "categoryName": "Crime, Cutups",
     "type": "special"
-  },
-  {
-    "id": 202334,
-    "localizedName": "Sewer Raiders",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29914_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Pirate, Tidecloaks",
-    "type": "unit"
   },
   {
     "id": 202339,
@@ -1881,6 +1920,19 @@
       "slug": "syndicate"
     },
     "cardGroup": "gold",
+    "categoryName": "Beast, Mutant, Salamandra",
+    "type": "unit"
+  },
+  {
+    "id": 202429,
+    "localizedName": "Mutated Hounds",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31240_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Beast, Mutant, Salamandra",
     "type": "unit"
   },
@@ -2730,6 +2782,19 @@
     "type": "special"
   },
   {
+    "id": 202670,
+    "localizedName": "Eithné Young Queen",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32509_assets_preview_big_3c1290c93965effbc9f01c5905df6f67bdbe0944.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dryad",
+    "type": "unit"
+  },
+  {
     "id": 202673,
     "localizedName": "Forest Protector",
     "previewImg": {
@@ -2754,6 +2819,19 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
+  },
+  {
+    "id": 202680,
+    "localizedName": "Oakcritters",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32539_assets_preview_big_c9ee2b372a0b649a042ee633b989f7b660380a0c.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Treant",
+    "type": "unit"
   },
   {
     "id": 202776,
