@@ -273,6 +273,32 @@
     "type": "unit"
   },
   {
+    "id": 142101,
+    "localizedName": "Saesenthessis",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25918_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dragon",
+    "type": "unit"
+  },
+  {
+    "id": 142107,
+    "localizedName": "Ithlinne Aegli",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25948_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe, Mage",
+    "type": "unit"
+  },
+  {
     "id": 142108,
     "localizedName": "Schirrú",
     "previewImg": {
@@ -1077,6 +1103,19 @@
     "cardGroup": "gold",
     "categoryName": "Sort",
     "type": "special"
+  },
+  {
+    "id": 201645,
+    "localizedName": "Piège écrasant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28093_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Piège",
+    "type": "artifact"
   },
   {
     "id": 201698,
@@ -1908,19 +1947,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
-    "id": 202428,
-    "localizedName": "Molosse mutant sinistre",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31234_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Bête, Mutant, Salamandre",
     "type": "unit"
   },
   {
@@ -2981,6 +3007,32 @@
     "localizedName": "Gezras de Leyd",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36511_assets_preview_big_4b268c9dfa0ae57838682cf02262882d4886d467.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202802,
+    "localizedName": "Tigre à dents de sabre",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36514_assets_preview_big_904178f393a380bcdc995bf09849b13a3b55eb06.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
+    "id": 202804,
+    "localizedName": "Brehen",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36520_assets_preview_big_be2bea061a86fff1ee675fb4545ea125e8901275.jpg"
     },
     "faction": {
       "slug": "scoiatael"
