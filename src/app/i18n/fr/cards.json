@@ -871,6 +871,19 @@
     "type": "special"
   },
   {
+    "id": 200502,
+    "localizedName": "Troll de glace",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27694_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Ogroïde",
+    "type": "unit"
+  },
+  {
     "id": 200529,
     "localizedName": "Ronvid l'Importun",
     "previewImg": {
@@ -1001,6 +1014,19 @@
     "type": "unit"
   },
   {
+    "id": 201606,
+    "localizedName": "Foënard",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27919_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
     "id": 201609,
     "localizedName": "Chasseur d'esclaves",
     "previewImg": {
@@ -1116,6 +1142,19 @@
     "cardGroup": "bronze",
     "categoryName": "Piège",
     "type": "artifact"
+  },
+  {
+    "id": 201657,
+    "localizedName": "Parasite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28138_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Organique",
+    "type": "special"
   },
   {
     "id": 201698,
