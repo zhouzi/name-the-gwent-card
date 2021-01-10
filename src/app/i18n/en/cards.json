@@ -260,6 +260,19 @@
     "type": "unit"
   },
   {
+    "id": 132405,
+    "localizedName": "Frenzied D'ao",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Construct",
+    "type": "unit"
+  },
+  {
     "id": 132408,
     "localizedName": "Old Speartip",
     "previewImg": {
@@ -871,19 +884,6 @@
     "type": "special"
   },
   {
-    "id": 200502,
-    "localizedName": "Ice Troll",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27694_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Ogroid",
-    "type": "unit"
-  },
-  {
     "id": 200529,
     "localizedName": "Ronvid the Incessant",
     "previewImg": {
@@ -1011,19 +1011,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 201606,
-    "localizedName": "Forktail",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27919_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Beast",
     "type": "unit"
   },
   {
@@ -1181,19 +1168,6 @@
     "cardGroup": "bronze",
     "categoryName": "Insectoid",
     "type": "unit"
-  },
-  {
-    "id": 201744,
-    "localizedName": "Spores",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28237_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Organic",
-    "type": "special"
   },
   {
     "id": 201772,
@@ -1376,19 +1350,6 @@
     "cardGroup": "gold",
     "categoryName": "Spell",
     "type": "special"
-  },
-  {
-    "id": 202216,
-    "localizedName": "Pellar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
-    "type": "unit"
   },
   {
     "id": 202234,
@@ -2545,6 +2506,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Beast, Wild Hunt",
+    "type": "unit"
+  },
+  {
+    "id": 202613,
+    "localizedName": "Naglfar's Taskmaster",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
     "type": "unit"
   },
   {
