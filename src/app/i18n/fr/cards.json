@@ -338,6 +338,19 @@
     "type": "unit"
   },
   {
+    "id": 142205,
+    "localizedName": "Vrihedd : dragon",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25987_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 142211,
     "localizedName": "Aelirenn",
     "previewImg": {
@@ -1534,19 +1547,6 @@
     "type": "unit"
   },
   {
-    "id": 202269,
-    "localizedName": "Caresse de dryade",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29254_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nature",
-    "type": "special"
-  },
-  {
     "id": 202273,
     "localizedName": "Vigie de Brokilone",
     "previewImg": {
@@ -2197,19 +2197,6 @@
     "type": "unit"
   },
   {
-    "id": 202475,
-    "localizedName": "Enchanteresse dryade",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31450_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dryade",
-    "type": "unit"
-  },
-  {
     "id": 202479,
     "localizedName": "Maraal",
     "previewImg": {
@@ -2298,6 +2285,32 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Spectre",
+    "type": "unit"
+  },
+  {
+    "id": 202533,
+    "localizedName": "Étriel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32038_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 202534,
+    "localizedName": "Muirlega",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32044_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête",
     "type": "unit"
   },
   {
