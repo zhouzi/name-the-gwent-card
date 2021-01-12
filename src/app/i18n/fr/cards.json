@@ -832,6 +832,19 @@
     "type": "unit"
   },
   {
+    "id": 200224,
+    "localizedName": "Œil de corbeau",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27568_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchimie",
+    "type": "special"
+  },
+  {
     "id": 200237,
     "localizedName": "Vesemir : mentor",
     "previewImg": {
@@ -946,19 +959,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
-    "id": 201523,
-    "localizedName": "Geralt : Yrden",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
@@ -2756,19 +2756,6 @@
     "type": "unit"
   },
   {
-    "id": 202651,
-    "localizedName": "Garde municipal de Kerack",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32446_assets_preview_big_37f4b727d98c2fa77542caa891f6990a11161402.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
     "id": 202652,
     "localizedName": "Marin de Kerack",
     "previewImg": {
@@ -3146,6 +3133,19 @@
     "type": "unit"
   },
   {
+    "id": 202823,
+    "localizedName": "Kaer Seren",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36580_assets_preview_big_455aedcff84fdd9fb716ad2efec4f946ff507331.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Emplacement",
+    "type": "artifact"
+  },
+  {
     "id": 202825,
     "localizedName": "Keldar",
     "previewImg": {
@@ -3176,6 +3176,19 @@
     "localizedName": "Mentor sorceleur : Griffon",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36589_assets_preview_big_3f18a3850747d1a373b7af975347feba4cf06542.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202828,
+    "localizedName": "Pisteur sorceleur : Griffon",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36592_assets_preview_big_22bb0104f4b48f6502e1f5f93f09b902ad6413fa.jpg"
     },
     "faction": {
       "slug": "northernrealms"
