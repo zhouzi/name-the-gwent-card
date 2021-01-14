@@ -1781,6 +1781,19 @@
     "type": "special"
   },
   {
+    "id": 202358,
+    "localizedName": "Tavern Brawl",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Crime, Tidecloaks",
+    "type": "special"
+  },
+  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -2701,6 +2714,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Knight, Firesworn",
+    "type": "unit"
+  },
+  {
+    "id": 202640,
+    "localizedName": "Mutants Maker",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Firesworn, Salamandra",
     "type": "unit"
   },
   {

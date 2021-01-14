@@ -1781,6 +1781,19 @@
     "type": "special"
   },
   {
+    "id": 202358,
+    "localizedName": "Rixe de taverne",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Crime, Écumeurs",
+    "type": "special"
+  },
+  {
     "id": 202367,
     "localizedName": "Le Redanien volant",
     "previewImg": {
@@ -2701,6 +2714,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Chevalier, Fidèles du Feu",
+    "type": "unit"
+  },
+  {
+    "id": 202640,
+    "localizedName": "Créateur de mutants",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Fidèles du Feu, Salamandre",
     "type": "unit"
   },
   {
