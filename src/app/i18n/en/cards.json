@@ -146,7 +146,7 @@
     "id": 122206,
     "localizedName": "Sabrina Glevissig",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25498_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/39/thumb_38074_assets_preview_big_39024d5d7146578b225ba23c70d3668aa3eaadf9.jpg"
     },
     "faction": {
       "slug": "northernrealms"
@@ -309,19 +309,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Elf, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 142108,
-    "localizedName": "Schirrú",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
     "type": "unit"
   },
   {
@@ -2369,7 +2356,7 @@
     "id": 202544,
     "localizedName": "Masquerade Ball",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36667_assets_preview_big_5fbed9c34973985a2a7d35e7b380acba49b633de.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32098_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
