@@ -533,19 +533,6 @@
     "type": "unit"
   },
   {
-    "id": 162102,
-    "localizedName": "Menno Coehoorn",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26500_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
     "id": 162203,
     "localizedName": "Cynthia",
     "previewImg": {
@@ -585,23 +572,23 @@
     "type": "special"
   },
   {
-    "id": 162306,
-    "localizedName": "Scorpion incendiaire",
+    "id": 162307,
+    "localizedName": "Brigade Impera",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26635_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26647_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "bronze",
-    "categoryName": "Machine de guerre, Machine de siège",
+    "categoryName": "Humain, Soldat",
     "type": "unit"
   },
   {
-    "id": 162307,
-    "localizedName": "Brigade Impera",
+    "id": 162308,
+    "localizedName": "Impera : estafiers",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26647_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26659_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -2117,6 +2104,19 @@
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
     "type": "unit"
+  },
+  {
+    "id": 202454,
+    "localizedName": "Préparation au combat",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31378_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactique",
+    "type": "special"
   },
   {
     "id": 202458,
