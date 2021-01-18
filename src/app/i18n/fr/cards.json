@@ -325,19 +325,6 @@
     "type": "unit"
   },
   {
-    "id": 142205,
-    "localizedName": "Vrihedd : dragon",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25987_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe",
-    "type": "unit"
-  },
-  {
     "id": 142211,
     "localizedName": "Aelirenn",
     "previewImg": {
@@ -361,6 +348,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 142314,
+    "localizedName": "Dol Blathanna : tireuse",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26215_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
     "type": "unit"
   },
   {
@@ -700,19 +700,6 @@
     "cardGroup": "gold",
     "categoryName": "Ogroïde",
     "type": "unit"
-  },
-  {
-    "id": 200053,
-    "localizedName": "Compression",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26983_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sort",
-    "type": "special"
   },
   {
     "id": 200115,
@@ -2886,19 +2873,6 @@
     "type": "unit"
   },
   {
-    "id": 202776,
-    "localizedName": "Alzur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36433_assets_preview_big_01a10911dc2b728537d6e167d21237dc3d846d88.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
     "id": 202778,
     "localizedName": "Perce-neige",
     "previewImg": {
@@ -2935,19 +2909,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Alchimie",
-    "type": "special"
-  },
-  {
-    "id": 202783,
-    "localizedName": "Triangle dans un triangle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36457_assets_preview_big_dd9f9d4761b711f99e0c298058ffeee6eb2d88dd.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sort",
     "type": "special"
   },
   {
