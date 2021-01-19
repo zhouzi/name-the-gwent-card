@@ -3107,19 +3107,6 @@
     "type": "unit"
   },
   {
-    "id": 202823,
-    "localizedName": "Kaer Seren",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36580_assets_preview_big_455aedcff84fdd9fb716ad2efec4f946ff507331.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Emplacement",
-    "type": "artifact"
-  },
-  {
     "id": 202825,
     "localizedName": "Keldar",
     "previewImg": {
@@ -3150,19 +3137,6 @@
     "localizedName": "Mentor sorceleur : Griffon",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36589_assets_preview_big_3f18a3850747d1a373b7af975347feba4cf06542.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202828,
-    "localizedName": "Pisteur sorceleur : Griffon",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36592_assets_preview_big_22bb0104f4b48f6502e1f5f93f09b902ad6413fa.jpg"
     },
     "faction": {
       "slug": "northernrealms"
