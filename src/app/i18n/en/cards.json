@@ -78,19 +78,6 @@
     "type": "special"
   },
   {
-    "id": 113301,
-    "localizedName": "Alzur's Thunder",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Spell",
-    "type": "special"
-  },
-  {
     "id": 113307,
     "localizedName": "Adrenaline Rush",
     "previewImg": {
@@ -257,19 +244,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elf, Wild Hunt, Warrior",
-    "type": "unit"
-  },
-  {
-    "id": 132405,
-    "localizedName": "Frenzied D'ao",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Construct",
     "type": "unit"
   },
   {

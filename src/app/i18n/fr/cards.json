@@ -78,19 +78,6 @@
     "type": "special"
   },
   {
-    "id": 113301,
-    "localizedName": "Foudre d'Alzur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sort",
-    "type": "special"
-  },
-  {
     "id": 113307,
     "localizedName": "Poussée d'adrénaline",
     "previewImg": {
@@ -257,19 +244,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elfe, Chasse Sauvage, Guerrier",
-    "type": "unit"
-  },
-  {
-    "id": 132405,
-    "localizedName": "D'ao frénétique",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Création",
     "type": "unit"
   },
   {
