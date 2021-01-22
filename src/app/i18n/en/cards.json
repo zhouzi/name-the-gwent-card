@@ -1,5 +1,18 @@
 [
   {
+    "id": 112103,
+    "localizedName": "Geralt of Rivia",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25105_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 112110,
     "localizedName": "Ciri: Dash",
     "previewImg": {
@@ -1235,6 +1248,19 @@
     "type": "unit"
   },
   {
+    "id": 202112,
+    "localizedName": "Reynard Odo",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28471_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier, Knight",
+    "type": "unit"
+  },
+  {
     "id": 202122,
     "localizedName": "Bomb Heaver",
     "previewImg": {
@@ -1258,6 +1284,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Bandit",
+    "type": "unit"
+  },
+  {
+    "id": 202150,
+    "localizedName": "Vysogota of Corvo",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28594_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
     "type": "unit"
   },
   {
@@ -1519,6 +1558,19 @@
     "cardGroup": "gold",
     "categoryName": "Treant",
     "type": "unit"
+  },
+  {
+    "id": 202269,
+    "localizedName": "Dryad's Caress",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29254_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202273,
@@ -1908,6 +1960,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202418,
+    "localizedName": "Donimir of Troy",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31201_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Soldier, Knight",
     "type": "unit"
   },
   {
@@ -2834,6 +2899,19 @@
     "type": "special"
   },
   {
+    "id": 202680,
+    "localizedName": "Oakcritters",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32539_assets_preview_big_c9ee2b372a0b649a042ee633b989f7b660380a0c.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Treant",
+    "type": "unit"
+  },
+  {
     "id": 202781,
     "localizedName": "Geralt: Quen",
     "previewImg": {
@@ -3042,19 +3120,6 @@
     "type": "unit"
   },
   {
-    "id": 202821,
-    "localizedName": "Erland of Larvik",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36676_assets_preview_big_1ac7295ed929ff1d09bd802a109353ddc773089e.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
     "id": 202825,
     "localizedName": "Keldar",
     "previewImg": {
@@ -3072,19 +3137,6 @@
     "localizedName": "Griffin Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36682_assets_preview_big_36991fb633b6ca1b45dcd4988f36226dedf09876.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202827,
-    "localizedName": "Griffin Witcher Mentor",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36589_assets_preview_big_3f18a3850747d1a373b7af975347feba4cf06542.jpg"
     },
     "faction": {
       "slug": "northernrealms"
