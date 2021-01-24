@@ -91,6 +91,19 @@
     "type": "special"
   },
   {
+    "id": 113301,
+    "localizedName": "Alzur's Thunder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Spell",
+    "type": "special"
+  },
+  {
     "id": 113307,
     "localizedName": "Adrenaline Rush",
     "previewImg": {
@@ -221,19 +234,6 @@
     "type": "unit"
   },
   {
-    "id": 132214,
-    "localizedName": "Nithral",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25759_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf, Wild Hunt, Warrior",
-    "type": "unit"
-  },
-  {
     "id": 132301,
     "localizedName": "Foglet",
     "previewImg": {
@@ -270,6 +270,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elf, Wild Hunt, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 132405,
+    "localizedName": "Frenzied D'ao",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Construct",
     "type": "unit"
   },
   {
@@ -321,6 +334,19 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
+    "id": 142205,
+    "localizedName": "Vrihedd Dragoon",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25987_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Elf",
     "type": "unit"
   },
@@ -403,19 +429,6 @@
     "type": "unit"
   },
   {
-    "id": 152202,
-    "localizedName": "Champion's Charge",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26293_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Raid",
-    "type": "special"
-  },
-  {
     "id": 152209,
     "localizedName": "Morkvarg",
     "previewImg": {
@@ -426,19 +439,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Beast, Cursed",
-    "type": "unit"
-  },
-  {
-    "id": 152303,
-    "localizedName": "An Craite Warrior",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26335_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Warrior",
     "type": "unit"
   },
   {
@@ -543,6 +543,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 162210,
+    "localizedName": "Cantarella",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26572_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Agent",
     "type": "unit"
   },
   {
@@ -1155,6 +1168,19 @@
     "cardGroup": "bronze",
     "categoryName": "Insectoid",
     "type": "unit"
+  },
+  {
+    "id": 201744,
+    "localizedName": "Spores",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28237_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organic",
+    "type": "special"
   },
   {
     "id": 201772,
@@ -2613,19 +2639,6 @@
     "type": "unit"
   },
   {
-    "id": 202622,
-    "localizedName": "War of Clans",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32356_assets_preview_big_16d189e69b90c704987612cbecb6a60b0469dd1e.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Raid",
-    "type": "special"
-  },
-  {
     "id": 202624,
     "localizedName": "An Craite Raiders",
     "previewImg": {
@@ -3003,10 +3016,36 @@
     "type": "unit"
   },
   {
+    "id": 202795,
+    "localizedName": "Warritt The All-Seeing",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36493_assets_preview_big_31915e37e4fd5c20b1a96238fd64292a96c440f8.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 202796,
     "localizedName": "Viper Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36496_assets_preview_big_a60f796a2633aac13a7cb2750f95fda909f6ebba.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202798,
+    "localizedName": "Viper Witcher Alchemist",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36502_assets_preview_big_d7b0749138edeeb08ffde5964c77da4b56b23da1.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -3124,6 +3163,19 @@
     "localizedName": "Bear Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36559_assets_preview_big_bbbe946de25d80a56f4c372b0758becd20dd3810.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202819,
+    "localizedName": "Bear Witcher Adept",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36568_assets_preview_big_5ab7f7fdaf37c5d275b9a61cb146075af654d047.jpg"
     },
     "faction": {
       "slug": "skellige"
