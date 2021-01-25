@@ -273,19 +273,6 @@
     "type": "unit"
   },
   {
-    "id": 132405,
-    "localizedName": "Frenzied D'ao",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Construct",
-    "type": "unit"
-  },
-  {
     "id": 132408,
     "localizedName": "Old Speartip",
     "previewImg": {
@@ -427,6 +414,19 @@
     "cardGroup": "gold",
     "categoryName": "Human, Warrior",
     "type": "unit"
+  },
+  {
+    "id": 152202,
+    "localizedName": "Champion's Charge",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26293_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 152209,
@@ -817,19 +817,6 @@
     "cardGroup": "gold",
     "categoryName": "Human, Warrior",
     "type": "unit"
-  },
-  {
-    "id": 200224,
-    "localizedName": "Crow's Eye",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27568_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Alchemy",
-    "type": "special"
   },
   {
     "id": 200237,
@@ -2587,19 +2574,6 @@
     "type": "unit"
   },
   {
-    "id": 202613,
-    "localizedName": "Naglfar's Taskmaster",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt",
-    "type": "unit"
-  },
-  {
     "id": 202615,
     "localizedName": "Harald an Craite",
     "previewImg": {
@@ -3163,19 +3137,6 @@
     "localizedName": "Bear Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36559_assets_preview_big_bbbe946de25d80a56f4c372b0758becd20dd3810.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202819,
-    "localizedName": "Bear Witcher Adept",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36568_assets_preview_big_5ab7f7fdaf37c5d275b9a61cb146075af654d047.jpg"
     },
     "faction": {
       "slug": "skellige"
