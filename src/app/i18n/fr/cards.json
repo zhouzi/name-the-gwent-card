@@ -234,6 +234,19 @@
     "type": "unit"
   },
   {
+    "id": 132214,
+    "localizedName": "Nithral",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25759_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe, Chasse Sauvage, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 132301,
     "localizedName": "Brumelin",
     "previewImg": {
