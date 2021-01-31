@@ -585,19 +585,6 @@
     "type": "unit"
   },
   {
-    "id": 162210,
-    "localizedName": "Cantarella",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26572_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Agent",
-    "type": "unit"
-  },
-  {
     "id": 162211,
     "localizedName": "Joachim de Wett",
     "previewImg": {
@@ -3172,19 +3159,6 @@
     "type": "unit"
   },
   {
-    "id": 202795,
-    "localizedName": "Warritt The All-Seeing",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36493_assets_preview_big_31915e37e4fd5c20b1a96238fd64292a96c440f8.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
     "id": 202796,
     "localizedName": "Viper Witcher",
     "previewImg": {
@@ -3202,19 +3176,6 @@
     "localizedName": "Viper Witcher Mentor",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36499_assets_preview_big_d0a58d5646e1768135f850d0a7adb4b250f341d3.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202798,
-    "localizedName": "Viper Witcher Alchemist",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36502_assets_preview_big_d7b0749138edeeb08ffde5964c77da4b56b23da1.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
