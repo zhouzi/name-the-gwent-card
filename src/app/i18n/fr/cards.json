@@ -2678,19 +2678,6 @@
     "type": "special"
   },
   {
-    "id": 202596,
-    "localizedName": "Tout-puissant",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32281_assets_preview_big_ae0756e04b77acaec65af5a2d19350abd48c9257.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vestige",
-    "type": "unit"
-  },
-  {
     "id": 202598,
     "localizedName": "Pacte",
     "previewImg": {
@@ -2740,6 +2727,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 202618,
+    "localizedName": "Tyrggvi Tuirseach",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32344_assets_preview_big_42b7ae96d37567e43f8fa1c864d50bdf2e6ab2ed.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Pirate, Guerrier",
     "type": "unit"
   },
   {
