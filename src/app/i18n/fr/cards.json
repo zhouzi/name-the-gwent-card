@@ -364,6 +364,19 @@
     "type": "unit"
   },
   {
+    "id": 142307,
+    "localizedName": "Vrihedd : sapeur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26161_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 142314,
     "localizedName": "Dol Blathanna : tireuse",
     "previewImg": {
@@ -1102,6 +1115,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Spectre, Maudite, Soldat",
+    "type": "unit"
+  },
+  {
+    "id": 201626,
+    "localizedName": "Ciri : nova",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28033_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
