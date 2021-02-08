@@ -1378,19 +1378,6 @@
     "type": "unit"
   },
   {
-    "id": 202112,
-    "localizedName": "Reynard Odo",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28471_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Soldier, Knight",
-    "type": "unit"
-  },
-  {
     "id": 202122,
     "localizedName": "Bomb Heaver",
     "previewImg": {
@@ -1950,6 +1937,19 @@
     "type": "special"
   },
   {
+    "id": 202366,
+    "localizedName": "Eternal Fire Disciple",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30547_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Firesworn",
+    "type": "unit"
+  },
+  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -2067,6 +2067,19 @@
     "type": "unit"
   },
   {
+    "id": 202396,
+    "localizedName": "Geralt: Axii",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31105_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 202397,
     "localizedName": "Knickers",
     "previewImg": {
@@ -2104,6 +2117,19 @@
     "cardGroup": "gold",
     "categoryName": "Human, Soldier, Knight",
     "type": "unit"
+  },
+  {
+    "id": 202420,
+    "localizedName": "Mad Charge",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31207_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Warfare",
+    "type": "special"
   },
   {
     "id": 202421,
@@ -2362,6 +2388,19 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
+  },
+  {
+    "id": 202465,
+    "localizedName": "Stunning Blow",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31420_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Raid",
     "type": "special"
   },
@@ -2756,6 +2795,19 @@
     "type": "unit"
   },
   {
+    "id": 202613,
+    "localizedName": "Naglfar's Taskmaster",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
+    "type": "unit"
+  },
+  {
     "id": 202615,
     "localizedName": "Harald an Craite",
     "previewImg": {
@@ -2873,19 +2925,6 @@
     "type": "unit"
   },
   {
-    "id": 202636,
-    "localizedName": "Smuggle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32398_assets_preview_big_b579f5eb2ec714f56d1b5fe0a37693fd48f31d07.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Firesworn",
-    "type": "special"
-  },
-  {
     "id": 202637,
     "localizedName": "Cleric of the Flaming Rose",
     "previewImg": {
@@ -2909,19 +2948,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Knight, Firesworn",
-    "type": "unit"
-  },
-  {
-    "id": 202640,
-    "localizedName": "Mutants Maker",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Firesworn, Salamandra",
     "type": "unit"
   },
   {
