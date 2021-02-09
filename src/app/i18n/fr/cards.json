@@ -208,6 +208,19 @@
     "type": "unit"
   },
   {
+    "id": 122316,
+    "localizedName": "Fantassin temerien",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25603_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 132102,
     "localizedName": "Fureur d'Imlerith",
     "previewImg": {
@@ -2392,19 +2405,6 @@
     "type": "special"
   },
   {
-    "id": 202465,
-    "localizedName": "Coup étourdissant",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31420_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Raid",
-    "type": "special"
-  },
-  {
     "id": 202473,
     "localizedName": "Trempe",
     "previewImg": {
@@ -3397,19 +3397,6 @@
     "localizedName": "Sorceleur : Griffon",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36682_assets_preview_big_36991fb633b6ca1b45dcd4988f36226dedf09876.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202827,
-    "localizedName": "Mentor sorceleur : Griffon",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36589_assets_preview_big_3f18a3850747d1a373b7af975347feba4cf06542.jpg"
     },
     "faction": {
       "slug": "northernrealms"
