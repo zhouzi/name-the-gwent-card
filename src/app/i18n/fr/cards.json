@@ -208,19 +208,6 @@
     "type": "unit"
   },
   {
-    "id": 122316,
-    "localizedName": "Fantassin temerien",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25603_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
     "id": 132102,
     "localizedName": "Fureur d'Imlerith",
     "previewImg": {
@@ -1011,6 +998,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
+    "id": 201523,
+    "localizedName": "Geralt : Yrden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
@@ -2080,19 +2080,6 @@
     "type": "unit"
   },
   {
-    "id": 202396,
-    "localizedName": "Geralt : Axii",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31105_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
     "id": 202397,
     "localizedName": "Culotte",
     "previewImg": {
@@ -2779,6 +2766,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
+    "id": 202602,
+    "localizedName": "Voyante",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32299_assets_preview_big_96f2b626b3d82894522df7c9011c10dcabeae142.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain",
     "type": "unit"
   },
   {
