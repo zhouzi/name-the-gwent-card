@@ -221,19 +221,6 @@
     "type": "unit"
   },
   {
-    "id": 142204,
-    "localizedName": "Toruviel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25978_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
     "id": 142205,
     "localizedName": "Vrihedd Dragoon",
     "previewImg": {
@@ -533,6 +520,19 @@
     "type": "unit"
   },
   {
+    "id": 162202,
+    "localizedName": "Assire var Anahid",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26548_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
+  },
+  {
     "id": 162203,
     "localizedName": "Cynthia",
     "previewImg": {
@@ -621,6 +621,19 @@
     },
     "cardGroup": "gold",
     "categoryName": null,
+    "type": "special"
+  },
+  {
+    "id": 200020,
+    "localizedName": "Necromancy",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26797_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Spell",
     "type": "special"
   },
   {
@@ -1612,6 +1625,19 @@
     "type": "unit"
   },
   {
+    "id": 202451,
+    "localizedName": "Ard Feainn Tortoise",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31501_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
     "id": 202453,
     "localizedName": "Ard Feainn Heavy Cavalry",
     "previewImg": {
@@ -2461,6 +2487,19 @@
     "localizedName": "Gezras of Leyda",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36511_assets_preview_big_4b268c9dfa0ae57838682cf02262882d4886d467.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202805,
+    "localizedName": "Gaetan",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36526_assets_preview_big_343823a6ad71b993ee2776fdf3b583c2d79699ad.jpg"
     },
     "faction": {
       "slug": "scoiatael"
