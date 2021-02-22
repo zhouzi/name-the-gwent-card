@@ -598,6 +598,19 @@
     "type": "unit"
   },
   {
+    "id": 162314,
+    "localizedName": "Emissary",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26698_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Agent",
+    "type": "unit"
+  },
+  {
     "id": 162315,
     "localizedName": "Imperial Diplomacy",
     "previewImg": {
@@ -1690,6 +1703,19 @@
     "type": "special"
   },
   {
+    "id": 202465,
+    "localizedName": "Stunning Blow",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31420_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Raid",
+    "type": "special"
+  },
+  {
     "id": 202473,
     "localizedName": "Tempering",
     "previewImg": {
@@ -1947,6 +1973,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
+    "id": 202602,
+    "localizedName": "Fortune Teller",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32299_assets_preview_big_96f2b626b3d82894522df7c9011c10dcabeae142.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human",
     "type": "unit"
   },
   {
