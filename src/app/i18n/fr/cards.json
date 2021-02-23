@@ -1,5 +1,18 @@
 [
   {
+    "id": 112108,
+    "localizedName": "Yennefer de Vengerberg",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25126_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
     "id": 112110,
     "localizedName": "Ciri : ruée",
     "previewImg": {
@@ -169,6 +182,19 @@
     "type": "special"
   },
   {
+    "id": 132201,
+    "localizedName": "Mastodonte arachas",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25711_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Insectoïde",
+    "type": "unit"
+  },
+  {
     "id": 132214,
     "localizedName": "Nithral",
     "previewImg": {
@@ -193,6 +219,19 @@
     "cardGroup": "bronze",
     "categoryName": "Bête, Chasse Sauvage",
     "type": "unit"
+  },
+  {
+    "id": 133302,
+    "localizedName": "Nid d'arachas",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25912_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
   },
   {
     "id": 142102,
@@ -520,19 +559,6 @@
     "type": "unit"
   },
   {
-    "id": 162202,
-    "localizedName": "Assire var Anahid",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26548_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
     "id": 162203,
     "localizedName": "Cynthia",
     "previewImg": {
@@ -637,19 +663,6 @@
     "type": "special"
   },
   {
-    "id": 200020,
-    "localizedName": "Nécromancie",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26797_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sort",
-    "type": "special"
-  },
-  {
     "id": 200028,
     "localizedName": "Vabjorn",
     "previewImg": {
@@ -741,6 +754,19 @@
     "type": "unit"
   },
   {
+    "id": 200220,
+    "localizedName": "Soupir : tribut",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27538_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Vestige",
+    "type": "unit"
+  },
+  {
     "id": 200237,
     "localizedName": "Vesemir : mentor",
     "previewImg": {
@@ -793,6 +819,19 @@
     "type": "unit"
   },
   {
+    "id": 201523,
+    "localizedName": "Geralt : Yrden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
     "id": 201578,
     "localizedName": "An Craite : maraudeur",
     "previewImg": {
@@ -816,6 +855,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Alchimie",
+    "type": "special"
+  },
+  {
+    "id": 201598,
+    "localizedName": "Talisman d'os",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27874_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": null,
     "type": "special"
   },
   {
@@ -1079,6 +1131,19 @@
     "type": "unit"
   },
   {
+    "id": 202190,
+    "localizedName": "Malédiction pourpre",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28744_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Organique",
+    "type": "special"
+  },
+  {
     "id": 202201,
     "localizedName": "Portail",
     "previewImg": {
@@ -1122,6 +1187,19 @@
     "localizedName": "Poussière de lune",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bombe",
+    "type": "special"
+  },
+  {
+    "id": 202210,
+    "localizedName": "Samum",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28849_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
@@ -1573,6 +1651,19 @@
     "type": "unit"
   },
   {
+    "id": 202441,
+    "localizedName": "Endriague guerrière",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Insectoïde, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 202442,
     "localizedName": "Sélection naturelle",
     "previewImg": {
@@ -1584,6 +1675,19 @@
     "cardGroup": "bronze",
     "categoryName": "Organique",
     "type": "special"
+  },
+  {
+    "id": 202444,
+    "localizedName": "Œufs d'endriague",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31321_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Insectoïde",
+    "type": "unit"
   },
   {
     "id": 202446,
@@ -1842,6 +1946,19 @@
       "slug": "monsters"
     },
     "cardGroup": "gold",
+    "categoryName": "Spectre",
+    "type": "unit"
+  },
+  {
+    "id": 202531,
+    "localizedName": "Spectre de minuit",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32026_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Spectre",
     "type": "unit"
   },
@@ -2392,19 +2509,6 @@
     "type": "special"
   },
   {
-    "id": 202784,
-    "localizedName": "Berengar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36460_assets_preview_big_f02a39453da9d061c1ebff37290154410ffd4be5.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
     "id": 202785,
     "localizedName": "Léo",
     "previewImg": {
@@ -2457,19 +2561,6 @@
     "type": "unit"
   },
   {
-    "id": 202795,
-    "localizedName": "Warritt l'Œil omniscient",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36493_assets_preview_big_31915e37e4fd5c20b1a96238fd64292a96c440f8.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
     "id": 202796,
     "localizedName": "Sorceleur : Vipère",
     "previewImg": {
@@ -2487,19 +2578,6 @@
     "localizedName": "Mentor sorceleur : Vipère",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36499_assets_preview_big_d0a58d5646e1768135f850d0a7adb4b250f341d3.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202798,
-    "localizedName": "Alchimiste sorceleur : Vipère",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36502_assets_preview_big_d7b0749138edeeb08ffde5964c77da4b56b23da1.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -2675,6 +2753,45 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Guerre",
+    "type": "special"
+  },
+  {
+    "id": 202833,
+    "localizedName": "Dol Dhu Lokke",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36607_assets_preview_big_947f6d8bb8aa63e503092bfdb01b1425bacb9d18.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Emplacement",
+    "type": "artifact"
+  },
+  {
+    "id": 202838,
+    "localizedName": "Chimère",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36625_assets_preview_big_965a837dc8d12a29741d92834cd4d0246150cb9a.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête, Mutant",
+    "type": "unit"
+  },
+  {
+    "id": 202839,
+    "localizedName": "Évolution spontanée",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36628_assets_preview_big_0ba6770b234083dfdf12a8224f1063409e901402.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
     "type": "special"
   },
   {
