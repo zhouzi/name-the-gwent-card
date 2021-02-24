@@ -221,6 +221,19 @@
     "type": "unit"
   },
   {
+    "id": 132405,
+    "localizedName": "Frenzied D'ao",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Construct",
+    "type": "unit"
+  },
+  {
     "id": 133302,
     "localizedName": "Arachas Nest",
     "previewImg": {
@@ -439,19 +452,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
-    "id": 152303,
-    "localizedName": "An Craite Warrior",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26335_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Warrior",
     "type": "unit"
   },
   {
@@ -676,19 +676,6 @@
     "type": "unit"
   },
   {
-    "id": 200031,
-    "localizedName": "Leo Bonhart",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26854_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 200039,
     "localizedName": "Dol Blathanna Sentry",
     "previewImg": {
@@ -712,6 +699,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Machine, Siege Engine",
+    "type": "unit"
+  },
+  {
+    "id": 200087,
+    "localizedName": "Dorregaray of Vole",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27127_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
     "type": "unit"
   },
   {
@@ -816,19 +816,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
-    "id": 201523,
-    "localizedName": "Geralt: Yrden",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
     "type": "unit"
   },
   {
@@ -1950,19 +1937,6 @@
     "type": "unit"
   },
   {
-    "id": 202531,
-    "localizedName": "Nightwraith",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32026_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Specter",
-    "type": "unit"
-  },
-  {
     "id": 202535,
     "localizedName": "Vernossiel",
     "previewImg": {
@@ -2000,6 +1974,19 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
+  },
+  {
+    "id": 202543,
+    "localizedName": "Vincent Van Moorlehem",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32092_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Vampire, Aristocrat",
+    "type": "unit"
   },
   {
     "id": 202544,
@@ -2754,19 +2741,6 @@
     "cardGroup": "bronze",
     "categoryName": "Warfare",
     "type": "special"
-  },
-  {
-    "id": 202833,
-    "localizedName": "Dol Dhu Lokke",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36607_assets_preview_big_947f6d8bb8aa63e503092bfdb01b1425bacb9d18.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Location",
-    "type": "artifact"
   },
   {
     "id": 202838,
