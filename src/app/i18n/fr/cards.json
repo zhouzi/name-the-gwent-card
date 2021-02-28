@@ -741,6 +741,32 @@
     "type": "unit"
   },
   {
+    "id": 200087,
+    "localizedName": "Dorregaray de Vole",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27127_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 200115,
+    "localizedName": "Assassinat",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27304_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactique",
+    "type": "special"
+  },
+  {
     "id": 200135,
     "localizedName": "Pyrotechnicien",
     "previewImg": {
@@ -855,19 +881,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elfe",
-    "type": "unit"
-  },
-  {
-    "id": 201523,
-    "localizedName": "Geralt : Yrden",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
