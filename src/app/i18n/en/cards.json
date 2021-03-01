@@ -299,6 +299,19 @@
     "type": "unit"
   },
   {
+    "id": 142204,
+    "localizedName": "Toruviel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25978_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
     "id": 142205,
     "localizedName": "Vrihedd Dragoon",
     "previewImg": {
@@ -329,19 +342,6 @@
     "localizedName": "Aelirenn",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26026_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
-    "id": 142214,
-    "localizedName": "Ele'yas",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26077_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -1001,6 +1001,19 @@
     "type": "unit"
   },
   {
+    "id": 201622,
+    "localizedName": "Kaedweni Knight",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28006_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier, Knight",
+    "type": "unit"
+  },
+  {
     "id": 201626,
     "localizedName": "Ciri: Nova",
     "previewImg": {
@@ -1038,6 +1051,19 @@
     "cardGroup": "gold",
     "categoryName": "Organic",
     "type": "special"
+  },
+  {
+    "id": 201676,
+    "localizedName": "Pavko Gale",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 201696,
@@ -1703,6 +1729,19 @@
     "type": "unit"
   },
   {
+    "id": 202420,
+    "localizedName": "Mad Charge",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31207_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Warfare",
+    "type": "special"
+  },
+  {
     "id": 202421,
     "localizedName": "Radovid's Royal Guards",
     "previewImg": {
@@ -1859,6 +1898,19 @@
     "type": "unit"
   },
   {
+    "id": 202454,
+    "localizedName": "Battle Preparation",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31378_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
+  },
+  {
     "id": 202457,
     "localizedName": "Covenant of Steel",
     "previewImg": {
@@ -1911,6 +1963,19 @@
     "type": "special"
   },
   {
+    "id": 202470,
+    "localizedName": "Figgis Merluzzo",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31432_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dwarf",
+    "type": "unit"
+  },
+  {
     "id": 202473,
     "localizedName": "Tempering",
     "previewImg": {
@@ -1922,19 +1987,6 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
-  },
-  {
-    "id": 202507,
-    "localizedName": "Siege Ladder",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31900_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine, Siege Engine",
-    "type": "unit"
   },
   {
     "id": 202511,
@@ -2181,19 +2233,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
-    "id": 202602,
-    "localizedName": "Fortune Teller",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32299_assets_preview_big_96f2b626b3d82894522df7c9011c10dcabeae142.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
     "type": "unit"
   },
   {
@@ -2509,19 +2548,6 @@
     "type": "special"
   },
   {
-    "id": 202675,
-    "localizedName": "Freixenet",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32524_assets_preview_big_5df0a6ca874996c1446b213dac6ee18e8fbcbafc.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 202676,
     "localizedName": "Dunca",
     "previewImg": {
@@ -2714,19 +2740,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
-    "id": 202805,
-    "localizedName": "Gaetan",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36526_assets_preview_big_343823a6ad71b993ee2776fdf3b583c2d79699ad.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
     "type": "unit"
   },
   {
