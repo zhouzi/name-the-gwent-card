@@ -351,10 +351,36 @@
     "type": "unit"
   },
   {
+    "id": 142214,
+    "localizedName": "Ele'yas",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26077_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 142303,
     "localizedName": "Vrihedd : officier",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26122_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142304,
+    "localizedName": "Dol Blathanna : trappeuse",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26128_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "scoiatael"
