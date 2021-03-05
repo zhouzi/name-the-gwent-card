@@ -78,6 +78,19 @@
     "type": "unit"
   },
   {
+    "id": 113101,
+    "localizedName": "Ragh nar Roog",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25297_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sort",
+    "type": "special"
+  },
+  {
     "id": 113205,
     "localizedName": "Bombe au dimeritium",
     "previewImg": {
@@ -208,6 +221,19 @@
     "type": "unit"
   },
   {
+    "id": 132310,
+    "localizedName": "Chasse : cavalier",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Chasse Sauvage, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 132402,
     "localizedName": "Chasse : molosse",
     "previewImg": {
@@ -218,19 +244,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 132405,
-    "localizedName": "D'ao frénétique",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Création",
     "type": "unit"
   },
   {
@@ -264,19 +277,6 @@
     "localizedName": "Isengrim Faoiltiarna",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/26/thumb_25924_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elfe",
-    "type": "unit"
-  },
-  {
-    "id": 142108,
-    "localizedName": "Schirrú",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25951_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -1183,6 +1183,19 @@
     "type": "special"
   },
   {
+    "id": 201772,
+    "localizedName": "Geralt : spécialiste",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28255_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
     "id": 201773,
     "localizedName": "Triss : télékinésie",
     "previewImg": {
@@ -1833,19 +1846,6 @@
     "type": "unit"
   },
   {
-    "id": 202441,
-    "localizedName": "Endriague guerrière",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Insectoïde, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 202442,
     "localizedName": "Sélection naturelle",
     "previewImg": {
@@ -1857,19 +1857,6 @@
     "cardGroup": "bronze",
     "categoryName": "Organique",
     "type": "special"
-  },
-  {
-    "id": 202444,
-    "localizedName": "Œufs d'endriague",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31321_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Insectoïde",
-    "type": "unit"
   },
   {
     "id": 202446,
@@ -2298,6 +2285,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Bête, Chasse Sauvage",
+    "type": "unit"
+  },
+  {
+    "id": 202611,
+    "localizedName": "Chasse : cogneur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Chasse Sauvage",
     "type": "unit"
   },
   {
@@ -2936,6 +2936,19 @@
     "cardGroup": "bronze",
     "categoryName": "Guerre",
     "type": "special"
+  },
+  {
+    "id": 202833,
+    "localizedName": "Dol Dhu Lokke",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36607_assets_preview_big_947f6d8bb8aa63e503092bfdb01b1425bacb9d18.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Emplacement",
+    "type": "artifact"
   },
   {
     "id": 202838,
