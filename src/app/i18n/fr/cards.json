@@ -221,19 +221,6 @@
     "type": "unit"
   },
   {
-    "id": 132310,
-    "localizedName": "Chasse : cavalier",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 132402,
     "localizedName": "Chasse : molosse",
     "previewImg": {
@@ -244,19 +231,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 132405,
-    "localizedName": "D'ao frénétique",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Création",
     "type": "unit"
   },
   {
@@ -949,6 +923,19 @@
     "type": "unit"
   },
   {
+    "id": 201523,
+    "localizedName": "Geralt : Yrden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
     "id": 201578,
     "localizedName": "An Craite : maraudeur",
     "previewImg": {
@@ -1011,19 +998,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 201606,
-    "localizedName": "Foënard",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27919_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bête",
     "type": "unit"
   },
   {
@@ -1846,6 +1820,19 @@
     "type": "unit"
   },
   {
+    "id": 202441,
+    "localizedName": "Endriague guerrière",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Insectoïde, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 202442,
     "localizedName": "Sélection naturelle",
     "previewImg": {
@@ -2132,6 +2119,19 @@
     "type": "unit"
   },
   {
+    "id": 202531,
+    "localizedName": "Spectre de minuit",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32026_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Spectre",
+    "type": "unit"
+  },
+  {
     "id": 202535,
     "localizedName": "Vernossiel",
     "previewImg": {
@@ -2272,6 +2272,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
+    "id": 202609,
+    "localizedName": "Fantôme des rayons",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32317_assets_preview_big_0b1d0bbb01da72987d2728ceaa72f26b5c4e7d40.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête, Chasse Sauvage",
     "type": "unit"
   },
   {
@@ -2936,19 +2949,6 @@
     "cardGroup": "bronze",
     "categoryName": "Guerre",
     "type": "special"
-  },
-  {
-    "id": 202833,
-    "localizedName": "Dol Dhu Lokke",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36607_assets_preview_big_947f6d8bb8aa63e503092bfdb01b1425bacb9d18.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Emplacement",
-    "type": "artifact"
   },
   {
     "id": 202838,

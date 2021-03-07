@@ -221,19 +221,6 @@
     "type": "unit"
   },
   {
-    "id": 132310,
-    "localizedName": "Wild Hunt Rider",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt, Warrior",
-    "type": "unit"
-  },
-  {
     "id": 132402,
     "localizedName": "Wild Hunt Hound",
     "previewImg": {
@@ -244,19 +231,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast, Wild Hunt",
-    "type": "unit"
-  },
-  {
-    "id": 132405,
-    "localizedName": "Frenzied D'ao",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25864_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Construct",
     "type": "unit"
   },
   {
@@ -949,6 +923,19 @@
     "type": "unit"
   },
   {
+    "id": 201523,
+    "localizedName": "Geralt: Yrden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27766_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 201578,
     "localizedName": "An Craite Marauder",
     "previewImg": {
@@ -1011,19 +998,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 201606,
-    "localizedName": "Forktail",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27919_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Beast",
     "type": "unit"
   },
   {
@@ -1846,6 +1820,19 @@
     "type": "unit"
   },
   {
+    "id": 202441,
+    "localizedName": "Endrega Warrior",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Insectoid, Warrior",
+    "type": "unit"
+  },
+  {
     "id": 202442,
     "localizedName": "Natural Selection",
     "previewImg": {
@@ -2132,6 +2119,19 @@
     "type": "unit"
   },
   {
+    "id": 202531,
+    "localizedName": "Nightwraith",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32026_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Specter",
+    "type": "unit"
+  },
+  {
     "id": 202535,
     "localizedName": "Vernossiel",
     "previewImg": {
@@ -2272,6 +2272,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
+    "id": 202609,
+    "localizedName": "The Apiarian Phantom",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32317_assets_preview_big_0b1d0bbb01da72987d2728ceaa72f26b5c4e7d40.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Wild Hunt",
     "type": "unit"
   },
   {
@@ -2936,19 +2949,6 @@
     "cardGroup": "bronze",
     "categoryName": "Warfare",
     "type": "special"
-  },
-  {
-    "id": 202833,
-    "localizedName": "Dol Dhu Lokke",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36607_assets_preview_big_947f6d8bb8aa63e503092bfdb01b1425bacb9d18.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Location",
-    "type": "artifact"
   },
   {
     "id": 202838,
