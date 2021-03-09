@@ -403,19 +403,6 @@
     "type": "unit"
   },
   {
-    "id": 152101,
-    "localizedName": "Hjalmar an Craite",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26248_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 152103,
     "localizedName": "Sac-à-souris",
     "previewImg": {
@@ -1933,7 +1920,7 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Pirate, Guerrier",
+    "categoryName": "Humain, Pirate",
     "type": "unit"
   },
   {
@@ -2819,6 +2806,19 @@
     "cardGroup": "gold",
     "categoryName": "Emplacement",
     "type": "artifact"
+  },
+  {
+    "id": 202814,
+    "localizedName": "Gerd",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36553_assets_preview_big_4f7be92835d729e9bfbaae43c68124dcf014b973.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
   },
   {
     "id": 202816,
