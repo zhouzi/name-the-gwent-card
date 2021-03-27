@@ -260,19 +260,6 @@
     "type": "unit"
   },
   {
-    "id": 142206,
-    "localizedName": "Ciaran aep Easnillen",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25993_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
     "id": 142207,
     "localizedName": "Barclay Els",
     "previewImg": {
@@ -309,19 +296,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Dwarf",
-    "type": "unit"
-  },
-  {
-    "id": 142214,
-    "localizedName": "Ele'yas",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26077_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
     "type": "unit"
   },
   {
