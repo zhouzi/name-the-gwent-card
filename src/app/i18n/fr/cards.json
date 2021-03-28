@@ -494,6 +494,19 @@
     "type": "unit"
   },
   {
+    "id": 152314,
+    "localizedName": "An Craite : drakkar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine de guerre, Vaisseau",
+    "type": "unit"
+  },
+  {
     "id": 152316,
     "localizedName": "Éviscération",
     "previewImg": {
@@ -1729,6 +1742,19 @@
     "type": "unit"
   },
   {
+    "id": 202458,
+    "localizedName": "Morkvarg : terrifiant",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31393_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Pirate",
+    "type": "unit"
+  },
+  {
     "id": 202459,
     "localizedName": "Flotte de pillards",
     "previewImg": {
@@ -2119,6 +2145,19 @@
     "type": "unit"
   },
   {
+    "id": 202621,
+    "localizedName": "Herkja Drummond",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32353_assets_preview_big_80752278781fc9d1425048d98e6800ffae45a1ca.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 202622,
     "localizedName": "Guerre de clans",
     "previewImg": {
@@ -2132,6 +2171,19 @@
     "type": "special"
   },
   {
+    "id": 202623,
+    "localizedName": "Tuirseach : envahisseuse",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32359_assets_preview_big_fd3fc13409cef5b11d6785e62296fa9d10141869.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Pirate, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 202624,
     "localizedName": "An Craite : attaquant",
     "previewImg": {
@@ -2142,6 +2194,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Pirate, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 202626,
+    "localizedName": "Drummond : berserker",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32368_assets_preview_big_a33a70b0df9621c79eee60bceca828db29ccd2c4.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Cultiste, Guerrier",
     "type": "unit"
   },
   {
@@ -2598,6 +2663,19 @@
     "cardGroup": "bronze",
     "categoryName": "Organique",
     "type": "special"
+  },
+  {
+    "id": 202846,
+    "localizedName": "Larbin de la Salamandre",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36646_assets_preview_big_3cf622e16e51c46d4359f0e75104a08333ababec.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Salamandre",
+    "type": "unit"
   },
   {
     "id": 202879,
