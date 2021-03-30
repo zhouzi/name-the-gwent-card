@@ -1456,6 +1456,19 @@
     "type": "special"
   },
   {
+    "id": 202310,
+    "localizedName": "Pickpocket",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29644_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Crime, Blindeyes",
+    "type": "special"
+  },
+  {
     "id": 202329,
     "localizedName": "Dip in the Pontar",
     "previewImg": {
@@ -2665,10 +2678,10 @@
     "type": "special"
   },
   {
-    "id": 202846,
-    "localizedName": "Salamandra Lackey",
+    "id": 202848,
+    "localizedName": "Salamandra Mage",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36646_assets_preview_big_3cf622e16e51c46d4359f0e75104a08333ababec.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36652_assets_preview_big_7afc9495054772e70fde2dfefc2d4dfc59f7b7c1.jpg"
     },
     "faction": {
       "slug": "syndicate"
