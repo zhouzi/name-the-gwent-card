@@ -260,6 +260,19 @@
     "type": "unit"
   },
   {
+    "id": 142206,
+    "localizedName": "Ciaran aep Easnillen",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25993_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 142207,
     "localizedName": "Barclay Els",
     "previewImg": {
@@ -360,19 +373,6 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Piège",
-    "type": "artifact"
-  },
-  {
-    "id": 143301,
-    "localizedName": "Piège incinérant",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26242_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
     "categoryName": "Piège",
     "type": "artifact"
   },
@@ -1456,16 +1456,16 @@
     "type": "special"
   },
   {
-    "id": 202310,
-    "localizedName": "Voleur à la tire",
+    "id": 202322,
+    "localizedName": "Fisstech",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29644_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29806_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold",
-    "categoryName": "Crime, Ignorés",
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
     "type": "special"
   },
   {
@@ -1505,6 +1505,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Pirate, Écumeurs",
+    "type": "unit"
+  },
+  {
+    "id": 202345,
+    "localizedName": "Trafiquant de fisstech",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29971_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain",
     "type": "unit"
   },
   {
@@ -1551,6 +1564,19 @@
     "localizedName": "Racket",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/31/thumb_30571_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Découpeurs",
+    "type": "special"
+  },
+  {
+    "id": 202380,
+    "localizedName": "Escroquerie",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30388_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -2535,6 +2561,19 @@
     "type": "unit"
   },
   {
+    "id": 202810,
+    "localizedName": "Fabrication de bombe",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36541_assets_preview_big_a1ebe7d786bd688eb6da2f43c96d42addc02af12.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bombe",
+    "type": "special"
+  },
+  {
     "id": 202813,
     "localizedName": "Haern Caduch",
     "previewImg": {
@@ -2676,19 +2715,6 @@
     "cardGroup": "bronze",
     "categoryName": "Organique",
     "type": "special"
-  },
-  {
-    "id": 202848,
-    "localizedName": "Mage de la Salamandre",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36652_assets_preview_big_7afc9495054772e70fde2dfefc2d4dfc59f7b7c1.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Salamandre",
-    "type": "unit"
   },
   {
     "id": 202879,
