@@ -1430,32 +1430,6 @@
     "type": "unit"
   },
   {
-    "id": 202299,
-    "localizedName": "Sigi Reuven",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29533_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
-    "id": 202301,
-    "localizedName": "Eavesdrop",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29551_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Blindeyes",
-    "type": "special"
-  },
-  {
     "id": 202322,
     "localizedName": "Fisstech",
     "previewImg": {
@@ -1534,19 +1508,6 @@
     "type": "unit"
   },
   {
-    "id": 202371,
-    "localizedName": "Bloody Good Fun",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30199_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Cutups",
-    "type": "special"
-  },
-  {
     "id": 202375,
     "localizedName": "Halfling Safecracker",
     "previewImg": {
@@ -1610,19 +1571,6 @@
     "cardGroup": "gold",
     "categoryName": "Crime, Crownsplitters",
     "type": "special"
-  },
-  {
-    "id": 202385,
-    "localizedName": "Sir Skewertooth",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30307_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Beast, Crownsplitters",
-    "type": "unit"
   },
   {
     "id": 202386,
@@ -2260,19 +2208,6 @@
     "cardGroup": "gold",
     "categoryName": "Human",
     "type": "unit"
-  },
-  {
-    "id": 202636,
-    "localizedName": "Smuggle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32398_assets_preview_big_b579f5eb2ec714f56d1b5fe0a37693fd48f31d07.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Firesworn",
-    "type": "special"
   },
   {
     "id": 202646,
