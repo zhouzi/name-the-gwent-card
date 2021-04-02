@@ -221,19 +221,6 @@
     "type": "special"
   },
   {
-    "id": 142102,
-    "localizedName": "Isengrim Faoiltiarna",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25924_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
     "id": 142203,
     "localizedName": "Yaevinn",
     "previewImg": {
@@ -256,19 +243,6 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
-    "id": 142206,
-    "localizedName": "Ciaran aep Easnillen",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25993_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
     "categoryName": "Elf",
     "type": "unit"
   },
@@ -316,6 +290,19 @@
     "localizedName": "Vrihedd Officer",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26122_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
+    "id": 142304,
+    "localizedName": "Dol Blathanna Bomber",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26128_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -373,6 +360,19 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
+    "categoryName": "Trap",
+    "type": "artifact"
+  },
+  {
+    "id": 143301,
+    "localizedName": "Incinerating Trap",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26242_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Trap",
     "type": "artifact"
   },
@@ -611,19 +611,6 @@
     "type": "special"
   },
   {
-    "id": 162307,
-    "localizedName": "Impera Brigade",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26647_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 162309,
     "localizedName": "Nauzicaa Sergeant",
     "previewImg": {
@@ -829,19 +816,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 200296,
-    "localizedName": "Alba Armored Cavalry",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27670_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
     "type": "unit"
   },
   {
@@ -1430,16 +1404,29 @@
     "type": "unit"
   },
   {
-    "id": 202322,
-    "localizedName": "Fisstech",
+    "id": 202299,
+    "localizedName": "Sigi Reuven",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29806_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29533_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 202301,
+    "localizedName": "Eavesdrop",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29551_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Crime",
+    "categoryName": "Crime, Blindeyes",
     "type": "special"
   },
   {
@@ -1482,19 +1469,6 @@
     "type": "unit"
   },
   {
-    "id": 202345,
-    "localizedName": "Fisstech Trafficker",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29971_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -1506,6 +1480,19 @@
     "cardGroup": "gold",
     "categoryName": "Specter, Ship",
     "type": "unit"
+  },
+  {
+    "id": 202371,
+    "localizedName": "Bloody Good Fun",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30199_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Cutups",
+    "type": "special"
   },
   {
     "id": 202375,
@@ -1573,6 +1560,19 @@
     "type": "special"
   },
   {
+    "id": 202385,
+    "localizedName": "Sir Skewertooth",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30307_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Crownsplitters",
+    "type": "unit"
+  },
+  {
     "id": 202386,
     "localizedName": "Tunnel Drill",
     "previewImg": {
@@ -1623,6 +1623,19 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier",
     "type": "unit"
+  },
+  {
+    "id": 202430,
+    "localizedName": "Assault",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31246_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Salamandra",
+    "type": "special"
   },
   {
     "id": 202436,
@@ -1700,19 +1713,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Insectoid",
-    "type": "unit"
-  },
-  {
-    "id": 202446,
-    "localizedName": "Ramon Tyrconnel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31765_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Soldier, Knight",
     "type": "unit"
   },
   {
@@ -1937,6 +1937,19 @@
     "type": "artifact"
   },
   {
+    "id": 202537,
+    "localizedName": "Vernossiel's Commando",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32062_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
     "id": 202539,
     "localizedName": "Nature's Rebuke",
     "previewImg": {
@@ -1948,19 +1961,6 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
-  },
-  {
-    "id": 202543,
-    "localizedName": "Vincent Van Moorlehem",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32092_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vampire, Aristocrat",
-    "type": "unit"
   },
   {
     "id": 202544,
@@ -1986,19 +1986,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human",
-    "type": "unit"
-  },
-  {
-    "id": 202547,
-    "localizedName": "Van Moorlehem Hunter",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32116_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire, Aristocrat",
     "type": "unit"
   },
   {
