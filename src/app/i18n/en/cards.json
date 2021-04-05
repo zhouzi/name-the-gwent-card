@@ -221,6 +221,19 @@
     "type": "special"
   },
   {
+    "id": 142102,
+    "localizedName": "Isengrim Faoiltiarna",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25924_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
     "id": 142203,
     "localizedName": "Yaevinn",
     "previewImg": {
