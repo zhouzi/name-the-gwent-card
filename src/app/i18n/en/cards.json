@@ -390,19 +390,6 @@
     "type": "artifact"
   },
   {
-    "id": 152101,
-    "localizedName": "Hjalmar an Craite",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26248_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Warrior",
-    "type": "unit"
-  },
-  {
     "id": 152105,
     "localizedName": "Birna Bran",
     "previewImg": {
@@ -455,6 +442,19 @@
     "type": "unit"
   },
   {
+    "id": 152210,
+    "localizedName": "Savage Bear",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
     "id": 152304,
     "localizedName": "Brokvar Hunter",
     "previewImg": {
@@ -478,19 +478,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human",
-    "type": "unit"
-  },
-  {
-    "id": 152309,
-    "localizedName": "Dimun Light Longship",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine, Ship",
     "type": "unit"
   },
   {
@@ -676,19 +663,6 @@
     "type": "unit"
   },
   {
-    "id": 200040,
-    "localizedName": "An Craite Greatsword",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26914_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Warrior",
-    "type": "unit"
-  },
-  {
     "id": 200042,
     "localizedName": "Mahakam Marauder",
     "previewImg": {
@@ -751,19 +725,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Dwarf",
-    "type": "unit"
-  },
-  {
-    "id": 200149,
-    "localizedName": "Heymaey Protector",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27382_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Warrior",
     "type": "unit"
   },
   {
@@ -1924,6 +1885,19 @@
     "type": "unit"
   },
   {
+    "id": 202531,
+    "localizedName": "Nightwraith",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32026_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Specter",
+    "type": "unit"
+  },
+  {
     "id": 202535,
     "localizedName": "Vernossiel",
     "previewImg": {
@@ -2064,19 +2038,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Beast, Wild Hunt",
-    "type": "unit"
-  },
-  {
-    "id": 202611,
-    "localizedName": "Wild Hunt Bruiser",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf, Wild Hunt",
     "type": "unit"
   },
   {
@@ -2350,19 +2311,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Treant",
-    "type": "unit"
-  },
-  {
-    "id": 202778,
-    "localizedName": "Snowdrop",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36436_assets_preview_big_1a938fc86d55b7c4085c0e436b15f3e4f8f53496.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
     "type": "unit"
   },
   {

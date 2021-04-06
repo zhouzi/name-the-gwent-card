@@ -390,19 +390,6 @@
     "type": "artifact"
   },
   {
-    "id": 152101,
-    "localizedName": "Hjalmar an Craite",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26248_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 152105,
     "localizedName": "Birna Bran",
     "previewImg": {
@@ -455,6 +442,19 @@
     "type": "unit"
   },
   {
+    "id": 152210,
+    "localizedName": "Ours sauvage",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
     "id": 152304,
     "localizedName": "Brokvar : chasseur",
     "previewImg": {
@@ -478,19 +478,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain",
-    "type": "unit"
-  },
-  {
-    "id": 152309,
-    "localizedName": "Dimun : drakkar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine de guerre, Vaisseau",
     "type": "unit"
   },
   {
@@ -676,19 +663,6 @@
     "type": "unit"
   },
   {
-    "id": 200040,
-    "localizedName": "An Craite : spadassin",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26914_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 200042,
     "localizedName": "Mahakam : maraudeur",
     "previewImg": {
@@ -751,19 +725,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
-    "id": 200149,
-    "localizedName": "Heymaey : protecteur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27382_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Guerrier",
     "type": "unit"
   },
   {
@@ -1924,6 +1885,19 @@
     "type": "unit"
   },
   {
+    "id": 202531,
+    "localizedName": "Spectre de minuit",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32026_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Spectre",
+    "type": "unit"
+  },
+  {
     "id": 202535,
     "localizedName": "Vernossiel",
     "previewImg": {
@@ -2064,19 +2038,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Bête, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 202611,
-    "localizedName": "Chasse : cogneur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage",
     "type": "unit"
   },
   {
@@ -2350,19 +2311,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Sylvain",
-    "type": "unit"
-  },
-  {
-    "id": 202778,
-    "localizedName": "Perce-neige",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36436_assets_preview_big_1a938fc86d55b7c4085c0e436b15f3e4f8f53496.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain",
     "type": "unit"
   },
   {
