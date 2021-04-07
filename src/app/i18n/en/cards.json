@@ -1443,6 +1443,19 @@
     "type": "unit"
   },
   {
+    "id": 202358,
+    "localizedName": "Tavern Brawl",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Crime, Tidecloaks",
+    "type": "special"
+  },
+  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -1493,6 +1506,19 @@
     "cardGroup": "bronze",
     "categoryName": "Crime, Crownsplitters",
     "type": "special"
+  },
+  {
+    "id": 202379,
+    "localizedName": "Coerced Blacksmith",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30253_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Crownsplitters",
+    "type": "unit"
   },
   {
     "id": 202380,
@@ -2038,6 +2064,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Beast, Wild Hunt",
+    "type": "unit"
+  },
+  {
+    "id": 202611,
+    "localizedName": "Wild Hunt Bruiser",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Wild Hunt",
     "type": "unit"
   },
   {
