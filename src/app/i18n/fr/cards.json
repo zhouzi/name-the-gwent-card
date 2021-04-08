@@ -1404,6 +1404,19 @@
     "type": "special"
   },
   {
+    "id": 202322,
+    "localizedName": "Fisstech",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29806_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
+  },
+  {
     "id": 202329,
     "localizedName": "Bain dans le Pontar",
     "previewImg": {
@@ -1443,17 +1456,17 @@
     "type": "unit"
   },
   {
-    "id": 202358,
-    "localizedName": "Rixe de taverne",
+    "id": 202345,
+    "localizedName": "Trafiquant de fisstech",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29971_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "gold",
-    "categoryName": "Crime, Écumeurs",
-    "type": "special"
+    "cardGroup": "bronze",
+    "categoryName": "Humain",
+    "type": "unit"
   },
   {
     "id": 202367,
@@ -1506,19 +1519,6 @@
     "cardGroup": "bronze",
     "categoryName": "Crime, Découpeurs",
     "type": "special"
-  },
-  {
-    "id": 202379,
-    "localizedName": "Forgeron menacé",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30253_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Découpeurs",
-    "type": "unit"
   },
   {
     "id": 202380,
