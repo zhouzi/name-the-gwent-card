@@ -78,19 +78,6 @@
     "type": "unit"
   },
   {
-    "id": 113205,
-    "localizedName": "Dimeritium Bomb",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25321_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
-  },
-  {
     "id": 113209,
     "localizedName": "Alzur's Double-Cross",
     "previewImg": {
@@ -219,19 +206,6 @@
     "cardGroup": "bronze",
     "categoryName": "Organic",
     "type": "special"
-  },
-  {
-    "id": 142102,
-    "localizedName": "Isengrim Faoiltiarna",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25924_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Elf",
-    "type": "unit"
   },
   {
     "id": 142203,
@@ -559,19 +533,6 @@
     "type": "unit"
   },
   {
-    "id": 162203,
-    "localizedName": "Cynthia",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26551_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 162210,
     "localizedName": "Cantarella",
     "previewImg": {
@@ -699,19 +660,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 200118,
-    "localizedName": "Infiltrator",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27325_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Agent",
     "type": "unit"
   },
   {
@@ -921,19 +869,6 @@
     "cardGroup": "gold",
     "categoryName": "Spell",
     "type": "special"
-  },
-  {
-    "id": 201603,
-    "localizedName": "Letho: Kingslayer",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27904_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
   },
   {
     "id": 201606,
@@ -1206,45 +1141,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Spell",
-    "type": "special"
-  },
-  {
-    "id": 202208,
-    "localizedName": "Northern Wind",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28840_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
-  },
-  {
-    "id": 202209,
-    "localizedName": "Moon Dust",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
-  },
-  {
-    "id": 202211,
-    "localizedName": "Red Haze",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28855_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
     "type": "special"
   },
   {
@@ -1713,19 +1609,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Insectoid",
-    "type": "unit"
-  },
-  {
-    "id": 202448,
-    "localizedName": "Ffion var Gaernel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31498_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Soldier",
     "type": "unit"
   },
   {
@@ -2418,58 +2301,6 @@
     "type": "artifact"
   },
   {
-    "id": 202794,
-    "localizedName": "Kolgrim",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36490_assets_preview_big_67ecbf81320831887f2e70d4112c3c6aab5b28e4.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202796,
-    "localizedName": "Viper Witcher",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36496_assets_preview_big_a60f796a2633aac13a7cb2750f95fda909f6ebba.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202797,
-    "localizedName": "Viper Witcher Mentor",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36499_assets_preview_big_d0a58d5646e1768135f850d0a7adb4b250f341d3.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202800,
-    "localizedName": "Coated Weapons",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36508_assets_preview_big_cf5ec9b440402b6b16d28451228355187a12d7ac.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Tactic",
-    "type": "special"
-  },
-  {
     "id": 202801,
     "localizedName": "Gezras of Leyda",
     "previewImg": {
@@ -2637,19 +2468,6 @@
     "cardGroup": "bronze",
     "categoryName": "Organic",
     "type": "special"
-  },
-  {
-    "id": 202879,
-    "localizedName": "Madoc",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/39/thumb_38818_assets_preview_big_e1335f5bab3c21b7e88dce458b1eac37ff316352.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
-    "type": "unit"
   },
   {
     "id": 202883,
