@@ -2223,19 +2223,6 @@
     "type": "unit"
   },
   {
-    "id": 202680,
-    "localizedName": "Oakcritters",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32539_assets_preview_big_c9ee2b372a0b649a042ee633b989f7b660380a0c.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Treant",
-    "type": "unit"
-  },
-  {
     "id": 202781,
     "localizedName": "Geralt: Quen",
     "previewImg": {
