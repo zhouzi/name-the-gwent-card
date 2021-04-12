@@ -208,6 +208,19 @@
     "type": "special"
   },
   {
+    "id": 142102,
+    "localizedName": "Isengrim Faoiltiarna",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25924_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
     "id": 142203,
     "localizedName": "Yaevinn",
     "previewImg": {
@@ -277,19 +290,6 @@
     "localizedName": "Vrihedd Officer",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/27/thumb_26122_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
-    "id": 142304,
-    "localizedName": "Dol Blathanna Bomber",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26128_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -1365,6 +1365,19 @@
     "type": "unit"
   },
   {
+    "id": 202358,
+    "localizedName": "Tavern Brawl",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Crime, Tidecloaks",
+    "type": "special"
+  },
+  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -1417,6 +1430,19 @@
     "type": "special"
   },
   {
+    "id": 202379,
+    "localizedName": "Coerced Blacksmith",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30253_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Crownsplitters",
+    "type": "unit"
+  },
+  {
     "id": 202380,
     "localizedName": "Swindle",
     "previewImg": {
@@ -1454,19 +1480,6 @@
     "cardGroup": "gold",
     "categoryName": "Crime, Crownsplitters",
     "type": "special"
-  },
-  {
-    "id": 202385,
-    "localizedName": "Sir Skewertooth",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30307_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Beast, Crownsplitters",
-    "type": "unit"
   },
   {
     "id": 202386,
