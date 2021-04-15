@@ -1482,6 +1482,19 @@
     "type": "special"
   },
   {
+    "id": 202385,
+    "localizedName": "Sir Skewertooth",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30307_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Crownsplitters",
+    "type": "unit"
+  },
+  {
     "id": 202386,
     "localizedName": "Tunnel Drill",
     "previewImg": {
