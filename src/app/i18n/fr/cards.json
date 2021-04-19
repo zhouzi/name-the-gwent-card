@@ -1287,19 +1287,6 @@
     "type": "unit"
   },
   {
-    "id": 202301,
-    "localizedName": "Oreilles indiscrètes",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29551_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Ignorés",
-    "type": "special"
-  },
-  {
     "id": 202322,
     "localizedName": "Fisstech",
     "previewImg": {
@@ -1323,19 +1310,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Crime, Écumeurs",
-    "type": "special"
-  },
-  {
-    "id": 202330,
-    "localizedName": "Jour de paie",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29875_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Abatteurs",
     "type": "special"
   },
   {
@@ -1363,19 +1337,6 @@
     "cardGroup": "bronze",
     "categoryName": "Humain",
     "type": "unit"
-  },
-  {
-    "id": 202358,
-    "localizedName": "Rixe de taverne",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Crime, Écumeurs",
-    "type": "special"
   },
   {
     "id": 202367,
@@ -1430,19 +1391,6 @@
     "type": "special"
   },
   {
-    "id": 202379,
-    "localizedName": "Forgeron menacé",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30253_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Découpeurs",
-    "type": "unit"
-  },
-  {
     "id": 202380,
     "localizedName": "Escroquerie",
     "previewImg": {
@@ -1480,19 +1428,6 @@
     "cardGroup": "gold",
     "categoryName": "Crime, Découpeurs",
     "type": "special"
-  },
-  {
-    "id": 202385,
-    "localizedName": "Sire Lardoire",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30307_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Bête, Découpeurs",
-    "type": "unit"
   },
   {
     "id": 202386,
@@ -1973,19 +1908,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Bête, Chasse Sauvage",
-    "type": "unit"
-  },
-  {
-    "id": 202611,
-    "localizedName": "Chasse : cogneur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32323_assets_preview_big_c92faef67b2e9f9b707be8716609cf058640d670.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Chasse Sauvage",
     "type": "unit"
   },
   {
