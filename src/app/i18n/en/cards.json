@@ -221,6 +221,19 @@
     "type": "unit"
   },
   {
+    "id": 142105,
+    "localizedName": "Zoltan Chivay",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25942_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dwarf",
+    "type": "unit"
+  },
+  {
     "id": 142203,
     "localizedName": "Yaevinn",
     "previewImg": {
@@ -1597,32 +1610,6 @@
     "cardGroup": "gold",
     "categoryName": "Raid",
     "type": "special"
-  },
-  {
-    "id": 202467,
-    "localizedName": "Zoltan: Warrior",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31423_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Dwarf, Warrior",
-    "type": "unit"
-  },
-  {
-    "id": 202469,
-    "localizedName": "Munro Bruys",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31429_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Dwarf",
-    "type": "unit"
   },
   {
     "id": 202470,
