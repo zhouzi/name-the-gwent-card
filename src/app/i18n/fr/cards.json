@@ -1,5 +1,18 @@
 [
   {
+    "id": 112103,
+    "localizedName": "Geralt de Riv",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25105_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
     "id": 112108,
     "localizedName": "Yennefer de Vengerberg",
     "previewImg": {
@@ -377,6 +390,19 @@
     "type": "artifact"
   },
   {
+    "id": 152101,
+    "localizedName": "Hjalmar an Craite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26248_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 152105,
     "localizedName": "Birna Bran",
     "previewImg": {
@@ -400,6 +426,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 152203,
+    "localizedName": "Dujangoth Frett",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26296_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain",
     "type": "unit"
   },
   {
@@ -634,6 +673,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Cultiste, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 200040,
+    "localizedName": "An Craite : spadassin",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26914_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Guerrier",
     "type": "unit"
   },
   {
@@ -1232,6 +1284,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Agent",
+    "type": "unit"
+  },
+  {
+    "id": 202251,
+    "localizedName": "Prince Anséis",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29140_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Chevalier",
     "type": "unit"
   },
   {
@@ -2279,19 +2344,6 @@
     "localizedName": "Erland de Larvik",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36676_assets_preview_big_1ac7295ed929ff1d09bd802a109353ddc773089e.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202825,
-    "localizedName": "Keldar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36586_assets_preview_big_b8b50b1ca7b9d7991c499e864f4ecbea7670980c.jpg"
     },
     "faction": {
       "slug": "northernrealms"
