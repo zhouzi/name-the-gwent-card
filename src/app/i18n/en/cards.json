@@ -2288,6 +2288,19 @@
     "type": "artifact"
   },
   {
+    "id": 202800,
+    "localizedName": "Coated Weapons",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36508_assets_preview_big_cf5ec9b440402b6b16d28451228355187a12d7ac.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
+  },
+  {
     "id": 202801,
     "localizedName": "Gezras of Leyda",
     "previewImg": {
