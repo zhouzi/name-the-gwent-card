@@ -1365,6 +1365,19 @@
     "type": "unit"
   },
   {
+    "id": 202304,
+    "localizedName": "Kurt",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29578_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Witch Hunter",
+    "type": "unit"
+  },
+  {
     "id": 202322,
     "localizedName": "Fisstech",
     "previewImg": {
@@ -1391,6 +1404,19 @@
     "type": "special"
   },
   {
+    "id": 202330,
+    "localizedName": "Payday",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29875_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Cutups",
+    "type": "special"
+  },
+  {
     "id": 202341,
     "localizedName": "Sea Jackal",
     "previewImg": {
@@ -1404,17 +1430,17 @@
     "type": "unit"
   },
   {
-    "id": 202345,
-    "localizedName": "Fisstech Trafficker",
+    "id": 202358,
+    "localizedName": "Tavern Brawl",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29971_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
-    "type": "unit"
+    "cardGroup": "gold",
+    "categoryName": "Crime, Tidecloaks",
+    "type": "special"
   },
   {
     "id": 202367,
@@ -1428,19 +1454,6 @@
     "cardGroup": "gold",
     "categoryName": "Specter, Ship",
     "type": "unit"
-  },
-  {
-    "id": 202371,
-    "localizedName": "Bloody Good Fun",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30199_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Cutups",
-    "type": "special"
   },
   {
     "id": 202375,
@@ -2286,19 +2299,6 @@
     "cardGroup": "gold",
     "categoryName": "Location",
     "type": "artifact"
-  },
-  {
-    "id": 202800,
-    "localizedName": "Coated Weapons",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36508_assets_preview_big_cf5ec9b440402b6b16d28451228355187a12d7ac.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Tactic",
-    "type": "special"
   },
   {
     "id": 202801,
