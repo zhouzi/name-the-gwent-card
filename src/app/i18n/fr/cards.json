@@ -1335,7 +1335,7 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
-    "categoryName": null,
+    "categoryName": "Emplacement",
     "type": "artifact"
   },
   {
@@ -2447,7 +2447,7 @@
     "id": 202833,
     "localizedName": "Dol Dhu Lokke",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36607_assets_preview_big_947f6d8bb8aa63e503092bfdb01b1425bacb9d18.jpg"
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39718_assets_preview_big_9b85b91a325b5489847d7b626fbff5f351af0564.jpg"
     },
     "faction": {
       "slug": "monsters"
