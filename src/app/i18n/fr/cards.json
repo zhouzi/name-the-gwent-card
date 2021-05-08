@@ -195,6 +195,19 @@
     "type": "unit"
   },
   {
+    "id": 132310,
+    "localizedName": "Chasse : cavalier",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25810_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Chasse Sauvage, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 132402,
     "localizedName": "Chasse : molosse",
     "previewImg": {
@@ -1196,6 +1209,19 @@
     "type": "special"
   },
   {
+    "id": 202201,
+    "localizedName": "Portail",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28810_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
     "id": 202204,
     "localizedName": "Malédiction corruptrice",
     "previewImg": {
@@ -1993,6 +2019,19 @@
     "localizedName": "Premier maître du Naglfar",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32329_assets_preview_big_c0abfac7eeb159407f418a3f84a65d6c420d5f20.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Chasse Sauvage",
+    "type": "unit"
+  },
+  {
+    "id": 202614,
+    "localizedName": "Conquérant Aen Elle",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32335_assets_preview_big_07bb6a68ebb6450d5e7f756d59d89b56c916bdee.jpg"
     },
     "faction": {
       "slug": "monsters"
