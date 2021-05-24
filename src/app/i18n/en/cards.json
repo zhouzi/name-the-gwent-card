@@ -390,6 +390,19 @@
     "type": "unit"
   },
   {
+    "id": 142204,
+    "localizedName": "Toruviel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25978_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
     "id": 142205,
     "localizedName": "Vrihedd Dragoon",
     "previewImg": {
@@ -1391,19 +1404,6 @@
     "type": "special"
   },
   {
-    "id": 202234,
-    "localizedName": "Bruxa",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28990_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire",
-    "type": "unit"
-  },
-  {
     "id": 202239,
     "localizedName": "Artorius Vigo",
     "previewImg": {
@@ -1560,32 +1560,6 @@
     "type": "special"
   },
   {
-    "id": 202304,
-    "localizedName": "Kurt",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29578_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Witch Hunter",
-    "type": "unit"
-  },
-  {
-    "id": 202305,
-    "localizedName": "Moreelse",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29584_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Witch Hunter",
-    "type": "unit"
-  },
-  {
     "id": 202307,
     "localizedName": "Horst Borsodi",
     "previewImg": {
@@ -1636,6 +1610,19 @@
     "cardGroup": "bronze",
     "categoryName": "Crime, Tidecloaks",
     "type": "special"
+  },
+  {
+    "id": 202333,
+    "localizedName": "Boris",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29908_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Cutups",
+    "type": "unit"
   },
   {
     "id": 202334,
@@ -2236,19 +2223,6 @@
     "type": "unit"
   },
   {
-    "id": 202538,
-    "localizedName": "Vrihedd Saboteur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32068_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elf",
-    "type": "unit"
-  },
-  {
     "id": 202539,
     "localizedName": "Nature's Rebuke",
     "previewImg": {
@@ -2311,6 +2285,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
+    "id": 202555,
+    "localizedName": "Saul de Navarette",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32158_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Tidecloaks",
     "type": "unit"
   },
   {
