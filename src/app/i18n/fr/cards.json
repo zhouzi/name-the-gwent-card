@@ -1,18 +1,5 @@
 [
   {
-    "id": 112103,
-    "localizedName": "Geralt de Riv",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25105_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
     "id": 112108,
     "localizedName": "Yennefer de Vengerberg",
     "previewImg": {
@@ -336,6 +323,19 @@
     "cardGroup": "bronze",
     "categoryName": "Elfe, Chasse Sauvage, Guerrier",
     "type": "unit"
+  },
+  {
+    "id": 132312,
+    "localizedName": "Bond de prédateur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25813_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
   },
   {
     "id": 132402,
@@ -829,19 +829,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Cultiste, Guerrier",
-    "type": "unit"
-  },
-  {
-    "id": 200038,
-    "localizedName": "Ékinoppyre",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26890_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Plante",
     "type": "unit"
   },
   {
@@ -1415,19 +1402,6 @@
     "cardGroup": "bronze",
     "categoryName": "Bombe",
     "type": "special"
-  },
-  {
-    "id": 202234,
-    "localizedName": "Brouxe",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28990_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire",
-    "type": "unit"
   },
   {
     "id": 202239,
@@ -2936,6 +2910,19 @@
     "cardGroup": "gold",
     "categoryName": "Emplacement",
     "type": "artifact"
+  },
+  {
+    "id": 202825,
+    "localizedName": "Keldar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36586_assets_preview_big_b8b50b1ca7b9d7991c499e864f4ecbea7670980c.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
   },
   {
     "id": 202826,
