@@ -325,19 +325,6 @@
     "type": "unit"
   },
   {
-    "id": 132312,
-    "localizedName": "Bond de prédateur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25813_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Organique",
-    "type": "special"
-  },
-  {
     "id": 132402,
     "localizedName": "Chasse : molosse",
     "previewImg": {
@@ -829,6 +816,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Cultiste, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 200038,
+    "localizedName": "Ékinoppyre",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26890_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Plante",
     "type": "unit"
   },
   {
@@ -2149,19 +2149,6 @@
     "localizedName": "Barghest",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32008_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Spectre",
-    "type": "unit"
-  },
-  {
-    "id": 202530,
-    "localizedName": "Spectre de midi",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32020_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"

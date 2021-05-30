@@ -325,19 +325,6 @@
     "type": "unit"
   },
   {
-    "id": 132312,
-    "localizedName": "Predatory Dive",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25813_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Organic",
-    "type": "special"
-  },
-  {
     "id": 132402,
     "localizedName": "Wild Hunt Hound",
     "previewImg": {
@@ -829,6 +816,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Cultist, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 200038,
+    "localizedName": "Archespore",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26890_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Plant",
     "type": "unit"
   },
   {
@@ -2149,19 +2149,6 @@
     "localizedName": "Barghest",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/33/thumb_32008_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Specter",
-    "type": "unit"
-  },
-  {
-    "id": 202530,
-    "localizedName": "Noonwraith",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32020_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
