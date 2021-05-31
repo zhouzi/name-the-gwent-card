@@ -2691,6 +2691,19 @@
     "type": "special"
   },
   {
+    "id": 202784,
+    "localizedName": "Berengar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36460_assets_preview_big_f02a39453da9d061c1ebff37290154410ffd4be5.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 202785,
     "localizedName": "Leo",
     "previewImg": {
@@ -2929,6 +2942,19 @@
     "localizedName": "Griffin Witcher Mentor",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36589_assets_preview_big_3f18a3850747d1a373b7af975347feba4cf06542.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202828,
+    "localizedName": "Griffin Witcher Ranger",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36592_assets_preview_big_22bb0104f4b48f6502e1f5f93f09b902ad6413fa.jpg"
     },
     "faction": {
       "slug": "northernrealms"
