@@ -533,6 +533,19 @@
     "type": "artifact"
   },
   {
+    "id": 152101,
+    "localizedName": "Hjalmar an Craite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26248_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 152105,
     "localizedName": "Birna Bran",
     "previewImg": {
@@ -829,6 +842,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Plante",
+    "type": "unit"
+  },
+  {
+    "id": 200040,
+    "localizedName": "An Craite : spadassin",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26914_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Guerrier",
     "type": "unit"
   },
   {
@@ -1573,6 +1599,32 @@
     "type": "special"
   },
   {
+    "id": 202304,
+    "localizedName": "Kurt",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29578_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Chasseur de sorcières",
+    "type": "unit"
+  },
+  {
+    "id": 202305,
+    "localizedName": "Moreelse",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29584_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Chasseur de sorcières",
+    "type": "unit"
+  },
+  {
     "id": 202307,
     "localizedName": "Horst Borsody",
     "previewImg": {
@@ -1623,19 +1675,6 @@
     "cardGroup": "bronze",
     "categoryName": "Crime, Écumeurs",
     "type": "special"
-  },
-  {
-    "id": 202333,
-    "localizedName": "Boris",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29908_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Bête, Abatteurs",
-    "type": "unit"
   },
   {
     "id": 202334,
@@ -2272,19 +2311,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Bête",
-    "type": "unit"
-  },
-  {
-    "id": 202555,
-    "localizedName": "Saul de Navarette",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32158_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Écumeurs",
     "type": "unit"
   },
   {
