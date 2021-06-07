@@ -2236,6 +2236,19 @@
     "type": "special"
   },
   {
+    "id": 202543,
+    "localizedName": "Vincent Van Moorlehem",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32092_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Vampire, Aristocrate",
+    "type": "unit"
+  },
+  {
     "id": 202544,
     "localizedName": "Bal masqué",
     "previewImg": {
@@ -3104,6 +3117,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202880,
+    "localizedName": "Anna Henrietta",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28690_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Aristocrate",
     "type": "unit"
   },
   {
