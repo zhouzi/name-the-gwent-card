@@ -13,6 +13,19 @@
     "type": "unit"
   },
   {
+    "id": 112112,
+    "localizedName": "Avallac'h: Sage",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25150_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf, Mage",
+    "type": "unit"
+  },
+  {
     "id": 112210,
     "localizedName": "Roach",
     "previewImg": {
@@ -24,6 +37,19 @@
     "cardGroup": "gold",
     "categoryName": "Beast",
     "type": "unit"
+  },
+  {
+    "id": 113205,
+    "localizedName": "Dimeritium Bomb",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25321_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bomb",
+    "type": "special"
   },
   {
     "id": 113307,
@@ -455,6 +481,19 @@
     "type": "unit"
   },
   {
+    "id": 162210,
+    "localizedName": "Cantarella",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26572_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Agent",
+    "type": "unit"
+  },
+  {
     "id": 162211,
     "localizedName": "Joachim de Wett",
     "previewImg": {
@@ -650,6 +689,19 @@
     "type": "special"
   },
   {
+    "id": 201618,
+    "localizedName": "Seltkirk of Gulet",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27973_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Knight",
+    "type": "unit"
+  },
+  {
     "id": 201634,
     "localizedName": "Bekker's Rockslide",
     "previewImg": {
@@ -741,6 +793,19 @@
     "type": "unit"
   },
   {
+    "id": 202153,
+    "localizedName": "Lyrian Cavalry",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28633_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
+  },
+  {
     "id": 202161,
     "localizedName": "Lyrian Scytheman",
     "previewImg": {
@@ -752,6 +817,45 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Soldier",
     "type": "unit"
+  },
+  {
+    "id": 202201,
+    "localizedName": "Portal",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28810_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
+    "id": 202206,
+    "localizedName": "Dancing Star",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28828_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bomb",
+    "type": "special"
+  },
+  {
+    "id": 202209,
+    "localizedName": "Moon Dust",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bomb",
+    "type": "special"
   },
   {
     "id": 202234,
@@ -829,6 +933,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 202251,
+    "localizedName": "Prince Anséis",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29140_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Knight",
     "type": "unit"
   },
   {
@@ -1547,6 +1664,19 @@
     "type": "unit"
   },
   {
+    "id": 202551,
+    "localizedName": "Thirsty Dame",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39926_assets_preview_big_6555577e136e12dd2a449eb55b33c0f5b454cf97.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire, Aristocrat",
+    "type": "unit"
+  },
+  {
     "id": 202554,
     "localizedName": "Passiflora",
     "previewImg": {
@@ -1700,6 +1830,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Firesworn, Salamandra",
+    "type": "unit"
+  },
+  {
+    "id": 202642,
+    "localizedName": "Viraxas Prince",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32419_assets_preview_big_443a3f6d66a3d63cb557381b3df75df56d9c8471.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
     "type": "unit"
   },
   {
@@ -1989,6 +2132,19 @@
     "type": "artifact"
   },
   {
+    "id": 202814,
+    "localizedName": "Gerd",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36553_assets_preview_big_4f7be92835d729e9bfbaae43c68124dcf014b973.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 202815,
     "localizedName": "Junod of Belhaven",
     "previewImg": {
@@ -2006,6 +2162,32 @@
     "localizedName": "Bear Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36559_assets_preview_big_bbbe946de25d80a56f4c372b0758becd20dd3810.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202818,
+    "localizedName": "Bear Witcher Quartermaster",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36565_assets_preview_big_b66bc1068d1db85577e19e9bcf26d7cf5203a562.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202819,
+    "localizedName": "Bear Witcher Adept",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36568_assets_preview_big_5ab7f7fdaf37c5d275b9a61cb146075af654d047.jpg"
     },
     "faction": {
       "slug": "skellige"
@@ -2077,6 +2259,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Salamandra",
+    "type": "unit"
+  },
+  {
+    "id": 202879,
+    "localizedName": "Madoc",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/39/thumb_38818_assets_preview_big_e1335f5bab3c21b7e88dce458b1eac37ff316352.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
     "type": "unit"
   },
   {
