@@ -663,19 +663,6 @@
     "type": "unit"
   },
   {
-    "id": 201606,
-    "localizedName": "Forktail",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27919_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
     "id": 201615,
     "localizedName": "Isengrim's Council",
     "previewImg": {
@@ -790,19 +777,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Dragon",
-    "type": "unit"
-  },
-  {
-    "id": 202153,
-    "localizedName": "Lyrian Cavalry",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28633_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
     "type": "unit"
   },
   {
@@ -946,6 +920,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Knight",
+    "type": "unit"
+  },
+  {
+    "id": 202261,
+    "localizedName": "Cintrian Envoy",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29197_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Agent",
     "type": "unit"
   },
   {
@@ -1857,6 +1844,19 @@
     "cardGroup": "gold",
     "categoryName": "Warfare",
     "type": "special"
+  },
+  {
+    "id": 202651,
+    "localizedName": "Kerack City Guard",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32446_assets_preview_big_37f4b727d98c2fa77542caa891f6990a11161402.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 202652,
