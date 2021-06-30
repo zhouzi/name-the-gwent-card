@@ -780,19 +780,6 @@
     "type": "unit"
   },
   {
-    "id": 202161,
-    "localizedName": "Lyrian Scytheman",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28657_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 202201,
     "localizedName": "Portal",
     "previewImg": {
@@ -1534,19 +1521,6 @@
     "type": "artifact"
   },
   {
-    "id": 202507,
-    "localizedName": "Siege Ladder",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31900_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine, Siege Engine",
-    "type": "unit"
-  },
-  {
     "id": 202511,
     "localizedName": "Boiling Oil",
     "previewImg": {
@@ -2193,19 +2167,6 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202821,
-    "localizedName": "Erland of Larvik",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36676_assets_preview_big_1ac7295ed929ff1d09bd802a109353ddc773089e.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
     "categoryName": "Witcher",
     "type": "unit"
   },
