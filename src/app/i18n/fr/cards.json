@@ -689,19 +689,6 @@
     "type": "unit"
   },
   {
-    "id": 201634,
-    "localizedName": "Éboulement de Bekker",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28054_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sort",
-    "type": "special"
-  },
-  {
     "id": 201657,
     "localizedName": "Parasite",
     "previewImg": {
@@ -765,6 +752,19 @@
     "cardGroup": "gold",
     "categoryName": "Humain, Soldat",
     "type": "unit"
+  },
+  {
+    "id": 201779,
+    "localizedName": "Appel de la forêt",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28312_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202103,
