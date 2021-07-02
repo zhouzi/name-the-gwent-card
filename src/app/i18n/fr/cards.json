@@ -1,5 +1,18 @@
 [
   {
+    "id": 112108,
+    "localizedName": "Yennefer de Vengerberg",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25126_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
     "id": 112110,
     "localizedName": "Ciri : ruée",
     "previewImg": {
@@ -286,6 +299,19 @@
     "type": "unit"
   },
   {
+    "id": 132201,
+    "localizedName": "Mastodonte arachas",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25711_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Insectoïde",
+    "type": "unit"
+  },
+  {
     "id": 132206,
     "localizedName": "Soupir",
     "previewImg": {
@@ -349,6 +375,19 @@
     "cardGroup": "bronze",
     "categoryName": "Bête, Chasse Sauvage",
     "type": "unit"
+  },
+  {
+    "id": 133302,
+    "localizedName": "Nid d'arachas",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25912_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
   },
   {
     "id": 142214,
@@ -637,6 +676,32 @@
     "type": "unit"
   },
   {
+    "id": 200220,
+    "localizedName": "Soupir : tribut",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27538_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Vestige",
+    "type": "unit"
+  },
+  {
+    "id": 201598,
+    "localizedName": "Talisman d'os",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27874_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
     "id": 201601,
     "localizedName": "Invocation de Yennefer",
     "previewImg": {
@@ -702,6 +767,19 @@
     "type": "special"
   },
   {
+    "id": 201676,
+    "localizedName": "Pavko Gale",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain",
+    "type": "unit"
+  },
+  {
     "id": 201698,
     "localizedName": "Ozzrel",
     "previewImg": {
@@ -738,6 +816,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Machine de guerre, Machine de siège",
+    "type": "unit"
+  },
+  {
+    "id": 201773,
+    "localizedName": "Triss : télékinésie",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28261_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
     "type": "unit"
   },
   {
@@ -780,6 +871,19 @@
     "type": "unit"
   },
   {
+    "id": 202190,
+    "localizedName": "Malédiction pourpre",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28744_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Organique",
+    "type": "special"
+  },
+  {
     "id": 202201,
     "localizedName": "Portail",
     "previewImg": {
@@ -791,6 +895,19 @@
     "cardGroup": "gold",
     "categoryName": null,
     "type": "artifact"
+  },
+  {
+    "id": 202204,
+    "localizedName": "Malédiction corruptrice",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28819_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sort",
+    "type": "special"
   },
   {
     "id": 202206,
@@ -1467,6 +1584,19 @@
     "cardGroup": "bronze",
     "categoryName": "Organique",
     "type": "special"
+  },
+  {
+    "id": 202444,
+    "localizedName": "Œufs d'endriague",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31321_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Insectoïde",
+    "type": "unit"
   },
   {
     "id": 202445,
@@ -2184,6 +2314,45 @@
     "type": "unit"
   },
   {
+    "id": 202833,
+    "localizedName": "Dol Dhu Lokke",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39935_assets_preview_big_ed4f3b2fa26d535e84b6c97b6dbb21003f8e3626.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Emplacement",
+    "type": "artifact"
+  },
+  {
+    "id": 202838,
+    "localizedName": "Chimère",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36625_assets_preview_big_965a837dc8d12a29741d92834cd4d0246150cb9a.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête, Mutant",
+    "type": "unit"
+  },
+  {
+    "id": 202839,
+    "localizedName": "Évolution spontanée",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36628_assets_preview_big_0ba6770b234083dfdf12a8224f1063409e901402.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
+  },
+  {
     "id": 202843,
     "localizedName": "Planque de la Salamandre",
     "previewImg": {
@@ -2314,10 +2483,36 @@
     "type": "unit"
   },
   {
+    "id": 202913,
+    "localizedName": "Francesca Findabair",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27457_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe, Mage",
+    "type": "unit"
+  },
+  {
     "id": 202915,
     "localizedName": "Sorcière de Dol Blathanna",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/40/thumb_39998_assets_preview_big_1898518001562f348b348e41a41c71e8c83948aa.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202916,
+    "localizedName": "Chuchoteuse de Dol Blathanna",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40004_assets_preview_big_8e3031dbe7a263d97bb75b51def69bad5d670e0f.jpg"
     },
     "faction": {
       "slug": "scoiatael"
