@@ -676,6 +676,19 @@
     "type": "special"
   },
   {
+    "id": 201676,
+    "localizedName": "Pavko Gale",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28156_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 201698,
     "localizedName": "Ozzrel",
     "previewImg": {
@@ -914,6 +927,19 @@
     "localizedName": "Prince Anséis",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/30/thumb_29140_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Knight",
+    "type": "unit"
+  },
+  {
+    "id": 202253,
+    "localizedName": "Coodcoodak",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29152_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
@@ -1196,19 +1222,6 @@
     "type": "unit"
   },
   {
-    "id": 202358,
-    "localizedName": "Tavern Brawl",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30085_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Crime, Tidecloaks",
-    "type": "special"
-  },
-  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -1235,19 +1248,6 @@
     "type": "special"
   },
   {
-    "id": 202375,
-    "localizedName": "Halfling Safecracker",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30226_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Halfling, Crownsplitters",
-    "type": "unit"
-  },
-  {
     "id": 202378,
     "localizedName": "Shakedown",
     "previewImg": {
@@ -1272,19 +1272,6 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Crownsplitters",
     "type": "unit"
-  },
-  {
-    "id": 202380,
-    "localizedName": "Swindle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30388_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Crownsplitters",
-    "type": "special"
   },
   {
     "id": 202383,
@@ -1532,6 +1519,19 @@
     "cardGroup": "gold",
     "categoryName": "Scenario",
     "type": "artifact"
+  },
+  {
+    "id": 202507,
+    "localizedName": "Siege Ladder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31900_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Siege Engine",
+    "type": "unit"
   },
   {
     "id": 202511,
@@ -2353,10 +2353,36 @@
     "type": "unit"
   },
   {
+    "id": 202913,
+    "localizedName": "Francesca Findabair",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27457_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elf, Mage",
+    "type": "unit"
+  },
+  {
     "id": 202915,
     "localizedName": "Sorceress of Dol Blathanna",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/40/thumb_39998_assets_preview_big_1898518001562f348b348e41a41c71e8c83948aa.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202916,
+    "localizedName": "Whisperer of Dol Blathanna",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40004_assets_preview_big_8e3031dbe7a263d97bb75b51def69bad5d670e0f.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -2455,6 +2481,32 @@
     "cardGroup": "bronze",
     "categoryName": "Relict",
     "type": "unit"
+  },
+  {
+    "id": 202925,
+    "localizedName": "The Witchfinder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40058_assets_preview_big_1e361611cbffd2c1066bd72a949dc4bf34307c92.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Witch Hunter",
+    "type": "unit"
+  },
+  {
+    "id": 202928,
+    "localizedName": "Hysteria",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40079_assets_preview_big_ae91d44f3bf4e47e9c3483bd387193cfc033fd27.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
   },
   {
     "id": 202931,
