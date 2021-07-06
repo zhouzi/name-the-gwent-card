@@ -65,6 +65,19 @@
     "type": "special"
   },
   {
+    "id": 113209,
+    "localizedName": "Alzur's Double-Cross",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25339_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Spell",
+    "type": "special"
+  },
+  {
     "id": 113307,
     "localizedName": "Adrenaline Rush",
     "previewImg": {
@@ -413,6 +426,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 162202,
+    "localizedName": "Assire var Anahid",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26548_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
     "type": "unit"
   },
   {
@@ -1053,45 +1079,6 @@
     "type": "unit"
   },
   {
-    "id": 202305,
-    "localizedName": "Moreelse",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29584_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Witch Hunter",
-    "type": "unit"
-  },
-  {
-    "id": 202307,
-    "localizedName": "Horst Borsodi",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29602_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
-    "id": 202309,
-    "localizedName": "Ewald Borsodi",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29629_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 202313,
     "localizedName": "Adriano the Mink",
     "previewImg": {
@@ -1272,6 +1259,19 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Crownsplitters",
     "type": "unit"
+  },
+  {
+    "id": 202380,
+    "localizedName": "Swindle",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30388_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime, Crownsplitters",
+    "type": "special"
   },
   {
     "id": 202383,
@@ -1641,7 +1641,7 @@
     "id": 202551,
     "localizedName": "Thirsty Dame",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/40/thumb_39926_assets_preview_big_6555577e136e12dd2a449eb55b33c0f5b454cf97.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32134_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
@@ -1820,19 +1820,6 @@
     "type": "special"
   },
   {
-    "id": 202651,
-    "localizedName": "Kerack City Guard",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32446_assets_preview_big_37f4b727d98c2fa77542caa891f6990a11161402.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 202652,
     "localizedName": "Kerack Marine",
     "previewImg": {
@@ -1976,6 +1963,19 @@
     "type": "unit"
   },
   {
+    "id": 202778,
+    "localizedName": "Snowdrop",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36436_assets_preview_big_1a938fc86d55b7c4085c0e436b15f3e4f8f53496.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 202781,
     "localizedName": "Geralt: Quen",
     "previewImg": {
@@ -2032,19 +2032,6 @@
     "localizedName": "Viper Witcher",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/37/thumb_36496_assets_preview_big_a60f796a2633aac13a7cb2750f95fda909f6ebba.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202797,
-    "localizedName": "Viper Witcher Mentor",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36499_assets_preview_big_d0a58d5646e1768135f850d0a7adb4b250f341d3.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
