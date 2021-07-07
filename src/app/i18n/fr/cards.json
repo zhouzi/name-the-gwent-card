@@ -1079,32 +1079,6 @@
     "type": "unit"
   },
   {
-    "id": 202313,
-    "localizedName": "Adriano le Vison",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29689_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Agent, Ignorés",
-    "type": "unit"
-  },
-  {
-    "id": 202315,
-    "localizedName": "Adalbertus Kalkstein",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29722_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Ignorés",
-    "type": "unit"
-  },
-  {
     "id": 202322,
     "localizedName": "Fisstech",
     "previewImg": {
@@ -1648,45 +1622,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Vampire, Aristocrate",
-    "type": "unit"
-  },
-  {
-    "id": 202554,
-    "localizedName": "Le Passiflore",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32152_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Scénario",
-    "type": "artifact"
-  },
-  {
-    "id": 202555,
-    "localizedName": "Saul de Navarette",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32158_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Écumeurs",
-    "type": "unit"
-  },
-  {
-    "id": 202559,
-    "localizedName": "Gosses des rues",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32176_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Ignorés",
     "type": "unit"
   },
   {
