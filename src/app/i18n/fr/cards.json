@@ -117,6 +117,19 @@
     "type": "unit"
   },
   {
+    "id": 122211,
+    "localizedName": "Margarita Laux-Antille",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25510_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
     "id": 122301,
     "localizedName": "Baliste",
     "previewImg": {
@@ -364,16 +377,16 @@
     "type": "unit"
   },
   {
-    "id": 152304,
-    "localizedName": "Brokvar : chasseur",
+    "id": 152210,
+    "localizedName": "Ours sauvage",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26341_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26317_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Guerrier",
+    "categoryName": "Bête",
     "type": "unit"
   },
   {
@@ -777,19 +790,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Agent",
-    "type": "unit"
-  },
-  {
-    "id": 202161,
-    "localizedName": "Faucheur lyrien",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28657_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Soldat",
     "type": "unit"
   },
   {
@@ -1508,6 +1508,19 @@
     "type": "special"
   },
   {
+    "id": 202515,
+    "localizedName": "Décoction de gigascorpion",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31942_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Alchimie",
+    "type": "special"
+  },
+  {
     "id": 202539,
     "localizedName": "Révolte de la nature",
     "previewImg": {
@@ -1998,19 +2011,6 @@
       "slug": "skellige"
     },
     "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202821,
-    "localizedName": "Erland de Larvik",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36676_assets_preview_big_1ac7295ed929ff1d09bd802a109353ddc773089e.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
     "categoryName": "Sorceleur",
     "type": "unit"
   },
