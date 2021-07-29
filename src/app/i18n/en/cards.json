@@ -286,19 +286,6 @@
     "type": "unit"
   },
   {
-    "id": 132306,
-    "localizedName": "Ghoul",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25798_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Necrophage",
-    "type": "unit"
-  },
-  {
     "id": 132407,
     "localizedName": "Imperial Golem",
     "previewImg": {
@@ -427,6 +414,19 @@
     "cardGroup": "bronze",
     "categoryName": "Raid",
     "type": "special"
+  },
+  {
+    "id": 152405,
+    "localizedName": "Elder Bear",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26470_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Beast",
+    "type": "unit"
   },
   {
     "id": 152406,
@@ -637,6 +637,19 @@
     "type": "unit"
   },
   {
+    "id": 200062,
+    "localizedName": "Aguara",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27046_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
     "id": 200087,
     "localizedName": "Dorregaray of Vole",
     "previewImg": {
@@ -843,19 +856,6 @@
     "cardGroup": "bronze",
     "categoryName": "Bomb",
     "type": "special"
-  },
-  {
-    "id": 202234,
-    "localizedName": "Bruxa",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28990_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire",
-    "type": "unit"
   },
   {
     "id": 202239,
@@ -1131,6 +1131,19 @@
     "type": "unit"
   },
   {
+    "id": 202350,
+    "localizedName": "Grand Inquisitor Helveed",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30013_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Firesworn, Cleric",
+    "type": "unit"
+  },
+  {
     "id": 202367,
     "localizedName": "The Flying Redanian",
     "previewImg": {
@@ -1323,6 +1336,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Beast, Mutant, Salamandra",
+    "type": "unit"
+  },
+  {
+    "id": 202436,
+    "localizedName": "Cave Troll",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31273_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Ogroid",
     "type": "unit"
   },
   {
@@ -1586,10 +1612,10 @@
     "type": "unit"
   },
   {
-    "id": 202561,
-    "localizedName": "Passiflora Peaches",
+    "id": 202559,
+    "localizedName": "Street Urchins",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32188_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32176_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1610,19 +1636,6 @@
     "cardGroup": "gold",
     "categoryName": "Spell",
     "type": "special"
-  },
-  {
-    "id": 202629,
-    "localizedName": "Jacques Miraculous Child",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32377_assets_preview_big_a2b1dae454bc44fafdd32223c342b84e0da4a61d.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
   },
   {
     "id": 202636,
