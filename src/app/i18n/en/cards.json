@@ -481,6 +481,19 @@
     "type": "unit"
   },
   {
+    "id": 162201,
+    "localizedName": "Albrich",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26542_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
+  },
+  {
     "id": 162202,
     "localizedName": "Assire var Anahid",
     "previewImg": {
@@ -533,19 +546,6 @@
     "type": "unit"
   },
   {
-    "id": 162307,
-    "localizedName": "Impera Brigade",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26647_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Soldier",
-    "type": "unit"
-  },
-  {
     "id": 162309,
     "localizedName": "Nauzicaa Sergeant",
     "previewImg": {
@@ -570,6 +570,19 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Agent",
     "type": "unit"
+  },
+  {
+    "id": 162315,
+    "localizedName": "Imperial Diplomacy",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26707_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactic",
+    "type": "special"
   },
   {
     "id": 162318,
@@ -673,6 +686,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
+    "id": 200118,
+    "localizedName": "Infiltrator",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27325_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Agent",
     "type": "unit"
   },
   {
@@ -856,6 +882,19 @@
     "cardGroup": "bronze",
     "categoryName": "Bomb",
     "type": "special"
+  },
+  {
+    "id": 202234,
+    "localizedName": "Bruxa",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28990_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Vampire",
+    "type": "unit"
   },
   {
     "id": 202239,
@@ -1339,19 +1378,6 @@
     "type": "unit"
   },
   {
-    "id": 202436,
-    "localizedName": "Cave Troll",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31273_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Ogroid",
-    "type": "unit"
-  },
-  {
     "id": 202440,
     "localizedName": "Endrega Larva",
     "previewImg": {
@@ -1636,6 +1662,19 @@
     "cardGroup": "gold",
     "categoryName": "Spell",
     "type": "special"
+  },
+  {
+    "id": 202596,
+    "localizedName": "Allgod",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32281_assets_preview_big_ae0756e04b77acaec65af5a2d19350abd48c9257.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Relict",
+    "type": "unit"
   },
   {
     "id": 202636,
