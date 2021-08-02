@@ -26,19 +26,6 @@
     "type": "unit"
   },
   {
-    "id": 113205,
-    "localizedName": "Bombe au dimeritium",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25321_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
-  },
-  {
     "id": 113310,
     "localizedName": "Hirondelle",
     "previewImg": {
@@ -52,6 +39,19 @@
     "type": "special"
   },
   {
+    "id": 113313,
+    "localizedName": "An Craite : crieur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25405_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 113316,
     "localizedName": "Renouveau",
     "previewImg": {
@@ -62,6 +62,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Sort",
+    "type": "special"
+  },
+  {
+    "id": 113320,
+    "localizedName": "Mardrome",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25435_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchimie",
     "type": "special"
   },
   {
@@ -117,19 +130,6 @@
     "type": "unit"
   },
   {
-    "id": 122211,
-    "localizedName": "Margarita Laux-Antille",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25510_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
     "id": 122301,
     "localizedName": "Baliste",
     "previewImg": {
@@ -167,6 +167,19 @@
     "cardGroup": "bronze",
     "categoryName": "Guerre",
     "type": "special"
+  },
+  {
+    "id": 122309,
+    "localizedName": "Aide de siège",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25549_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
   },
   {
     "id": 122310,
@@ -234,19 +247,6 @@
     "type": "unit"
   },
   {
-    "id": 132106,
-    "localizedName": "Fossoyeur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25699_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vestige",
-    "type": "unit"
-  },
-  {
     "id": 132206,
     "localizedName": "Soupir",
     "previewImg": {
@@ -283,6 +283,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Vestige, Moire",
+    "type": "unit"
+  },
+  {
+    "id": 132305,
+    "localizedName": "Nekker",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25795_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Ogroïde",
     "type": "unit"
   },
   {
@@ -400,6 +413,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 152314,
+    "localizedName": "An Craite : drakkar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine de guerre, Vaisseau",
     "type": "unit"
   },
   {
@@ -832,56 +858,17 @@
     "type": "unit"
   },
   {
-    "id": 202201,
-    "localizedName": "Portail",
+    "id": 202216,
+    "localizedName": "Chaman",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28810_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "artifact"
-  },
-  {
-    "id": 202206,
-    "localizedName": "Étoile dansante",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28828_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
     },
     "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
-  },
-  {
-    "id": 202208,
-    "localizedName": "Vent du nord",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28840_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
-  },
-  {
-    "id": 202209,
-    "localizedName": "Poussière de lune",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
+    "categoryName": "Humain",
+    "type": "unit"
   },
   {
     "id": 202239,
@@ -1469,6 +1456,19 @@
     "type": "unit"
   },
   {
+    "id": 202459,
+    "localizedName": "Flotte de pillards",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31396_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
+  },
+  {
     "id": 202473,
     "localizedName": "Trempe",
     "previewImg": {
@@ -2041,32 +2041,6 @@
     "type": "unit"
   },
   {
-    "id": 202818,
-    "localizedName": "Intendant sorceleur : Ours",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36565_assets_preview_big_b66bc1068d1db85577e19e9bcf26d7cf5203a562.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202819,
-    "localizedName": "Élève sorceleur : Ours",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36568_assets_preview_big_5ab7f7fdaf37c5d275b9a61cb146075af654d047.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
     "id": 202832,
     "localizedName": "Koshchey",
     "previewImg": {
@@ -2116,19 +2090,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Salamandre",
-    "type": "unit"
-  },
-  {
-    "id": 202879,
-    "localizedName": "Madoc",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/39/thumb_38818_assets_preview_big_e1335f5bab3c21b7e88dce458b1eac37ff316352.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
@@ -2207,6 +2168,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Mage, Agent",
+    "type": "unit"
+  },
+  {
+    "id": 202910,
+    "localizedName": "Mariée de la mer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39971_assets_preview_big_1af4c4b26f9772f9370f98439429655872148714.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Cultiste, Druide",
     "type": "unit"
   },
   {
@@ -2369,7 +2343,7 @@
     "id": 202953,
     "localizedName": "Voyageurs du couchant",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32245_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40382_assets_preview_big_acd287cf3279099104a52395aa4e8412aaa2c4b6.jpg"
     },
     "faction": {
       "slug": "neutral"

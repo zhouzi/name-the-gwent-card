@@ -26,19 +26,6 @@
     "type": "unit"
   },
   {
-    "id": 113205,
-    "localizedName": "Dimeritium Bomb",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25321_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
-  },
-  {
     "id": 113310,
     "localizedName": "Swallow",
     "previewImg": {
@@ -52,6 +39,19 @@
     "type": "special"
   },
   {
+    "id": 113313,
+    "localizedName": "An Craite Warcrier",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25405_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
     "id": 113316,
     "localizedName": "Renew",
     "previewImg": {
@@ -62,6 +62,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Spell",
+    "type": "special"
+  },
+  {
+    "id": 113320,
+    "localizedName": "Mardroeme",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25435_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
     "type": "special"
   },
   {
@@ -117,19 +130,6 @@
     "type": "unit"
   },
   {
-    "id": 122211,
-    "localizedName": "Margarita Laux-Antille",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25510_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 122301,
     "localizedName": "Ballista",
     "previewImg": {
@@ -167,6 +167,19 @@
     "cardGroup": "bronze",
     "categoryName": "Warfare",
     "type": "special"
+  },
+  {
+    "id": 122309,
+    "localizedName": "Siege Support",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25549_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Soldier",
+    "type": "unit"
   },
   {
     "id": 122310,
@@ -234,19 +247,6 @@
     "type": "unit"
   },
   {
-    "id": 132106,
-    "localizedName": "Caretaker",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25699_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Relict",
-    "type": "unit"
-  },
-  {
     "id": 132206,
     "localizedName": "Whispess",
     "previewImg": {
@@ -283,6 +283,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Relict, Crone",
+    "type": "unit"
+  },
+  {
+    "id": 132305,
+    "localizedName": "Nekker",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25795_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Ogroid",
     "type": "unit"
   },
   {
@@ -400,6 +413,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Warrior",
+    "type": "unit"
+  },
+  {
+    "id": 152314,
+    "localizedName": "An Craite Longship",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine, Ship",
     "type": "unit"
   },
   {
@@ -832,56 +858,17 @@
     "type": "unit"
   },
   {
-    "id": 202201,
-    "localizedName": "Portal",
+    "id": 202216,
+    "localizedName": "Pellar",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28810_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "artifact"
-  },
-  {
-    "id": 202206,
-    "localizedName": "Dancing Star",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28828_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28876_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
     },
     "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
-  },
-  {
-    "id": 202208,
-    "localizedName": "Northern Wind",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28840_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
-  },
-  {
-    "id": 202209,
-    "localizedName": "Moon Dust",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bomb",
-    "type": "special"
+    "categoryName": "Human",
+    "type": "unit"
   },
   {
     "id": 202239,
@@ -1469,6 +1456,19 @@
     "type": "unit"
   },
   {
+    "id": 202459,
+    "localizedName": "Raiding Fleet",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31396_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Raid",
+    "type": "special"
+  },
+  {
     "id": 202473,
     "localizedName": "Tempering",
     "previewImg": {
@@ -2041,32 +2041,6 @@
     "type": "unit"
   },
   {
-    "id": 202818,
-    "localizedName": "Bear Witcher Quartermaster",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36565_assets_preview_big_b66bc1068d1db85577e19e9bcf26d7cf5203a562.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
-    "id": 202819,
-    "localizedName": "Bear Witcher Adept",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36568_assets_preview_big_5ab7f7fdaf37c5d275b9a61cb146075af654d047.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Witcher",
-    "type": "unit"
-  },
-  {
     "id": 202832,
     "localizedName": "Koshchey",
     "previewImg": {
@@ -2116,19 +2090,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Salamandra",
-    "type": "unit"
-  },
-  {
-    "id": 202879,
-    "localizedName": "Madoc",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/39/thumb_38818_assets_preview_big_e1335f5bab3c21b7e88dce458b1eac37ff316352.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Witcher",
     "type": "unit"
   },
   {
@@ -2207,6 +2168,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Mage, Agent",
+    "type": "unit"
+  },
+  {
+    "id": 202910,
+    "localizedName": "Bride of the Sea",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39971_assets_preview_big_1af4c4b26f9772f9370f98439429655872148714.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Cultist, Druid",
     "type": "unit"
   },
   {
@@ -2369,7 +2343,7 @@
     "id": 202953,
     "localizedName": "Sunset Wanderers",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32245_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40382_assets_preview_big_acd287cf3279099104a52395aa4e8412aaa2c4b6.jpg"
     },
     "faction": {
       "slug": "neutral"
