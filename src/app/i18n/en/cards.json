@@ -806,32 +806,6 @@
     "type": "unit"
   },
   {
-    "id": 202298,
-    "localizedName": "Philippa Eilhart",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29524_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 202299,
-    "localizedName": "Sigi Reuven",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29533_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 202300,
     "localizedName": "Vivaldi Bank",
     "previewImg": {
@@ -845,6 +819,19 @@
     "type": "special"
   },
   {
+    "id": 202302,
+    "localizedName": "Graden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29563_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Witch Hunter",
+    "type": "unit"
+  },
+  {
     "id": 202304,
     "localizedName": "Kurt",
     "previewImg": {
@@ -856,6 +843,19 @@
     "cardGroup": "gold",
     "categoryName": "Human, Witch Hunter",
     "type": "unit"
+  },
+  {
+    "id": 202319,
+    "localizedName": "Slander",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29779_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
   },
   {
     "id": 202322,
@@ -1817,6 +1817,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Relict",
+    "type": "unit"
+  },
+  {
+    "id": 202925,
+    "localizedName": "The Witchfinder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40058_assets_preview_big_1e361611cbffd2c1066bd72a949dc4bf34307c92.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Witch Hunter",
     "type": "unit"
   },
   {
