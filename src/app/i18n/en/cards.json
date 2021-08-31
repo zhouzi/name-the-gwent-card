@@ -26,6 +26,19 @@
     "type": "special"
   },
   {
+    "id": 113301,
+    "localizedName": "Alzur's Thunder",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Spell",
+    "type": "special"
+  },
+  {
     "id": 122103,
     "localizedName": "John Natalis",
     "previewImg": {
@@ -273,6 +286,19 @@
     "type": "unit"
   },
   {
+    "id": 153301,
+    "localizedName": "Lacerate",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26488_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organic",
+    "type": "special"
+  },
+  {
     "id": 162102,
     "localizedName": "Menno Coehoorn",
     "previewImg": {
@@ -416,19 +442,6 @@
     "type": "special"
   },
   {
-    "id": 200038,
-    "localizedName": "Archespore",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26890_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Plant",
-    "type": "unit"
-  },
-  {
     "id": 200043,
     "localizedName": "Harald Houndsnout",
     "previewImg": {
@@ -439,6 +452,32 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 200062,
+    "localizedName": "Aguara",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27046_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast",
+    "type": "unit"
+  },
+  {
+    "id": 200073,
+    "localizedName": "Adda: Striga",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27070_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Beast, Cursed",
     "type": "unit"
   },
   {
@@ -1066,16 +1105,16 @@
     "type": "unit"
   },
   {
-    "id": 202441,
-    "localizedName": "Endrega Warrior",
+    "id": 202436,
+    "localizedName": "Cave Troll",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31273_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Insectoid, Warrior",
+    "cardGroup": "gold",
+    "categoryName": "Ogroid",
     "type": "unit"
   },
   {
@@ -1339,19 +1378,6 @@
     "type": "special"
   },
   {
-    "id": 202600,
-    "localizedName": "Squirrel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32293_assets_preview_big_0c6060a0480b159aa1e0139ae00f31d2fe5231d4.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Beast",
-    "type": "unit"
-  },
-  {
     "id": 202636,
     "localizedName": "Smuggle",
     "previewImg": {
@@ -1519,6 +1545,19 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
+  },
+  {
+    "id": 202776,
+    "localizedName": "Alzur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36433_assets_preview_big_01a10911dc2b728537d6e167d21237dc3d846d88.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
   },
   {
     "id": 202778,

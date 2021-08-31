@@ -26,6 +26,19 @@
     "type": "special"
   },
   {
+    "id": 113301,
+    "localizedName": "Foudre d'Alzur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Sort",
+    "type": "special"
+  },
+  {
     "id": 122103,
     "localizedName": "Jan Natalis",
     "previewImg": {
@@ -273,6 +286,19 @@
     "type": "unit"
   },
   {
+    "id": 153301,
+    "localizedName": "Lacération",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26488_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
+  },
+  {
     "id": 162102,
     "localizedName": "Menno Coehoorn",
     "previewImg": {
@@ -416,19 +442,6 @@
     "type": "special"
   },
   {
-    "id": 200038,
-    "localizedName": "Ékinoppyre",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26890_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Plante",
-    "type": "unit"
-  },
-  {
     "id": 200043,
     "localizedName": "Harald Longmuseau",
     "previewImg": {
@@ -439,6 +452,32 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain",
+    "type": "unit"
+  },
+  {
+    "id": 200062,
+    "localizedName": "Aguara ",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27046_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête",
+    "type": "unit"
+  },
+  {
+    "id": 200073,
+    "localizedName": "Adda : strige",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27070_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête, Maudite",
     "type": "unit"
   },
   {
@@ -1066,16 +1105,16 @@
     "type": "unit"
   },
   {
-    "id": 202441,
-    "localizedName": "Endriague guerrière",
+    "id": 202436,
+    "localizedName": "Troll des cavernes",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31303_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31273_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Insectoïde, Guerrier",
+    "cardGroup": "gold",
+    "categoryName": "Ogroïde",
     "type": "unit"
   },
   {
@@ -1339,19 +1378,6 @@
     "type": "special"
   },
   {
-    "id": 202600,
-    "localizedName": "Écureuil",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32293_assets_preview_big_0c6060a0480b159aa1e0139ae00f31d2fe5231d4.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bête",
-    "type": "unit"
-  },
-  {
     "id": 202636,
     "localizedName": "Contrebande",
     "previewImg": {
@@ -1519,6 +1545,19 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
+  },
+  {
+    "id": 202776,
+    "localizedName": "Alzur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36433_assets_preview_big_01a10911dc2b728537d6e167d21237dc3d846d88.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
   },
   {
     "id": 202778,
