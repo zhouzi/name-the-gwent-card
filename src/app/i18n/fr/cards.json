@@ -897,6 +897,19 @@
     "type": "special"
   },
   {
+    "id": 202302,
+    "localizedName": "Graden",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29563_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Chasseur de sorcières",
+    "type": "unit"
+  },
+  {
     "id": 202304,
     "localizedName": "Kurt",
     "previewImg": {
@@ -1791,6 +1804,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202925,
+    "localizedName": "La Débusqueuse de sorcières",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40058_assets_preview_big_1e361611cbffd2c1066bd72a949dc4bf34307c92.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Chasseur de sorcières",
     "type": "unit"
   },
   {
