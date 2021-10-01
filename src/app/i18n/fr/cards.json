@@ -650,6 +650,19 @@
     "type": "special"
   },
   {
+    "id": 201615,
+    "localizedName": "Conseil d'Isengrim",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27955_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
     "id": 201618,
     "localizedName": "Seltkirk de Guletta",
     "previewImg": {
@@ -700,6 +713,19 @@
     "cardGroup": "gold",
     "categoryName": "Humain, Soldat",
     "type": "unit"
+  },
+  {
+    "id": 201779,
+    "localizedName": "Appel de la forêt",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28312_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 201780,
@@ -817,6 +843,45 @@
     "cardGroup": "bronze",
     "categoryName": "Humain, Agent",
     "type": "unit"
+  },
+  {
+    "id": 202263,
+    "localizedName": "Fauve",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29203_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dryade",
+    "type": "unit"
+  },
+  {
+    "id": 202264,
+    "localizedName": "Grand chêne",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29206_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sylvain",
+    "type": "unit"
+  },
+  {
+    "id": 202269,
+    "localizedName": "Caresse de dryade",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29254_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
   },
   {
     "id": 202273,
@@ -1222,6 +1287,19 @@
     "type": "unit"
   },
   {
+    "id": 202473,
+    "localizedName": "Trempe",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31444_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
     "id": 202504,
     "localizedName": "Siège",
     "previewImg": {
@@ -1521,6 +1599,32 @@
     "type": "unit"
   },
   {
+    "id": 202670,
+    "localizedName": "Eithné : jeune reine",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32509_assets_preview_big_3c1290c93965effbc9f01c5905df6f67bdbe0944.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dryade",
+    "type": "unit"
+  },
+  {
+    "id": 202673,
+    "localizedName": "Protecteur de la forêt",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32518_assets_preview_big_0c459fdd00cc665b6319695ccab1116124e72488.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Sylvain",
+    "type": "unit"
+  },
+  {
     "id": 202676,
     "localizedName": "Dunca",
     "previewImg": {
@@ -1530,6 +1634,32 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
+    "categoryName": "Dryade",
+    "type": "unit"
+  },
+  {
+    "id": 202677,
+    "localizedName": "Cercle de la vie",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32530_assets_preview_big_ddbefcbbc36173f700e37a6493c9ed62c83e5857.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
+    "id": 202678,
+    "localizedName": "Hamadryade",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32533_assets_preview_big_7c5dae2b6f3dc67aacb5f3fd12e02a102ba23f1c.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Dryade",
     "type": "unit"
   },
@@ -1583,6 +1713,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain",
+    "type": "unit"
+  },
+  {
+    "id": 202809,
+    "localizedName": "Élève sorceleur : Chat",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36538_assets_preview_big_c7ede216d439ba4b44fd2f2c2a925595d56b7e92.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
