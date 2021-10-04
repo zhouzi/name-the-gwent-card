@@ -1625,6 +1625,32 @@
     "type": "unit"
   },
   {
+    "id": 202674,
+    "localizedName": "Shaping Nature",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32521_assets_preview_big_d94daa6855e26d857d67b7eb32d1bd6dd661d11c.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
+    "id": 202675,
+    "localizedName": "Freixenet",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32524_assets_preview_big_5df0a6ca874996c1446b213dac6ee18e8fbcbafc.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 202676,
     "localizedName": "Dunca",
     "previewImg": {
