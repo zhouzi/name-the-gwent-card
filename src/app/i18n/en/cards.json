@@ -52,6 +52,19 @@
     "type": "unit"
   },
   {
+    "id": 113205,
+    "localizedName": "Dimeritium Bomb",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25321_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bomb",
+    "type": "special"
+  },
+  {
     "id": 113301,
     "localizedName": "Alzur's Thunder",
     "previewImg": {
@@ -89,6 +102,19 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Warrior",
     "type": "unit"
+  },
+  {
+    "id": 113320,
+    "localizedName": "Mardroeme",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25435_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
   },
   {
     "id": 122103,
@@ -286,6 +312,19 @@
     "type": "special"
   },
   {
+    "id": 142303,
+    "localizedName": "Vrihedd Officer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26122_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
     "id": 152105,
     "localizedName": "Birna Bran",
     "previewImg": {
@@ -362,6 +401,19 @@
     "cardGroup": "bronze",
     "categoryName": "Machine, Ship",
     "type": "unit"
+  },
+  {
+    "id": 152310,
+    "localizedName": "Freya's Blessing",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26392_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
   },
   {
     "id": 152313,
@@ -663,19 +715,6 @@
     "type": "unit"
   },
   {
-    "id": 201646,
-    "localizedName": "Derran",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28102_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 201657,
     "localizedName": "Parasite",
     "previewImg": {
@@ -806,6 +845,19 @@
     "type": "unit"
   },
   {
+    "id": 202209,
+    "localizedName": "Moon Dust",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bomb",
+    "type": "special"
+  },
+  {
     "id": 202216,
     "localizedName": "Pellar",
     "previewImg": {
@@ -923,6 +975,19 @@
     "type": "special"
   },
   {
+    "id": 202273,
+    "localizedName": "Brokilon Sentinel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29275_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Dryad",
+    "type": "unit"
+  },
+  {
     "id": 202287,
     "localizedName": "Primal Savagery",
     "previewImg": {
@@ -962,45 +1027,6 @@
     "type": "unit"
   },
   {
-    "id": 202300,
-    "localizedName": "Vivaldi Bank",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29542_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": null,
-    "type": "special"
-  },
-  {
-    "id": 202302,
-    "localizedName": "Graden",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29563_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Witch Hunter",
-    "type": "unit"
-  },
-  {
-    "id": 202304,
-    "localizedName": "Kurt",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29578_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Witch Hunter",
-    "type": "unit"
-  },
-  {
     "id": 202318,
     "localizedName": "Witch Hunter Executioner",
     "previewImg": {
@@ -1012,6 +1038,19 @@
     "cardGroup": "bronze",
     "categoryName": "Human, Witch Hunter",
     "type": "unit"
+  },
+  {
+    "id": 202319,
+    "localizedName": "Slander",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29779_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
   },
   {
     "id": 202320,
@@ -1040,19 +1079,6 @@
     "type": "unit"
   },
   {
-    "id": 202334,
-    "localizedName": "Sewer Raiders",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29914_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Pirate, Tidecloaks",
-    "type": "unit"
-  },
-  {
     "id": 202337,
     "localizedName": "Whoreson's Freak Show",
     "previewImg": {
@@ -1063,19 +1089,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Cutups",
-    "type": "unit"
-  },
-  {
-    "id": 202340,
-    "localizedName": "Tax Collector",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29941_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human",
     "type": "unit"
   },
   {
@@ -1105,23 +1118,36 @@
     "type": "unit"
   },
   {
-    "id": 202379,
-    "localizedName": "Coerced Blacksmith",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30253_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Crownsplitters",
-    "type": "unit"
-  },
-  {
     "id": 202383,
     "localizedName": "Harald Gord",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Dwarf, Crownsplitters",
+    "type": "unit"
+  },
+  {
+    "id": 202386,
+    "localizedName": "Tunnel Drill",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30313_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Machine, Crownsplitters",
+    "type": "unit"
+  },
+  {
+    "id": 202387,
+    "localizedName": "Caesar Bilzen",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30322_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1391,10 +1417,10 @@
     "type": "special"
   },
   {
-    "id": 202561,
-    "localizedName": "Passiflora Peaches",
+    "id": 202559,
+    "localizedName": "Street Urchins",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32188_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32176_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1612,17 +1638,17 @@
     "type": "unit"
   },
   {
-    "id": 202640,
-    "localizedName": "Mutants Maker",
+    "id": 202636,
+    "localizedName": "Smuggle",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32398_assets_preview_big_b579f5eb2ec714f56d1b5fe0a37693fd48f31d07.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Human, Firesworn, Salamandra",
-    "type": "unit"
+    "categoryName": "Crime, Firesworn",
+    "type": "special"
   },
   {
     "id": 202646,
@@ -1755,6 +1781,19 @@
     "type": "unit"
   },
   {
+    "id": 202776,
+    "localizedName": "Alzur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36433_assets_preview_big_01a10911dc2b728537d6e167d21237dc3d846d88.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
+    "type": "unit"
+  },
+  {
     "id": 202778,
     "localizedName": "Snowdrop",
     "previewImg": {
@@ -1820,6 +1859,19 @@
     "type": "unit"
   },
   {
+    "id": 202810,
+    "localizedName": "Making a Bomb",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36541_assets_preview_big_a1ebe7d786bd688eb6da2f43c96d42addc02af12.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bomb",
+    "type": "special"
+  },
+  {
     "id": 202813,
     "localizedName": "Haern Caduch",
     "previewImg": {
@@ -1859,6 +1911,19 @@
     "type": "unit"
   },
   {
+    "id": 202879,
+    "localizedName": "Madoc",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/39/thumb_38818_assets_preview_big_e1335f5bab3c21b7e88dce458b1eac37ff316352.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
     "id": 202883,
     "localizedName": "Eist Tuirseach",
     "previewImg": {
@@ -1869,19 +1934,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Warrior",
-    "type": "unit"
-  },
-  {
-    "id": 202891,
-    "localizedName": "Whoreson Junior",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31054_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Cutups",
     "type": "unit"
   },
   {
@@ -1924,10 +1976,36 @@
     "type": "unit"
   },
   {
+    "id": 202910,
+    "localizedName": "Bride of the Sea",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39971_assets_preview_big_1af4c4b26f9772f9370f98439429655872148714.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Cultist, Druid",
+    "type": "unit"
+  },
+  {
     "id": 202915,
     "localizedName": "Sorceress of Dol Blathanna",
     "previewImg": {
       "big": "/uploads/media/assets_preview/0001/40/thumb_39998_assets_preview_big_1898518001562f348b348e41a41c71e8c83948aa.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elf, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202916,
+    "localizedName": "Whisperer of Dol Blathanna",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40004_assets_preview_big_8e3031dbe7a263d97bb75b51def69bad5d670e0f.jpg"
     },
     "faction": {
       "slug": "scoiatael"
@@ -2015,6 +2093,32 @@
     "type": "unit"
   },
   {
+    "id": 202928,
+    "localizedName": "Hysteria",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40079_assets_preview_big_ae91d44f3bf4e47e9c3483bd387193cfc033fd27.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
+  },
+  {
+    "id": 202929,
+    "localizedName": "Vigilantes",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40091_assets_preview_big_96c6ef8d9d7da305474815c91ff6c60c761617fa.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Witch Hunter",
+    "type": "unit"
+  },
+  {
     "id": 202943,
     "localizedName": "Artaud Terranova",
     "previewImg": {
@@ -2054,19 +2158,6 @@
     "type": "unit"
   },
   {
-    "id": 202983,
-    "localizedName": "Havfrue Singer",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40208_assets_preview_big_fc4c0400bb2b200ae1db8e51982eb17c6a67ba95.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Cultist, Druid",
-    "type": "unit"
-  },
-  {
     "id": 202985,
     "localizedName": "Simlas Finn aep Dabairr",
     "previewImg": {
@@ -2076,6 +2167,32 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
+    "categoryName": "Elf, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202987,
+    "localizedName": "Orb of Insight",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40241_assets_preview_big_7d36cd18292cb0114c515cde362ff20325f85e8c.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Spell",
+    "type": "special"
+  },
+  {
+    "id": 202988,
+    "localizedName": "Elven Seer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40247_assets_preview_big_55216b46d7facf0512a9ff2299fc57382fd11b53.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Elf, Mage",
     "type": "unit"
   },
@@ -2130,6 +2247,32 @@
     "cardGroup": "gold",
     "categoryName": "Relict",
     "type": "unit"
+  },
+  {
+    "id": 202998,
+    "localizedName": "The Scoundrel",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40319_assets_preview_big_86cf3630dcd482c5f37671897477da40a47e0b30.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Witch Hunter",
+    "type": "unit"
+  },
+  {
+    "id": 203000,
+    "localizedName": "Confession Extractor",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40343_assets_preview_big_e54ba628b71fd280d80dc479fc03de2e74442bfc.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Crime",
+    "type": "special"
   },
   {
     "id": 203003,
