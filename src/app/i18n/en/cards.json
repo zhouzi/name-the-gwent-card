@@ -1417,6 +1417,19 @@
     "type": "unit"
   },
   {
+    "id": 202340,
+    "localizedName": "Tax Collector",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29941_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 202341,
     "localizedName": "Sea Jackal",
     "previewImg": {
@@ -2273,6 +2286,45 @@
     "cardGroup": "bronze",
     "categoryName": "Warfare",
     "type": "special"
+  },
+  {
+    "id": 202843,
+    "localizedName": "Salamandra Hideout",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36637_assets_preview_big_651e128016e11b2093bc949a0a04a22981d7a5f0.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Location",
+    "type": "artifact"
+  },
+  {
+    "id": 202844,
+    "localizedName": "Roland Bleinheim",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36640_assets_preview_big_30ee7b69bbb0fddf8a75c01b49b92da1ee329d0a.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Salamandra",
+    "type": "unit"
+  },
+  {
+    "id": 202845,
+    "localizedName": "Gellert Bleinheim",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36643_assets_preview_big_2163498d3d5ea303faa627e2a2f720ab1036e69f.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Salamandra",
+    "type": "unit"
   },
   {
     "id": 202879,
