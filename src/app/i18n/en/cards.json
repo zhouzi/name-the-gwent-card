@@ -91,6 +91,19 @@
     "type": "special"
   },
   {
+    "id": 113320,
+    "localizedName": "Mardroeme",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25435_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Alchemy",
+    "type": "special"
+  },
+  {
     "id": 122103,
     "localizedName": "John Natalis",
     "previewImg": {
@@ -936,6 +949,19 @@
     "type": "artifact"
   },
   {
+    "id": 201646,
+    "localizedName": "Derran",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28102_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human",
+    "type": "unit"
+  },
+  {
     "id": 201647,
     "localizedName": "Rock Barrage",
     "previewImg": {
@@ -1300,19 +1326,6 @@
     "type": "special"
   },
   {
-    "id": 202301,
-    "localizedName": "Eavesdrop",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29551_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Blindeyes",
-    "type": "special"
-  },
-  {
     "id": 202304,
     "localizedName": "Kurt",
     "previewImg": {
@@ -1469,19 +1482,6 @@
     "type": "unit"
   },
   {
-    "id": 202368,
-    "localizedName": "Casino Bouncers",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30172_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Cutups",
-    "type": "unit"
-  },
-  {
     "id": 202371,
     "localizedName": "Bloody Good Fun",
     "previewImg": {
@@ -1531,19 +1531,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Dwarf, Crownsplitters",
-    "type": "unit"
-  },
-  {
-    "id": 202392,
-    "localizedName": "Walter Veritas",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31021_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
     "type": "unit"
   },
   {
@@ -1883,19 +1870,6 @@
     "cardGroup": "bronze",
     "categoryName": "Nature",
     "type": "special"
-  },
-  {
-    "id": 202555,
-    "localizedName": "Saul de Navarette",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32158_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Tidecloaks",
-    "type": "unit"
   },
   {
     "id": 202594,
