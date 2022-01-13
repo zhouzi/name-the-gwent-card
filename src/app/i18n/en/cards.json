@@ -91,19 +91,6 @@
     "type": "special"
   },
   {
-    "id": 113320,
-    "localizedName": "Mardroeme",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25435_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Alchemy",
-    "type": "special"
-  },
-  {
     "id": 122103,
     "localizedName": "John Natalis",
     "previewImg": {
@@ -949,19 +936,6 @@
     "type": "artifact"
   },
   {
-    "id": 201646,
-    "localizedName": "Derran",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28102_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human",
-    "type": "unit"
-  },
-  {
     "id": 201647,
     "localizedName": "Rock Barrage",
     "previewImg": {
@@ -1300,6 +1274,19 @@
     "type": "unit"
   },
   {
+    "id": 202297,
+    "localizedName": "Beggar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29515_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Agent, Blindeyes",
+    "type": "unit"
+  },
+  {
     "id": 202299,
     "localizedName": "Sigi Reuven",
     "previewImg": {
@@ -1414,6 +1401,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Pirate, Tidecloaks",
+    "type": "unit"
+  },
+  {
+    "id": 202335,
+    "localizedName": "Wretched Addict",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29917_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human",
     "type": "unit"
   },
   {
@@ -1557,6 +1557,19 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human, Soldier, Knight",
+    "type": "unit"
+  },
+  {
+    "id": 202425,
+    "localizedName": "Azar Javed",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31225_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage, Salamandra",
     "type": "unit"
   },
   {
@@ -2260,6 +2273,19 @@
     "cardGroup": "bronze",
     "categoryName": "Warfare",
     "type": "special"
+  },
+  {
+    "id": 202842,
+    "localizedName": "Salamander",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36634_assets_preview_big_f4850160135b1d805f6b47814dc54145c2ba2d8c.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Salamandra",
+    "type": "unit"
   },
   {
     "id": 202843,
