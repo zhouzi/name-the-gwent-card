@@ -260,19 +260,6 @@
     "type": "unit"
   },
   {
-    "id": 152207,
-    "localizedName": "Holger Main-noire",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26308_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Pirate",
-    "type": "unit"
-  },
-  {
     "id": 152209,
     "localizedName": "Morkvarg",
     "previewImg": {
@@ -362,6 +349,19 @@
     "cardGroup": "bronze",
     "categoryName": "Machine de guerre, Vaisseau",
     "type": "unit"
+  },
+  {
+    "id": 152316,
+    "localizedName": "Éviscération",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26437_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Raid",
+    "type": "special"
   },
   {
     "id": 162105,
@@ -533,45 +533,6 @@
     "type": "unit"
   },
   {
-    "id": 200105,
-    "localizedName": "Dimun : galère",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27253_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine de guerre, Vaisseau",
-    "type": "unit"
-  },
-  {
-    "id": 200145,
-    "localizedName": "Dimun : corsaire",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27367_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Pirate",
-    "type": "unit"
-  },
-  {
-    "id": 200146,
-    "localizedName": "Dimun : passeur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27370_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Pirate",
-    "type": "unit"
-  },
-  {
     "id": 200154,
     "localizedName": "Décret royal",
     "previewImg": {
@@ -608,6 +569,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
+    "id": 200300,
+    "localizedName": "Harponneur de baleines",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27676_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine de guerre, Vaisseau",
     "type": "unit"
   },
   {
@@ -1508,6 +1482,19 @@
     "type": "unit"
   },
   {
+    "id": 202615,
+    "localizedName": "Harald an Craite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32338_assets_preview_big_7ec15ca721ee132be4fb015b320f62de1010083d.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Guerrier",
+    "type": "unit"
+  },
+  {
     "id": 202618,
     "localizedName": "Tyrggvi Tuirseach",
     "previewImg": {
@@ -2116,19 +2103,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202978,
-    "localizedName": "Fercart",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40169_assets_preview_big_954d368a838f617339abefd3e20fa2d0b38a7225.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
     "type": "unit"
   },
   {
