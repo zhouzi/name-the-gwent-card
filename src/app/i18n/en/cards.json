@@ -949,6 +949,19 @@
     "type": "unit"
   },
   {
+    "id": 202284,
+    "localizedName": "Svalblod Priest",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29389_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Human, Cultist, Druid",
+    "type": "unit"
+  },
+  {
     "id": 202295,
     "localizedName": "Renegade Mage",
     "previewImg": {
@@ -959,19 +972,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human, Mage, Blindeyes",
-    "type": "unit"
-  },
-  {
-    "id": 202297,
-    "localizedName": "Beggar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29515_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Agent, Blindeyes",
     "type": "unit"
   },
   {
@@ -1261,19 +1261,6 @@
     "type": "unit"
   },
   {
-    "id": 202387,
-    "localizedName": "Caesar Bilzen",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30322_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Dwarf, Crownsplitters",
-    "type": "unit"
-  },
-  {
     "id": 202397,
     "localizedName": "Knickers",
     "previewImg": {
@@ -1387,6 +1374,19 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
+    "categoryName": "Machine, Ship",
+    "type": "unit"
+  },
+  {
+    "id": 202461,
+    "localizedName": "Armored Drakkar",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31510_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Machine, Ship",
     "type": "unit"
   },
@@ -1558,19 +1558,6 @@
     "cardGroup": "gold",
     "categoryName": "Human",
     "type": "unit"
-  },
-  {
-    "id": 202636,
-    "localizedName": "Smuggle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32398_assets_preview_big_b579f5eb2ec714f56d1b5fe0a37693fd48f31d07.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Firesworn",
-    "type": "special"
   },
   {
     "id": 202640,
@@ -1999,6 +1986,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elf, Mage",
+    "type": "unit"
+  },
+  {
+    "id": 202990,
+    "localizedName": "Leticia Charbonneau",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40733_assets_preview_big_6a6d7a282fccb870342ef1762744b01ddd17234f.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Mage",
     "type": "unit"
   },
   {
