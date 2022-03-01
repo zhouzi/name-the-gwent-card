@@ -2028,19 +2028,6 @@
     "type": "unit"
   },
   {
-    "id": 202998,
-    "localizedName": "La Fripouille",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40319_assets_preview_big_86cf3630dcd482c5f37671897477da40a47e0b30.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Chasseur de sorcières",
-    "type": "unit"
-  },
-  {
     "id": 203003,
     "localizedName": "Dwimveandra",
     "previewImg": {
