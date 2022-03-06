@@ -507,19 +507,6 @@
     "type": "special"
   },
   {
-    "id": 200020,
-    "localizedName": "Necromancy",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26797_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Spell",
-    "type": "special"
-  },
-  {
     "id": 200039,
     "localizedName": "Dol Blathanna Sentry",
     "previewImg": {
@@ -661,19 +648,6 @@
     "cardGroup": "gold",
     "categoryName": "Human, Knight",
     "type": "unit"
-  },
-  {
-    "id": 201619,
-    "localizedName": "Ointment",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30751_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Tactic",
-    "type": "special"
   },
   {
     "id": 201646,
@@ -1911,19 +1885,6 @@
     "type": "unit"
   },
   {
-    "id": 202978,
-    "localizedName": "Fercart",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40169_assets_preview_big_954d368a838f617339abefd3e20fa2d0b38a7225.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
-    "type": "unit"
-  },
-  {
     "id": 202981,
     "localizedName": "Melusine",
     "previewImg": {
@@ -1986,19 +1947,6 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elf, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 202990,
-    "localizedName": "Leticia Charbonneau",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40733_assets_preview_big_6a6d7a282fccb870342ef1762744b01ddd17234f.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Mage",
     "type": "unit"
   },
   {
