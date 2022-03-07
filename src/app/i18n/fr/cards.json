@@ -481,19 +481,6 @@
     "type": "special"
   },
   {
-    "id": 163201,
-    "localizedName": "Pot-de-vin",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26767_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Tactique",
-    "type": "special"
-  },
-  {
     "id": 200018,
     "localizedName": "Fournaise de Korath",
     "previewImg": {
@@ -1885,6 +1872,19 @@
     "type": "unit"
   },
   {
+    "id": 202978,
+    "localizedName": "Fercart",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40169_assets_preview_big_954d368a838f617339abefd3e20fa2d0b38a7225.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Mage",
+    "type": "unit"
+  },
+  {
     "id": 202981,
     "localizedName": "Mélusine",
     "previewImg": {
@@ -1998,19 +1998,6 @@
       "slug": "neutral"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 203038,
-    "localizedName": "Lydia van Bredevoort",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40769_assets_preview_big_710f26a0ccfd8ff303bb30984ef3d5d2b9ae2d24.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
     "categoryName": "Humain, Mage",
     "type": "unit"
   },
