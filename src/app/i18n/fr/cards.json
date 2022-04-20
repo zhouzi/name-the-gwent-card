@@ -1,15 +1,28 @@
 [
   {
-    "id": 112106,
-    "localizedName": "Triss Merigold",
+    "id": 112102,
+    "localizedName": "Geralt : Igni",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25120_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25102_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 112208,
+    "localizedName": "Gardien",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25237_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Bête, Mage",
     "type": "unit"
   },
   {
@@ -26,42 +39,16 @@
     "type": "unit"
   },
   {
-    "id": 113205,
-    "localizedName": "Bombe au dimeritium",
+    "id": 113201,
+    "localizedName": "Leurre",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25321_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25309_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
-  },
-  {
-    "id": 113301,
-    "localizedName": "Foudre d'Alzur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25342_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sort",
-    "type": "special"
-  },
-  {
-    "id": 113310,
-    "localizedName": "Hirondelle",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25390_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Alchimie",
+    "cardGroup": "gold",
+    "categoryName": null,
     "type": "special"
   },
   {
@@ -78,6 +65,19 @@
     "type": "special"
   },
   {
+    "id": 122102,
+    "localizedName": "Vernon Roche",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25447_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 122103,
     "localizedName": "Jan Natalis",
     "previewImg": {
@@ -91,29 +91,29 @@
     "type": "unit"
   },
   {
-    "id": 122106,
-    "localizedName": "Shani",
+    "id": 122203,
+    "localizedName": "Talar",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40724_assets_preview_big_9e20643106efda780f467e8ee43db68228b9be46.jpg"
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25483_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain",
+    "categoryName": "Humain, Agent",
     "type": "unit"
   },
   {
-    "id": 122211,
-    "localizedName": "Margarita Laux-Antille",
+    "id": 122209,
+    "localizedName": "Trollolo",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25510_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31084_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
+    "categoryName": "Ogroïde, Soldat",
     "type": "unit"
   },
   {
@@ -156,6 +156,19 @@
     "type": "unit"
   },
   {
+    "id": 122309,
+    "localizedName": "Aide de siège",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25549_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 122318,
     "localizedName": "Maître de siège",
     "previewImg": {
@@ -167,19 +180,6 @@
     "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
     "type": "unit"
-  },
-  {
-    "id": 123201,
-    "localizedName": "Renforts",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25639_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Guerre",
-    "type": "special"
   },
   {
     "id": 132216,
@@ -195,29 +195,16 @@
     "type": "unit"
   },
   {
-    "id": 132307,
-    "localizedName": "Griffon",
+    "id": 132220,
+    "localizedName": "Katakan",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25801_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25780_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Bête",
-    "type": "unit"
-  },
-  {
-    "id": 132314,
-    "localizedName": "Noyeur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/26/thumb_25825_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nécrophage",
+    "cardGroup": "gold",
+    "categoryName": "Vampire",
     "type": "unit"
   },
   {
@@ -231,6 +218,175 @@
     },
     "cardGroup": "gold",
     "categoryName": "Création",
+    "type": "unit"
+  },
+  {
+    "id": 142102,
+    "localizedName": "Isengrim Faoiltiarna",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25924_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142105,
+    "localizedName": "Zoltan Chivay",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25942_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 142201,
+    "localizedName": "Dennis Cranmer",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25957_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 142203,
+    "localizedName": "Yaevinn",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/26/thumb_25969_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142211,
+    "localizedName": "Aelirenn",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26026_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142305,
+    "localizedName": "Escarmoucheur nain",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26137_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 142307,
+    "localizedName": "Vrihedd : sapeur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26161_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142308,
+    "localizedName": "Déviation",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26173_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Tactique",
+    "type": "special"
+  },
+  {
+    "id": 142310,
+    "localizedName": "Dol Blathanna : archère",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26197_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142314,
+    "localizedName": "Dol Blathanna : tireuse",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26215_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 142317,
+    "localizedName": "Mahakam : garde",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26224_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 142401,
+    "localizedName": "Bleusaille Scoia'tael",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26230_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 152101,
+    "localizedName": "Hjalmar an Craite",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26248_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Guerrier",
     "type": "unit"
   },
   {
@@ -257,19 +413,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 152206,
-    "localizedName": "Gremist",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26305_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Druide",
     "type": "unit"
   },
   {
@@ -312,19 +455,6 @@
     "type": "unit"
   },
   {
-    "id": 152309,
-    "localizedName": "Dimun : drakkar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26389_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine de guerre, Vaisseau",
-    "type": "unit"
-  },
-  {
     "id": 152310,
     "localizedName": "Bénédiction de Freya",
     "previewImg": {
@@ -351,19 +481,6 @@
     "type": "unit"
   },
   {
-    "id": 152314,
-    "localizedName": "An Craite : drakkar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26419_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Machine de guerre, Vaisseau",
-    "type": "unit"
-  },
-  {
     "id": 152316,
     "localizedName": "Éviscération",
     "previewImg": {
@@ -375,6 +492,19 @@
     "cardGroup": "bronze",
     "categoryName": "Raid",
     "type": "special"
+  },
+  {
+    "id": 152406,
+    "localizedName": "Ours déchaîné",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26476_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Bête",
+    "type": "unit"
   },
   {
     "id": 153201,
@@ -403,42 +533,29 @@
     "type": "unit"
   },
   {
-    "id": 162108,
-    "localizedName": "Xarthisius",
+    "id": 162107,
+    "localizedName": "Tibor Eggebracht",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26536_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26530_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
+    "categoryName": "Humain, Soldat",
     "type": "unit"
   },
   {
-    "id": 162202,
-    "localizedName": "Assire var Anahid",
+    "id": 162210,
+    "localizedName": "Cantarella",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26548_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26572_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 162211,
-    "localizedName": "Joachim de Wett",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26575_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Soldat, Aristocrate",
+    "categoryName": "Humain, Agent",
     "type": "unit"
   },
   {
@@ -494,17 +611,17 @@
     "type": "special"
   },
   {
-    "id": 200039,
-    "localizedName": "Dol Blathanna : défenseur",
+    "id": 200020,
+    "localizedName": "Nécromancie",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26899_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/27/thumb_26797_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "scoiatael"
+      "slug": "neutral"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe",
-    "type": "unit"
+    "cardGroup": "gold",
+    "categoryName": "Sort",
+    "type": "special"
   },
   {
     "id": 200042,
@@ -533,16 +650,42 @@
     "type": "unit"
   },
   {
-    "id": 200087,
-    "localizedName": "Dorregaray de Vole",
+    "id": 200080,
+    "localizedName": "Xavier Moran",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27127_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27097_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "neutral"
+      "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 200088,
+    "localizedName": "Hubert Rejk",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27142_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Vampire",
+    "type": "unit"
+  },
+  {
+    "id": 200124,
+    "localizedName": "Régicide",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27343_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "nilfgaard"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
@@ -559,6 +702,19 @@
     "type": "special"
   },
   {
+    "id": 200171,
+    "localizedName": "Fantassin de Tridam",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27505_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Soldat",
+    "type": "unit"
+  },
+  {
     "id": 200225,
     "localizedName": "Muselière de Vigo",
     "previewImg": {
@@ -572,30 +728,17 @@
     "type": "special"
   },
   {
-    "id": 200296,
-    "localizedName": "Alba : cavalier lourd",
+    "id": 200293,
+    "localizedName": "Agitateur nain",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27670_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27661_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "nilfgaard"
+      "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Soldat",
+    "categoryName": "Nain",
     "type": "unit"
-  },
-  {
-    "id": 200301,
-    "localizedName": "Naglfar",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27682_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Chasse Sauvage",
-    "type": "special"
   },
   {
     "id": 200519,
@@ -611,6 +754,19 @@
     "type": "special"
   },
   {
+    "id": 200535,
+    "localizedName": "Maître d'armes elfe",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30730_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 201601,
     "localizedName": "Invocation de Yennefer",
     "previewImg": {
@@ -624,29 +780,16 @@
     "type": "special"
   },
   {
-    "id": 201618,
-    "localizedName": "Seltkirk de Guletta",
+    "id": 201626,
+    "localizedName": "Ciri : nova",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27973_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28033_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "northernrealms"
+      "slug": "neutral"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Chevalier",
-    "type": "unit"
-  },
-  {
-    "id": 201646,
-    "localizedName": "Derran",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28102_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain",
+    "categoryName": "Sorceleur",
     "type": "unit"
   },
   {
@@ -689,43 +832,17 @@
     "type": "unit"
   },
   {
-    "id": 201780,
-    "localizedName": "Yennefer : divination",
+    "id": 202111,
+    "localizedName": "Traheaern var Vdyffir",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28321_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28456_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "neutral"
+      "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
+    "categoryName": "Humain, Agent",
     "type": "unit"
-  },
-  {
-    "id": 202190,
-    "localizedName": "Malédiction pourpre",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28744_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Organique",
-    "type": "special"
-  },
-  {
-    "id": 202209,
-    "localizedName": "Poussière de lune",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28843_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
   },
   {
     "id": 202216,
@@ -754,19 +871,6 @@
     "type": "unit"
   },
   {
-    "id": 202224,
-    "localizedName": "Garkain",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28936_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Vampire",
-    "type": "unit"
-  },
-  {
     "id": 202226,
     "localizedName": "Gaël",
     "previewImg": {
@@ -778,6 +882,19 @@
     "cardGroup": "gold",
     "categoryName": "Vampire",
     "type": "unit"
+  },
+  {
+    "id": 202227,
+    "localizedName": "Soif insatiable",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/25/thumb_24604_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Organique",
+    "type": "special"
   },
   {
     "id": 202228,
@@ -806,10 +923,10 @@
     "type": "unit"
   },
   {
-    "id": 202231,
-    "localizedName": "Plumeur",
+    "id": 202230,
+    "localizedName": "Alpyre",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28981_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/29/thumb_28975_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "monsters"
@@ -871,29 +988,16 @@
     "type": "unit"
   },
   {
-    "id": 202250,
-    "localizedName": "Reine Adalia",
+    "id": 202261,
+    "localizedName": "Émissaire de Cintra",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29128_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29197_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "northernrealms"
     },
-    "cardGroup": "gold",
-    "categoryName": "Humain",
-    "type": "unit"
-  },
-  {
-    "id": 202275,
-    "localizedName": "Tutrice dryade",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29284_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
     "cardGroup": "bronze",
-    "categoryName": "Dryade",
+    "categoryName": "Humain, Agent",
     "type": "unit"
   },
   {
@@ -949,6 +1053,19 @@
     "type": "unit"
   },
   {
+    "id": 202294,
+    "localizedName": "Messager",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29500_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Agent, Ignorés",
+    "type": "unit"
+  },
+  {
     "id": 202295,
     "localizedName": "Mage renégat",
     "previewImg": {
@@ -975,19 +1092,6 @@
     "type": "unit"
   },
   {
-    "id": 202299,
-    "localizedName": "Sigi Reuven",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29533_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain",
-    "type": "unit"
-  },
-  {
     "id": 202300,
     "localizedName": "Banque Vivaldi",
     "previewImg": {
@@ -999,32 +1103,6 @@
     "cardGroup": "gold",
     "categoryName": null,
     "type": "special"
-  },
-  {
-    "id": 202301,
-    "localizedName": "Oreilles indiscrètes",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29551_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime, Ignorés",
-    "type": "special"
-  },
-  {
-    "id": 202302,
-    "localizedName": "Graden",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29563_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Chasseur de sorcières",
-    "type": "unit"
   },
   {
     "id": 202304,
@@ -1053,42 +1131,16 @@
     "type": "unit"
   },
   {
-    "id": 202318,
-    "localizedName": "Bourreau de sorcières",
+    "id": 202312,
+    "localizedName": "Le Vieux Bâtard",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29764_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29674_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Chasseur de sorcières",
-    "type": "unit"
-  },
-  {
-    "id": 202319,
-    "localizedName": "Calomnie",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29779_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Crime",
-    "type": "special"
-  },
-  {
-    "id": 202320,
-    "localizedName": "Chasseur de sorcières",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29788_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Chasseur de sorcières",
+    "cardGroup": "gold",
+    "categoryName": "Humain, Abatteurs",
     "type": "unit"
   },
   {
@@ -1105,30 +1157,17 @@
     "type": "special"
   },
   {
-    "id": 202326,
-    "localizedName": "Doadrick Leumaerts",
+    "id": 202336,
+    "localizedName": "Pillage nocturne",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29836_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Agent, Ignorés",
-    "type": "unit"
-  },
-  {
-    "id": 202334,
-    "localizedName": "Pillards des égouts",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29914_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30445_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Pirate, Écumeurs",
-    "type": "unit"
+    "categoryName": "Crime, Écumeurs",
+    "type": "special"
   },
   {
     "id": 202337,
@@ -1157,19 +1196,6 @@
     "type": "unit"
   },
   {
-    "id": 202341,
-    "localizedName": "Chacal des mers",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29947_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Pirate, Écumeurs",
-    "type": "unit"
-  },
-  {
     "id": 202345,
     "localizedName": "Trafiquant de fisstech",
     "previewImg": {
@@ -1183,49 +1209,75 @@
     "type": "unit"
   },
   {
-    "id": 202357,
-    "localizedName": "Goule de l'arène",
+    "id": 202365,
+    "localizedName": "Inquisiteur du Feu Éternel",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30073_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30139_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Nécrophage, Abatteurs",
+    "categoryName": "Humain, Fidèles du Feu, Clerc",
     "type": "unit"
   },
   {
-    "id": 202367,
-    "localizedName": "Le Redanien volant",
+    "id": 202366,
+    "localizedName": "Disciple du Feu Éternel",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30163_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30547_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Fidèles du Feu, Clerc",
+    "type": "unit"
+  },
+  {
+    "id": 202377,
+    "localizedName": "Combattant à mains nues",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30238_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain, Découpeurs",
+    "type": "unit"
+  },
+  {
+    "id": 202384,
+    "localizedName": "Justice de Novigrad",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30301_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Spectre, Vaisseau",
-    "type": "unit"
-  },
-  {
-    "id": 202378,
-    "localizedName": "Racket",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30571_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
     "categoryName": "Crime, Découpeurs",
     "type": "special"
   },
   {
-    "id": 202383,
-    "localizedName": "Harald Gord",
+    "id": 202386,
+    "localizedName": "Foreuse de tunnel",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/31/thumb_30292_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30313_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Machine de guerre, Découpeurs",
+    "type": "unit"
+  },
+  {
+    "id": 202389,
+    "localizedName": "Ferko le Sculpteur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30343_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1245,19 +1297,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Bête, Bandit",
-    "type": "unit"
-  },
-  {
-    "id": 202408,
-    "localizedName": "Aigle de fer : jongleuse",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31150_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Bandit",
     "type": "unit"
   },
   {
@@ -1287,6 +1326,32 @@
     "type": "unit"
   },
   {
+    "id": 202436,
+    "localizedName": "Troll des cavernes",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31273_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Ogroïde",
+    "type": "unit"
+  },
+  {
+    "id": 202439,
+    "localizedName": "Arachas cuirassé",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31291_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Insectoïde",
+    "type": "unit"
+  },
+  {
     "id": 202445,
     "localizedName": "Affan Hillergrand",
     "previewImg": {
@@ -1296,19 +1361,6 @@
       "slug": "nilfgaard"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
-    "id": 202451,
-    "localizedName": "Ard Feainn : tortue",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31501_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "bronze",
     "categoryName": "Humain, Soldat",
     "type": "unit"
   },
@@ -1326,32 +1378,6 @@
     "type": "unit"
   },
   {
-    "id": 202458,
-    "localizedName": "Morkvarg : terrifiant",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31393_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Pirate",
-    "type": "unit"
-  },
-  {
-    "id": 202460,
-    "localizedName": "Terreur des mers",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31507_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Machine de guerre, Vaisseau",
-    "type": "unit"
-  },
-  {
     "id": 202461,
     "localizedName": "Drakkar cuirassé",
     "previewImg": {
@@ -1362,6 +1388,84 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Machine de guerre, Vaisseau",
+    "type": "unit"
+  },
+  {
+    "id": 202467,
+    "localizedName": "Zoltan : guerrier",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31423_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nain, Guerrier",
+    "type": "unit"
+  },
+  {
+    "id": 202469,
+    "localizedName": "Munro Bruys",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31429_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 202471,
+    "localizedName": "Compagnie de Zoltan",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31516_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Nature",
+    "type": "special"
+  },
+  {
+    "id": 202472,
+    "localizedName": "Chariot nain",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31438_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Machine de guerre, Machine de siège",
+    "type": "unit"
+  },
+  {
+    "id": 202474,
+    "localizedName": "Mineur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31447_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 202480,
+    "localizedName": "Matta Hu'uri",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31786_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Agent",
     "type": "unit"
   },
   {
@@ -1376,19 +1480,6 @@
     "cardGroup": "gold",
     "categoryName": "Scénario",
     "type": "artifact"
-  },
-  {
-    "id": 202505,
-    "localizedName": "Chariot militaire",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31888_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Machine de guerre, Machine de siège",
-    "type": "unit"
   },
   {
     "id": 202510,
@@ -1417,62 +1508,49 @@
     "type": "special"
   },
   {
-    "id": 202513,
-    "localizedName": "Gedyneith",
+    "id": 202535,
+    "localizedName": "Vernossiel",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31930_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32224_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "skellige"
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 202536,
+    "localizedName": "Mort feinte",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32056_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
     },
     "cardGroup": "gold",
     "categoryName": "Scénario",
     "type": "artifact"
   },
   {
-    "id": 202514,
-    "localizedName": "Mère des corbeaux",
+    "id": 202539,
+    "localizedName": "Révolte de la nature",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31936_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32074_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "skellige"
+      "slug": "scoiatael"
     },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Druide",
-    "type": "unit"
-  },
-  {
-    "id": 202515,
-    "localizedName": "Décoction de gigascorpion",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31942_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Alchimie",
+    "cardGroup": "bronze",
+    "categoryName": "Nature",
     "type": "special"
   },
   {
-    "id": 202518,
-    "localizedName": "Prêcheuse du Corbeau",
+    "id": 202560,
+    "localizedName": "Spécialiste du personnel",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31960_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Druide",
-    "type": "unit"
-  },
-  {
-    "id": 202561,
-    "localizedName": "Filles du Passiflore",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32188_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32182_assets_preview_big.jpg"
     },
     "faction": {
       "slug": "syndicate"
@@ -1495,32 +1573,6 @@
     "type": "special"
   },
   {
-    "id": 202623,
-    "localizedName": "Tuirseach : envahisseuse",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32359_assets_preview_big_fd3fc13409cef5b11d6785e62296fa9d10141869.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Pirate, Guerrier",
-    "type": "unit"
-  },
-  {
-    "id": 202624,
-    "localizedName": "An Craite : attaquant",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32362_assets_preview_big_e5d5286c6f285b574194febba5f2b2b93708e180.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Pirate, Guerrier",
-    "type": "unit"
-  },
-  {
     "id": 202629,
     "localizedName": "Jacques : enfant miraculeux",
     "previewImg": {
@@ -1534,16 +1586,16 @@
     "type": "unit"
   },
   {
-    "id": 202640,
-    "localizedName": "Créateur de mutants",
+    "id": 202637,
+    "localizedName": "Clerc de la Rose-Ardente",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32413_assets_preview_big_e243826059b4126afdcfe4634a3f4bfc447d2391.jpg"
+      "big": "/uploads/media/assets_preview/0001/33/thumb_32401_assets_preview_big_03f3300135ea5bf8351c71e10b45e5eb64c77121.jpg"
     },
     "faction": {
       "slug": "syndicate"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Fidèles du Feu, Salamandre",
+    "categoryName": "Humain, Fidèles du Feu, Clerc",
     "type": "unit"
   },
   {
@@ -1599,19 +1651,6 @@
     "type": "unit"
   },
   {
-    "id": 202776,
-    "localizedName": "Alzur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36433_assets_preview_big_01a10911dc2b728537d6e167d21237dc3d846d88.jpg"
-    },
-    "faction": {
-      "slug": "neutral"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
     "id": 202778,
     "localizedName": "Perce-neige",
     "previewImg": {
@@ -1625,43 +1664,17 @@
     "type": "unit"
   },
   {
-    "id": 202799,
-    "localizedName": "Élève sorceleur : Vipère",
+    "id": 202786,
+    "localizedName": "Maxii Van Dekkar",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36505_assets_preview_big_e0474f49624e274fa512a15c7f8c8f11ba621fb4.jpg"
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36466_assets_preview_big_7599a148544c8323d14c80855958c1633450366c.jpg"
     },
     "faction": {
-      "slug": "nilfgaard"
+      "slug": "neutral"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
+    "cardGroup": "gold",
+    "categoryName": "Humain",
     "type": "unit"
-  },
-  {
-    "id": 202806,
-    "localizedName": "Sorceleur : Chat",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36529_assets_preview_big_208edbfb49e09f67eb3defbfc7a2d5c657f32a67.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202810,
-    "localizedName": "Fabrication de bombe",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/37/thumb_36541_assets_preview_big_a1ebe7d786bd688eb6da2f43c96d42addc02af12.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bombe",
-    "type": "special"
   },
   {
     "id": 202815,
@@ -1673,6 +1686,45 @@
       "slug": "skellige"
     },
     "cardGroup": "gold",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202816,
+    "localizedName": "Sorceleur : Ours",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36559_assets_preview_big_bbbe946de25d80a56f4c372b0758becd20dd3810.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202823,
+    "localizedName": "Kaer Seren",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36580_assets_preview_big_455aedcff84fdd9fb716ad2efec4f946ff507331.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Emplacement",
+    "type": "artifact"
+  },
+  {
+    "id": 202827,
+    "localizedName": "Mentor sorceleur : Griffon",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36589_assets_preview_big_3f18a3850747d1a373b7af975347feba4cf06542.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
     "categoryName": "Sorceleur",
     "type": "unit"
   },
@@ -1690,42 +1742,29 @@
     "type": "unit"
   },
   {
-    "id": 202879,
-    "localizedName": "Madoc",
+    "id": 202884,
+    "localizedName": "Brouver Hoog",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/39/thumb_38818_assets_preview_big_e1335f5bab3c21b7e88dce458b1eac37ff316352.jpg"
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27472_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "neutral"
+      "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Sorceleur",
+    "categoryName": "Nain",
     "type": "unit"
   },
   {
-    "id": 202882,
-    "localizedName": "Crach an Craite",
+    "id": 202890,
+    "localizedName": "Surin",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29473_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30355_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "skellige"
+      "slug": "syndicate"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain, Pirate",
-    "type": "unit"
-  },
-  {
-    "id": 202888,
-    "localizedName": "Dettlaff van der Eretein",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28684_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vampire",
+    "categoryName": "Nain, Découpeurs",
     "type": "unit"
   },
   {
@@ -1740,19 +1779,6 @@
     "cardGroup": "gold",
     "categoryName": "Humain, Abatteurs",
     "type": "unit"
-  },
-  {
-    "id": 202906,
-    "localizedName": "Langue de mort",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/40/thumb_39941_assets_preview_big_5195a6ec6fa6b7e756835b9cf8d2a94118379cc4.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Sort",
-    "type": "special"
   },
   {
     "id": 202907,
@@ -1794,6 +1820,19 @@
     "type": "unit"
   },
   {
+    "id": 202914,
+    "localizedName": "Vanadáin",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/40/thumb_39986_assets_preview_big_4511dbd8ffb82564b41dd1d05892a69903f748ed.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
     "id": 202917,
     "localizedName": "Gerhart d'Aelle",
     "previewImg": {
@@ -1820,30 +1859,30 @@
     "type": "unit"
   },
   {
-    "id": 202920,
-    "localizedName": "Élève de Ban Ard",
+    "id": 202930,
+    "localizedName": "Téléportation",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40118_assets_preview_big_af26561b9dd962bf80794741daab32d7515fb8eb.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40097_assets_preview_big_c2592f84b26b60dea69a5abe157781ddb3c3c11e.jpg"
     },
     "faction": {
-      "slug": "northernrealms"
+      "slug": "neutral"
     },
     "cardGroup": "bronze",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
+    "categoryName": "Sort",
+    "type": "special"
   },
   {
-    "id": 202925,
-    "localizedName": "La Débusqueuse de sorcières",
+    "id": 202931,
+    "localizedName": "Mégascope",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40058_assets_preview_big_1e361611cbffd2c1066bd72a949dc4bf34307c92.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40103_assets_preview_big_6cd0a8683beda32107c0ce2b4b2675cc5c570eff.jpg"
     },
     "faction": {
-      "slug": "syndicate"
+      "slug": "neutral"
     },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Chasseur de sorcières",
-    "type": "unit"
+    "cardGroup": "bronze",
+    "categoryName": null,
+    "type": "artifact"
   },
   {
     "id": 202943,
@@ -1869,19 +1908,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Sorceleur",
-    "type": "unit"
-  },
-  {
-    "id": 202978,
-    "localizedName": "Fercart",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40169_assets_preview_big_954d368a838f617339abefd3e20fa2d0b38a7225.jpg"
-    },
-    "faction": {
-      "slug": "nilfgaard"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Mage",
     "type": "unit"
   },
   {
@@ -1924,82 +1950,17 @@
     "type": "unit"
   },
   {
-    "id": 202987,
-    "localizedName": "Orbe de prescience",
+    "id": 203002,
+    "localizedName": "Transformation en ours",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40241_assets_preview_big_7d36cd18292cb0114c515cde362ff20325f85e8c.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sort",
-    "type": "special"
-  },
-  {
-    "id": 202988,
-    "localizedName": "Prophétesse elfe",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40247_assets_preview_big_55216b46d7facf0512a9ff2299fc57382fd11b53.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Elfe, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 202991,
-    "localizedName": "Perfectionnement",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40736_assets_preview_big_9ebe441a94f28d3173e004b65bb4c25dc0b7d3fd.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Sort",
-    "type": "special"
-  },
-  {
-    "id": 202992,
-    "localizedName": "Étudiante d'Aretuza",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40277_assets_preview_big_8e2a15f3168061c504f707fd859062eb63db8449.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 202995,
-    "localizedName": "Mammuna",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40136_assets_preview_big_ca056f32d7670715c220408dad41bf5214e48b81.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vestige",
-    "type": "unit"
-  },
-  {
-    "id": 203003,
-    "localizedName": "Dwimveandra",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40364_assets_preview_big_9e26011f613c4fa2a53720ea1b248e8428023112.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40358_assets_preview_big_246751eca3872009bcb19dbce9ad81eeb891c817.jpg"
     },
     "faction": {
       "slug": "neutral"
     },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
+    "cardGroup": "gold",
+    "categoryName": "Sort",
+    "type": "special"
   },
   {
     "id": 203040,
@@ -2028,62 +1989,10 @@
     "type": "unit"
   },
   {
-    "id": 203044,
-    "localizedName": "Petite havfrue",
+    "id": 203056,
+    "localizedName": "Sorcière inférieure",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40817_assets_preview_big_dbbe682b184e51948e61a3db406776f9dd8133c4.jpg"
-    },
-    "faction": {
-      "slug": "skellige"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Bête",
-    "type": "unit"
-  },
-  {
-    "id": 203049,
-    "localizedName": "Conclave des magiciens",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40850_assets_preview_big_70b80ac91f0622178a8a2e4cfcd4f009b3763f63.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Emplacement",
-    "type": "artifact"
-  },
-  {
-    "id": 203050,
-    "localizedName": "Vengeance de Raffard",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40856_assets_preview_big_db7ec954f1bcc2648e30cd368bb08b1794ad6089.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Machine de guerre, Mage, Machine de siège",
-    "type": "unit"
-  },
-  {
-    "id": 203051,
-    "localizedName": "Anciens élèves",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40862_assets_preview_big_b812237cbbd36a54af1ade59b525ce37273d46cb.jpg"
-    },
-    "faction": {
-      "slug": "northernrealms"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Mage",
-    "type": "unit"
-  },
-  {
-    "id": 203055,
-    "localizedName": "Incube",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/41/thumb_40889_assets_preview_big_5a1454a3caffba3a6e89927767cc6f5bac20d6a3.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40757_assets_preview_big_373a4117f7f28bec0a61c37e07aa899816be1d7c.jpg"
     },
     "faction": {
       "slug": "monsters"
@@ -2119,16 +2028,16 @@
     "type": "artifact"
   },
   {
-    "id": 203090,
-    "localizedName": "Saskia : commandante",
+    "id": 203062,
+    "localizedName": "Alissa Henson",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/42/thumb_41519_assets_preview_big_4c4d5f2e5229009745ebdfd293efef16f2dcc7eb.jpg"
+      "big": "/uploads/media/assets_preview/0001/41/thumb_40943_assets_preview_big_3bceb7194aae9ae47c558b9b8775f1c323fe7628.jpg"
     },
     "faction": {
-      "slug": "scoiatael"
+      "slug": "neutral"
     },
     "cardGroup": "gold",
-    "categoryName": "Dragon",
+    "categoryName": "Humain, Mage",
     "type": "unit"
   },
   {
@@ -2171,19 +2080,6 @@
     "type": "unit"
   },
   {
-    "id": 203097,
-    "localizedName": "Milva : tireuse émérite",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/42/thumb_41537_assets_preview_big_88699da4dd568dc360500bff213c45887bb2f06b.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain",
-    "type": "unit"
-  },
-  {
     "id": 203098,
     "localizedName": "Roi Henselt",
     "previewImg": {
@@ -2194,19 +2090,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain, Soldat",
-    "type": "unit"
-  },
-  {
-    "id": 203099,
-    "localizedName": "Régis : ressuscité",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/42/thumb_41474_assets_preview_big_e69c6d2c95f600fac0b6ee0022dd39ccf5fa0438.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vampire",
     "type": "unit"
   },
   {
@@ -2221,5 +2104,174 @@
     "cardGroup": "gold",
     "categoryName": "Humain, Ignorés",
     "type": "unit"
+  },
+  {
+    "id": 203101,
+    "localizedName": "Cyrus Engelkind Hemmelfart",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/30/thumb_29992_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Fidèles du Feu, Clerc",
+    "type": "unit"
+  },
+  {
+    "id": 203102,
+    "localizedName": "Aerondight",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42298_assets_preview_big_a7d2cc743474b7a1a91e26034ab2e5bd15ee2a6d.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
+    "id": 203103,
+    "localizedName": "Grimoire magique",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42304_assets_preview_big_94eaefdd2860856657030f9b30b9d87dd9571cca.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
+    "id": 203104,
+    "localizedName": "Boîte casse-tête mystérieuse",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42310_assets_preview_big_a6a23aca8eb6b09372cbe48cc473b21cb2fe4104.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
+    "id": 203105,
+    "localizedName": "Fiole de savoir interdit",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42316_assets_preview_big_e1c74054077570bfe0a1f965ca2f7cf21fc97ae5.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
+    "id": 203106,
+    "localizedName": "Bague de faveur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42322_assets_preview_big_a70d501171a31cff59f3eab216477afaa4f5d3ea.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
+    "id": 203112,
+    "localizedName": "Boussole magique",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42364_assets_preview_big_caf58eb2f49b304e194f3117880ee9d798c2f88a.jpg"
+    },
+    "faction": {
+      "slug": "skellige"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
+  },
+  {
+    "id": 203115,
+    "localizedName": "Pourfendeur de géants",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42385_assets_preview_big_ee42c7ba4f8d87c783a4c2b14c41f739cf3a6b21.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
+    "id": 203117,
+    "localizedName": "Prêtresse itinérante",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42397_assets_preview_big_6679371f5dcca8299a0b9a01a5e6f3ff1633bb37.jpg"
+    },
+    "faction": {
+      "slug": "northernrealms"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Clerc",
+    "type": "unit"
+  },
+  {
+    "id": 203118,
+    "localizedName": "Grimoire du nécromancien",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42403_assets_preview_big_8e90e811abae3725ba388e4e1f9f8f49adc39ad0.jpg"
+    },
+    "faction": {
+      "slug": "monsters"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
+    "id": 203120,
+    "localizedName": "Bougie de conjurateur",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42427_assets_preview_big_ccbcc26c04148bc90855df85b7e2bb1d01906590.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "artifact"
+  },
+  {
+    "id": 203121,
+    "localizedName": "Vendeur louche",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42439_assets_preview_big_789f3d424ccc54cebc3957d3835218b897bb8a0d.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Humain, Ignorés",
+    "type": "unit"
+  },
+  {
+    "id": 203123,
+    "localizedName": "Nekker doré",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/43/thumb_42445_assets_preview_big_f19df9583d4d3264c8f32782437d83d739461caa.jpg"
+    },
+    "faction": {
+      "slug": "neutral"
+    },
+    "cardGroup": "gold",
+    "categoryName": null,
+    "type": "special"
   }
 ]
