@@ -871,19 +871,6 @@
     "type": "unit"
   },
   {
-    "id": 202226,
-    "localizedName": "Gaël",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/29/thumb_28942_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Vampire",
-    "type": "unit"
-  },
-  {
     "id": 202227,
     "localizedName": "Soif insatiable",
     "previewImg": {
@@ -1336,19 +1323,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Ogroïde",
-    "type": "unit"
-  },
-  {
-    "id": 202439,
-    "localizedName": "Arachas cuirassé",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/32/thumb_31291_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "monsters"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Insectoïde",
     "type": "unit"
   },
   {
