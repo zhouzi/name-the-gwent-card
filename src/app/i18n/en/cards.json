@@ -624,19 +624,6 @@
     "type": "special"
   },
   {
-    "id": 200042,
-    "localizedName": "Mahakam Marauder",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26935_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dwarf",
-    "type": "unit"
-  },
-  {
     "id": 200046,
     "localizedName": "Tuirseach Veteran",
     "previewImg": {
@@ -650,16 +637,16 @@
     "type": "unit"
   },
   {
-    "id": 200080,
-    "localizedName": "Xavier Moran",
+    "id": 200087,
+    "localizedName": "Dorregaray of Vole",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27097_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27127_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "scoiatael"
+      "slug": "neutral"
     },
     "cardGroup": "gold",
-    "categoryName": "Dwarf",
+    "categoryName": "Human, Mage",
     "type": "unit"
   },
   {
@@ -728,19 +715,6 @@
     "type": "special"
   },
   {
-    "id": 200293,
-    "localizedName": "Dwarven Agitator",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27661_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Dwarf",
-    "type": "unit"
-  },
-  {
     "id": 200519,
     "localizedName": "Mahakam Ale",
     "previewImg": {
@@ -764,6 +738,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elf",
+    "type": "unit"
+  },
+  {
+    "id": 201559,
+    "localizedName": "Mahakam Volunteers",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27769_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
     "type": "unit"
   },
   {
@@ -1157,19 +1144,6 @@
     "type": "special"
   },
   {
-    "id": 202337,
-    "localizedName": "Whoreson's Freak Show",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29926_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Human, Cutups",
-    "type": "unit"
-  },
-  {
     "id": 202340,
     "localizedName": "Tax Collector",
     "previewImg": {
@@ -1193,6 +1167,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Human",
+    "type": "unit"
+  },
+  {
+    "id": 202357,
+    "localizedName": "Arena Ghoul",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30073_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Necrophage, Cutups",
     "type": "unit"
   },
   {
@@ -1430,6 +1417,19 @@
     "type": "unit"
   },
   {
+    "id": 202476,
+    "localizedName": "Dwarf Berserker",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31453_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Dwarf",
+    "type": "unit"
+  },
+  {
     "id": 202480,
     "localizedName": "Matta Hu'uri",
     "previewImg": {
@@ -1521,19 +1521,6 @@
     "type": "special"
   },
   {
-    "id": 202560,
-    "localizedName": "Payroll Specialist",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32182_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Blindeyes",
-    "type": "unit"
-  },
-  {
     "id": 202594,
     "localizedName": "Oneiromancy",
     "previewImg": {
@@ -1557,19 +1544,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Human",
-    "type": "unit"
-  },
-  {
-    "id": 202637,
-    "localizedName": "Cleric of the Flaming Rose",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32401_assets_preview_big_03f3300135ea5bf8351c71e10b45e5eb64c77121.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Human, Firesworn, Cleric",
     "type": "unit"
   },
   {
@@ -1700,6 +1674,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Witcher",
+    "type": "unit"
+  },
+  {
+    "id": 202845,
+    "localizedName": "Gellert Bleinheim",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36643_assets_preview_big_2163498d3d5ea303faa627e2a2f720ab1036e69f.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Human, Salamandra",
     "type": "unit"
   },
   {

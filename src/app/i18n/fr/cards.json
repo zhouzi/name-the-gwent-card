@@ -624,19 +624,6 @@
     "type": "special"
   },
   {
-    "id": 200042,
-    "localizedName": "Mahakam : maraudeur",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/27/thumb_26935_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
     "id": 200046,
     "localizedName": "Tuirseach : vétéran",
     "previewImg": {
@@ -650,16 +637,16 @@
     "type": "unit"
   },
   {
-    "id": 200080,
-    "localizedName": "Xavier Moran",
+    "id": 200087,
+    "localizedName": "Dorregaray de Vole",
     "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27097_assets_preview_big.jpg"
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27127_assets_preview_big.jpg"
     },
     "faction": {
-      "slug": "scoiatael"
+      "slug": "neutral"
     },
     "cardGroup": "gold",
-    "categoryName": "Nain",
+    "categoryName": "Humain, Mage",
     "type": "unit"
   },
   {
@@ -728,19 +715,6 @@
     "type": "special"
   },
   {
-    "id": 200293,
-    "localizedName": "Agitateur nain",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/28/thumb_27661_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "scoiatael"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Nain",
-    "type": "unit"
-  },
-  {
     "id": 200519,
     "localizedName": "Bière de Mahakam",
     "previewImg": {
@@ -764,6 +738,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Elfe",
+    "type": "unit"
+  },
+  {
+    "id": 201559,
+    "localizedName": "Mahakam : volontaires",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/28/thumb_27769_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
     "type": "unit"
   },
   {
@@ -1157,19 +1144,6 @@
     "type": "special"
   },
   {
-    "id": 202337,
-    "localizedName": "Bête de foire du Bâtard",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/30/thumb_29926_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "gold",
-    "categoryName": "Humain, Abatteurs",
-    "type": "unit"
-  },
-  {
     "id": 202340,
     "localizedName": "Collecteur d'impôts",
     "previewImg": {
@@ -1193,6 +1167,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Humain",
+    "type": "unit"
+  },
+  {
+    "id": 202357,
+    "localizedName": "Goule de l'arène",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/31/thumb_30073_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nécrophage, Abatteurs",
     "type": "unit"
   },
   {
@@ -1430,6 +1417,19 @@
     "type": "unit"
   },
   {
+    "id": 202476,
+    "localizedName": "Berserker nain",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/32/thumb_31453_assets_preview_big.jpg"
+    },
+    "faction": {
+      "slug": "scoiatael"
+    },
+    "cardGroup": "bronze",
+    "categoryName": "Nain",
+    "type": "unit"
+  },
+  {
     "id": 202480,
     "localizedName": "Matta Hu'uri",
     "previewImg": {
@@ -1521,19 +1521,6 @@
     "type": "special"
   },
   {
-    "id": 202560,
-    "localizedName": "Spécialiste du personnel",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32182_assets_preview_big.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Ignorés",
-    "type": "unit"
-  },
-  {
     "id": 202594,
     "localizedName": "Oniromancie",
     "previewImg": {
@@ -1557,19 +1544,6 @@
     },
     "cardGroup": "gold",
     "categoryName": "Humain",
-    "type": "unit"
-  },
-  {
-    "id": 202637,
-    "localizedName": "Clerc de la Rose-Ardente",
-    "previewImg": {
-      "big": "/uploads/media/assets_preview/0001/33/thumb_32401_assets_preview_big_03f3300135ea5bf8351c71e10b45e5eb64c77121.jpg"
-    },
-    "faction": {
-      "slug": "syndicate"
-    },
-    "cardGroup": "bronze",
-    "categoryName": "Humain, Fidèles du Feu, Clerc",
     "type": "unit"
   },
   {
@@ -1700,6 +1674,19 @@
     },
     "cardGroup": "bronze",
     "categoryName": "Sorceleur",
+    "type": "unit"
+  },
+  {
+    "id": 202845,
+    "localizedName": "Gellert Bleinheim",
+    "previewImg": {
+      "big": "/uploads/media/assets_preview/0001/37/thumb_36643_assets_preview_big_2163498d3d5ea303faa627e2a2f720ab1036e69f.jpg"
+    },
+    "faction": {
+      "slug": "syndicate"
+    },
+    "cardGroup": "gold",
+    "categoryName": "Humain, Salamandre",
     "type": "unit"
   },
   {
