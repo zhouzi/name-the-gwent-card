@@ -79,7 +79,7 @@ export function CardWithVisualEffects({
             }
           },
           {
-            backgroundImage: `url(https://playgwent.com${card.previewImg.big})`,
+            backgroundImage: `url(/cards/${card.id}.jpg)`,
           }
         )}
       />

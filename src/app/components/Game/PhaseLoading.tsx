@@ -161,12 +161,7 @@ export function PhaseLoading({ gameState, dispatch }: Props) {
 
     preloadImages(
       [bronze].concat(
-        gameState.questions.map((question) => {
-          const { previewImg } = cards.find(
-            (card) => card.id === question.cardID
-          )!;
-          return `https://playgwent.com${previewImg.big}`;
-        })
+        gameState.questions.map((question) => `/cards/${question.cardID}.jpg`)
       ),
       controller.signal
     ).then(() => {

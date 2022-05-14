@@ -42,7 +42,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "downloadCards": "node ./scripts/downloadCards.js",
+    "predownloadCardsImages": "rm -f ./public/cards/*",
+    "downloadCardsImages": "node ./scripts/downloadCardsImages.js"
   },
   "eslintConfig": {
     "extends": "react-app"

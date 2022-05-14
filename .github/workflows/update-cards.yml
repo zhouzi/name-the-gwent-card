@@ -9,7 +9,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       - run: npm ci
-      - run: node ./scripts/downloadCards.js
+      - run: npm run downloadCards
+      - run: npm run downloadCardsImages
       - uses: EndBug/add-and-commit@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
