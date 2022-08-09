@@ -282,7 +282,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Soldat, Bandit",
     "type": "unit"
   },
   {
@@ -308,7 +308,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Soldat",
     "type": "unit"
   },
   {
@@ -321,7 +321,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Soldat, Bandit",
     "type": "unit"
   },
   {
@@ -334,7 +334,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Guerrier",
     "type": "unit"
   },
   {
@@ -347,7 +347,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Soldat",
     "type": "unit"
   },
   {
@@ -360,7 +360,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Soldat",
     "type": "unit"
   },
   {
@@ -386,7 +386,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Soldat",
     "type": "unit"
   },
   {
@@ -399,7 +399,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Soldat",
     "type": "unit"
   },
   {
@@ -412,7 +412,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Soldat",
     "type": "unit"
   },
   {
@@ -425,7 +425,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Bandit",
     "type": "unit"
   },
   {
@@ -828,7 +828,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Guerrier",
     "type": "unit"
   },
   {
@@ -841,7 +841,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Soldat",
     "type": "unit"
   },
   {
@@ -1517,7 +1517,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Nain, Guerrier",
+    "categoryName": "Nain, Soldat, Guerrier",
     "type": "unit"
   },
   {
@@ -1530,7 +1530,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Soldat",
     "type": "unit"
   },
   {
@@ -1582,7 +1582,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Soldat",
     "type": "unit"
   },
   {
@@ -1660,7 +1660,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Bandit",
     "type": "unit"
   },
   {
@@ -1803,7 +1803,7 @@
       "slug": "neutral"
     },
     "cardGroup": "gold",
-    "categoryName": "Humain",
+    "categoryName": "Humain, Maudite",
     "type": "unit"
   },
   {
@@ -2050,7 +2050,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "gold",
-    "categoryName": "Elfe",
+    "categoryName": "Elfe, Soldat",
     "type": "unit"
   },
   {
@@ -2440,7 +2440,7 @@
       "slug": "scoiatael"
     },
     "cardGroup": "bronze",
-    "categoryName": "Nain",
+    "categoryName": "Nain, Guerrier",
     "type": "unit"
   },
   {
